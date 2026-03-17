@@ -63,8 +63,9 @@ export default function TopicsPage() {
   }
 
   return (
-    <div className="h-[100dvh] bg-[#080812] overflow-hidden flex flex-col">
-      <div className="w-full max-w-lg mx-auto px-4 pt-safe flex flex-col h-full py-5 gap-3">
+    <div className="h-[100dvh] bg-[#080812] overflow-hidden flex items-center justify-center">
+      <div className="w-full max-w-lg mx-auto px-4 pt-safe flex flex-col gap-3
+                      h-[min(100dvh,720px)] py-5">
 
         {/* ── Top bar ── */}
         <div className="flex items-center justify-between flex-shrink-0">
