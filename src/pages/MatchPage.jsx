@@ -202,11 +202,13 @@ export default function MatchPage() {
   const navigate = useNavigate();
   const location = useLocation();
 
-  const initTopics = location.state?.topics ?? null;
-  const initLabel  = location.state?.pageLabel ?? null;
+  const initTopics  = location.state?.topics ?? null;
+  const initLabel   = location.state?.pageLabel ?? null;
+  const initWordIds = location.state?.wordIds ?? null;
 
-  const [selectedTopic, setSelectedTopic] = useState(initTopics ?? null);
-  const [label, setLabel] = useState(initLabel ?? null);
+  const [selectedTopic, setSelectedTopic] = useState(initTopics ?? (initWordIds ? '__practice__' : null));
+  const [label,    setLabel]    = useState(initLabel ?? null);
+  const [wordIds,  setWordIds]  = useState(initWordIds);
   const [cards, setCards] = useState([]);
   const [selected, setSelected] = useState([]);
   const [matched, setMatched] = useState(new Set());
@@ -215,8 +217,10 @@ export default function MatchPage() {
   const [isChecking, setIsChecking] = useState(false);
   const [finished, setFinished] = useState(false);
 
-  const buildGame = useCallback((sel) => {
-    const pool = Array.isArray(sel)
+  const buildGame = useCallback((sel, ids = null) => {
+    const pool = ids && ids.length > 0
+      ? shuffle(words.filter((w) => ids.includes(w.id))).slice(0, PAIRS_PER_GAME)
+      : Array.isArray(sel)
       ? shuffle(words.filter((w) => sel.includes(w.topic))).slice(0, PAIRS_PER_GAME)
       : shuffle(words.filter((w) => w.topic === sel)).slice(0, PAIRS_PER_GAME);
     const gameCards = shuffle([
@@ -233,14 +237,16 @@ export default function MatchPage() {
   }, []);
 
   useEffect(() => {
-    if (initTopics) buildGame(initTopics);
+    if (initWordIds) buildGame(null, initWordIds);
+    else if (initTopics) buildGame(initTopics);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  function startGame(sel, lbl) {
+  function startGame(sel, lbl, ids = null) {
     setSelectedTopic(sel);
+    setWordIds(ids);
     setLabel(lbl ?? (Array.isArray(sel) ? sel.join(' · ') : sel));
-    buildGame(sel);
+    buildGame(sel, ids);
   }
 
   const handleCardClick = useCallback(
@@ -298,8 +304,8 @@ export default function MatchPage() {
         topic={label ?? selectedTopic}
         moves={moves}
         pairs={cards.length / 2}
-        onRetry={() => buildGame(selectedTopic)}
-        onBack={() => { setSelectedTopic(null); setLabel(null); }}
+        onRetry={() => buildGame(selectedTopic, wordIds)}
+        onBack={() => { setSelectedTopic(null); setLabel(null); setWordIds(null); }}
         onHome={() => navigate('/topics')}
       />
     );

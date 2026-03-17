@@ -22,7 +22,12 @@ function buildOptions(correctWord) {
   return shuffle([correctWord, ...distractors]);
 }
 
-function buildQuiz(sel) {
+function buildQuiz(sel, wordIds) {
+  if (wordIds && wordIds.length > 0) {
+    const quizWords = shuffle(words.filter((w) => wordIds.includes(w.id)));
+    const options = quizWords.length > 0 ? buildOptions(quizWords[0]) : [];
+    return { quizWords, options };
+  }
   if (!sel) return { quizWords: [], options: [] };
   const pool = Array.isArray(sel)
     ? words.filter((w) => sel.includes(w.topic))
@@ -148,14 +153,16 @@ export default function QuizPage() {
   const { speak, isSupported } = useSpeech();
   const { markLearned, markUnlearned } = useProgress();
 
-  const initSel   = location.state?.topics ?? location.state?.topic ?? null;
-  const initLabel = location.state?.pageLabel ?? location.state?.topic ?? null;
+  const initWordIds = location.state?.wordIds ?? null;
+  const initSel     = location.state?.topics ?? location.state?.topic ?? (initWordIds ? '__practice__' : null);
+  const initLabel   = location.state?.pageLabel ?? location.state?.topic ?? null;
 
-  const [sel,   setSel]   = useState(initSel);
-  const [label, setLabel] = useState(initLabel);
+  const [sel,      setSel]      = useState(initSel);
+  const [label,    setLabel]    = useState(initLabel);
+  const [wordIds,  setWordIds]  = useState(initWordIds);
 
-  const [quizWords, setQuizWords] = useState(() => buildQuiz(initSel).quizWords);
-  const [options,   setOptions]   = useState(() => buildQuiz(initSel).options);
+  const [quizWords, setQuizWords] = useState(() => buildQuiz(initSel, initWordIds).quizWords);
+  const [options,   setOptions]   = useState(() => buildQuiz(initSel, initWordIds).options);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedId,   setSelectedId]   = useState(null);
   const [isAnswered,   setIsAnswered]   = useState(false);
@@ -170,9 +177,10 @@ export default function QuizPage() {
     setIsAnswered(false);
   }, [currentIndex, quizWords]);
 
-  function startQuiz(newSel, newLabel) {
-    const { quizWords: qw, options: opts } = buildQuiz(newSel);
+  function startQuiz(newSel, newLabel, newWordIds = null) {
+    const { quizWords: qw, options: opts } = buildQuiz(newSel, newWordIds);
     setSel(newSel);
+    setWordIds(newWordIds);
     setLabel(newLabel ?? (Array.isArray(newSel) ? newSel.join(' · ') : newSel));
     setQuizWords(qw);
     setOptions(opts);
@@ -207,8 +215,8 @@ export default function QuizPage() {
         score={score}
         total={quizWords.length}
         results={results}
-        onRetry={() => startQuiz(sel, label)}
-        onBack={() => { setSel(null); setLabel(null); setQuizWords([]); setResults([]); }}
+        onRetry={() => startQuiz(sel, label, wordIds)}
+        onBack={() => { setSel(null); setLabel(null); setWordIds(null); setQuizWords([]); setResults([]); }}
         onHome={() => navigate('/topics')}
       />
     );

@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import words from '../data/words.json';
 import { useProgress } from '../hooks/useProgress';
@@ -5,12 +6,17 @@ import ProgressBar from '../components/ProgressBar';
 
 export default function Dashboard() {
   const navigate = useNavigate();
-  const { getLearnedCount } = useProgress();
+  const { getLearnedCount, isLearned } = useProgress();
+
+  const [showPratik, setShowPratik] = useState(false);
 
   const totalWords    = words.length;
   const totalLearned  = getLearnedCount(words);
   const notLearned    = totalWords - totalLearned;
   const progressPct   = totalWords > 0 ? Math.round((totalLearned / totalWords) * 100) : 0;
+
+  const learnedWords  = words.filter((w) => isLearned(w.id));
+  const learnedIds    = learnedWords.map((w) => w.id);
 
   return (
     <div className="min-h-screen bg-[#080812] flex items-center justify-center px-4">
@@ -54,6 +60,42 @@ export default function Dashboard() {
         >
           📖 Öğrenmeye Başla
         </button>
+
+        {/* ── Pratik ── */}
+        <div className="flex flex-col gap-2">
+          <button
+            onClick={() => setShowPratik((p) => !p)}
+            className="w-full bg-white/10 hover:bg-white/15 border border-white/[0.07] text-gray-300
+                       font-bold py-4 rounded-2xl transition-colors text-base"
+          >
+            🎯 Pratik Yap
+          </button>
+
+          {showPratik && (
+            learnedWords.length < 4 ? (
+              <p className="text-center text-sm text-gray-500 py-1">
+                Pratik için en az 4 kelime öğrenmen gerekiyor. Şu an: {learnedWords.length}
+              </p>
+            ) : (
+              <div className="grid grid-cols-2 gap-2">
+                <button
+                  onClick={() => navigate('/quiz', { state: { wordIds: learnedIds, pageLabel: 'Pratik' } })}
+                  className="w-full bg-emerald-500/20 hover:bg-emerald-500/30 border border-emerald-500/30
+                             text-emerald-400 font-bold py-3.5 rounded-2xl transition-colors text-sm"
+                >
+                  🧠 Test
+                </button>
+                <button
+                  onClick={() => navigate('/match', { state: { wordIds: learnedIds, pageLabel: 'Pratik' } })}
+                  className="w-full bg-violet-500/20 hover:bg-violet-500/30 border border-violet-500/30
+                             text-violet-400 font-bold py-3.5 rounded-2xl transition-colors text-sm"
+                >
+                  🎮 Eşleştirme
+                </button>
+              </div>
+            )
+          )}
+        </div>
 
       </div>
     </div>
