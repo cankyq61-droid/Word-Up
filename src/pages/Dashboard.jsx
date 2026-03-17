@@ -213,31 +213,32 @@ export default function Dashboard() {
             </div>
           </div>
 
-          {/* ── CTA buttons ── */}
-          <div className="space-y-2 flex-shrink-0 mt-auto pt-2">
+        </div>
+
+        {/* ── CTA buttons ── */}
+        <div className="space-y-2 flex-shrink-0">
+          <button
+            onClick={() => navigate('/learn')}
+            className="w-full bg-cyan-500 hover:bg-cyan-400 active:bg-cyan-600 text-white
+                       font-bold py-3.5 rounded-2xl transition-colors shadow-[0_0_24px_#22d3ee30] text-sm"
+          >
+            📖 Öğrenmeye Başla
+          </button>
+          <div className="grid grid-cols-2 gap-2">
             <button
-              onClick={() => navigate('/learn')}
-              className="w-full bg-cyan-500 hover:bg-cyan-400 active:bg-cyan-600 text-white
-                         font-bold py-3.5 rounded-2xl transition-colors shadow-[0_0_24px_#22d3ee30] text-sm"
+              onClick={() => navigate('/quiz', { state: { topics: allTopics, pageLabel: 'Tüm Konular' } })}
+              className="w-full bg-emerald-500 hover:bg-emerald-400 text-white font-bold py-3.5
+                         rounded-2xl transition-colors shadow-[0_0_24px_#10b98130] text-sm"
             >
-              📖 Öğrenmeye Başla
+              🧠 Çoktan Seçmeli
             </button>
-            <div className="grid grid-cols-2 gap-2">
-              <button
-                onClick={() => navigate('/quiz', { state: { topics: allTopics, pageLabel: 'Tüm Konular' } })}
-                className="w-full bg-emerald-500 hover:bg-emerald-400 text-white font-bold py-3.5
-                           rounded-2xl transition-colors shadow-[0_0_24px_#10b98130] text-sm"
-              >
-                🧠 Çoktan Seçmeli
-              </button>
-              <button
-                onClick={() => navigate('/match', { state: { topics: allTopics, pageLabel: 'Tüm Konular' } })}
-                className="w-full bg-violet-600 hover:bg-violet-500 text-white font-bold py-3.5
-                           rounded-2xl transition-colors shadow-[0_0_24px_#7c3aed30] text-sm border border-violet-500/30"
-              >
-                🎮 Eşleştirme
-              </button>
-            </div>
+            <button
+              onClick={() => navigate('/match', { state: { topics: allTopics, pageLabel: 'Tüm Konular' } })}
+              className="w-full bg-violet-600 hover:bg-violet-500 text-white font-bold py-3.5
+                         rounded-2xl transition-colors shadow-[0_0_24px_#7c3aed30] text-sm border border-violet-500/30"
+            >
+              🎮 Eşleştirme
+            </button>
           </div>
         </div>
 
