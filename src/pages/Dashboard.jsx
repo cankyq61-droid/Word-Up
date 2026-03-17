@@ -238,14 +238,14 @@ export default function Dashboard() {
           </button>
           <div className="grid grid-cols-2 gap-2">
             <button
-              onClick={() => navigate('/quiz')}
+              onClick={() => navigate('/quiz', { state: { topics: allTopics, pageLabel: 'Tüm Konular' } })}
               className="w-full bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3.5
                          rounded-2xl transition-colors shadow-lg shadow-emerald-200 text-sm"
             >
               🧠 Çoktan Seçmeli
             </button>
             <button
-              onClick={() => navigate('/match')}
+              onClick={() => navigate('/match', { state: { topics: allTopics, pageLabel: 'Tüm Konular' } })}
               className="w-full bg-white hover:bg-gray-50 text-indigo-600 font-bold py-3.5
                          rounded-2xl transition-colors shadow-sm border border-indigo-100 text-sm"
             >
