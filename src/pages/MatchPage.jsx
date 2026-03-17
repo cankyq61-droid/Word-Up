@@ -314,7 +314,7 @@ export default function MatchPage() {
         moves={moves}
         pairs={cards.length / 2}
         onRetry={() => buildGame(selectedTopic, wordIds)}
-        onBack={() => { setSelectedTopic(null); setLabel(null); setWordIds(null); }}
+        onBack={() => navigate('/topics')}
         onHome={() => navigate('/topics')}
       />
     );

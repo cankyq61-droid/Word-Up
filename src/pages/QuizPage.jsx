@@ -226,7 +226,7 @@ export default function QuizPage() {
         total={quizWords.length}
         results={results}
         onRetry={() => startQuiz(sel, label, wordIds)}
-        onBack={() => { setSel(null); setLabel(null); setWordIds(null); setQuizWords([]); setResults([]); }}
+        onBack={() => navigate('/topics')}
         onHome={() => navigate('/topics')}
       />
     );

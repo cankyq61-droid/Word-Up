@@ -145,14 +145,8 @@ export default function LearnPage() {
   }
 
   if (!selectedTopic) {
-    return (
-      <TopicSelect
-        onSelect={(topic) => {
-          setSelectedTopic(topic);
-          setCurrentIndex(0);
-        }}
-      />
-    );
+    navigate('/topics');
+    return null;
   }
 
   if (isFinished) {
@@ -162,7 +156,7 @@ export default function LearnPage() {
         topicWords={topicWords}
         isLearned={isLearned}
         onRetry={() => setCurrentIndex(0)}
-        onBack={() => { setSelectedTopic(null); setCurrentIndex(0); }}
+        onBack={() => navigate('/topics')}
         onHome={() => navigate('/topics')}
         onQuiz={() => navigate('/quiz', { state: { topic: selectedTopic } })}
       />
@@ -185,7 +179,7 @@ export default function LearnPage() {
         {/* ── Nav bar ── */}
         <div className="flex items-center justify-between mb-5">
           <button
-            onClick={() => setSelectedTopic(null)}
+            onClick={() => navigate('/topics')}
             className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-200 transition-colors"
           >
             ← {selectedTopic}
