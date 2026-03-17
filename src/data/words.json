@@ -11923,5 +11923,3965 @@
     "type": "isim",
     "exampleEn": "Virtualization allows multiple systems on one server.",
     "exampleTr": "Sanallaştırma bir sunucuda birden fazla sisteme izin verir."
+  },
+  {
+    "id": 1326,
+    "topic": "Selamlaşma ve Tanışma (B2)",
+    "en": "reconciliation",
+    "tr": "uzlaşma",
+    "type": "isim",
+    "exampleEn": "The reconciliation between the two parties was long overdue.",
+    "exampleTr": "İki taraf arasındaki uzlaşma çok geç kalmıştı."
+  },
+  {
+    "id": 1327,
+    "topic": "Selamlaşma ve Tanışma (B2)",
+    "en": "diplomacy",
+    "tr": "diplomasi",
+    "type": "isim",
+    "exampleEn": "Diplomacy is essential in international relations.",
+    "exampleTr": "Uluslararası ilişkilerde diplomasi şarttır."
+  },
+  {
+    "id": 1328,
+    "topic": "Selamlaşma ve Tanışma (B2)",
+    "en": "protocol",
+    "tr": "protokol",
+    "type": "isim",
+    "exampleEn": "Following the correct protocol is important at state events.",
+    "exampleTr": "Devlet törenlerinde doğru protokolü izlemek önemlidir."
+  },
+  {
+    "id": 1329,
+    "topic": "Selamlaşma ve Tanışma (B2)",
+    "en": "charisma",
+    "tr": "karizm",
+    "type": "isim",
+    "exampleEn": "His charisma made him an effective leader.",
+    "exampleTr": "Karizmasi onu etkili bir lider yaptı."
+  },
+  {
+    "id": 1330,
+    "topic": "Selamlaşma ve Tanışma (B2)",
+    "en": "eloquence",
+    "tr": "belagat",
+    "type": "isim",
+    "exampleEn": "Her eloquence impressed everyone at the summit.",
+    "exampleTr": "Zirvede herkesi etkileyen bir belagata sahipti."
+  },
+  {
+    "id": 1331,
+    "topic": "Selamlaşma ve Tanışma (B2)",
+    "en": "gregarious",
+    "tr": "sosyal",
+    "type": "sıfat",
+    "exampleEn": "He is gregarious and loves meeting new people.",
+    "exampleTr": "Sosyal biri ve yeni insanlarla tanışmayı sever."
+  },
+  {
+    "id": 1332,
+    "topic": "Selamlaşma ve Tanışma (B2)",
+    "en": "esteem",
+    "tr": "saygınlık",
+    "type": "isim",
+    "exampleEn": "She is held in high esteem by her colleagues.",
+    "exampleTr": "Meslektaşları tarafından yüksek saygınlıkla karşılanır."
+  },
+  {
+    "id": 1333,
+    "topic": "Selamlaşma ve Tanışma (B2)",
+    "en": "etiquette",
+    "tr": "görgü kuralları",
+    "type": "isim",
+    "exampleEn": "Business etiquette varies across cultures.",
+    "exampleTr": "İş görgü kuralları kültürden kültüre farklılık gösterir."
+  },
+  {
+    "id": 1334,
+    "topic": "Selamlaşma ve Tanışma (B2)",
+    "en": "deference",
+    "tr": "saygı gösterme",
+    "type": "isim",
+    "exampleEn": "He acted with deference towards his elders.",
+    "exampleTr": "Büyüklerine karşı saygılı davrandı."
+  },
+  {
+    "id": 1335,
+    "topic": "Selamlaşma ve Tanışma (B2)",
+    "en": "rapport",
+    "tr": "uyum",
+    "type": "isim",
+    "exampleEn": "Building rapport takes time and consistency.",
+    "exampleTr": "Uyum kurmak zaman ve tutarlılık gerektirir."
+  },
+  {
+    "id": 1336,
+    "topic": "Selamlaşma ve Tanışma (B2)",
+    "en": "pleasantry",
+    "tr": "nezaket lafı",
+    "type": "isim",
+    "exampleEn": "They exchanged pleasantries before the meeting.",
+    "exampleTr": "Toplantı öncesinde nezaket lafları ettiler."
+  },
+  {
+    "id": 1337,
+    "topic": "Selamlaşma ve Tanışma (B2)",
+    "en": "congenial",
+    "tr": "uyumlu",
+    "type": "sıfat",
+    "exampleEn": "She found the team very congenial.",
+    "exampleTr": "Takımı çok uyumlu buldu."
+  },
+  {
+    "id": 1338,
+    "topic": "Selamlaşma ve Tanışma (B2)",
+    "en": "sociable",
+    "tr": "girişken",
+    "type": "sıfat",
+    "exampleEn": "Sociable people adapt quickly to new environments.",
+    "exampleTr": "Girişken insanlar yeni ortamlara hızla uyum sağlar."
+  },
+  {
+    "id": 1339,
+    "topic": "Selamlaşma ve Tanışma (B2)",
+    "en": "intercultural",
+    "tr": "kültürlerarası",
+    "type": "sıfat",
+    "exampleEn": "Intercultural communication is a key skill today.",
+    "exampleTr": "Kültürlerarası iletişim günümüzde önemli bir beceridir."
+  },
+  {
+    "id": 1340,
+    "topic": "Selamlaşma ve Tanışma (B2)",
+    "en": "affable",
+    "tr": "güler yüzlü",
+    "type": "sıfat",
+    "exampleEn": "The receptionist was affable and welcoming.",
+    "exampleTr": "Resepsiyonist güler yüzlü ve sıcakkanlıydı."
+  },
+  {
+    "id": 1341,
+    "topic": "Selamlaşma ve Tanışma (B2)",
+    "en": "reciprocate",
+    "tr": "karşılık vermek",
+    "type": "fiil",
+    "exampleEn": "She reciprocated the kindness he had shown her.",
+    "exampleTr": "Onun gösterdiği nezakete karşılık verdi."
+  },
+  {
+    "id": 1342,
+    "topic": "Selamlaşma ve Tanışma (B2)",
+    "en": "semblance",
+    "tr": "görünüş",
+    "type": "isim",
+    "exampleEn": "There was a semblance of normality after the storm.",
+    "exampleTr": "Fırtınadan sonra bir normallik görünüşü vardı."
+  },
+  {
+    "id": 1343,
+    "topic": "Selamlaşma ve Tanışma (B2)",
+    "en": "amicable",
+    "tr": "dostane",
+    "type": "sıfat",
+    "exampleEn": "They reached an amicable agreement after the dispute.",
+    "exampleTr": "Anlaşmazlıktan sonra dostane bir uzlaşmaya vardılar."
+  },
+  {
+    "id": 1344,
+    "topic": "Selamlaşma ve Tanışma (B2)",
+    "en": "convivial",
+    "tr": "neşeli",
+    "type": "sıfat",
+    "exampleEn": "The atmosphere at the party was convivial.",
+    "exampleTr": "Partideki atmosfer neşeliydi."
+  },
+  {
+    "id": 1345,
+    "topic": "Selamlaşma ve Tanışma (B2)",
+    "en": "overture",
+    "tr": "başlatma girişimi",
+    "type": "isim",
+    "exampleEn": "He made an overture of friendship.",
+    "exampleTr": "Dostluk başlatma girişiminde bulundu."
+  },
+  {
+    "id": 1346,
+    "topic": "Sayılar (B2)",
+    "en": "logarithm",
+    "tr": "logaritma",
+    "type": "isim",
+    "exampleEn": "The logarithm of 100 to base 10 is 2.",
+    "exampleTr": "Tabanı 10 olan 100'ün logaritması 2'dir."
+  },
+  {
+    "id": 1347,
+    "topic": "Sayılar (B2)",
+    "en": "asymptote",
+    "tr": "asimptot",
+    "type": "isim",
+    "exampleEn": "The graph approaches but never touches the asymptote.",
+    "exampleTr": "Grafik asimptota yaklaşır ama asla dokunmaz."
+  },
+  {
+    "id": 1348,
+    "topic": "Sayılar (B2)",
+    "en": "permutation",
+    "tr": "permütasyon",
+    "type": "isim",
+    "exampleEn": "Calculate the number of permutations.",
+    "exampleTr": "Permütasyon sayısını hesaplayın."
+  },
+  {
+    "id": 1349,
+    "topic": "Sayılar (B2)",
+    "en": "coefficient",
+    "tr": "katsayı",
+    "type": "isim",
+    "exampleEn": "The coefficient in front of x is 3.",
+    "exampleTr": "x'in önündeki katsayı 3'tür."
+  },
+  {
+    "id": 1350,
+    "topic": "Sayılar (B2)",
+    "en": "magnitude",
+    "tr": "büyüklük",
+    "type": "isim",
+    "exampleEn": "The magnitude of the earthquake was 7.2.",
+    "exampleTr": "Depremin büyüklüğü 7.2 idi."
+  },
+  {
+    "id": 1351,
+    "topic": "Sayılar (B2)",
+    "en": "cumulative",
+    "tr": "birikimli",
+    "type": "sıfat",
+    "exampleEn": "The cumulative total rose sharply this year.",
+    "exampleTr": "Birikimli toplam bu yıl keskin biçimde arttı."
+  },
+  {
+    "id": 1352,
+    "topic": "Sayılar (B2)",
+    "en": "variance",
+    "tr": "varyans",
+    "type": "isim",
+    "exampleEn": "Statistical variance measures data spread.",
+    "exampleTr": "İstatistiksel varyans, veri yayılımını ölçer."
+  },
+  {
+    "id": 1353,
+    "topic": "Sayılar (B2)",
+    "en": "interpolate",
+    "tr": "arasına eklemek",
+    "type": "fiil",
+    "exampleEn": "Interpolate the missing values in the dataset.",
+    "exampleTr": "Veri setindeki eksik değerleri arasına ekleyin."
+  },
+  {
+    "id": 1354,
+    "topic": "Sayılar (B2)",
+    "en": "prime",
+    "tr": "asal",
+    "type": "sıfat",
+    "exampleEn": "7 is a prime number.",
+    "exampleTr": "7 bir asal sayıdır."
+  },
+  {
+    "id": 1355,
+    "topic": "Sayılar (B2)",
+    "en": "cardinal",
+    "tr": "temel sayı",
+    "type": "isim",
+    "exampleEn": "Cardinal numbers express quantity.",
+    "exampleTr": "Temel sayılar niceliği ifade eder."
+  },
+  {
+    "id": 1356,
+    "topic": "Sayılar (B2)",
+    "en": "ordinal",
+    "tr": "sıra sayısı",
+    "type": "isim",
+    "exampleEn": "First and second are ordinal numbers.",
+    "exampleTr": "Birinci ve ikinci sıra sayılarıdır."
+  },
+  {
+    "id": 1357,
+    "topic": "Sayılar (B2)",
+    "en": "exponential",
+    "tr": "üstel",
+    "type": "sıfat",
+    "exampleEn": "The population grew at an exponential rate.",
+    "exampleTr": "Nüfus üstel bir oranda büyüdü."
+  },
+  {
+    "id": 1358,
+    "topic": "Sayılar (B2)",
+    "en": "quotient",
+    "tr": "bölüm",
+    "type": "isim",
+    "exampleEn": "The quotient of 12 divided by 4 is 3.",
+    "exampleTr": "12'nin 4'e bölümünün sonucu 3'tür."
+  },
+  {
+    "id": 1359,
+    "topic": "Sayılar (B2)",
+    "en": "divisible",
+    "tr": "bölünebilir",
+    "type": "sıfat",
+    "exampleEn": "10 is divisible by 2 and 5.",
+    "exampleTr": "10, 2 ve 5'e bölünebilir."
+  },
+  {
+    "id": 1360,
+    "topic": "Sayılar (B2)",
+    "en": "tangential",
+    "tr": "teğetsel",
+    "type": "sıfat",
+    "exampleEn": "His comment was tangential to the main topic.",
+    "exampleTr": "Yorumu ana konuya teğetseldi."
+  },
+  {
+    "id": 1361,
+    "topic": "Sayılar (B2)",
+    "en": "scalar",
+    "tr": "skaler",
+    "type": "isim",
+    "exampleEn": "A scalar quantity has magnitude but no direction.",
+    "exampleTr": "Skaler büyüklüğün yönü yoktur, yalnızca değeri vardır."
+  },
+  {
+    "id": 1362,
+    "topic": "Sayılar (B2)",
+    "en": "iterate",
+    "tr": "yinelemek",
+    "type": "fiil",
+    "exampleEn": "The algorithm iterates until it finds the solution.",
+    "exampleTr": "Algoritma çözümü bulana kadar yineler."
+  },
+  {
+    "id": 1363,
+    "topic": "Sayılar (B2)",
+    "en": "rounding",
+    "tr": "yuvarlama",
+    "type": "isim",
+    "exampleEn": "Rounding to the nearest ten gives 50.",
+    "exampleTr": "En yakın ona yuvarlama 50 verir."
+  },
+  {
+    "id": 1364,
+    "topic": "Sayılar (B2)",
+    "en": "binary",
+    "tr": "ikili",
+    "type": "sıfat",
+    "exampleEn": "Computers operate on binary code.",
+    "exampleTr": "Bilgisayarlar ikili kod üzerinde çalışır."
+  },
+  {
+    "id": 1365,
+    "topic": "Sayılar (B2)",
+    "en": "numeral",
+    "tr": "rakam",
+    "type": "isim",
+    "exampleEn": "Roman numerals are still used in some contexts.",
+    "exampleTr": "Roma rakamları bazı bağlamlarda hâlâ kullanılır."
+  },
+  {
+    "id": 1366,
+    "topic": "Renkler (B2)",
+    "en": "iridescent",
+    "tr": "sedef renkli",
+    "type": "sıfat",
+    "exampleEn": "The butterfly wings were iridescent in the sunlight.",
+    "exampleTr": "Kelebek kanatları güneş ışığında sedef renkli parlıyordu."
+  },
+  {
+    "id": 1367,
+    "topic": "Renkler (B2)",
+    "en": "chromatic",
+    "tr": "kromatik",
+    "type": "sıfat",
+    "exampleEn": "The chromatic scale includes all twelve tones.",
+    "exampleTr": "Kromatik gam on iki tonu içerir."
+  },
+  {
+    "id": 1368,
+    "topic": "Renkler (B2)",
+    "en": "luminescent",
+    "tr": "ışıldayan",
+    "type": "sıfat",
+    "exampleEn": "Luminescent paint glows in the dark.",
+    "exampleTr": "Işıldayan boya karanlıkta parlar."
+  },
+  {
+    "id": 1369,
+    "topic": "Renkler (B2)",
+    "en": "achromatic",
+    "tr": "renksiz",
+    "type": "sıfat",
+    "exampleEn": "Grey is considered an achromatic color.",
+    "exampleTr": "Gri, renksiz bir renk olarak kabul edilir."
+  },
+  {
+    "id": 1370,
+    "topic": "Renkler (B2)",
+    "en": "polychrome",
+    "tr": "çok renkli",
+    "type": "sıfat",
+    "exampleEn": "The temple was decorated in polychrome tiles.",
+    "exampleTr": "Tapınak çok renkli çinilerle süslenmişti."
+  },
+  {
+    "id": 1371,
+    "topic": "Renkler (B2)",
+    "en": "opalescent",
+    "tr": "opale benzer",
+    "type": "sıfat",
+    "exampleEn": "The opalescent glass shimmered beautifully.",
+    "exampleTr": "Opale benzer cam güzelce parıldıyordu."
+  },
+  {
+    "id": 1372,
+    "topic": "Renkler (B2)",
+    "en": "umber",
+    "tr": "toprak rengi",
+    "type": "isim",
+    "exampleEn": "The landscape was painted in shades of umber.",
+    "exampleTr": "Manzara toprak rengi tonlarıyla boyanmıştı."
+  },
+  {
+    "id": 1373,
+    "topic": "Renkler (B2)",
+    "en": "pellucid",
+    "tr": "berrak",
+    "type": "sıfat",
+    "exampleEn": "The pellucid water revealed the sandy bottom.",
+    "exampleTr": "Berrak su kumlu tabanı ortaya koyuyordu."
+  },
+  {
+    "id": 1374,
+    "topic": "Renkler (B2)",
+    "en": "ebony",
+    "tr": "abanoz siyahı",
+    "type": "isim",
+    "exampleEn": "The piano keys were made of ebony.",
+    "exampleTr": "Piyano tuşları abanoz ağacından yapılmıştı."
+  },
+  {
+    "id": 1375,
+    "topic": "Renkler (B2)",
+    "en": "aubergine",
+    "tr": "patlıcan moru",
+    "type": "isim",
+    "exampleEn": "She painted the wall a deep aubergine.",
+    "exampleTr": "Duvarı derin bir patlıcan moruna boyadı."
+  },
+  {
+    "id": 1376,
+    "topic": "Renkler (B2)",
+    "en": "sienna",
+    "tr": "siena rengi",
+    "type": "isim",
+    "exampleEn": "Raw sienna is a warm earth tone.",
+    "exampleTr": "Ham siena, sıcak bir toprak tonudur."
+  },
+  {
+    "id": 1377,
+    "topic": "Renkler (B2)",
+    "en": "monochromatic",
+    "tr": "tek renkli",
+    "type": "sıfat",
+    "exampleEn": "The photograph was monochromatic.",
+    "exampleTr": "Fotoğraf tek renkliydi."
+  },
+  {
+    "id": 1378,
+    "topic": "Renkler (B2)",
+    "en": "fluorescent",
+    "tr": "floresan",
+    "type": "sıfat",
+    "exampleEn": "The workers wore fluorescent vests.",
+    "exampleTr": "İşçiler floresan yelekler giymişti."
+  },
+  {
+    "id": 1379,
+    "topic": "Renkler (B2)",
+    "en": "translucent",
+    "tr": "yarı saydam",
+    "type": "sıfat",
+    "exampleEn": "The frosted glass was translucent.",
+    "exampleTr": "Buzlu cam yarı saydamdı."
+  },
+  {
+    "id": 1380,
+    "topic": "Renkler (B2)",
+    "en": "variegated",
+    "tr": "alacalı",
+    "type": "sıfat",
+    "exampleEn": "The variegated leaves were striking.",
+    "exampleTr": "Alacalı yapraklar çarpıcıydı."
+  },
+  {
+    "id": 1381,
+    "topic": "Renkler (B2)",
+    "en": "pigment",
+    "tr": "pigment",
+    "type": "isim",
+    "exampleEn": "Natural pigments were used for the dyes.",
+    "exampleTr": "Boyalar için doğal pigmentler kullanıldı."
+  },
+  {
+    "id": 1382,
+    "topic": "Renkler (B2)",
+    "en": "oxidize",
+    "tr": "okside olmak",
+    "type": "fiil",
+    "exampleEn": "Copper oxidizes and turns green over time.",
+    "exampleTr": "Bakır zamanla okside olur ve yeşile döner."
+  },
+  {
+    "id": 1383,
+    "topic": "Renkler (B2)",
+    "en": "spectrum",
+    "tr": "spektrum",
+    "type": "isim",
+    "exampleEn": "White light contains the full visible spectrum.",
+    "exampleTr": "Beyaz ışık tam görünür spektrumu içerir."
+  },
+  {
+    "id": 1384,
+    "topic": "Renkler (B2)",
+    "en": "bistre",
+    "tr": "koyu kahverengi",
+    "type": "isim",
+    "exampleEn": "The sketch was done in bistre ink.",
+    "exampleTr": "Eskiz koyu kahverengi mürekkeple yapılmıştı."
+  },
+  {
+    "id": 1385,
+    "topic": "Renkler (B2)",
+    "en": "wavelength",
+    "tr": "dalga boyu",
+    "type": "isim",
+    "exampleEn": "Different colors have different wavelengths.",
+    "exampleTr": "Farklı renklerin farklı dalga boyları vardır."
+  },
+  {
+    "id": 1386,
+    "topic": "Aile (B2)",
+    "en": "patriarchy",
+    "tr": "ataerkillik",
+    "type": "isim",
+    "exampleEn": "Some cultures still operate under patriarchy.",
+    "exampleTr": "Bazı kültürler hâlâ ataerkillik altında işler."
+  },
+  {
+    "id": 1387,
+    "topic": "Aile (B2)",
+    "en": "matriarch",
+    "tr": "aile reisi kadın",
+    "type": "isim",
+    "exampleEn": "The matriarch held the family together.",
+    "exampleTr": "Aile reisi kadın aileyi bir arada tuttu."
+  },
+  {
+    "id": 1388,
+    "topic": "Aile (B2)",
+    "en": "consanguinity",
+    "tr": "kan bağı",
+    "type": "isim",
+    "exampleEn": "Consanguinity refers to blood relationships.",
+    "exampleTr": "Kan bağı, kan akrabalığına atıfta bulunur."
+  },
+  {
+    "id": 1389,
+    "topic": "Aile (B2)",
+    "en": "filial",
+    "tr": "evlat",
+    "type": "sıfat",
+    "exampleEn": "Filial piety is deeply rooted in Asian culture.",
+    "exampleTr": "Evlat saygısı Asya kültüründe derinden köklüdür."
+  },
+  {
+    "id": 1390,
+    "topic": "Aile (B2)",
+    "en": "surrogate",
+    "tr": "vekil",
+    "type": "sıfat",
+    "exampleEn": "She became a surrogate mother for the couple.",
+    "exampleTr": "O çift için vekil anne oldu."
+  },
+  {
+    "id": 1391,
+    "topic": "Aile (B2)",
+    "en": "dynastic",
+    "tr": "hanedanlık",
+    "type": "sıfat",
+    "exampleEn": "Dynastic marriages were common in history.",
+    "exampleTr": "Hanedanlık evlilikleri tarihte yaygındı."
+  },
+  {
+    "id": 1392,
+    "topic": "Aile (B2)",
+    "en": "bereavement",
+    "tr": "yas",
+    "type": "isim",
+    "exampleEn": "Bereavement counselling helped her cope.",
+    "exampleTr": "Yas danışmanlığı başa çıkmasına yardımcı oldu."
+  },
+  {
+    "id": 1393,
+    "topic": "Aile (B2)",
+    "en": "cohabitation",
+    "tr": "birlikte yaşama",
+    "type": "isim",
+    "exampleEn": "Cohabitation rates have risen in recent years.",
+    "exampleTr": "Son yıllarda birlikte yaşama oranları arttı."
+  },
+  {
+    "id": 1394,
+    "topic": "Aile (B2)",
+    "en": "alimony",
+    "tr": "nafaka",
+    "type": "isim",
+    "exampleEn": "He was ordered to pay alimony monthly.",
+    "exampleTr": "Aylık nafaka ödemesi kararlaştırıldı."
+  },
+  {
+    "id": 1395,
+    "topic": "Aile (B2)",
+    "en": "maternity",
+    "tr": "annelik",
+    "type": "isim",
+    "exampleEn": "She took three months of maternity leave.",
+    "exampleTr": "Üç ay annelik izni aldı."
+  },
+  {
+    "id": 1396,
+    "topic": "Aile (B2)",
+    "en": "paternalistic",
+    "tr": "babacan",
+    "type": "sıfat",
+    "exampleEn": "His paternalistic attitude annoyed his colleagues.",
+    "exampleTr": "Babacan tutumu meslektaşlarını rahatsız etti."
+  },
+  {
+    "id": 1397,
+    "topic": "Aile (B2)",
+    "en": "sibling rivalry",
+    "tr": "kardeş rekabeti",
+    "type": "isim",
+    "exampleEn": "Sibling rivalry is common in large families.",
+    "exampleTr": "Kardeş rekabeti kalabalık ailelerde yaygındır."
+  },
+  {
+    "id": 1398,
+    "topic": "Aile (B2)",
+    "en": "genealogy",
+    "tr": "soy ağacı",
+    "type": "isim",
+    "exampleEn": "He studied genealogy to trace his roots.",
+    "exampleTr": "Köklerini bulmak için soy ağacını inceledi."
+  },
+  {
+    "id": 1399,
+    "topic": "Aile (B2)",
+    "en": "adoptive",
+    "tr": "evlat edinen",
+    "type": "sıfat",
+    "exampleEn": "Her adoptive parents raised her with love.",
+    "exampleTr": "Evlat edinen ailesi onu sevgiyle yetiştirdi."
+  },
+  {
+    "id": 1400,
+    "topic": "Aile (B2)",
+    "en": "nuclear family",
+    "tr": "çekirdek aile",
+    "type": "isim",
+    "exampleEn": "The nuclear family is the most common household type.",
+    "exampleTr": "Çekirdek aile en yaygın hane tipidir."
+  },
+  {
+    "id": 1401,
+    "topic": "Aile (B2)",
+    "en": "extended family",
+    "tr": "geniş aile",
+    "type": "isim",
+    "exampleEn": "They celebrated the holiday with their extended family.",
+    "exampleTr": "Tatili geniş aileleriyle kutladılar."
+  },
+  {
+    "id": 1402,
+    "topic": "Aile (B2)",
+    "en": "emancipation",
+    "tr": "özgürleşme",
+    "type": "isim",
+    "exampleEn": "The emancipation of women changed family structures.",
+    "exampleTr": "Kadınların özgürleşmesi aile yapılarını değiştirdi."
+  },
+  {
+    "id": 1403,
+    "topic": "Aile (B2)",
+    "en": "paternal",
+    "tr": "baba tarafı",
+    "type": "sıfat",
+    "exampleEn": "His paternal grandfather was a sailor.",
+    "exampleTr": "Baba tarafı büyükbabası bir denizciydi."
+  },
+  {
+    "id": 1404,
+    "topic": "Aile (B2)",
+    "en": "maternal",
+    "tr": "anne tarafı",
+    "type": "sıfat",
+    "exampleEn": "Her maternal instincts were very strong.",
+    "exampleTr": "Annelik içgüdüleri çok güçlüydü."
+  },
+  {
+    "id": 1405,
+    "topic": "Aile (B2)",
+    "en": "primogeniture",
+    "tr": "ilk doğan hakkı",
+    "type": "isim",
+    "exampleEn": "Primogeniture gave the firstborn all inheritance.",
+    "exampleTr": "İlk doğan hakkı tüm mirası ilk çocuğa verdi."
+  },
+  {
+    "id": 1406,
+    "topic": "Vücut (B2)",
+    "en": "cortisol",
+    "tr": "kortizol",
+    "type": "isim",
+    "exampleEn": "Stress triggers the release of cortisol.",
+    "exampleTr": "Stres kortizol salgılanmasını tetikler."
+  },
+  {
+    "id": 1407,
+    "topic": "Vücut (B2)",
+    "en": "synaptic",
+    "tr": "sinaptik",
+    "type": "sıfat",
+    "exampleEn": "Synaptic connections form the basis of memory.",
+    "exampleTr": "Sinaptik bağlantılar hafızanın temelini oluşturur."
+  },
+  {
+    "id": 1408,
+    "topic": "Vücut (B2)",
+    "en": "mitochondria",
+    "tr": "mitokondri",
+    "type": "isim",
+    "exampleEn": "Mitochondria produce energy for cells.",
+    "exampleTr": "Mitokondri, hücreler için enerji üretir."
+  },
+  {
+    "id": 1409,
+    "topic": "Vücut (B2)",
+    "en": "epithelial",
+    "tr": "epitel",
+    "type": "sıfat",
+    "exampleEn": "Epithelial cells line the inside of organs.",
+    "exampleTr": "Epitel hücreler organların içini kaplar."
+  },
+  {
+    "id": 1410,
+    "topic": "Vücut (B2)",
+    "en": "tendon",
+    "tr": "tendon",
+    "type": "isim",
+    "exampleEn": "The tendon connects muscle to bone.",
+    "exampleTr": "Tendon kası kemiğe bağlar."
+  },
+  {
+    "id": 1411,
+    "topic": "Vücut (B2)",
+    "en": "ligament",
+    "tr": "bağ dokusu",
+    "type": "isim",
+    "exampleEn": "She tore a ligament in her knee during the race.",
+    "exampleTr": "Yarışta dizindeki bağ dokusunu yırttı."
+  },
+  {
+    "id": 1412,
+    "topic": "Vücut (B2)",
+    "en": "platelet",
+    "tr": "trombosit",
+    "type": "isim",
+    "exampleEn": "Platelets help blood to clot after injury.",
+    "exampleTr": "Trombositler yaralanma sonrası kanın pıhtılaşmasına yardımcı olur."
+  },
+  {
+    "id": 1413,
+    "topic": "Vücut (B2)",
+    "en": "lymph",
+    "tr": "lenf",
+    "type": "isim",
+    "exampleEn": "Lymph nodes filter harmful substances.",
+    "exampleTr": "Lenf düğümleri zararlı maddeleri filtreler."
+  },
+  {
+    "id": 1414,
+    "topic": "Vücut (B2)",
+    "en": "cochlea",
+    "tr": "salyangoz",
+    "type": "isim",
+    "exampleEn": "The cochlea is responsible for hearing.",
+    "exampleTr": "Salyangoz, işitmeden sorumludur."
+  },
+  {
+    "id": 1415,
+    "topic": "Vücut (B2)",
+    "en": "retina",
+    "tr": "retina",
+    "type": "isim",
+    "exampleEn": "The retina converts light into nerve signals.",
+    "exampleTr": "Retina ışığı sinir sinyallerine dönüştürür."
+  },
+  {
+    "id": 1416,
+    "topic": "Vücut (B2)",
+    "en": "diaphragm",
+    "tr": "diyafram",
+    "type": "isim",
+    "exampleEn": "The diaphragm controls breathing.",
+    "exampleTr": "Diyafram solunumu kontrol eder."
+  },
+  {
+    "id": 1417,
+    "topic": "Vücut (B2)",
+    "en": "adrenaline",
+    "tr": "adrenalin",
+    "type": "isim",
+    "exampleEn": "Adrenaline prepares the body for danger.",
+    "exampleTr": "Adrenalin vücudu tehlikeye hazırlar."
+  },
+  {
+    "id": 1418,
+    "topic": "Vücut (B2)",
+    "en": "marrow",
+    "tr": "kemik iliği",
+    "type": "isim",
+    "exampleEn": "Bone marrow produces blood cells.",
+    "exampleTr": "Kemik iliği kan hücreleri üretir."
+  },
+  {
+    "id": 1419,
+    "topic": "Vücut (B2)",
+    "en": "ganglion",
+    "tr": "ganglion",
+    "type": "isim",
+    "exampleEn": "A ganglion is a cluster of nerve cells.",
+    "exampleTr": "Ganglion, sinir hücrelerinden oluşan bir kümedir."
+  },
+  {
+    "id": 1420,
+    "topic": "Vücut (B2)",
+    "en": "peristalsis",
+    "tr": "peristaltizm",
+    "type": "isim",
+    "exampleEn": "Peristalsis moves food through the digestive tract.",
+    "exampleTr": "Peristaltizm yiyeceği sindirim kanalından taşır."
+  },
+  {
+    "id": 1421,
+    "topic": "Vücut (B2)",
+    "en": "epidermis",
+    "tr": "epidermis",
+    "type": "isim",
+    "exampleEn": "The epidermis is the outermost skin layer.",
+    "exampleTr": "Epidermis, derinin en dış katmanıdır."
+  },
+  {
+    "id": 1422,
+    "topic": "Vücut (B2)",
+    "en": "ossification",
+    "tr": "kemikleşme",
+    "type": "isim",
+    "exampleEn": "Ossification hardens cartilage into bone.",
+    "exampleTr": "Kemikleşme kıkırdağı kemiğe dönüştürür."
+  },
+  {
+    "id": 1423,
+    "topic": "Vücut (B2)",
+    "en": "proprioception",
+    "tr": "propriyosepsiyon",
+    "type": "isim",
+    "exampleEn": "Proprioception helps us sense body position.",
+    "exampleTr": "Propriyosepsiyon beden konumunu algılamamıza yardımcı olur."
+  },
+  {
+    "id": 1424,
+    "topic": "Vücut (B2)",
+    "en": "capillary",
+    "tr": "kılcal damar",
+    "type": "isim",
+    "exampleEn": "Oxygen passes through capillary walls to cells.",
+    "exampleTr": "Oksijen kılcal damar duvarlarından hücrelere geçer."
+  },
+  {
+    "id": 1425,
+    "topic": "Vücut (B2)",
+    "en": "eardrum",
+    "tr": "kulak zarı",
+    "type": "isim",
+    "exampleEn": "A ruptured eardrum causes temporary hearing loss.",
+    "exampleTr": "Yırtık kulak zarı geçici işitme kaybına yol açar."
+  },
+  {
+    "id": 1426,
+    "topic": "Yiyecekler (B2)",
+    "en": "umami",
+    "tr": "umami",
+    "type": "isim",
+    "exampleEn": "Umami is described as the fifth taste.",
+    "exampleTr": "Umami beşinci tat olarak tanımlanır."
+  },
+  {
+    "id": 1427,
+    "topic": "Yiyecekler (B2)",
+    "en": "emulsify",
+    "tr": "emülsifiye etmek",
+    "type": "fiil",
+    "exampleEn": "Whisk the oil slowly to emulsify it.",
+    "exampleTr": "Yağı emülsifiye etmek için yavaşça çırpın."
+  },
+  {
+    "id": 1428,
+    "topic": "Yiyecekler (B2)",
+    "en": "blanch",
+    "tr": "haşlamak",
+    "type": "fiil",
+    "exampleEn": "Blanch the vegetables before freezing them.",
+    "exampleTr": "Dondurmadan önce sebzeleri haşlayın."
+  },
+  {
+    "id": 1429,
+    "topic": "Yiyecekler (B2)",
+    "en": "reduce",
+    "tr": "koyulaştırmak",
+    "type": "fiil",
+    "exampleEn": "Reduce the sauce until it thickens.",
+    "exampleTr": "Sos koyulaşana kadar kaynatın."
+  },
+  {
+    "id": 1430,
+    "topic": "Yiyecekler (B2)",
+    "en": "caramelise",
+    "tr": "karamelize etmek",
+    "type": "fiil",
+    "exampleEn": "Caramelise the onions over low heat.",
+    "exampleTr": "Soğanları düşük ısıda karamelize edin."
+  },
+  {
+    "id": 1431,
+    "topic": "Yiyecekler (B2)",
+    "en": "infuse",
+    "tr": "demlemek",
+    "type": "fiil",
+    "exampleEn": "Infuse the herbs in hot oil for five minutes.",
+    "exampleTr": "Bitkileri beş dakika sıcak yağda demleyin."
+  },
+  {
+    "id": 1432,
+    "topic": "Yiyecekler (B2)",
+    "en": "molecular",
+    "tr": "moleküler",
+    "type": "sıfat",
+    "exampleEn": "Molecular gastronomy uses science in cooking.",
+    "exampleTr": "Moleküler gastronomi mutfakta bilimi kullanır."
+  },
+  {
+    "id": 1433,
+    "topic": "Yiyecekler (B2)",
+    "en": "gluten",
+    "tr": "glüten",
+    "type": "isim",
+    "exampleEn": "Some people are intolerant to gluten.",
+    "exampleTr": "Bazı insanlar glütene tahammülsüzdür."
+  },
+  {
+    "id": 1434,
+    "topic": "Yiyecekler (B2)",
+    "en": "probiotics",
+    "tr": "probiyotik",
+    "type": "isim",
+    "exampleEn": "Probiotics support gut health.",
+    "exampleTr": "Probiyotikler bağırsak sağlığını destekler."
+  },
+  {
+    "id": 1435,
+    "topic": "Yiyecekler (B2)",
+    "en": "delicacy",
+    "tr": "nefaset",
+    "type": "isim",
+    "exampleEn": "Truffles are considered a rare delicacy.",
+    "exampleTr": "Trüfler nadir bir nefaset olarak kabul edilir."
+  },
+  {
+    "id": 1436,
+    "topic": "Yiyecekler (B2)",
+    "en": "foraging",
+    "tr": "yiyecek arama",
+    "type": "isim",
+    "exampleEn": "Foraging for wild mushrooms requires expertise.",
+    "exampleTr": "Yabani mantar aramak uzmanlık gerektirir."
+  },
+  {
+    "id": 1437,
+    "topic": "Yiyecekler (B2)",
+    "en": "gastronomy",
+    "tr": "gastronomi",
+    "type": "isim",
+    "exampleEn": "She studied gastronomy in Paris.",
+    "exampleTr": "Paris'te gastronomi okudu."
+  },
+  {
+    "id": 1438,
+    "topic": "Yiyecekler (B2)",
+    "en": "dehydrate",
+    "tr": "kurutmak",
+    "type": "fiil",
+    "exampleEn": "Dehydrate the fruit to preserve it longer.",
+    "exampleTr": "Meyveyi daha uzun süre korumak için kurutun."
+  },
+  {
+    "id": 1439,
+    "topic": "Yiyecekler (B2)",
+    "en": "artisanal",
+    "tr": "el yapımı",
+    "type": "sıfat",
+    "exampleEn": "Artisanal bread is made in small batches.",
+    "exampleTr": "El yapımı ekmek küçük miktarlarda üretilir."
+  },
+  {
+    "id": 1440,
+    "topic": "Yiyecekler (B2)",
+    "en": "palate",
+    "tr": "damak tadı",
+    "type": "isim",
+    "exampleEn": "He has a refined palate for wine.",
+    "exampleTr": "Şarap için rafine bir damak tadına sahiptir."
+  },
+  {
+    "id": 1441,
+    "topic": "Yiyecekler (B2)",
+    "en": "cholesterol",
+    "tr": "kolesterol",
+    "type": "isim",
+    "exampleEn": "High cholesterol increases heart disease risk.",
+    "exampleTr": "Yüksek kolesterol kalp hastalığı riskini artırır."
+  },
+  {
+    "id": 1442,
+    "topic": "Yiyecekler (B2)",
+    "en": "gelatine",
+    "tr": "jelatin",
+    "type": "isim",
+    "exampleEn": "Gelatine is used to set jellies and desserts.",
+    "exampleTr": "Jelatin, jelatinleri ve tatlıları katılaştırmak için kullanılır."
+  },
+  {
+    "id": 1443,
+    "topic": "Yiyecekler (B2)",
+    "en": "brine",
+    "tr": "salamura",
+    "type": "isim",
+    "exampleEn": "Soak the chicken in brine overnight.",
+    "exampleTr": "Tavuğu bir gece salamurada bekletin."
+  },
+  {
+    "id": 1444,
+    "topic": "Yiyecekler (B2)",
+    "en": "macerate",
+    "tr": "bekletmek",
+    "type": "fiil",
+    "exampleEn": "Macerate the fruit in sugar for an hour.",
+    "exampleTr": "Meyveyi bir saat şeker içinde bekletin."
+  },
+  {
+    "id": 1445,
+    "topic": "Yiyecekler (B2)",
+    "en": "epicure",
+    "tr": "gurme",
+    "type": "isim",
+    "exampleEn": "An epicure savors fine food and wine.",
+    "exampleTr": "Gurme, kaliteli yiyecek ve şarabın tadını çıkarır."
+  },
+  {
+    "id": 1446,
+    "topic": "Giyim (B2)",
+    "en": "couture",
+    "tr": "yüksek moda",
+    "type": "isim",
+    "exampleEn": "Haute couture is made exclusively for the client.",
+    "exampleTr": "Yüksek moda, yalnızca müşteri için yapılır."
+  },
+  {
+    "id": 1447,
+    "topic": "Giyim (B2)",
+    "en": "drape",
+    "tr": "döküm",
+    "type": "isim",
+    "exampleEn": "The dress had a beautiful drape.",
+    "exampleTr": "Elbisenin güzel bir dökümü vardı."
+  },
+  {
+    "id": 1448,
+    "topic": "Giyim (B2)",
+    "en": "motif",
+    "tr": "desen",
+    "type": "isim",
+    "exampleEn": "The fabric featured a floral motif.",
+    "exampleTr": "Kumaşta çiçek desenli bir motif vardı."
+  },
+  {
+    "id": 1449,
+    "topic": "Giyim (B2)",
+    "en": "brocade",
+    "tr": "brokar",
+    "type": "isim",
+    "exampleEn": "She wore a brocade jacket to the gala.",
+    "exampleTr": "Galaya brokar bir ceket giydi."
+  },
+  {
+    "id": 1450,
+    "topic": "Giyim (B2)",
+    "en": "silhouette",
+    "tr": "siluet",
+    "type": "isim",
+    "exampleEn": "The silhouette of the dress was very sleek.",
+    "exampleTr": "Elbisenin silueti çok şıktı."
+  },
+  {
+    "id": 1451,
+    "topic": "Giyim (B2)",
+    "en": "lapel",
+    "tr": "yaka",
+    "type": "isim",
+    "exampleEn": "The lapel on his jacket was wide.",
+    "exampleTr": "Ceketinin yakası genişti."
+  },
+  {
+    "id": 1452,
+    "topic": "Giyim (B2)",
+    "en": "gorge",
+    "tr": "yaka çizgisi",
+    "type": "isim",
+    "exampleEn": "The gorge of the suit jacket was well-tailored.",
+    "exampleTr": "Takım ceketinin yaka çizgisi iyi dikilmişti."
+  },
+  {
+    "id": 1453,
+    "topic": "Giyim (B2)",
+    "en": "pilling",
+    "tr": "topaklanma",
+    "type": "isim",
+    "exampleEn": "Pilling occurs when fabric fibres clump together.",
+    "exampleTr": "Topaklanma, kumaş lifleri bir araya geldiğinde oluşur."
+  },
+  {
+    "id": 1454,
+    "topic": "Giyim (B2)",
+    "en": "mercerize",
+    "tr": "merseri yapmak",
+    "type": "fiil",
+    "exampleEn": "Mercerized cotton is stronger and shinier.",
+    "exampleTr": "Merseri pamuk daha sağlam ve parlaktır."
+  },
+  {
+    "id": 1455,
+    "topic": "Giyim (B2)",
+    "en": "sartorial",
+    "tr": "terziye ait",
+    "type": "sıfat",
+    "exampleEn": "He was known for his sartorial elegance.",
+    "exampleTr": "Terziye yakışır zarafetiyle tanınırdı."
+  },
+  {
+    "id": 1456,
+    "topic": "Giyim (B2)",
+    "en": "toile",
+    "tr": "prova kumaşı",
+    "type": "isim",
+    "exampleEn": "A toile is a trial garment made before the real one.",
+    "exampleTr": "Toile, gerçeğinden önce yapılan bir deneme giysisidir."
+  },
+  {
+    "id": 1457,
+    "topic": "Giyim (B2)",
+    "en": "pleat",
+    "tr": "pile",
+    "type": "isim",
+    "exampleEn": "The trousers had sharp pleats at the front.",
+    "exampleTr": "Pantolonun önünde keskin pileler vardı."
+  },
+  {
+    "id": 1458,
+    "topic": "Giyim (B2)",
+    "en": "welt",
+    "tr": "dikiş kenarı",
+    "type": "isim",
+    "exampleEn": "The welt on the boot was hand-stitched.",
+    "exampleTr": "Çizmedeki dikiş kenarı elle dikilmişti."
+  },
+  {
+    "id": 1459,
+    "topic": "Giyim (B2)",
+    "en": "avant-garde",
+    "tr": "öncü",
+    "type": "sıfat",
+    "exampleEn": "Her fashion choices were avant-garde.",
+    "exampleTr": "Moda seçimleri öncüydü."
+  },
+  {
+    "id": 1460,
+    "topic": "Giyim (B2)",
+    "en": "prêt-à-porter",
+    "tr": "hazır giyim",
+    "type": "isim",
+    "exampleEn": "The brand sells both prêt-à-porter and couture.",
+    "exampleTr": "Marka hem hazır giyim hem yüksek moda satıyor."
+  },
+  {
+    "id": 1461,
+    "topic": "Giyim (B2)",
+    "en": "mercantile",
+    "tr": "ticari",
+    "type": "sıfat",
+    "exampleEn": "The mercantile success of the brand was remarkable.",
+    "exampleTr": "Markanın ticari başarısı dikkat çekiciydi."
+  },
+  {
+    "id": 1462,
+    "topic": "Giyim (B2)",
+    "en": "epaulette",
+    "tr": "apolet",
+    "type": "isim",
+    "exampleEn": "The uniform had golden epaulettes.",
+    "exampleTr": "Üniforma altın apoletlere sahipti."
+  },
+  {
+    "id": 1463,
+    "topic": "Giyim (B2)",
+    "en": "tweed",
+    "tr": "tüvit",
+    "type": "isim",
+    "exampleEn": "The tweed jacket was ideal for cool weather.",
+    "exampleTr": "Tüvit ceket serin hava için idealdi."
+  },
+  {
+    "id": 1464,
+    "topic": "Giyim (B2)",
+    "en": "ruche",
+    "tr": "büzgü",
+    "type": "isim",
+    "exampleEn": "The blouse had a ruche along the neckline.",
+    "exampleTr": "Bluzun yakası boyunca büzgü vardı."
+  },
+  {
+    "id": 1465,
+    "topic": "Giyim (B2)",
+    "en": "appliqué",
+    "tr": "aplike",
+    "type": "isim",
+    "exampleEn": "The dress was adorned with floral appliqué.",
+    "exampleTr": "Elbise çiçek aplikeleriyle süslenmişti."
+  },
+  {
+    "id": 1466,
+    "topic": "Ev ve Mobilya (B2)",
+    "en": "ergonomic",
+    "tr": "ergonomik",
+    "type": "sıfat",
+    "exampleEn": "An ergonomic chair reduces back strain.",
+    "exampleTr": "Ergonomik sandalye sırt gerginliğini azaltır."
+  },
+  {
+    "id": 1467,
+    "topic": "Ev ve Mobilya (B2)",
+    "en": "minimalist",
+    "tr": "minimalist",
+    "type": "sıfat",
+    "exampleEn": "She prefers a minimalist interior design.",
+    "exampleTr": "Minimalist iç tasarımı tercih eder."
+  },
+  {
+    "id": 1468,
+    "topic": "Ev ve Mobilya (B2)",
+    "en": "cantilevered",
+    "tr": "konsol",
+    "type": "sıfat",
+    "exampleEn": "The cantilevered balcony overlooked the sea.",
+    "exampleTr": "Konsol balkon denize bakıyordu."
+  },
+  {
+    "id": 1469,
+    "topic": "Ev ve Mobilya (B2)",
+    "en": "parquet",
+    "tr": "parke",
+    "type": "isim",
+    "exampleEn": "The living room had a beautiful parquet floor.",
+    "exampleTr": "Oturma odasında güzel bir parke zemin vardı."
+  },
+  {
+    "id": 1470,
+    "topic": "Ev ve Mobilya (B2)",
+    "en": "mezzanine",
+    "tr": "asma kat",
+    "type": "isim",
+    "exampleEn": "The mezzanine level had a small library.",
+    "exampleTr": "Asma katta küçük bir kütüphane vardı."
+  },
+  {
+    "id": 1471,
+    "topic": "Ev ve Mobilya (B2)",
+    "en": "eaves",
+    "tr": "saçak",
+    "type": "isim",
+    "exampleEn": "Water dripped from the eaves during the storm.",
+    "exampleTr": "Fırtına sırasında saçaktan su damladı."
+  },
+  {
+    "id": 1472,
+    "topic": "Ev ve Mobilya (B2)",
+    "en": "corbel",
+    "tr": "konsol taşı",
+    "type": "isim",
+    "exampleEn": "Stone corbels supported the upper floor.",
+    "exampleTr": "Taş konsol taşları üst katı destekliyordu."
+  },
+  {
+    "id": 1473,
+    "topic": "Ev ve Mobilya (B2)",
+    "en": "coping",
+    "tr": "duvar tacı",
+    "type": "isim",
+    "exampleEn": "The coping on the wall prevented water damage.",
+    "exampleTr": "Duvar tacı su hasarını önledi."
+  },
+  {
+    "id": 1474,
+    "topic": "Ev ve Mobilya (B2)",
+    "en": "caulk",
+    "tr": "macun doldurmak",
+    "type": "fiil",
+    "exampleEn": "Caulk the gaps around the bathtub.",
+    "exampleTr": "Küvet etrafındaki boşlukları macunla doldurun."
+  },
+  {
+    "id": 1475,
+    "topic": "Ev ve Mobilya (B2)",
+    "en": "joinery",
+    "tr": "doğrama işleri",
+    "type": "isim",
+    "exampleEn": "Fine joinery was used throughout the house.",
+    "exampleTr": "Evin her yerine güzel doğrama işleri yapıldı."
+  },
+  {
+    "id": 1476,
+    "topic": "Ev ve Mobilya (B2)",
+    "en": "skirting",
+    "tr": "süpürgelik",
+    "type": "isim",
+    "exampleEn": "The skirting boards were painted white.",
+    "exampleTr": "Süpürgelikler beyaza boyandı."
+  },
+  {
+    "id": 1477,
+    "topic": "Ev ve Mobilya (B2)",
+    "en": "load-bearing",
+    "tr": "yük taşıyan",
+    "type": "sıfat",
+    "exampleEn": "Do not remove load-bearing walls.",
+    "exampleTr": "Yük taşıyan duvarları kaldırmayın."
+  },
+  {
+    "id": 1478,
+    "topic": "Ev ve Mobilya (B2)",
+    "en": "cornice",
+    "tr": "korniş",
+    "type": "isim",
+    "exampleEn": "The ornate cornice framed the ceiling beautifully.",
+    "exampleTr": "Süslü korniş tavanı güzelce çerçeveledi."
+  },
+  {
+    "id": 1479,
+    "topic": "Ev ve Mobilya (B2)",
+    "en": "dormer",
+    "tr": "çatı penceresi",
+    "type": "isim",
+    "exampleEn": "The dormer window let in natural light.",
+    "exampleTr": "Çatı penceresi doğal ışık aldı."
+  },
+  {
+    "id": 1480,
+    "topic": "Ev ve Mobilya (B2)",
+    "en": "wainscoting",
+    "tr": "ahşap kaplama",
+    "type": "isim",
+    "exampleEn": "Wainscoting added character to the room.",
+    "exampleTr": "Ahşap kaplama odaya karakter kattı."
+  },
+  {
+    "id": 1481,
+    "topic": "Ev ve Mobilya (B2)",
+    "en": "buttress",
+    "tr": "payanda",
+    "type": "isim",
+    "exampleEn": "Flying buttresses support the cathedral walls.",
+    "exampleTr": "Uçan payandalar katedralin duvarlarını destekler."
+  },
+  {
+    "id": 1482,
+    "topic": "Ev ve Mobilya (B2)",
+    "en": "cladding",
+    "tr": "kaplama",
+    "type": "isim",
+    "exampleEn": "Timber cladding was used on the exterior.",
+    "exampleTr": "Dış cephe için ahşap kaplama kullanıldı."
+  },
+  {
+    "id": 1483,
+    "topic": "Ev ve Mobilya (B2)",
+    "en": "fascia",
+    "tr": "ön yüz",
+    "type": "isim",
+    "exampleEn": "The fascia board sealed the roof edge.",
+    "exampleTr": "Ön yüz tahtası çatı kenarını kapattı."
+  },
+  {
+    "id": 1484,
+    "topic": "Ev ve Mobilya (B2)",
+    "en": "lintel",
+    "tr": "lento",
+    "type": "isim",
+    "exampleEn": "The lintel above the door was made of stone.",
+    "exampleTr": "Kapının üzerindeki lento taştan yapılmıştı."
+  },
+  {
+    "id": 1485,
+    "topic": "Ev ve Mobilya (B2)",
+    "en": "glazing",
+    "tr": "cam kaplama",
+    "type": "isim",
+    "exampleEn": "Double glazing improves energy efficiency.",
+    "exampleTr": "Çift cam kaplama enerji verimliliğini artırır."
+  },
+  {
+    "id": 1486,
+    "topic": "Hayvanlar (B2)",
+    "en": "symbiosis",
+    "tr": "simbiyoz",
+    "type": "isim",
+    "exampleEn": "The clownfish and anemone live in symbiosis.",
+    "exampleTr": "Palyaço balığı ve anemon simbiyoz içinde yaşar."
+  },
+  {
+    "id": 1487,
+    "topic": "Hayvanlar (B2)",
+    "en": "bioluminescence",
+    "tr": "biyolüminesans",
+    "type": "isim",
+    "exampleEn": "Deep-sea creatures use bioluminescence to communicate.",
+    "exampleTr": "Derin deniz canlıları iletişim için biyolüminesans kullanır."
+  },
+  {
+    "id": 1488,
+    "topic": "Hayvanlar (B2)",
+    "en": "cryptic",
+    "tr": "gizli",
+    "type": "sıfat",
+    "exampleEn": "The cryptic coloring of the moth hid it perfectly.",
+    "exampleTr": "Güvenin gizli renklenmesi onu mükemmel şekilde sakladı."
+  },
+  {
+    "id": 1489,
+    "topic": "Hayvanlar (B2)",
+    "en": "crepuscular",
+    "tr": "alacakaranlıkta aktif",
+    "type": "sıfat",
+    "exampleEn": "Deer are crepuscular, most active at dawn and dusk.",
+    "exampleTr": "Geyikler alacakaranlık saatlerinde en aktif hayvanlardır."
+  },
+  {
+    "id": 1490,
+    "topic": "Hayvanlar (B2)",
+    "en": "troglodytic",
+    "tr": "mağara yaşamlı",
+    "type": "sıfat",
+    "exampleEn": "Troglodytic animals live exclusively in caves.",
+    "exampleTr": "Mağara yaşamlı hayvanlar yalnızca mağaralarda yaşar."
+  },
+  {
+    "id": 1491,
+    "topic": "Hayvanlar (B2)",
+    "en": "apex predator",
+    "tr": "zincir tepesi",
+    "type": "isim",
+    "exampleEn": "Sharks are apex predators in the ocean.",
+    "exampleTr": "Köpek balıkları okyanusun zincir tepesi yırtıcılarıdır."
+  },
+  {
+    "id": 1492,
+    "topic": "Hayvanlar (B2)",
+    "en": "molting",
+    "tr": "tüy dökme",
+    "type": "isim",
+    "exampleEn": "Snakes undergo molting to shed their skin.",
+    "exampleTr": "Yılanlar derisini dökmek için tüy dökme sürecinden geçer."
+  },
+  {
+    "id": 1493,
+    "topic": "Hayvanlar (B2)",
+    "en": "scavenger",
+    "tr": "leşçi",
+    "type": "isim",
+    "exampleEn": "Vultures are nature's primary scavengers.",
+    "exampleTr": "Akbabalar doğanın birincil leşçileridir."
+  },
+  {
+    "id": 1494,
+    "topic": "Hayvanlar (B2)",
+    "en": "pheromone",
+    "tr": "feromon",
+    "type": "isim",
+    "exampleEn": "Ants use pheromones to communicate.",
+    "exampleTr": "Karıncalar iletişim için feromon kullanır."
+  },
+  {
+    "id": 1495,
+    "topic": "Hayvanlar (B2)",
+    "en": "phenotype",
+    "tr": "fenotip",
+    "type": "isim",
+    "exampleEn": "The phenotype is the visible trait of an organism.",
+    "exampleTr": "Fenotip, bir organizmanın görünür özelliğidir."
+  },
+  {
+    "id": 1496,
+    "topic": "Hayvanlar (B2)",
+    "en": "polymorphism",
+    "tr": "polimorfizm",
+    "type": "isim",
+    "exampleEn": "Polymorphism allows one species to have multiple forms.",
+    "exampleTr": "Polimorfizm bir türün birden fazla forma sahip olmasına izin verir."
+  },
+  {
+    "id": 1497,
+    "topic": "Hayvanlar (B2)",
+    "en": "aestivation",
+    "tr": "yaz uykusu",
+    "type": "isim",
+    "exampleEn": "Lungfish enter aestivation during dry seasons.",
+    "exampleTr": "Akciğer balığı kuru mevsimlerde yaz uykusuna girer."
+  },
+  {
+    "id": 1498,
+    "topic": "Hayvanlar (B2)",
+    "en": "echolocation",
+    "tr": "ekolokasyon",
+    "type": "isim",
+    "exampleEn": "Bats use echolocation to navigate in the dark.",
+    "exampleTr": "Yarasalar karanlıkta yön bulmak için ekolokasyon kullanır."
+  },
+  {
+    "id": 1499,
+    "topic": "Hayvanlar (B2)",
+    "en": "cryptozoology",
+    "tr": "kriptozooji",
+    "type": "isim",
+    "exampleEn": "Cryptozoology studies unknown animal species.",
+    "exampleTr": "Kriptozooji bilinmeyen hayvan türlerini inceler."
+  },
+  {
+    "id": 1500,
+    "topic": "Hayvanlar (B2)",
+    "en": "parthenogenesis",
+    "tr": "partenogenez",
+    "type": "isim",
+    "exampleEn": "Some reptiles reproduce via parthenogenesis.",
+    "exampleTr": "Bazı sürüngenler partenogenez yoluyla ürer."
+  },
+  {
+    "id": 1501,
+    "topic": "Hayvanlar (B2)",
+    "en": "mutualism",
+    "tr": "karşılıklı yarar",
+    "type": "isim",
+    "exampleEn": "Mutualism benefits both species involved.",
+    "exampleTr": "Karşılıklı yarar, ilgili her iki türe de fayda sağlar."
+  },
+  {
+    "id": 1502,
+    "topic": "Hayvanlar (B2)",
+    "en": "arboreal",
+    "tr": "ağaçlık",
+    "type": "sıfat",
+    "exampleEn": "Koalas are arboreal animals.",
+    "exampleTr": "Koalalar ağaçlık ortamlarda yaşayan hayvanlardır."
+  },
+  {
+    "id": 1503,
+    "topic": "Hayvanlar (B2)",
+    "en": "obligate",
+    "tr": "zorunlu",
+    "type": "sıfat",
+    "exampleEn": "Cats are obligate carnivores.",
+    "exampleTr": "Kediler zorunlu etçillerdir."
+  },
+  {
+    "id": 1504,
+    "topic": "Hayvanlar (B2)",
+    "en": "xenobiotic",
+    "tr": "yabancı madde",
+    "type": "isim",
+    "exampleEn": "Xenobiotics are substances foreign to organisms.",
+    "exampleTr": "Yabancı maddeler, organizmalara yabancı olan maddelerdir."
+  },
+  {
+    "id": 1505,
+    "topic": "Hayvanlar (B2)",
+    "en": "bipedal",
+    "tr": "iki ayaklı",
+    "type": "sıfat",
+    "exampleEn": "Humans and some dinosaurs were bipedal.",
+    "exampleTr": "İnsanlar ve bazı dinozorlar iki ayaklıydı."
+  },
+  {
+    "id": 1506,
+    "topic": "Günlük Fiiller (B2)",
+    "en": "deliberate",
+    "tr": "kasıtlı",
+    "type": "sıfat",
+    "exampleEn": "Her decision was careful and deliberate.",
+    "exampleTr": "Kararı dikkatli ve kasıtlıydı."
+  },
+  {
+    "id": 1507,
+    "topic": "Günlük Fiiller (B2)",
+    "en": "juxtapose",
+    "tr": "yan yana koymak",
+    "type": "fiil",
+    "exampleEn": "The exhibition juxtaposed old and new art.",
+    "exampleTr": "Sergi eski ve yeni sanatı yan yana koydu."
+  },
+  {
+    "id": 1508,
+    "topic": "Günlük Fiiller (B2)",
+    "en": "scrutinize",
+    "tr": "dikkatle incelemek",
+    "type": "fiil",
+    "exampleEn": "He scrutinized the contract before signing.",
+    "exampleTr": "İmzalamadan önce sözleşmeyi dikkatle inceledi."
+  },
+  {
+    "id": 1509,
+    "topic": "Günlük Fiiller (B2)",
+    "en": "mitigate",
+    "tr": "hafifletmek",
+    "type": "fiil",
+    "exampleEn": "Trees help mitigate the effects of pollution.",
+    "exampleTr": "Ağaçlar kirliliğin etkilerini hafifletmeye yardımcı olur."
+  },
+  {
+    "id": 1510,
+    "topic": "Günlük Fiiller (B2)",
+    "en": "perpetuate",
+    "tr": "sürdürmek",
+    "type": "fiil",
+    "exampleEn": "Stereotypes perpetuate social inequality.",
+    "exampleTr": "Kalıp yargılar toplumsal eşitsizliği sürdürür."
+  },
+  {
+    "id": 1511,
+    "topic": "Günlük Fiiller (B2)",
+    "en": "relinquish",
+    "tr": "bırakmak",
+    "type": "fiil",
+    "exampleEn": "He relinquished his claim to the throne.",
+    "exampleTr": "Tahta olan hakkından vazgeçti."
+  },
+  {
+    "id": 1512,
+    "topic": "Günlük Fiiller (B2)",
+    "en": "exacerbate",
+    "tr": "kötüleştirmek",
+    "type": "fiil",
+    "exampleEn": "Pollution exacerbates respiratory illnesses.",
+    "exampleTr": "Kirlilik solunum hastalıklarını kötüleştirir."
+  },
+  {
+    "id": 1513,
+    "topic": "Günlük Fiiller (B2)",
+    "en": "embody",
+    "tr": "somutlaştırmak",
+    "type": "fiil",
+    "exampleEn": "The sculpture embodies the spirit of freedom.",
+    "exampleTr": "Heykel özgürlük ruhunu somutlaştırıyor."
+  },
+  {
+    "id": 1514,
+    "topic": "Günlük Fiiller (B2)",
+    "en": "circumvent",
+    "tr": "atlatmak",
+    "type": "fiil",
+    "exampleEn": "He tried to circumvent the regulations.",
+    "exampleTr": "Düzenlemeleri atlatmaya çalıştı."
+  },
+  {
+    "id": 1515,
+    "topic": "Günlük Fiiller (B2)",
+    "en": "corroborate",
+    "tr": "doğrulamak",
+    "type": "fiil",
+    "exampleEn": "Evidence corroborated the witness statement.",
+    "exampleTr": "Kanıtlar tanık ifadesini doğruladı."
+  },
+  {
+    "id": 1516,
+    "topic": "Günlük Fiiller (B2)",
+    "en": "extrapolate",
+    "tr": "dışarıya aktarmak",
+    "type": "fiil",
+    "exampleEn": "We can extrapolate future trends from the data.",
+    "exampleTr": "Verilerden gelecekteki eğilimleri çıkarabiliriz."
+  },
+  {
+    "id": 1517,
+    "topic": "Günlük Fiiller (B2)",
+    "en": "instigate",
+    "tr": "kışkırtmak",
+    "type": "fiil",
+    "exampleEn": "He instigated the argument between the two teams.",
+    "exampleTr": "İki takım arasındaki tartışmayı kışkırttı."
+  },
+  {
+    "id": 1518,
+    "topic": "Günlük Fiiller (B2)",
+    "en": "retaliate",
+    "tr": "misillemede bulunmak",
+    "type": "fiil",
+    "exampleEn": "He retaliated after the unfair attack.",
+    "exampleTr": "Haksız saldırıdan sonra misillemede bulundu."
+  },
+  {
+    "id": 1519,
+    "topic": "Günlük Fiiller (B2)",
+    "en": "vindicate",
+    "tr": "haklı çıkarmak",
+    "type": "fiil",
+    "exampleEn": "The verdict vindicated the accused.",
+    "exampleTr": "Karar sanığı haklı çıkardı."
+  },
+  {
+    "id": 1520,
+    "topic": "Günlük Fiiller (B2)",
+    "en": "exonerate",
+    "tr": "aklamak",
+    "type": "fiil",
+    "exampleEn": "New evidence exonerated the suspect.",
+    "exampleTr": "Yeni kanıtlar şüpheliyi akladı."
+  },
+  {
+    "id": 1521,
+    "topic": "Günlük Fiiller (B2)",
+    "en": "enunciate",
+    "tr": "açıkça dile getirmek",
+    "type": "fiil",
+    "exampleEn": "He enunciated his concerns clearly in the meeting.",
+    "exampleTr": "Toplantıda endişelerini açıkça dile getirdi."
+  },
+  {
+    "id": 1522,
+    "topic": "Günlük Fiiller (B2)",
+    "en": "alleviate",
+    "tr": "gidermek",
+    "type": "fiil",
+    "exampleEn": "Exercise can alleviate symptoms of depression.",
+    "exampleTr": "Egzersiz depresyon belirtilerini giderebilir."
+  },
+  {
+    "id": 1523,
+    "topic": "Günlük Fiiller (B2)",
+    "en": "contravene",
+    "tr": "ihlal etmek",
+    "type": "fiil",
+    "exampleEn": "The policy contravened human rights laws.",
+    "exampleTr": "Politika insan hakları yasalarını ihlal etti."
+  },
+  {
+    "id": 1524,
+    "topic": "Günlük Fiiller (B2)",
+    "en": "synthesize",
+    "tr": "sentezlemek",
+    "type": "fiil",
+    "exampleEn": "Researchers synthesize new compounds in the lab.",
+    "exampleTr": "Araştırmacılar laboratuvarda yeni bileşikler sentezler."
+  },
+  {
+    "id": 1525,
+    "topic": "Günlük Fiiller (B2)",
+    "en": "capitulate",
+    "tr": "teslim olmak",
+    "type": "fiil",
+    "exampleEn": "The company capitulated to public pressure.",
+    "exampleTr": "Şirket kamuoyu baskısına teslim oldu."
+  },
+  {
+    "id": 1526,
+    "topic": "Doğa ve Hava (B2)",
+    "en": "permafrost",
+    "tr": "kalıcı donmuş toprak",
+    "type": "isim",
+    "exampleEn": "Permafrost is thawing due to global warming.",
+    "exampleTr": "Kalıcı donmuş toprak küresel ısınma nedeniyle eriyor."
+  },
+  {
+    "id": 1527,
+    "topic": "Doğa ve Hava (B2)",
+    "en": "catchment",
+    "tr": "su toplama havzası",
+    "type": "isim",
+    "exampleEn": "The catchment area feeds the river downstream.",
+    "exampleTr": "Su toplama havzası aşağı akışta nehri besler."
+  },
+  {
+    "id": 1528,
+    "topic": "Doğa ve Hava (B2)",
+    "en": "lithosphere",
+    "tr": "litosfer",
+    "type": "isim",
+    "exampleEn": "The lithosphere includes Earth's crust.",
+    "exampleTr": "Litosfer, Dünya'nın kabuğunu içerir."
+  },
+  {
+    "id": 1529,
+    "topic": "Doğa ve Hava (B2)",
+    "en": "stratosphere",
+    "tr": "stratosfer",
+    "type": "isim",
+    "exampleEn": "The ozone layer is in the stratosphere.",
+    "exampleTr": "Ozon tabakası stratosferde yer alır."
+  },
+  {
+    "id": 1530,
+    "topic": "Doğa ve Hava (B2)",
+    "en": "anthropogenic",
+    "tr": "insan kaynaklı",
+    "type": "sıfat",
+    "exampleEn": "Anthropogenic emissions cause climate change.",
+    "exampleTr": "İnsan kaynaklı emisyonlar iklim değişikliğine yol açar."
+  },
+  {
+    "id": 1531,
+    "topic": "Doğa ve Hava (B2)",
+    "en": "geomorphology",
+    "tr": "jeomorfoloji",
+    "type": "isim",
+    "exampleEn": "Geomorphology studies landform processes.",
+    "exampleTr": "Jeomorfoloji, yer şekli süreçlerini inceler."
+  },
+  {
+    "id": 1532,
+    "topic": "Doğa ve Hava (B2)",
+    "en": "mangrove",
+    "tr": "mangrov",
+    "type": "isim",
+    "exampleEn": "Mangrove forests protect coastlines from erosion.",
+    "exampleTr": "Mangrov ormanları kıyıları erozyondan korur."
+  },
+  {
+    "id": 1533,
+    "topic": "Doğa ve Hava (B2)",
+    "en": "aquifer",
+    "tr": "akifer",
+    "type": "isim",
+    "exampleEn": "Many cities rely on aquifers for drinking water.",
+    "exampleTr": "Birçok şehir içme suyu için akiferlere güvenir."
+  },
+  {
+    "id": 1534,
+    "topic": "Doğa ve Hava (B2)",
+    "en": "hydrological",
+    "tr": "hidrolojik",
+    "type": "sıfat",
+    "exampleEn": "The hydrological cycle regulates water on Earth.",
+    "exampleTr": "Hidrolojik döngü, Dünya'daki suyu düzenler."
+  },
+  {
+    "id": 1535,
+    "topic": "Doğa ve Hava (B2)",
+    "en": "sediment",
+    "tr": "tortu",
+    "type": "isim",
+    "exampleEn": "River sediment builds up at the delta.",
+    "exampleTr": "Nehir tortusu deltada birikir."
+  },
+  {
+    "id": 1536,
+    "topic": "Doğa ve Hava (B2)",
+    "en": "biome",
+    "tr": "biyom",
+    "type": "isim",
+    "exampleEn": "The Amazon is the world's largest tropical biome.",
+    "exampleTr": "Amazon, dünyanın en büyük tropikal biyomudur."
+  },
+  {
+    "id": 1537,
+    "topic": "Doğa ve Hava (B2)",
+    "en": "tectonic",
+    "tr": "tektonik",
+    "type": "sıfat",
+    "exampleEn": "Tectonic movement causes earthquakes.",
+    "exampleTr": "Tektonik hareket depremlere neden olur."
+  },
+  {
+    "id": 1538,
+    "topic": "Doğa ve Hava (B2)",
+    "en": "cyclone",
+    "tr": "siklon",
+    "type": "isim",
+    "exampleEn": "A powerful cyclone hit the coast last night.",
+    "exampleTr": "Güçlü bir siklon dün gece kıyıya çarptı."
+  },
+  {
+    "id": 1539,
+    "topic": "Doğa ve Hava (B2)",
+    "en": "albedo",
+    "tr": "albedo",
+    "type": "isim",
+    "exampleEn": "Ice has a high albedo, reflecting sunlight.",
+    "exampleTr": "Buz, güneş ışığını yansıtan yüksek bir albedoya sahiptir."
+  },
+  {
+    "id": 1540,
+    "topic": "Doğa ve Hava (B2)",
+    "en": "sublimation",
+    "tr": "süblimleşme",
+    "type": "isim",
+    "exampleEn": "Dry ice undergoes sublimation at room temperature.",
+    "exampleTr": "Kuru buz oda sıcaklığında süblimleşmeye uğrar."
+  },
+  {
+    "id": 1541,
+    "topic": "Doğa ve Hava (B2)",
+    "en": "particulate",
+    "tr": "partiküllü",
+    "type": "sıfat",
+    "exampleEn": "Particulate matter in air causes lung disease.",
+    "exampleTr": "Havadaki partiküllü madde akciğer hastalığına yol açar."
+  },
+  {
+    "id": 1542,
+    "topic": "Doğa ve Hava (B2)",
+    "en": "vortex",
+    "tr": "girdap",
+    "type": "isim",
+    "exampleEn": "The tornado formed a powerful vortex.",
+    "exampleTr": "Tornado güçlü bir girdap oluşturdu."
+  },
+  {
+    "id": 1543,
+    "topic": "Doğa ve Hava (B2)",
+    "en": "turbulence",
+    "tr": "türbülans",
+    "type": "isim",
+    "exampleEn": "Atmospheric turbulence disrupted the flight.",
+    "exampleTr": "Atmosferik türbülans uçuşu engelledi."
+  },
+  {
+    "id": 1544,
+    "topic": "Doğa ve Hava (B2)",
+    "en": "eutrophication",
+    "tr": "ötrofikasyon",
+    "type": "isim",
+    "exampleEn": "Eutrophication depletes oxygen in water bodies.",
+    "exampleTr": "Ötrofikasyon su kütlelerindeki oksijeni tüketir."
+  },
+  {
+    "id": 1545,
+    "topic": "Doğa ve Hava (B2)",
+    "en": "intertidal",
+    "tr": "gelgit arası",
+    "type": "sıfat",
+    "exampleEn": "Intertidal zones are home to many species.",
+    "exampleTr": "Gelgit arası bölgeler birçok türe ev sahipliği yapar."
+  },
+  {
+    "id": 1546,
+    "topic": "Günler, Aylar, Mevsimler (B2)",
+    "en": "synchronize",
+    "tr": "senkronize etmek",
+    "type": "fiil",
+    "exampleEn": "Synchronize your calendar with the team.",
+    "exampleTr": "Takviminizi ekiple senkronize edin."
+  },
+  {
+    "id": 1547,
+    "topic": "Günler, Aylar, Mevsimler (B2)",
+    "en": "iterative",
+    "tr": "döngüsel",
+    "type": "sıfat",
+    "exampleEn": "Climate change creates iterative extreme weather cycles.",
+    "exampleTr": "İklim değişikliği döngüsel aşırı hava döngüleri yaratır."
+  },
+  {
+    "id": 1548,
+    "topic": "Günler, Aylar, Mevsimler (B2)",
+    "en": "circadian",
+    "tr": "sirkadiyen",
+    "type": "sıfat",
+    "exampleEn": "Circadian rhythms regulate sleep and waking.",
+    "exampleTr": "Sirkadiyen ritimler uyku ve uyanıklığı düzenler."
+  },
+  {
+    "id": 1549,
+    "topic": "Günler, Aylar, Mevsimler (B2)",
+    "en": "quotidian",
+    "tr": "gündelik",
+    "type": "sıfat",
+    "exampleEn": "Quotidian routines help maintain order.",
+    "exampleTr": "Gündelik rutinler düzeni korumaya yardımcı olur."
+  },
+  {
+    "id": 1550,
+    "topic": "Günler, Aylar, Mevsimler (B2)",
+    "en": "phenology",
+    "tr": "fenoloji",
+    "type": "isim",
+    "exampleEn": "Phenology studies seasonal natural phenomena.",
+    "exampleTr": "Fenoloji mevsimsel doğal olayları inceler."
+  },
+  {
+    "id": 1551,
+    "topic": "Günler, Aylar, Mevsimler (B2)",
+    "en": "centennial",
+    "tr": "yüzyıllık",
+    "type": "sıfat",
+    "exampleEn": "The centennial celebration attracted thousands.",
+    "exampleTr": "Yüzyıllık kutlama binlerce kişiyi çekti."
+  },
+  {
+    "id": 1552,
+    "topic": "Günler, Aylar, Mevsimler (B2)",
+    "en": "biennial",
+    "tr": "iki yılda bir",
+    "type": "sıfat",
+    "exampleEn": "The biennial festival was held last summer.",
+    "exampleTr": "İki yılda bir düzenlenen festival geçen yaz yapıldı."
+  },
+  {
+    "id": 1553,
+    "topic": "Günler, Aylar, Mevsimler (B2)",
+    "en": "transitory",
+    "tr": "geçici",
+    "type": "sıfat",
+    "exampleEn": "Fame is often transitory.",
+    "exampleTr": "Şöhret çoğu zaman geçicidir."
+  },
+  {
+    "id": 1554,
+    "topic": "Günler, Aylar, Mevsimler (B2)",
+    "en": "bygone",
+    "tr": "geçmişe ait",
+    "type": "sıfat",
+    "exampleEn": "She recalled the bygone days of her youth.",
+    "exampleTr": "Gençliğinin geçmişe ait günlerini hatırladı."
+  },
+  {
+    "id": 1555,
+    "topic": "Günler, Aylar, Mevsimler (B2)",
+    "en": "contemporaneous",
+    "tr": "eş zamanlı",
+    "type": "sıfat",
+    "exampleEn": "The two events were contemporaneous.",
+    "exampleTr": "İki olay eş zamanlıydı."
+  },
+  {
+    "id": 1556,
+    "topic": "Günler, Aylar, Mevsimler (B2)",
+    "en": "intercalary",
+    "tr": "artık",
+    "type": "sıfat",
+    "exampleEn": "An intercalary day is added in leap years.",
+    "exampleTr": "Artık yıllarda artık bir gün eklenir."
+  },
+  {
+    "id": 1557,
+    "topic": "Günler, Aylar, Mevsimler (B2)",
+    "en": "meridian",
+    "tr": "meridyen",
+    "type": "isim",
+    "exampleEn": "Time zones are calculated from the prime meridian.",
+    "exampleTr": "Saat dilimleri başlangıç meridyeninden hesaplanır."
+  },
+  {
+    "id": 1558,
+    "topic": "Günler, Aylar, Mevsimler (B2)",
+    "en": "antediluvian",
+    "tr": "tufandan önceki",
+    "type": "sıfat",
+    "exampleEn": "His views seemed antediluvian to modern thinkers.",
+    "exampleTr": "Görüşleri modern düşünürlere tufandan önceki gibi görünüyordu."
+  },
+  {
+    "id": 1559,
+    "topic": "Günler, Aylar, Mevsimler (B2)",
+    "en": "anachronism",
+    "tr": "anakronizm",
+    "type": "isim",
+    "exampleEn": "Using a fax machine today is an anachronism.",
+    "exampleTr": "Bugün faks makinesi kullanmak bir anakronizmdir."
+  },
+  {
+    "id": 1560,
+    "topic": "Günler, Aylar, Mevsimler (B2)",
+    "en": "vernal",
+    "tr": "ilkbahara ait",
+    "type": "sıfat",
+    "exampleEn": "The vernal equinox marks the start of spring.",
+    "exampleTr": "Vernal ekinoks ilkbaharın başlangıcını işaret eder."
+  },
+  {
+    "id": 1561,
+    "topic": "Günler, Aylar, Mevsimler (B2)",
+    "en": "autumnal",
+    "tr": "sonbahara ait",
+    "type": "sıfat",
+    "exampleEn": "The autumnal colors of the leaves were vivid.",
+    "exampleTr": "Yaprakların sonbahar renkleri canlıydı."
+  },
+  {
+    "id": 1562,
+    "topic": "Günler, Aylar, Mevsimler (B2)",
+    "en": "nocturne",
+    "tr": "gece parçası",
+    "type": "isim",
+    "exampleEn": "He composed a haunting nocturne.",
+    "exampleTr": "Büyüleyici bir gece parçası besteledi."
+  },
+  {
+    "id": 1563,
+    "topic": "Günler, Aylar, Mevsimler (B2)",
+    "en": "recurrence",
+    "tr": "tekrarlanma",
+    "type": "isim",
+    "exampleEn": "The recurrence of the event was predictable.",
+    "exampleTr": "Olayın tekrarlanması öngörülebilirdi."
+  },
+  {
+    "id": 1564,
+    "topic": "Günler, Aylar, Mevsimler (B2)",
+    "en": "penultimate",
+    "tr": "sondan bir önceki",
+    "type": "sıfat",
+    "exampleEn": "This is the penultimate chapter of the book.",
+    "exampleTr": "Bu kitabın sondan bir önceki bölümüdür."
+  },
+  {
+    "id": 1565,
+    "topic": "Günler, Aylar, Mevsimler (B2)",
+    "en": "hourly",
+    "tr": "saatlik",
+    "type": "sıfat",
+    "exampleEn": "Hourly weather updates were broadcast.",
+    "exampleTr": "Saatlik hava güncellemeleri yayınlandı."
+  },
+  {
+    "id": 1566,
+    "topic": "Zaman (B2)",
+    "en": "temporal",
+    "tr": "zamansal",
+    "type": "sıfat",
+    "exampleEn": "There is a temporal gap between cause and effect.",
+    "exampleTr": "Sebep ve sonuç arasında zamansal bir boşluk vardır."
+  },
+  {
+    "id": 1567,
+    "topic": "Zaman (B2)",
+    "en": "anachronistic",
+    "tr": "zamana aykırı",
+    "type": "sıfat",
+    "exampleEn": "The costume was anachronistic for the period.",
+    "exampleTr": "Kostüm o döneme göre zamana aykırıydı."
+  },
+  {
+    "id": 1568,
+    "topic": "Zaman (B2)",
+    "en": "transient",
+    "tr": "geçici",
+    "type": "sıfat",
+    "exampleEn": "The pain was transient and disappeared quickly.",
+    "exampleTr": "Acı geçiciydi ve hızla geçti."
+  },
+  {
+    "id": 1569,
+    "topic": "Zaman (B2)",
+    "en": "protracted",
+    "tr": "uzatılmış",
+    "type": "sıfat",
+    "exampleEn": "The protracted negotiations finally concluded.",
+    "exampleTr": "Uzatılmış müzakereler sonunda tamamlandı."
+  },
+  {
+    "id": 1570,
+    "topic": "Zaman (B2)",
+    "en": "inveterate",
+    "tr": "köklü",
+    "type": "sıfat",
+    "exampleEn": "Traffic congestion is an inveterate urban problem.",
+    "exampleTr": "Trafik tıkanıklığı köklü bir kentsel sorundur."
+  },
+  {
+    "id": 1571,
+    "topic": "Zaman (B2)",
+    "en": "hiatus",
+    "tr": "ara",
+    "type": "isim",
+    "exampleEn": "The band returned after a two-year hiatus.",
+    "exampleTr": "Grup iki yıllık bir aradan sonra geri döndü."
+  },
+  {
+    "id": 1572,
+    "topic": "Zaman (B2)",
+    "en": "watershed",
+    "tr": "dönüm noktası",
+    "type": "isim",
+    "exampleEn": "The invention of the internet was a watershed moment.",
+    "exampleTr": "İnternetin icadı bir dönüm noktasıydı."
+  },
+  {
+    "id": 1573,
+    "topic": "Zaman (B2)",
+    "en": "deferred",
+    "tr": "ertelenmiş",
+    "type": "sıfat",
+    "exampleEn": "The deferred payment plan helped many customers.",
+    "exampleTr": "Ertelenmiş ödeme planı birçok müşteriye yardımcı oldu."
+  },
+  {
+    "id": 1574,
+    "topic": "Zaman (B2)",
+    "en": "antecedent",
+    "tr": "önceki",
+    "type": "sıfat",
+    "exampleEn": "The antecedent events led to the conflict.",
+    "exampleTr": "Önceki olaylar çatışmaya yol açtı."
+  },
+  {
+    "id": 1575,
+    "topic": "Zaman (B2)",
+    "en": "lacuna",
+    "tr": "boşluk",
+    "type": "isim",
+    "exampleEn": "There is a lacuna in our knowledge of that period.",
+    "exampleTr": "O döneme dair bilgimizde bir boşluk var."
+  },
+  {
+    "id": 1576,
+    "topic": "Zaman (B2)",
+    "en": "brevity",
+    "tr": "kısalık",
+    "type": "isim",
+    "exampleEn": "The brevity of the speech was appreciated.",
+    "exampleTr": "Konuşmanın kısalığı takdirle karşılandı."
+  },
+  {
+    "id": 1577,
+    "topic": "Zaman (B2)",
+    "en": "perpetuity",
+    "tr": "sonsuza dek",
+    "type": "isim",
+    "exampleEn": "The land was given to the community in perpetuity.",
+    "exampleTr": "Arazi sonsuza dek topluluğa verildi."
+  },
+  {
+    "id": 1578,
+    "topic": "Zaman (B2)",
+    "en": "nascent",
+    "tr": "henüz doğmakta",
+    "type": "sıfat",
+    "exampleEn": "The nascent industry needed support.",
+    "exampleTr": "Henüz doğmakta olan sektör desteğe ihtiyaç duyuyordu."
+  },
+  {
+    "id": 1579,
+    "topic": "Zaman (B2)",
+    "en": "interlude",
+    "tr": "ara bölüm",
+    "type": "isim",
+    "exampleEn": "The peaceful interlude was short-lived.",
+    "exampleTr": "Huzurlu ara bölüm kısa sürdü."
+  },
+  {
+    "id": 1580,
+    "topic": "Zaman (B2)",
+    "en": "epoch-making",
+    "tr": "çağ açan",
+    "type": "sıfat",
+    "exampleEn": "The discovery was epoch-making in science.",
+    "exampleTr": "Keşif bilimde çağ açıcıydı."
+  },
+  {
+    "id": 1581,
+    "topic": "Zaman (B2)",
+    "en": "stasis",
+    "tr": "durağanlık",
+    "type": "isim",
+    "exampleEn": "The economy remained in a state of stasis.",
+    "exampleTr": "Ekonomi bir durağanlık halinde kaldı."
+  },
+  {
+    "id": 1582,
+    "topic": "Zaman (B2)",
+    "en": "turnaround",
+    "tr": "toparlanma",
+    "type": "isim",
+    "exampleEn": "The company achieved a remarkable turnaround.",
+    "exampleTr": "Şirket dikkat çekici bir toparlanma sağladı."
+  },
+  {
+    "id": 1583,
+    "topic": "Zaman (B2)",
+    "en": "flux",
+    "tr": "değişkenlik",
+    "type": "isim",
+    "exampleEn": "Society is in a constant state of flux.",
+    "exampleTr": "Toplum sürekli bir değişkenlik halindedir."
+  },
+  {
+    "id": 1584,
+    "topic": "Zaman (B2)",
+    "en": "abrupt",
+    "tr": "ani",
+    "type": "sıfat",
+    "exampleEn": "There was an abrupt change in the weather.",
+    "exampleTr": "Havada ani bir değişiklik oldu."
+  },
+  {
+    "id": 1585,
+    "topic": "Zaman (B2)",
+    "en": "evanescent",
+    "tr": "anlık",
+    "type": "sıfat",
+    "exampleEn": "The beauty of cherry blossoms is evanescent.",
+    "exampleTr": "Kiraz çiçeklerinin güzelliği anlıktır."
+  },
+  {
+    "id": 1586,
+    "topic": "Ulaşım (B2)",
+    "en": "aerodynamic",
+    "tr": "aerodinamik",
+    "type": "sıfat",
+    "exampleEn": "The car has a highly aerodynamic design.",
+    "exampleTr": "Arabanın son derece aerodinamik bir tasarımı var."
+  },
+  {
+    "id": 1587,
+    "topic": "Ulaşım (B2)",
+    "en": "propulsion",
+    "tr": "itici güç",
+    "type": "isim",
+    "exampleEn": "Jet propulsion powers modern aircraft.",
+    "exampleTr": "Jet itici gücü modern uçakları güçlendirir."
+  },
+  {
+    "id": 1588,
+    "topic": "Ulaşım (B2)",
+    "en": "axle",
+    "tr": "aks",
+    "type": "isim",
+    "exampleEn": "The front axle was damaged in the accident.",
+    "exampleTr": "Ön aks kazada hasar gördü."
+  },
+  {
+    "id": 1589,
+    "topic": "Ulaşım (B2)",
+    "en": "chassis",
+    "tr": "şasi",
+    "type": "isim",
+    "exampleEn": "The chassis of the truck was reinforced.",
+    "exampleTr": "Kamyonun şasisi güçlendirildi."
+  },
+  {
+    "id": 1590,
+    "topic": "Ulaşım (B2)",
+    "en": "viaduct",
+    "tr": "viyadük",
+    "type": "isim",
+    "exampleEn": "The viaduct carries traffic over the valley.",
+    "exampleTr": "Viyadük, trafiği vadinin üzerinden taşır."
+  },
+  {
+    "id": 1591,
+    "topic": "Ulaşım (B2)",
+    "en": "embankment",
+    "tr": "set",
+    "type": "isim",
+    "exampleEn": "The railway embankment runs along the river.",
+    "exampleTr": "Demiryolu seti nehir boyunca uzanır."
+  },
+  {
+    "id": 1592,
+    "topic": "Ulaşım (B2)",
+    "en": "intermodal",
+    "tr": "çok modlu",
+    "type": "sıfat",
+    "exampleEn": "Intermodal transport links rail, road and sea.",
+    "exampleTr": "Çok modlu taşımacılık demiryolu, karayolu ve denizi birbirine bağlar."
+  },
+  {
+    "id": 1593,
+    "topic": "Ulaşım (B2)",
+    "en": "turbocharge",
+    "tr": "turbolu hale getirmek",
+    "type": "fiil",
+    "exampleEn": "Engineers turbocharged the engine for better performance.",
+    "exampleTr": "Mühendisler daha iyi performans için motoru turbolu hale getirdi."
+  },
+  {
+    "id": 1594,
+    "topic": "Ulaşım (B2)",
+    "en": "hovercraft",
+    "tr": "hoverkraft",
+    "type": "isim",
+    "exampleEn": "The hovercraft crossed the channel in two hours.",
+    "exampleTr": "Hoverkraft kanalı iki saatte geçti."
+  },
+  {
+    "id": 1595,
+    "topic": "Ulaşım (B2)",
+    "en": "deregulate",
+    "tr": "kuralsızlaştırmak",
+    "type": "fiil",
+    "exampleEn": "The government deregulated the airline industry.",
+    "exampleTr": "Hükümet havayolu endüstrisini kuralsızlaştırdı."
+  },
+  {
+    "id": 1596,
+    "topic": "Ulaşım (B2)",
+    "en": "freight",
+    "tr": "yük taşımacılığı",
+    "type": "isim",
+    "exampleEn": "Freight trains carry goods across the country.",
+    "exampleTr": "Yük trenleri ülke genelinde mal taşır."
+  },
+  {
+    "id": 1597,
+    "topic": "Ulaşım (B2)",
+    "en": "pilotage",
+    "tr": "kılavuzluk",
+    "type": "isim",
+    "exampleEn": "Pilotage services guide ships into port.",
+    "exampleTr": "Kılavuzluk hizmetleri gemilere limana giriş yardımı sağlar."
+  },
+  {
+    "id": 1598,
+    "topic": "Ulaşım (B2)",
+    "en": "sanction",
+    "tr": "yaptırım",
+    "type": "isim",
+    "exampleEn": "A transport sanction was placed on the country.",
+    "exampleTr": "Ülkeye ulaşım yaptırımı uygulandı."
+  },
+  {
+    "id": 1599,
+    "topic": "Ulaşım (B2)",
+    "en": "ballast",
+    "tr": "balast",
+    "type": "isim",
+    "exampleEn": "Ballast keeps ships stable in rough seas.",
+    "exampleTr": "Balast, gemileri dalgalı denizlerde dengede tutar."
+  },
+  {
+    "id": 1600,
+    "topic": "Ulaşım (B2)",
+    "en": "aerofoil",
+    "tr": "hava kanadı",
+    "type": "isim",
+    "exampleEn": "The aerofoil shape generates lift for the plane.",
+    "exampleTr": "Hava kanadı şekli uçak için kaldırma kuvveti oluşturur."
+  },
+  {
+    "id": 1601,
+    "topic": "Ulaşım (B2)",
+    "en": "hydro-plane",
+    "tr": "hidroplan",
+    "type": "isim",
+    "exampleEn": "The hydroplane glided across the water surface.",
+    "exampleTr": "Hidroplan su yüzeyinde süzüldü."
+  },
+  {
+    "id": 1602,
+    "topic": "Ulaşım (B2)",
+    "en": "subsonic",
+    "tr": "ses altı",
+    "type": "sıfat",
+    "exampleEn": "Most commercial flights are subsonic.",
+    "exampleTr": "Çoğu ticari uçuş ses altı hızdadır."
+  },
+  {
+    "id": 1603,
+    "topic": "Ulaşım (B2)",
+    "en": "supersonic",
+    "tr": "ses üstü",
+    "type": "sıfat",
+    "exampleEn": "Concorde was a supersonic passenger aircraft.",
+    "exampleTr": "Concorde ses üstü hızda bir yolcu uçağıydı."
+  },
+  {
+    "id": 1604,
+    "topic": "Ulaşım (B2)",
+    "en": "throttle",
+    "tr": "gaz kolu",
+    "type": "isim",
+    "exampleEn": "He eased the throttle as they approached the runway.",
+    "exampleTr": "Pisiste yaklaşırken gaz kolunu azalttı."
+  },
+  {
+    "id": 1605,
+    "topic": "Ulaşım (B2)",
+    "en": "catamaran",
+    "tr": "katamaran",
+    "type": "isim",
+    "exampleEn": "The catamaran sailed smoothly in choppy waters.",
+    "exampleTr": "Katamaran çalkantılı sularda düzgün seyretti."
+  },
+  {
+    "id": 1606,
+    "topic": "Şehir ve Mekanlar (B2)",
+    "en": "conurbation",
+    "tr": "kentsel yığılma",
+    "type": "isim",
+    "exampleEn": "The conurbation extended far beyond the city limits.",
+    "exampleTr": "Kentsel yığılma şehir sınırlarının çok ötesine uzanıyordu."
+  },
+  {
+    "id": 1607,
+    "topic": "Şehir ve Mekanlar (B2)",
+    "en": "megalopolis",
+    "tr": "megalopol",
+    "type": "isim",
+    "exampleEn": "Tokyo is a classic example of a megalopolis.",
+    "exampleTr": "Tokyo, bir megalopolün klasik bir örneğidir."
+  },
+  {
+    "id": 1608,
+    "topic": "Şehir ve Mekanlar (B2)",
+    "en": "enclave",
+    "tr": "yerleşim alanı",
+    "type": "isim",
+    "exampleEn": "The diplomatic enclave was heavily guarded.",
+    "exampleTr": "Diplomatik yerleşim alanı ağır şekilde korunuyordu."
+  },
+  {
+    "id": 1609,
+    "topic": "Şehir ve Mekanlar (B2)",
+    "en": "sprawl",
+    "tr": "yayılma",
+    "type": "isim",
+    "exampleEn": "Urban sprawl has consumed surrounding farmland.",
+    "exampleTr": "Kentsel yayılma, çevredeki tarım arazilerini tüketti."
+  },
+  {
+    "id": 1610,
+    "topic": "Şehir ve Mekanlar (B2)",
+    "en": "agglomeration",
+    "tr": "aglomerasyon",
+    "type": "isim",
+    "exampleEn": "Economic agglomeration occurs in large cities.",
+    "exampleTr": "Ekonomik aglomerasyon büyük şehirlerde gerçekleşir."
+  },
+  {
+    "id": 1611,
+    "topic": "Şehir ve Mekanlar (B2)",
+    "en": "tenement",
+    "tr": "kiralık apartman",
+    "type": "isim",
+    "exampleEn": "The tenement buildings were in poor condition.",
+    "exampleTr": "Kiralık apartman binaları kötü durumdaydı."
+  },
+  {
+    "id": 1612,
+    "topic": "Şehir ve Mekanlar (B2)",
+    "en": "promenade",
+    "tr": "gezinti yeri",
+    "type": "isim",
+    "exampleEn": "The seafront promenade was full of tourists.",
+    "exampleTr": "Deniz kenarındaki gezinti yeri turistlerle doluydu."
+  },
+  {
+    "id": 1613,
+    "topic": "Şehir ve Mekanlar (B2)",
+    "en": "colosseum",
+    "tr": "amfitiyatro",
+    "type": "isim",
+    "exampleEn": "The ancient colosseum attracted millions of visitors.",
+    "exampleTr": "Antik amfitiyatro milyonlarca ziyaretçi çekti."
+  },
+  {
+    "id": 1614,
+    "topic": "Şehir ve Mekanlar (B2)",
+    "en": "slum",
+    "tr": "gecekondu",
+    "type": "isim",
+    "exampleEn": "The slum was demolished to make way for new housing.",
+    "exampleTr": "Yeni konutlar için gecekondu yıkıldı."
+  },
+  {
+    "id": 1615,
+    "topic": "Şehir ve Mekanlar (B2)",
+    "en": "citadel",
+    "tr": "iç kale",
+    "type": "isim",
+    "exampleEn": "The citadel overlooked the entire city.",
+    "exampleTr": "İç kale, şehrin tamamına hakim konumdaydı."
+  },
+  {
+    "id": 1616,
+    "topic": "Şehir ve Mekanlar (B2)",
+    "en": "esplanade",
+    "tr": "rıhtım yolu",
+    "type": "isim",
+    "exampleEn": "We strolled along the esplanade at sunset.",
+    "exampleTr": "Gün batımında rıhtım yolunda yürüdük."
+  },
+  {
+    "id": 1617,
+    "topic": "Şehir ve Mekanlar (B2)",
+    "en": "almshouse",
+    "tr": "yoksullar evi",
+    "type": "isim",
+    "exampleEn": "The almshouse was built in the 19th century.",
+    "exampleTr": "Yoksullar evi 19. yüzyılda inşa edildi."
+  },
+  {
+    "id": 1618,
+    "topic": "Şehir ve Mekanlar (B2)",
+    "en": "colonnade",
+    "tr": "sütunlu revak",
+    "type": "isim",
+    "exampleEn": "The colonnade lined the main square.",
+    "exampleTr": "Sütunlu revak ana meydanı çevreliyordu."
+  },
+  {
+    "id": 1619,
+    "topic": "Şehir ve Mekanlar (B2)",
+    "en": "hinterland",
+    "tr": "arka bölge",
+    "type": "isim",
+    "exampleEn": "The city's hinterland provides fresh produce.",
+    "exampleTr": "Şehrin arka bölgesi taze ürün sağlar."
+  },
+  {
+    "id": 1620,
+    "topic": "Şehir ve Mekanlar (B2)",
+    "en": "polis",
+    "tr": "şehir devleti",
+    "type": "isim",
+    "exampleEn": "Athens was an influential ancient polis.",
+    "exampleTr": "Atina etkili bir antik şehir devletiydi."
+  },
+  {
+    "id": 1621,
+    "topic": "Şehir ve Mekanlar (B2)",
+    "en": "thoroughfare",
+    "tr": "ana cadde",
+    "type": "isim",
+    "exampleEn": "The thoroughfare was closed for the parade.",
+    "exampleTr": "Ana cadde geçit töreni için kapatıldı."
+  },
+  {
+    "id": 1622,
+    "topic": "Şehir ve Mekanlar (B2)",
+    "en": "quay",
+    "tr": "rıhtım",
+    "type": "isim",
+    "exampleEn": "The ship docked at the quay at dawn.",
+    "exampleTr": "Gemi şafakta rıhtıma yanaştı."
+  },
+  {
+    "id": 1623,
+    "topic": "Şehir ve Mekanlar (B2)",
+    "en": "piazza",
+    "tr": "açık meydan",
+    "type": "isim",
+    "exampleEn": "The piazza was filled with market stalls.",
+    "exampleTr": "Açık meydan pazar tezgahlarıyla doluydu."
+  },
+  {
+    "id": 1624,
+    "topic": "Şehir ve Mekanlar (B2)",
+    "en": "ghetto",
+    "tr": "izole mahalle",
+    "type": "isim",
+    "exampleEn": "The ghetto was a result of economic segregation.",
+    "exampleTr": "İzole mahalle ekonomik ayrımcılığın bir sonucuydu."
+  },
+  {
+    "id": 1625,
+    "topic": "Şehir ve Mekanlar (B2)",
+    "en": "metropolis",
+    "tr": "büyük şehir",
+    "type": "isim",
+    "exampleEn": "New York is one of the world's greatest metropolises.",
+    "exampleTr": "New York dünyanın en büyük şehirlerinden biridir."
+  },
+  {
+    "id": 1626,
+    "topic": "Alışveriş (B2)",
+    "en": "arbitrage",
+    "tr": "arbitraj",
+    "type": "isim",
+    "exampleEn": "Arbitrage exploits price differences across markets.",
+    "exampleTr": "Arbitraj, piyasalar arasındaki fiyat farklılıklarından yararlanır."
+  },
+  {
+    "id": 1627,
+    "topic": "Alışveriş (B2)",
+    "en": "liquidate",
+    "tr": "tasfiye etmek",
+    "type": "fiil",
+    "exampleEn": "The company was forced to liquidate its assets.",
+    "exampleTr": "Şirket varlıklarını tasfiye etmek zorunda kaldı."
+  },
+  {
+    "id": 1628,
+    "topic": "Alışveriş (B2)",
+    "en": "procurement",
+    "tr": "tedarik",
+    "type": "isim",
+    "exampleEn": "The procurement process was reviewed for efficiency.",
+    "exampleTr": "Tedarik süreci verimlilik açısından gözden geçirildi."
+  },
+  {
+    "id": 1629,
+    "topic": "Alışveriş (B2)",
+    "en": "solvent",
+    "tr": "borç ödeme gücüne sahip",
+    "type": "sıfat",
+    "exampleEn": "The company remained solvent despite losses.",
+    "exampleTr": "Şirket zararlara rağmen borç ödeme gücünü korudu."
+  },
+  {
+    "id": 1630,
+    "topic": "Alışveriş (B2)",
+    "en": "markdown",
+    "tr": "indirim",
+    "type": "isim",
+    "exampleEn": "The markdown reduced the price by 40%.",
+    "exampleTr": "İndirim fiyatı yüzde 40 düşürdü."
+  },
+  {
+    "id": 1631,
+    "topic": "Alışveriş (B2)",
+    "en": "consignment",
+    "tr": "konsinye",
+    "type": "isim",
+    "exampleEn": "The goods were sent on consignment.",
+    "exampleTr": "Mallar konsinye olarak gönderildi."
+  },
+  {
+    "id": 1632,
+    "topic": "Alışveriş (B2)",
+    "en": "aggregate",
+    "tr": "toplam",
+    "type": "sıfat",
+    "exampleEn": "The aggregate demand rose sharply.",
+    "exampleTr": "Toplam talep keskin biçimde arttı."
+  },
+  {
+    "id": 1633,
+    "topic": "Alışveriş (B2)",
+    "en": "deficit",
+    "tr": "açık",
+    "type": "isim",
+    "exampleEn": "The trade deficit widened this quarter.",
+    "exampleTr": "Ticaret açığı bu çeyrekte genişledi."
+  },
+  {
+    "id": 1634,
+    "topic": "Alışveriş (B2)",
+    "en": "monopoly",
+    "tr": "tekel",
+    "type": "isim",
+    "exampleEn": "The company held a monopoly on the market.",
+    "exampleTr": "Şirket piyasada tekel konumundaydı."
+  },
+  {
+    "id": 1635,
+    "topic": "Alışveriş (B2)",
+    "en": "oligopoly",
+    "tr": "oligopol",
+    "type": "isim",
+    "exampleEn": "The telecom sector is an oligopoly.",
+    "exampleTr": "Telecom sektörü bir oligopoldür."
+  },
+  {
+    "id": 1636,
+    "topic": "Alışveriş (B2)",
+    "en": "depreciation",
+    "tr": "değer kaybı",
+    "type": "isim",
+    "exampleEn": "The car lost value through annual depreciation.",
+    "exampleTr": "Araba yıllık değer kaybı yoluyla değerini yitirdi."
+  },
+  {
+    "id": 1637,
+    "topic": "Alışveriş (B2)",
+    "en": "remittance",
+    "tr": "havale",
+    "type": "isim",
+    "exampleEn": "He sent a remittance to his family abroad.",
+    "exampleTr": "Yurt dışındaki ailesine havale gönderdi."
+  },
+  {
+    "id": 1638,
+    "topic": "Alışveriş (B2)",
+    "en": "leverage",
+    "tr": "kaldıraç",
+    "type": "isim",
+    "exampleEn": "The investor used leverage to increase returns.",
+    "exampleTr": "Yatırımcı getirileri artırmak için kaldıraç kullandı."
+  },
+  {
+    "id": 1639,
+    "topic": "Alışveriş (B2)",
+    "en": "dividend",
+    "tr": "temettü",
+    "type": "isim",
+    "exampleEn": "Shareholders received a generous dividend.",
+    "exampleTr": "Hissedarlar cömert bir temettü aldı."
+  },
+  {
+    "id": 1640,
+    "topic": "Alışveriş (B2)",
+    "en": "solvency",
+    "tr": "ödeme gücü",
+    "type": "isim",
+    "exampleEn": "The auditor assessed the company's solvency.",
+    "exampleTr": "Denetçi şirketin ödeme gücünü değerlendirdi."
+  },
+  {
+    "id": 1641,
+    "topic": "Alışveriş (B2)",
+    "en": "hedging",
+    "tr": "riskten korunma",
+    "type": "isim",
+    "exampleEn": "Hedging protects against financial risk.",
+    "exampleTr": "Riskten korunma finansal riske karşı koruma sağlar."
+  },
+  {
+    "id": 1642,
+    "topic": "Alışveriş (B2)",
+    "en": "embargo",
+    "tr": "ticaret yasağı",
+    "type": "isim",
+    "exampleEn": "The embargo restricted all imports of oil.",
+    "exampleTr": "Ticaret yasağı tüm petrol ithalatını kısıtladı."
+  },
+  {
+    "id": 1643,
+    "topic": "Alışveriş (B2)",
+    "en": "speculate",
+    "tr": "spekülasyon yapmak",
+    "type": "fiil",
+    "exampleEn": "Investors speculated on rising property prices.",
+    "exampleTr": "Yatırımcılar artan konut fiyatları üzerine spekülasyon yaptı."
+  },
+  {
+    "id": 1644,
+    "topic": "Alışveriş (B2)",
+    "en": "equilibrium",
+    "tr": "denge",
+    "type": "isim",
+    "exampleEn": "The market reached equilibrium at a fair price.",
+    "exampleTr": "Piyasa adil bir fiyatta dengeye ulaştı."
+  },
+  {
+    "id": 1645,
+    "topic": "Alışveriş (B2)",
+    "en": "cartel",
+    "tr": "kartel",
+    "type": "isim",
+    "exampleEn": "A cartel was formed to control oil prices.",
+    "exampleTr": "Petrol fiyatlarını kontrol etmek için bir kartel kuruldu."
+  },
+  {
+    "id": 1646,
+    "topic": "Meslekler (B2)",
+    "en": "ombudsman",
+    "tr": "ombudsman",
+    "type": "isim",
+    "exampleEn": "The ombudsman investigated the complaint.",
+    "exampleTr": "Ombudsman şikayeti inceledi."
+  },
+  {
+    "id": 1647,
+    "topic": "Meslekler (B2)",
+    "en": "podiatrist",
+    "tr": "ayak doktoru",
+    "type": "isim",
+    "exampleEn": "The podiatrist treated her ingrown toenail.",
+    "exampleTr": "Ayak doktoru içe dönük tırnak problemini tedavi etti."
+  },
+  {
+    "id": 1648,
+    "topic": "Meslekler (B2)",
+    "en": "orthodontist",
+    "tr": "ortodontist",
+    "type": "isim",
+    "exampleEn": "The orthodontist fitted her braces.",
+    "exampleTr": "Ortodontist diş telini taktı."
+  },
+  {
+    "id": 1649,
+    "topic": "Meslekler (B2)",
+    "en": "chiropractor",
+    "tr": "kiropraktisyen",
+    "type": "isim",
+    "exampleEn": "The chiropractor adjusted his spine.",
+    "exampleTr": "Kiropraktisyen omurgasını düzeltti."
+  },
+  {
+    "id": 1650,
+    "topic": "Meslekler (B2)",
+    "en": "epidemiologist",
+    "tr": "epidemiyolog",
+    "type": "isim",
+    "exampleEn": "The epidemiologist tracked the disease outbreak.",
+    "exampleTr": "Epidemiyolog hastalık salgınını takip etti."
+  },
+  {
+    "id": 1651,
+    "topic": "Meslekler (B2)",
+    "en": "geologist",
+    "tr": "jeolog",
+    "type": "isim",
+    "exampleEn": "The geologist studied rock formations.",
+    "exampleTr": "Jeolog kaya oluşumlarını inceledi."
+  },
+  {
+    "id": 1652,
+    "topic": "Meslekler (B2)",
+    "en": "cartographer",
+    "tr": "haritacı",
+    "type": "isim",
+    "exampleEn": "The cartographer drew detailed maps of the region.",
+    "exampleTr": "Haritacı bölgenin ayrıntılı haritalarını çizdi."
+  },
+  {
+    "id": 1653,
+    "topic": "Meslekler (B2)",
+    "en": "lexicographer",
+    "tr": "sözlükbilimci",
+    "type": "isim",
+    "exampleEn": "The lexicographer compiled the new dictionary.",
+    "exampleTr": "Sözlükbilimci yeni sözlüğü derledi."
+  },
+  {
+    "id": 1654,
+    "topic": "Meslekler (B2)",
+    "en": "anthropologist",
+    "tr": "antropolog",
+    "type": "isim",
+    "exampleEn": "The anthropologist studied ancient human cultures.",
+    "exampleTr": "Antropolog eski insan kültürlerini inceledi."
+  },
+  {
+    "id": 1655,
+    "topic": "Meslekler (B2)",
+    "en": "numismatist",
+    "tr": "numizmatik uzmanı",
+    "type": "isim",
+    "exampleEn": "The numismatist appraised the rare coins.",
+    "exampleTr": "Numizmatik uzmanı nadir madeni paraları değerlendirdi."
+  },
+  {
+    "id": 1656,
+    "topic": "Meslekler (B2)",
+    "en": "toxicologist",
+    "tr": "toksikolog",
+    "type": "isim",
+    "exampleEn": "The toxicologist identified the poison.",
+    "exampleTr": "Toksikolog zehri tanımladı."
+  },
+  {
+    "id": 1657,
+    "topic": "Meslekler (B2)",
+    "en": "archivist",
+    "tr": "arşivci",
+    "type": "isim",
+    "exampleEn": "The archivist preserved centuries-old documents.",
+    "exampleTr": "Arşivci yüzyıllık belgeleri korudu."
+  },
+  {
+    "id": 1658,
+    "topic": "Meslekler (B2)",
+    "en": "sommelier",
+    "tr": "şarap uzmanı",
+    "type": "isim",
+    "exampleEn": "The sommelier recommended the perfect wine.",
+    "exampleTr": "Şarap uzmanı mükemmel şarabı önerdi."
+  },
+  {
+    "id": 1659,
+    "topic": "Meslekler (B2)",
+    "en": "cryptographer",
+    "tr": "kriptograf",
+    "type": "isim",
+    "exampleEn": "The cryptographer designed secure communication systems.",
+    "exampleTr": "Kriptograf güvenli iletişim sistemleri tasarladı."
+  },
+  {
+    "id": 1660,
+    "topic": "Meslekler (B2)",
+    "en": "coroner",
+    "tr": "adli tabip",
+    "type": "isim",
+    "exampleEn": "The coroner determined the cause of death.",
+    "exampleTr": "Adli tabip ölüm nedenini belirledi."
+  },
+  {
+    "id": 1661,
+    "topic": "Meslekler (B2)",
+    "en": "notary",
+    "tr": "noter",
+    "type": "isim",
+    "exampleEn": "The notary certified the legal documents.",
+    "exampleTr": "Noter yasal belgeleri onayladı."
+  },
+  {
+    "id": 1662,
+    "topic": "Meslekler (B2)",
+    "en": "demographer",
+    "tr": "demograf",
+    "type": "isim",
+    "exampleEn": "The demographer analyzed population trends.",
+    "exampleTr": "Demograf nüfus eğilimlerini analiz etti."
+  },
+  {
+    "id": 1663,
+    "topic": "Meslekler (B2)",
+    "en": "neurosurgeon",
+    "tr": "beyin cerrahı",
+    "type": "isim",
+    "exampleEn": "The neurosurgeon performed a delicate brain operation.",
+    "exampleTr": "Beyin cerrahı hassas bir beyin ameliyatı gerçekleştirdi."
+  },
+  {
+    "id": 1664,
+    "topic": "Meslekler (B2)",
+    "en": "theologian",
+    "tr": "ilahiyatçı",
+    "type": "isim",
+    "exampleEn": "The theologian wrote extensively on religious ethics.",
+    "exampleTr": "İlahiyatçı dini etik üzerine kapsamlı eserler yazdı."
+  },
+  {
+    "id": 1665,
+    "topic": "Meslekler (B2)",
+    "en": "stenographer",
+    "tr": "steno yazan",
+    "type": "isim",
+    "exampleEn": "The stenographer recorded every word of the trial.",
+    "exampleTr": "Steno yazan duruşmadaki her kelimeyi kaydetti."
+  },
+  {
+    "id": 1666,
+    "topic": "Okul ve Eğitim (B2)",
+    "en": "epistemology",
+    "tr": "epistemoloji",
+    "type": "isim",
+    "exampleEn": "Epistemology is the study of knowledge.",
+    "exampleTr": "Epistemoloji, bilginin incelemesidir."
+  },
+  {
+    "id": 1667,
+    "topic": "Okul ve Eğitim (B2)",
+    "en": "heuristic",
+    "tr": "sezgisel yöntem",
+    "type": "isim",
+    "exampleEn": "Heuristic learning encourages discovery.",
+    "exampleTr": "Sezgisel öğrenme keşfi teşvik eder."
+  },
+  {
+    "id": 1668,
+    "topic": "Okul ve Eğitim (B2)",
+    "en": "didactic",
+    "tr": "öğretici",
+    "type": "sıfat",
+    "exampleEn": "The didactic approach focused on direct instruction.",
+    "exampleTr": "Öğretici yaklaşım doğrudan öğretimi ön plana çıkardı."
+  },
+  {
+    "id": 1669,
+    "topic": "Okul ve Eğitim (B2)",
+    "en": "accreditation",
+    "tr": "akreditasyon",
+    "type": "isim",
+    "exampleEn": "The university received international accreditation.",
+    "exampleTr": "Üniversite uluslararası akreditasyon aldı."
+  },
+  {
+    "id": 1670,
+    "topic": "Okul ve Eğitim (B2)",
+    "en": "andragogy",
+    "tr": "yetişkin eğitimi",
+    "type": "isim",
+    "exampleEn": "Andragogy focuses on adult learning principles.",
+    "exampleTr": "Yetişkin eğitimi, yetişkin öğrenme ilkelerine odaklanır."
+  },
+  {
+    "id": 1671,
+    "topic": "Okul ve Eğitim (B2)",
+    "en": "metacognition",
+    "tr": "üst biliş",
+    "type": "isim",
+    "exampleEn": "Metacognition helps students understand their own learning.",
+    "exampleTr": "Üst biliş öğrencilerin kendi öğrenmelerini anlamalarına yardımcı olur."
+  },
+  {
+    "id": 1672,
+    "topic": "Okul ve Eğitim (B2)",
+    "en": "constructivism",
+    "tr": "yapılandırmacılık",
+    "type": "isim",
+    "exampleEn": "Constructivism argues knowledge is actively constructed.",
+    "exampleTr": "Yapılandırmacılık bilginin aktif olarak inşa edildiğini öne sürer."
+  },
+  {
+    "id": 1673,
+    "topic": "Okul ve Eğitim (B2)",
+    "en": "seminar",
+    "tr": "seminer",
+    "type": "isim",
+    "exampleEn": "The professor held a weekly seminar.",
+    "exampleTr": "Profesör haftalık seminer düzenledi."
+  },
+  {
+    "id": 1674,
+    "topic": "Okul ve Eğitim (B2)",
+    "en": "monograph",
+    "tr": "monografi",
+    "type": "isim",
+    "exampleEn": "Her monograph explored postcolonial literature.",
+    "exampleTr": "Monografisi postkolonyal edebiyatı inceledi."
+  },
+  {
+    "id": 1675,
+    "topic": "Okul ve Eğitim (B2)",
+    "en": "sabbatical",
+    "tr": "sabbatik izin",
+    "type": "isim",
+    "exampleEn": "The professor took a sabbatical to write a book.",
+    "exampleTr": "Profesör kitap yazmak için sabbatik izne çıktı."
+  },
+  {
+    "id": 1676,
+    "topic": "Okul ve Eğitim (B2)",
+    "en": "typology",
+    "tr": "tipoloji",
+    "type": "isim",
+    "exampleEn": "Bloom's typology categorises learning objectives.",
+    "exampleTr": "Bloom'un tipolojisi öğrenme hedeflerini kategorize eder."
+  },
+  {
+    "id": 1677,
+    "topic": "Okul ve Eğitim (B2)",
+    "en": "remedial",
+    "tr": "telafi edici",
+    "type": "sıfat",
+    "exampleEn": "She attended remedial classes to improve her maths.",
+    "exampleTr": "Matematikini geliştirmek için telafi edici derslere katıldı."
+  },
+  {
+    "id": 1678,
+    "topic": "Okul ve Eğitim (B2)",
+    "en": "tenured",
+    "tr": "kadrolu",
+    "type": "sıfat",
+    "exampleEn": "Getting tenured at a university is competitive.",
+    "exampleTr": "Üniversitede kadrolu olmak rekabetçidir."
+  },
+  {
+    "id": 1679,
+    "topic": "Okul ve Eğitim (B2)",
+    "en": "vocational",
+    "tr": "mesleki",
+    "type": "sıfat",
+    "exampleEn": "Vocational training prepares students for work.",
+    "exampleTr": "Mesleki eğitim öğrencileri çalışma hayatına hazırlar."
+  },
+  {
+    "id": 1680,
+    "topic": "Okul ve Eğitim (B2)",
+    "en": "comprehensive",
+    "tr": "kapsamlı",
+    "type": "sıfat",
+    "exampleEn": "The comprehensive exam covered all subjects.",
+    "exampleTr": "Kapsamlı sınav tüm konuları kapsıyordu."
+  },
+  {
+    "id": 1681,
+    "topic": "Okul ve Eğitim (B2)",
+    "en": "pupil",
+    "tr": "öğrenci",
+    "type": "isim",
+    "exampleEn": "The gifted pupil won multiple awards.",
+    "exampleTr": "Yetenekli öğrenci birden fazla ödül kazandı."
+  },
+  {
+    "id": 1682,
+    "topic": "Okul ve Eğitim (B2)",
+    "en": "rote",
+    "tr": "ezber",
+    "type": "isim",
+    "exampleEn": "Rote learning has its place in early education.",
+    "exampleTr": "Ezber öğrenmenin erken eğitimde bir yeri vardır."
+  },
+  {
+    "id": 1683,
+    "topic": "Okul ve Eğitim (B2)",
+    "en": "pedagogue",
+    "tr": "pedagog",
+    "type": "isim",
+    "exampleEn": "The pedagogue inspired her students every day.",
+    "exampleTr": "Pedagog her gün öğrencilere ilham verdi."
+  },
+  {
+    "id": 1684,
+    "topic": "Okul ve Eğitim (B2)",
+    "en": "autodidact",
+    "tr": "kendi kendine öğrenen",
+    "type": "isim",
+    "exampleEn": "An autodidact learns without formal instruction.",
+    "exampleTr": "Kendi kendine öğrenen, resmi eğitim almadan öğrenir."
+  },
+  {
+    "id": 1685,
+    "topic": "Okul ve Eğitim (B2)",
+    "en": "syllogism",
+    "tr": "mantık yürütme",
+    "type": "isim",
+    "exampleEn": "A syllogism is a form of logical reasoning.",
+    "exampleTr": "Mantık yürütme, mantıksal akıl yürütmenin bir biçimidir."
+  },
+  {
+    "id": 1686,
+    "topic": "Sağlık (B2)",
+    "en": "comorbidity",
+    "tr": "eş hastalık",
+    "type": "isim",
+    "exampleEn": "Comorbidity complicates treatment planning.",
+    "exampleTr": "Eş hastalık, tedavi planlamayı karmaşıklaştırır."
+  },
+  {
+    "id": 1687,
+    "topic": "Sağlık (B2)",
+    "en": "iatrogenic",
+    "tr": "iyatrojenik",
+    "type": "sıfat",
+    "exampleEn": "An iatrogenic illness is caused by medical treatment.",
+    "exampleTr": "İyatrojenik hastalık tıbbi tedavinin neden olduğu bir hastalıktır."
+  },
+  {
+    "id": 1688,
+    "topic": "Sağlık (B2)",
+    "en": "pharmacokinetics",
+    "tr": "farmakokinetik",
+    "type": "isim",
+    "exampleEn": "Pharmacokinetics studies how drugs move through the body.",
+    "exampleTr": "Farmakokinetik, ilaçların vücutta nasıl hareket ettiğini inceler."
+  },
+  {
+    "id": 1689,
+    "topic": "Sağlık (B2)",
+    "en": "aetiology",
+    "tr": "etiyoloji",
+    "type": "isim",
+    "exampleEn": "The aetiology of the disease was unknown.",
+    "exampleTr": "Hastalığın etiyolojisi bilinmiyordu."
+  },
+  {
+    "id": 1690,
+    "topic": "Sağlık (B2)",
+    "en": "immunotherapy",
+    "tr": "immünoterapi",
+    "type": "isim",
+    "exampleEn": "Immunotherapy uses the immune system to fight cancer.",
+    "exampleTr": "İmmünoterapi, kansere karşı savaşmak için bağışıklık sistemini kullanır."
+  },
+  {
+    "id": 1691,
+    "topic": "Sağlık (B2)",
+    "en": "latent",
+    "tr": "gizli",
+    "type": "sıfat",
+    "exampleEn": "The latent virus reactivated years later.",
+    "exampleTr": "Gizli virüs yıllar sonra yeniden aktive oldu."
+  },
+  {
+    "id": 1692,
+    "topic": "Sağlık (B2)",
+    "en": "remission",
+    "tr": "gerileme",
+    "type": "isim",
+    "exampleEn": "The cancer entered remission after chemotherapy.",
+    "exampleTr": "Kanser kemoterapi sonrası gerilemeye girdi."
+  },
+  {
+    "id": 1693,
+    "topic": "Sağlık (B2)",
+    "en": "contraindication",
+    "tr": "kontrendikasyon",
+    "type": "isim",
+    "exampleEn": "Pregnancy is a contraindication for this drug.",
+    "exampleTr": "Hamilelik bu ilaç için bir kontrendikasyondur."
+  },
+  {
+    "id": 1694,
+    "topic": "Sağlık (B2)",
+    "en": "thrombosis",
+    "tr": "tromboz",
+    "type": "isim",
+    "exampleEn": "Thrombosis occurs when blood clots form in vessels.",
+    "exampleTr": "Tromboz, damarlarda kan pıhtıları oluştuğunda meydana gelir."
+  },
+  {
+    "id": 1695,
+    "topic": "Sağlık (B2)",
+    "en": "pathogenesis",
+    "tr": "patogenez",
+    "type": "isim",
+    "exampleEn": "Understanding pathogenesis helps in drug design.",
+    "exampleTr": "Patogenezi anlamak ilaç tasarımına yardımcı olur."
+  },
+  {
+    "id": 1696,
+    "topic": "Sağlık (B2)",
+    "en": "analgesic",
+    "tr": "ağrı kesici",
+    "type": "isim",
+    "exampleEn": "The doctor prescribed an analgesic for the pain.",
+    "exampleTr": "Doktor ağrı için bir ağrı kesici reçete etti."
+  },
+  {
+    "id": 1697,
+    "topic": "Sağlık (B2)",
+    "en": "benign",
+    "tr": "iyi huylu",
+    "type": "sıfat",
+    "exampleEn": "The tumour was benign and not cancerous.",
+    "exampleTr": "Tümör iyi huylu ve kanserli değildi."
+  },
+  {
+    "id": 1698,
+    "topic": "Sağlık (B2)",
+    "en": "malignant",
+    "tr": "kötü huylu",
+    "type": "sıfat",
+    "exampleEn": "The malignant cells spread rapidly.",
+    "exampleTr": "Kötü huylu hücreler hızla yayıldı."
+  },
+  {
+    "id": 1699,
+    "topic": "Sağlık (B2)",
+    "en": "palliative",
+    "tr": "palyatif",
+    "type": "sıfat",
+    "exampleEn": "Palliative care focuses on comfort, not cure.",
+    "exampleTr": "Palyatif bakım tedavi değil, rahatlığa odaklanır."
+  },
+  {
+    "id": 1700,
+    "topic": "Sağlık (B2)",
+    "en": "anaphylaxis",
+    "tr": "anafilaksi",
+    "type": "isim",
+    "exampleEn": "She carried an epi-pen in case of anaphylaxis.",
+    "exampleTr": "Anafilaksi durumuna karşı epipen taşıyordu."
+  },
+  {
+    "id": 1701,
+    "topic": "Sağlık (B2)",
+    "en": "cachexia",
+    "tr": "kaşeksi",
+    "type": "isim",
+    "exampleEn": "Cancer-related cachexia causes severe muscle loss.",
+    "exampleTr": "Kanserle ilişkili kaşeksi ciddi kas kaybına yol açar."
+  },
+  {
+    "id": 1702,
+    "topic": "Sağlık (B2)",
+    "en": "necrosis",
+    "tr": "nekroz",
+    "type": "isim",
+    "exampleEn": "Necrosis is the death of body tissue.",
+    "exampleTr": "Nekroz, vücut dokusunun ölümüdür."
+  },
+  {
+    "id": 1703,
+    "topic": "Sağlık (B2)",
+    "en": "suture",
+    "tr": "sütür",
+    "type": "isim",
+    "exampleEn": "The wound required six sutures.",
+    "exampleTr": "Yaranın altı süture ihtiyacı vardı."
+  },
+  {
+    "id": 1704,
+    "topic": "Sağlık (B2)",
+    "en": "haemoglobin",
+    "tr": "hemoglobin",
+    "type": "isim",
+    "exampleEn": "Haemoglobin carries oxygen in red blood cells.",
+    "exampleTr": "Hemoglobin, kırmızı kan hücrelerinde oksijen taşır."
+  },
+  {
+    "id": 1705,
+    "topic": "Sağlık (B2)",
+    "en": "neuropathy",
+    "tr": "nöropati",
+    "type": "isim",
+    "exampleEn": "Diabetic neuropathy affects the nerves in the feet.",
+    "exampleTr": "Diyabetik nöropati, ayaklardaki sinirleri etkiler."
+  },
+  {
+    "id": 1706,
+    "topic": "Spor (B2)",
+    "en": "biomechanics",
+    "tr": "biyomekanik",
+    "type": "isim",
+    "exampleEn": "Biomechanics improves athletic performance.",
+    "exampleTr": "Biyomekanik atletik performansı iyileştirir."
+  },
+  {
+    "id": 1707,
+    "topic": "Spor (B2)",
+    "en": "decathlon",
+    "tr": "dekatlon",
+    "type": "isim",
+    "exampleEn": "The decathlon tests athletes in ten events.",
+    "exampleTr": "Dekatlon, sporcuları on branşta test eder."
+  },
+  {
+    "id": 1708,
+    "topic": "Spor (B2)",
+    "en": "relegation",
+    "tr": "düşme",
+    "type": "isim",
+    "exampleEn": "The team faced relegation to the lower division.",
+    "exampleTr": "Takım alt ligye düşme tehlikesiyle karşı karşıya kaldı."
+  },
+  {
+    "id": 1709,
+    "topic": "Spor (B2)",
+    "en": "concussion",
+    "tr": "sarsıntı",
+    "type": "isim",
+    "exampleEn": "The player was sidelined with a concussion.",
+    "exampleTr": "Oyuncu sarsıntı nedeniyle devre dışı kaldı."
+  },
+  {
+    "id": 1710,
+    "topic": "Spor (B2)",
+    "en": "aerobic",
+    "tr": "aerobik",
+    "type": "sıfat",
+    "exampleEn": "Aerobic exercise strengthens the cardiovascular system.",
+    "exampleTr": "Aerobik egzersiz kardiyovasküler sistemi güçlendirir."
+  },
+  {
+    "id": 1711,
+    "topic": "Spor (B2)",
+    "en": "anaerobic",
+    "tr": "anaerobik",
+    "type": "sıfat",
+    "exampleEn": "Sprinting is an anaerobic form of exercise.",
+    "exampleTr": "Kısa mesafe koşusu anaerobik bir egzersiz biçimidir."
+  },
+  {
+    "id": 1712,
+    "topic": "Spor (B2)",
+    "en": "periodization",
+    "tr": "periodizasyon",
+    "type": "isim",
+    "exampleEn": "Periodization divides training into phases.",
+    "exampleTr": "Periodizasyon antrenmanı aşamalara böler."
+  },
+  {
+    "id": 1713,
+    "topic": "Spor (B2)",
+    "en": "proprioceptive",
+    "tr": "propriyoseptif",
+    "type": "sıfat",
+    "exampleEn": "Proprioceptive training improves balance.",
+    "exampleTr": "Propriyoseptif antrenman dengeyi geliştirir."
+  },
+  {
+    "id": 1714,
+    "topic": "Spor (B2)",
+    "en": "plyometric",
+    "tr": "pliometrik",
+    "type": "sıfat",
+    "exampleEn": "Plyometric exercises develop explosive power.",
+    "exampleTr": "Pliometrik egzersizler patlayıcı güç geliştirir."
+  },
+  {
+    "id": 1715,
+    "topic": "Spor (B2)",
+    "en": "glycogen",
+    "tr": "glikojen",
+    "type": "isim",
+    "exampleEn": "Athletes deplete glycogen stores during long races.",
+    "exampleTr": "Sporcular uzun yarışlarda glikojen depolarını tüketir."
+  },
+  {
+    "id": 1716,
+    "topic": "Spor (B2)",
+    "en": "lactic acid",
+    "tr": "laktik asit",
+    "type": "isim",
+    "exampleEn": "Lactic acid buildup causes muscle fatigue.",
+    "exampleTr": "Laktik asit birikimi kas yorgunluğuna neden olur."
+  },
+  {
+    "id": 1717,
+    "topic": "Spor (B2)",
+    "en": "ergogenic",
+    "tr": "ergojenik",
+    "type": "sıfat",
+    "exampleEn": "Caffeine is an ergogenic aid for athletes.",
+    "exampleTr": "Kafein sporcular için bir ergojenik yardımdır."
+  },
+  {
+    "id": 1718,
+    "topic": "Spor (B2)",
+    "en": "kinesthesia",
+    "tr": "kinestetik duygu",
+    "type": "isim",
+    "exampleEn": "Kinesthesia helps gymnasts control their movements.",
+    "exampleTr": "Kinestetik duygu, jimnastikçilerin hareketlerini kontrol etmesine yardımcı olur."
+  },
+  {
+    "id": 1719,
+    "topic": "Spor (B2)",
+    "en": "overtraining",
+    "tr": "aşırı antrenman",
+    "type": "isim",
+    "exampleEn": "Overtraining can lead to injury and burnout.",
+    "exampleTr": "Aşırı antrenman yaralanma ve tükenmişliğe yol açabilir."
+  },
+  {
+    "id": 1720,
+    "topic": "Spor (B2)",
+    "en": "concede",
+    "tr": "gol yemek",
+    "type": "fiil",
+    "exampleEn": "The team conceded three goals in the first half.",
+    "exampleTr": "Takım ilk yarıda üç gol yedi."
+  },
+  {
+    "id": 1721,
+    "topic": "Spor (B2)",
+    "en": "stoppage time",
+    "tr": "uzatma dakikaları",
+    "type": "isim",
+    "exampleEn": "They scored in stoppage time to equalize.",
+    "exampleTr": "Uzatma dakikalarında skoru eşitlediler."
+  },
+  {
+    "id": 1722,
+    "topic": "Spor (B2)",
+    "en": "foul",
+    "tr": "faul",
+    "type": "isim",
+    "exampleEn": "The player committed a foul near the penalty area.",
+    "exampleTr": "Oyuncu ceza sahası yakınında faul yaptı."
+  },
+  {
+    "id": 1723,
+    "topic": "Spor (B2)",
+    "en": "fortitude",
+    "tr": "metanet",
+    "type": "isim",
+    "exampleEn": "She showed great fortitude in recovering from injury.",
+    "exampleTr": "Yaralanmadan iyileşmede büyük bir metanet gösterdi."
+  },
+  {
+    "id": 1724,
+    "topic": "Spor (B2)",
+    "en": "stratagem",
+    "tr": "strateji",
+    "type": "isim",
+    "exampleEn": "The coach used a clever stratagem in the final.",
+    "exampleTr": "Koç finalde akıllıca bir strateji kullandı."
+  },
+  {
+    "id": 1725,
+    "topic": "Spor (B2)",
+    "en": "quintathlon",
+    "tr": "beşli atletizm",
+    "type": "isim",
+    "exampleEn": "The quintathlon combines five athletic disciplines.",
+    "exampleTr": "Beşli atletizm beş atletik dalı birleştirir."
+  },
+  {
+    "id": 1726,
+    "topic": "Duygular (B2)",
+    "en": "equanimity",
+    "tr": "ruh huzuru",
+    "type": "isim",
+    "exampleEn": "She faced difficulties with equanimity.",
+    "exampleTr": "Zorlukları ruh huzuruyla karşıladı."
+  },
+  {
+    "id": 1727,
+    "topic": "Duygular (B2)",
+    "en": "schadenfreude",
+    "tr": "başkasının acısına gülme",
+    "type": "isim",
+    "exampleEn": "Schadenfreude is taking pleasure in others' misfortune.",
+    "exampleTr": "Başkasının acısına gülme, başkalarının talihsizliğinden zevk almaktır."
+  },
+  {
+    "id": 1728,
+    "topic": "Duygular (B2)",
+    "en": "catharsis",
+    "tr": "arınma",
+    "type": "isim",
+    "exampleEn": "The film provided emotional catharsis.",
+    "exampleTr": "Film duygusal bir arınma sağladı."
+  },
+  {
+    "id": 1729,
+    "topic": "Duygular (B2)",
+    "en": "trepidation",
+    "tr": "korku",
+    "type": "isim",
+    "exampleEn": "She waited with a sense of trepidation.",
+    "exampleTr": "Bir korku duygusuyla bekledi."
+  },
+  {
+    "id": 1730,
+    "topic": "Duygular (B2)",
+    "en": "magnanimous",
+    "tr": "cömert kalpli",
+    "type": "sıfat",
+    "exampleEn": "He was magnanimous in defeat.",
+    "exampleTr": "Yenilgide cömert kalpli davrandı."
+  },
+  {
+    "id": 1731,
+    "topic": "Duygular (B2)",
+    "en": "despondent",
+    "tr": "umutsuz",
+    "type": "sıfat",
+    "exampleEn": "She felt despondent after the rejection.",
+    "exampleTr": "Reddetmeden sonra umutsuz hissetti."
+  },
+  {
+    "id": 1732,
+    "topic": "Duygular (B2)",
+    "en": "euphoria",
+    "tr": "coşku",
+    "type": "isim",
+    "exampleEn": "The team was overcome with euphoria after winning.",
+    "exampleTr": "Takım kazandıktan sonra coşkuya kapıldı."
+  },
+  {
+    "id": 1733,
+    "topic": "Duygular (B2)",
+    "en": "anguish",
+    "tr": "acı",
+    "type": "isim",
+    "exampleEn": "The loss caused him great anguish.",
+    "exampleTr": "Kayıp ona büyük acı yaşattı."
+  },
+  {
+    "id": 1734,
+    "topic": "Duygular (B2)",
+    "en": "stoic",
+    "tr": "metanetli",
+    "type": "sıfat",
+    "exampleEn": "She remained stoic throughout the ordeal.",
+    "exampleTr": "Çile boyunca metanetini korudu."
+  },
+  {
+    "id": 1735,
+    "topic": "Duygular (B2)",
+    "en": "melancholy",
+    "tr": "hüzün",
+    "type": "isim",
+    "exampleEn": "Autumn often brings a sense of melancholy.",
+    "exampleTr": "Sonbahar çoğu zaman bir hüzün duygusu getirir."
+  },
+  {
+    "id": 1736,
+    "topic": "Duygular (B2)",
+    "en": "hubris",
+    "tr": "kibir",
+    "type": "isim",
+    "exampleEn": "His hubris eventually led to his downfall.",
+    "exampleTr": "Kibri sonunda çöküşüne yol açtı."
+  },
+  {
+    "id": 1737,
+    "topic": "Duygular (B2)",
+    "en": "equivocal",
+    "tr": "muğlak",
+    "type": "sıfat",
+    "exampleEn": "His answer was equivocal and confusing.",
+    "exampleTr": "Yanıtı muğlak ve kafa karıştırıcıydı."
+  },
+  {
+    "id": 1738,
+    "topic": "Duygular (B2)",
+    "en": "petulant",
+    "tr": "huysuz",
+    "type": "sıfat",
+    "exampleEn": "The child became petulant when overtired.",
+    "exampleTr": "Çok yorulunca çocuk huysuz oldu."
+  },
+  {
+    "id": 1739,
+    "topic": "Duygular (B2)",
+    "en": "sanguine",
+    "tr": "iyimser",
+    "type": "sıfat",
+    "exampleEn": "He remained sanguine about the outcome.",
+    "exampleTr": "Sonuç konusunda iyimser kalmaya devam etti."
+  },
+  {
+    "id": 1740,
+    "topic": "Duygular (B2)",
+    "en": "disconsolate",
+    "tr": "teselli edilemez",
+    "type": "sıfat",
+    "exampleEn": "She was disconsolate after the loss.",
+    "exampleTr": "Kayıptan sonra teselli edilemez durumdaydı."
+  },
+  {
+    "id": 1741,
+    "topic": "Duygular (B2)",
+    "en": "ambiguity",
+    "tr": "belirsizlik",
+    "type": "isim",
+    "exampleEn": "The ambiguity of the situation stressed her.",
+    "exampleTr": "Durumun belirsizliği onu strese soktu."
+  },
+  {
+    "id": 1742,
+    "topic": "Duygular (B2)",
+    "en": "indignation",
+    "tr": "öfke",
+    "type": "isim",
+    "exampleEn": "She felt righteous indignation at the injustice.",
+    "exampleTr": "Adaletsizlik karşısında haklı bir öfke hissetti."
+  },
+  {
+    "id": 1743,
+    "topic": "Duygular (B2)",
+    "en": "awe",
+    "tr": "hayranlık",
+    "type": "isim",
+    "exampleEn": "The view from the summit filled her with awe.",
+    "exampleTr": "Zirvedeki manzara onu hayranlıkla doldurdu."
+  },
+  {
+    "id": 1744,
+    "topic": "Duygular (B2)",
+    "en": "mortified",
+    "tr": "utanmış",
+    "type": "sıfat",
+    "exampleEn": "He was mortified by his public mistake.",
+    "exampleTr": "Toplum önündeki hatasından utanmıştı."
+  },
+  {
+    "id": 1745,
+    "topic": "Duygular (B2)",
+    "en": "rancour",
+    "tr": "kin",
+    "type": "isim",
+    "exampleEn": "Years of rancour divided the two families.",
+    "exampleTr": "Yıllarca süren kin iki aileyi böldü."
+  },
+  {
+    "id": 1746,
+    "topic": "Teknoloji (B2)",
+    "en": "neural network",
+    "tr": "sinir ağı",
+    "type": "isim",
+    "exampleEn": "Neural networks mimic the human brain.",
+    "exampleTr": "Sinir ağları insan beynini taklit eder."
+  },
+  {
+    "id": 1747,
+    "topic": "Teknoloji (B2)",
+    "en": "cryptography",
+    "tr": "kriptografi",
+    "type": "isim",
+    "exampleEn": "Cryptography secures digital communications.",
+    "exampleTr": "Kriptografi dijital iletişimi güvence altına alır."
+  },
+  {
+    "id": 1748,
+    "topic": "Teknoloji (B2)",
+    "en": "quantum",
+    "tr": "kuantum",
+    "type": "isim",
+    "exampleEn": "Quantum computing could revolutionize technology.",
+    "exampleTr": "Kuantum bilişim teknolojiyi devrim yaratabilir."
+  },
+  {
+    "id": 1749,
+    "topic": "Teknoloji (B2)",
+    "en": "semiconductor",
+    "tr": "yarı iletken",
+    "type": "isim",
+    "exampleEn": "Semiconductors are the foundation of electronics.",
+    "exampleTr": "Yarı iletkenler elektroniğin temelidir."
+  },
+  {
+    "id": 1750,
+    "topic": "Teknoloji (B2)",
+    "en": "tokenization",
+    "tr": "tokenizasyon",
+    "type": "isim",
+    "exampleEn": "Tokenization converts data into secure tokens.",
+    "exampleTr": "Tokenizasyon veriyi güvenli jetonlara dönüştürür."
+  },
+  {
+    "id": 1751,
+    "topic": "Teknoloji (B2)",
+    "en": "edge computing",
+    "tr": "uç bilişim",
+    "type": "isim",
+    "exampleEn": "Edge computing processes data closer to the source.",
+    "exampleTr": "Uç bilişim veriyi kaynağa daha yakın işler."
+  },
+  {
+    "id": 1752,
+    "topic": "Teknoloji (B2)",
+    "en": "neural",
+    "tr": "sinirsel",
+    "type": "sıfat",
+    "exampleEn": "Neural interfaces connect brains to computers.",
+    "exampleTr": "Sinirsel arayüzler beyinleri bilgisayarlara bağlar."
+  },
+  {
+    "id": 1753,
+    "topic": "Teknoloji (B2)",
+    "en": "biometric",
+    "tr": "biyometrik",
+    "type": "sıfat",
+    "exampleEn": "Biometric data includes fingerprints and iris scans.",
+    "exampleTr": "Biyometrik veriler parmak izleri ve iris taramalarını içerir."
+  },
+  {
+    "id": 1754,
+    "topic": "Teknoloji (B2)",
+    "en": "nanotechnology",
+    "tr": "nanoteknoloji",
+    "type": "isim",
+    "exampleEn": "Nanotechnology operates at the molecular scale.",
+    "exampleTr": "Nanoteknoloji moleküler ölçekte çalışır."
+  },
+  {
+    "id": 1755,
+    "topic": "Teknoloji (B2)",
+    "en": "photovoltaic",
+    "tr": "fotovoltaik",
+    "type": "sıfat",
+    "exampleEn": "Photovoltaic cells convert sunlight into electricity.",
+    "exampleTr": "Fotovoltaik hücreler güneş ışığını elektriğe dönüştürür."
+  },
+  {
+    "id": 1756,
+    "topic": "Teknoloji (B2)",
+    "en": "telemetry",
+    "tr": "telemetri",
+    "type": "isim",
+    "exampleEn": "Telemetry collects data from remote sensors.",
+    "exampleTr": "Telemetri uzak sensörlerden veri toplar."
+  },
+  {
+    "id": 1757,
+    "topic": "Teknoloji (B2)",
+    "en": "obsolescence",
+    "tr": "eskime",
+    "type": "isim",
+    "exampleEn": "Planned obsolescence makes products expire sooner.",
+    "exampleTr": "Planlı eskime ürünlerin daha erken sona ermesine neden olur."
+  },
+  {
+    "id": 1758,
+    "topic": "Teknoloji (B2)",
+    "en": "haptic",
+    "tr": "dokunsal",
+    "type": "sıfat",
+    "exampleEn": "Haptic feedback provides a realistic touch sensation.",
+    "exampleTr": "Dokunsal geri bildirim gerçekçi bir dokunma hissi sağlar."
+  },
+  {
+    "id": 1759,
+    "topic": "Teknoloji (B2)",
+    "en": "overclocking",
+    "tr": "aşırı hızlandırma",
+    "type": "isim",
+    "exampleEn": "Overclocking speeds up processor performance.",
+    "exampleTr": "Aşırı hızlandırma işlemci performansını artırır."
+  },
+  {
+    "id": 1760,
+    "topic": "Teknoloji (B2)",
+    "en": "microprocessor",
+    "tr": "mikroişlemci",
+    "type": "isim",
+    "exampleEn": "The microprocessor is the brain of the computer.",
+    "exampleTr": "Mikroişlemci bilgisayarın beynidir."
+  },
+  {
+    "id": 1761,
+    "topic": "Teknoloji (B2)",
+    "en": "superconductor",
+    "tr": "süper iletken",
+    "type": "isim",
+    "exampleEn": "Superconductors have zero electrical resistance.",
+    "exampleTr": "Süper iletkenler sıfır elektrik direncine sahiptir."
+  },
+  {
+    "id": 1762,
+    "topic": "Teknoloji (B2)",
+    "en": "hypertext",
+    "tr": "hiper metin",
+    "type": "isim",
+    "exampleEn": "HTML is a hypertext markup language.",
+    "exampleTr": "HTML bir hiper metin işaret dilidir."
+  },
+  {
+    "id": 1763,
+    "topic": "Teknoloji (B2)",
+    "en": "transistor",
+    "tr": "transistör",
+    "type": "isim",
+    "exampleEn": "The transistor revolutionized electronics.",
+    "exampleTr": "Transistör elektroniği devrim yaptı."
+  },
+  {
+    "id": 1764,
+    "topic": "Teknoloji (B2)",
+    "en": "metamaterial",
+    "tr": "metamalzeme",
+    "type": "isim",
+    "exampleEn": "Metamaterials can bend electromagnetic waves.",
+    "exampleTr": "Metamalzemeler elektromanyetik dalgaları bükülebilir."
+  },
+  {
+    "id": 1765,
+    "topic": "Teknoloji (B2)",
+    "en": "neuromorphic",
+    "tr": "nöromorfik",
+    "type": "sıfat",
+    "exampleEn": "Neuromorphic chips replicate brain functions.",
+    "exampleTr": "Nöromorfik çipler beyin fonksiyonlarını kopyalar."
   }
 ]
