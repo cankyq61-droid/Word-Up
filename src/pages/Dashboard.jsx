@@ -214,7 +214,7 @@ export default function Dashboard() {
           </div>
 
           {/* ── CTA buttons ── */}
-          <div className="space-y-2 flex-shrink-0 mt-2">
+          <div className="space-y-2 flex-shrink-0 mt-auto pt-2">
             <button
               onClick={() => navigate('/learn')}
               className="w-full bg-cyan-500 hover:bg-cyan-400 active:bg-cyan-600 text-white
