@@ -4006,7 +4006,7 @@
   },
   {
     "id": 446,
-    "topic": "Selamlaşma ve Tanışma",
+    "topic": "Selamlaşma ve Tanışma (A2)",
     "en": "introduce",
     "tr": "tanıtmak",
     "type": "fiil",
@@ -4015,7 +4015,7 @@
   },
   {
     "id": 447,
-    "topic": "Selamlaşma ve Tanışma",
+    "topic": "Selamlaşma ve Tanışma (A2)",
     "en": "conversation",
     "tr": "sohbet",
     "type": "isim",
@@ -4024,7 +4024,7 @@
   },
   {
     "id": 448,
-    "topic": "Selamlaşma ve Tanışma",
+    "topic": "Selamlaşma ve Tanışma (A2)",
     "en": "invitation",
     "tr": "davet",
     "type": "isim",
@@ -4033,7 +4033,7 @@
   },
   {
     "id": 449,
-    "topic": "Selamlaşma ve Tanışma",
+    "topic": "Selamlaşma ve Tanışma (A2)",
     "en": "nationality",
     "tr": "milliyet",
     "type": "isim",
@@ -4042,7 +4042,7 @@
   },
   {
     "id": 450,
-    "topic": "Selamlaşma ve Tanışma",
+    "topic": "Selamlaşma ve Tanışma (A2)",
     "en": "language",
     "tr": "dil",
     "type": "isim",
@@ -4051,7 +4051,7 @@
   },
   {
     "id": 451,
-    "topic": "Selamlaşma ve Tanışma",
+    "topic": "Selamlaşma ve Tanışma (A2)",
     "en": "repeat",
     "tr": "tekrarlamak",
     "type": "fiil",
@@ -4060,7 +4060,7 @@
   },
   {
     "id": 452,
-    "topic": "Selamlaşma ve Tanışma",
+    "topic": "Selamlaşma ve Tanışma (A2)",
     "en": "polite",
     "tr": "nazik",
     "type": "sıfat",
@@ -4069,7 +4069,7 @@
   },
   {
     "id": 453,
-    "topic": "Selamlaşma ve Tanışma",
+    "topic": "Selamlaşma ve Tanışma (A2)",
     "en": "formal",
     "tr": "resmi",
     "type": "sıfat",
@@ -4078,7 +4078,7 @@
   },
   {
     "id": 454,
-    "topic": "Selamlaşma ve Tanışma",
+    "topic": "Selamlaşma ve Tanışma (A2)",
     "en": "casual",
     "tr": "gündelik",
     "type": "sıfat",
@@ -4087,7 +4087,7 @@
   },
   {
     "id": 455,
-    "topic": "Selamlaşma ve Tanışma",
+    "topic": "Selamlaşma ve Tanışma (A2)",
     "en": "surname",
     "tr": "soyadı",
     "type": "isim",
@@ -4096,7 +4096,7 @@
   },
   {
     "id": 456,
-    "topic": "Selamlaşma ve Tanışma",
+    "topic": "Selamlaşma ve Tanışma (A2)",
     "en": "origin",
     "tr": "köken",
     "type": "isim",
@@ -4105,7 +4105,7 @@
   },
   {
     "id": 457,
-    "topic": "Selamlaşma ve Tanışma",
+    "topic": "Selamlaşma ve Tanışma (A2)",
     "en": "abroad",
     "tr": "yurt dışı",
     "type": "zarf",
@@ -4114,7 +4114,7 @@
   },
   {
     "id": 458,
-    "topic": "Selamlaşma ve Tanışma",
+    "topic": "Selamlaşma ve Tanışma (A2)",
     "en": "phrase",
     "tr": "deyim",
     "type": "isim",
@@ -4123,7 +4123,7 @@
   },
   {
     "id": 459,
-    "topic": "Selamlaşma ve Tanışma",
+    "topic": "Selamlaşma ve Tanışma (A2)",
     "en": "accent",
     "tr": "aksan",
     "type": "isim",
@@ -4132,7 +4132,7 @@
   },
   {
     "id": 460,
-    "topic": "Selamlaşma ve Tanışma",
+    "topic": "Selamlaşma ve Tanışma (A2)",
     "en": "respond",
     "tr": "yanıt vermek",
     "type": "fiil",
@@ -4141,7 +4141,7 @@
   },
   {
     "id": 461,
-    "topic": "Selamlaşma ve Tanışma",
+    "topic": "Selamlaşma ve Tanışma (A2)",
     "en": "greet",
     "tr": "selamlamak",
     "type": "fiil",
@@ -4150,7 +4150,7 @@
   },
   {
     "id": 462,
-    "topic": "Selamlaşma ve Tanışma",
+    "topic": "Selamlaşma ve Tanışma (A2)",
     "en": "culture",
     "tr": "kültür",
     "type": "isim",
@@ -4159,7 +4159,7 @@
   },
   {
     "id": 463,
-    "topic": "Selamlaşma ve Tanışma",
+    "topic": "Selamlaşma ve Tanışma (A2)",
     "en": "gesture",
     "tr": "jest",
     "type": "isim",
@@ -4168,7 +4168,7 @@
   },
   {
     "id": 464,
-    "topic": "Selamlaşma ve Tanışma",
+    "topic": "Selamlaşma ve Tanışma (A2)",
     "en": "fluent",
     "tr": "akıcı",
     "type": "sıfat",
@@ -4177,7 +4177,7 @@
   },
   {
     "id": 465,
-    "topic": "Selamlaşma ve Tanışma",
+    "topic": "Selamlaşma ve Tanışma (A2)",
     "en": "translate",
     "tr": "çevirmek",
     "type": "fiil",
@@ -4186,7 +4186,7 @@
   },
   {
     "id": 466,
-    "topic": "Sayılar",
+    "topic": "Sayılar (A2)",
     "en": "zero",
     "tr": "sıfır",
     "type": "isim",
@@ -4195,7 +4195,7 @@
   },
   {
     "id": 467,
-    "topic": "Sayılar",
+    "topic": "Sayılar (A2)",
     "en": "million",
     "tr": "milyon",
     "type": "isim",
@@ -4204,7 +4204,7 @@
   },
   {
     "id": 468,
-    "topic": "Sayılar",
+    "topic": "Sayılar (A2)",
     "en": "billion",
     "tr": "milyar",
     "type": "isim",
@@ -4213,7 +4213,7 @@
   },
   {
     "id": 469,
-    "topic": "Sayılar",
+    "topic": "Sayılar (A2)",
     "en": "first",
     "tr": "birinci",
     "type": "sıfat",
@@ -4222,7 +4222,7 @@
   },
   {
     "id": 470,
-    "topic": "Sayılar",
+    "topic": "Sayılar (A2)",
     "en": "third",
     "tr": "üçüncü",
     "type": "sıfat",
@@ -4231,7 +4231,7 @@
   },
   {
     "id": 471,
-    "topic": "Sayılar",
+    "topic": "Sayılar (A2)",
     "en": "half",
     "tr": "yarım",
     "type": "isim",
@@ -4240,7 +4240,7 @@
   },
   {
     "id": 472,
-    "topic": "Sayılar",
+    "topic": "Sayılar (A2)",
     "en": "quarter",
     "tr": "çeyrek",
     "type": "isim",
@@ -4249,7 +4249,7 @@
   },
   {
     "id": 473,
-    "topic": "Sayılar",
+    "topic": "Sayılar (A2)",
     "en": "double",
     "tr": "iki katı",
     "type": "sıfat",
@@ -4258,7 +4258,7 @@
   },
   {
     "id": 474,
-    "topic": "Sayılar",
+    "topic": "Sayılar (A2)",
     "en": "triple",
     "tr": "üç katı",
     "type": "sıfat",
@@ -4267,7 +4267,7 @@
   },
   {
     "id": 475,
-    "topic": "Sayılar",
+    "topic": "Sayılar (A2)",
     "en": "plus",
     "tr": "artı",
     "type": "isim",
@@ -4276,7 +4276,7 @@
   },
   {
     "id": 476,
-    "topic": "Sayılar",
+    "topic": "Sayılar (A2)",
     "en": "minus",
     "tr": "eksi",
     "type": "isim",
@@ -4285,7 +4285,7 @@
   },
   {
     "id": 477,
-    "topic": "Sayılar",
+    "topic": "Sayılar (A2)",
     "en": "multiply",
     "tr": "çarpmak",
     "type": "fiil",
@@ -4294,7 +4294,7 @@
   },
   {
     "id": 478,
-    "topic": "Sayılar",
+    "topic": "Sayılar (A2)",
     "en": "divide",
     "tr": "bölmek",
     "type": "fiil",
@@ -4303,7 +4303,7 @@
   },
   {
     "id": 479,
-    "topic": "Sayılar",
+    "topic": "Sayılar (A2)",
     "en": "average",
     "tr": "ortalama",
     "type": "isim",
@@ -4312,7 +4312,7 @@
   },
   {
     "id": 480,
-    "topic": "Sayılar",
+    "topic": "Sayılar (A2)",
     "en": "percent",
     "tr": "yüzde",
     "type": "isim",
@@ -4321,7 +4321,7 @@
   },
   {
     "id": 481,
-    "topic": "Sayılar",
+    "topic": "Sayılar (A2)",
     "en": "fraction",
     "tr": "kesir",
     "type": "isim",
@@ -4330,7 +4330,7 @@
   },
   {
     "id": 482,
-    "topic": "Sayılar",
+    "topic": "Sayılar (A2)",
     "en": "calculate",
     "tr": "hesaplamak",
     "type": "fiil",
@@ -4339,7 +4339,7 @@
   },
   {
     "id": 483,
-    "topic": "Sayılar",
+    "topic": "Sayılar (A2)",
     "en": "equal",
     "tr": "eşit",
     "type": "sıfat",
@@ -4348,7 +4348,7 @@
   },
   {
     "id": 484,
-    "topic": "Sayılar",
+    "topic": "Sayılar (A2)",
     "en": "sum",
     "tr": "toplam",
     "type": "isim",
@@ -4357,7 +4357,7 @@
   },
   {
     "id": 485,
-    "topic": "Sayılar",
+    "topic": "Sayılar (A2)",
     "en": "measure",
     "tr": "ölçmek",
     "type": "fiil",
@@ -4366,7 +4366,7 @@
   },
   {
     "id": 486,
-    "topic": "Renkler",
+    "topic": "Renkler (A2)",
     "en": "silver",
     "tr": "gümüş rengi",
     "type": "sıfat",
@@ -4375,7 +4375,7 @@
   },
   {
     "id": 487,
-    "topic": "Renkler",
+    "topic": "Renkler (A2)",
     "en": "gold",
     "tr": "altın rengi",
     "type": "sıfat",
@@ -4384,7 +4384,7 @@
   },
   {
     "id": 488,
-    "topic": "Renkler",
+    "topic": "Renkler (A2)",
     "en": "navy",
     "tr": "lacivert",
     "type": "sıfat",
@@ -4393,7 +4393,7 @@
   },
   {
     "id": 489,
-    "topic": "Renkler",
+    "topic": "Renkler (A2)",
     "en": "cream",
     "tr": "krem rengi",
     "type": "sıfat",
@@ -4402,7 +4402,7 @@
   },
   {
     "id": 490,
-    "topic": "Renkler",
+    "topic": "Renkler (A2)",
     "en": "beige",
     "tr": "bej",
     "type": "sıfat",
@@ -4411,7 +4411,7 @@
   },
   {
     "id": 491,
-    "topic": "Renkler",
+    "topic": "Renkler (A2)",
     "en": "turquoise",
     "tr": "turkuaz",
     "type": "sıfat",
@@ -4420,7 +4420,7 @@
   },
   {
     "id": 492,
-    "topic": "Renkler",
+    "topic": "Renkler (A2)",
     "en": "coral",
     "tr": "mercan rengi",
     "type": "sıfat",
@@ -4429,7 +4429,7 @@
   },
   {
     "id": 493,
-    "topic": "Renkler",
+    "topic": "Renkler (A2)",
     "en": "lime",
     "tr": "limon yeşili",
     "type": "sıfat",
@@ -4438,7 +4438,7 @@
   },
   {
     "id": 494,
-    "topic": "Renkler",
+    "topic": "Renkler (A2)",
     "en": "indigo",
     "tr": "çivit mavisi",
     "type": "sıfat",
@@ -4447,7 +4447,7 @@
   },
   {
     "id": 495,
-    "topic": "Renkler",
+    "topic": "Renkler (A2)",
     "en": "teal",
     "tr": "zümrüt yeşili",
     "type": "sıfat",
@@ -4456,7 +4456,7 @@
   },
   {
     "id": 496,
-    "topic": "Renkler",
+    "topic": "Renkler (A2)",
     "en": "magenta",
     "tr": "magenta",
     "type": "sıfat",
@@ -4465,7 +4465,7 @@
   },
   {
     "id": 497,
-    "topic": "Renkler",
+    "topic": "Renkler (A2)",
     "en": "scarlet",
     "tr": "kıpkırmızı",
     "type": "sıfat",
@@ -4474,7 +4474,7 @@
   },
   {
     "id": 498,
-    "topic": "Renkler",
+    "topic": "Renkler (A2)",
     "en": "ivory",
     "tr": "fildişi rengi",
     "type": "sıfat",
@@ -4483,7 +4483,7 @@
   },
   {
     "id": 499,
-    "topic": "Renkler",
+    "topic": "Renkler (A2)",
     "en": "maroon",
     "tr": "bordo",
     "type": "sıfat",
@@ -4492,7 +4492,7 @@
   },
   {
     "id": 500,
-    "topic": "Renkler",
+    "topic": "Renkler (A2)",
     "en": "olive",
     "tr": "zeytin yeşili",
     "type": "sıfat",
@@ -4501,7 +4501,7 @@
   },
   {
     "id": 501,
-    "topic": "Renkler",
+    "topic": "Renkler (A2)",
     "en": "pastel",
     "tr": "pastel",
     "type": "sıfat",
@@ -4510,7 +4510,7 @@
   },
   {
     "id": 502,
-    "topic": "Renkler",
+    "topic": "Renkler (A2)",
     "en": "shade",
     "tr": "ton",
     "type": "isim",
@@ -4519,7 +4519,7 @@
   },
   {
     "id": 503,
-    "topic": "Renkler",
+    "topic": "Renkler (A2)",
     "en": "tint",
     "tr": "açık ton",
     "type": "isim",
@@ -4528,7 +4528,7 @@
   },
   {
     "id": 504,
-    "topic": "Renkler",
+    "topic": "Renkler (A2)",
     "en": "pattern",
     "tr": "desen",
     "type": "isim",
@@ -4537,7 +4537,7 @@
   },
   {
     "id": 505,
-    "topic": "Renkler",
+    "topic": "Renkler (A2)",
     "en": "stripe",
     "tr": "çizgi",
     "type": "isim",
@@ -4546,7 +4546,7 @@
   },
   {
     "id": 506,
-    "topic": "Aile",
+    "topic": "Aile (A2)",
     "en": "twin",
     "tr": "ikiz",
     "type": "isim",
@@ -4555,7 +4555,7 @@
   },
   {
     "id": 507,
-    "topic": "Aile",
+    "topic": "Aile (A2)",
     "en": "nephew",
     "tr": "erkek yeğen",
     "type": "isim",
@@ -4564,7 +4564,7 @@
   },
   {
     "id": 508,
-    "topic": "Aile",
+    "topic": "Aile (A2)",
     "en": "niece",
     "tr": "kız yeğen",
     "type": "isim",
@@ -4573,7 +4573,7 @@
   },
   {
     "id": 509,
-    "topic": "Aile",
+    "topic": "Aile (A2)",
     "en": "relative",
     "tr": "akraba",
     "type": "isim",
@@ -4582,7 +4582,7 @@
   },
   {
     "id": 510,
-    "topic": "Aile",
+    "topic": "Aile (A2)",
     "en": "stepmother",
     "tr": "üvey anne",
     "type": "isim",
@@ -4591,7 +4591,7 @@
   },
   {
     "id": 511,
-    "topic": "Aile",
+    "topic": "Aile (A2)",
     "en": "stepfather",
     "tr": "üvey baba",
     "type": "isim",
@@ -4600,7 +4600,7 @@
   },
   {
     "id": 512,
-    "topic": "Aile",
+    "topic": "Aile (A2)",
     "en": "generation",
     "tr": "nesil",
     "type": "isim",
@@ -4609,7 +4609,7 @@
   },
   {
     "id": 513,
-    "topic": "Aile",
+    "topic": "Aile (A2)",
     "en": "birth",
     "tr": "doğum",
     "type": "isim",
@@ -4618,7 +4618,7 @@
   },
   {
     "id": 514,
-    "topic": "Aile",
+    "topic": "Aile (A2)",
     "en": "adult",
     "tr": "yetişkin",
     "type": "isim",
@@ -4627,7 +4627,7 @@
   },
   {
     "id": 515,
-    "topic": "Aile",
+    "topic": "Aile (A2)",
     "en": "teenager",
     "tr": "ergen",
     "type": "isim",
@@ -4636,7 +4636,7 @@
   },
   {
     "id": 516,
-    "topic": "Aile",
+    "topic": "Aile (A2)",
     "en": "toddler",
     "tr": "yürümeye başlayan çocuk",
     "type": "isim",
@@ -4645,7 +4645,7 @@
   },
   {
     "id": 517,
-    "topic": "Aile",
+    "topic": "Aile (A2)",
     "en": "married",
     "tr": "evli",
     "type": "sıfat",
@@ -4654,7 +4654,7 @@
   },
   {
     "id": 518,
-    "topic": "Aile",
+    "topic": "Aile (A2)",
     "en": "divorced",
     "tr": "boşanmış",
     "type": "sıfat",
@@ -4663,7 +4663,7 @@
   },
   {
     "id": 519,
-    "topic": "Aile",
+    "topic": "Aile (A2)",
     "en": "widow",
     "tr": "dul",
     "type": "isim",
@@ -4672,7 +4672,7 @@
   },
   {
     "id": 520,
-    "topic": "Aile",
+    "topic": "Aile (A2)",
     "en": "relationship",
     "tr": "ilişki",
     "type": "isim",
@@ -4681,7 +4681,7 @@
   },
   {
     "id": 521,
-    "topic": "Aile",
+    "topic": "Aile (A2)",
     "en": "household",
     "tr": "hane",
     "type": "isim",
@@ -4690,7 +4690,7 @@
   },
   {
     "id": 522,
-    "topic": "Aile",
+    "topic": "Aile (A2)",
     "en": "grandchild",
     "tr": "torun",
     "type": "isim",
@@ -4699,7 +4699,7 @@
   },
   {
     "id": 523,
-    "topic": "Aile",
+    "topic": "Aile (A2)",
     "en": "sibling",
     "tr": "kardeş",
     "type": "isim",
@@ -4708,7 +4708,7 @@
   },
   {
     "id": 524,
-    "topic": "Aile",
+    "topic": "Aile (A2)",
     "en": "partner",
     "tr": "eş",
     "type": "isim",
@@ -4717,7 +4717,7 @@
   },
   {
     "id": 525,
-    "topic": "Aile",
+    "topic": "Aile (A2)",
     "en": "adopt",
     "tr": "evlat edinmek",
     "type": "fiil",
@@ -4726,7 +4726,7 @@
   },
   {
     "id": 526,
-    "topic": "Vücut",
+    "topic": "Vücut (A2)",
     "en": "thumb",
     "tr": "başparmak",
     "type": "isim",
@@ -4735,7 +4735,7 @@
   },
   {
     "id": 527,
-    "topic": "Vücut",
+    "topic": "Vücut (A2)",
     "en": "palm",
     "tr": "avuç içi",
     "type": "isim",
@@ -4744,7 +4744,7 @@
   },
   {
     "id": 528,
-    "topic": "Vücut",
+    "topic": "Vücut (A2)",
     "en": "wrist",
     "tr": "bilek",
     "type": "isim",
@@ -4753,7 +4753,7 @@
   },
   {
     "id": 529,
-    "topic": "Vücut",
+    "topic": "Vücut (A2)",
     "en": "ankle",
     "tr": "ayak bileği",
     "type": "isim",
@@ -4762,7 +4762,7 @@
   },
   {
     "id": 530,
-    "topic": "Vücut",
+    "topic": "Vücut (A2)",
     "en": "heel",
     "tr": "topuk",
     "type": "isim",
@@ -4771,7 +4771,7 @@
   },
   {
     "id": 531,
-    "topic": "Vücut",
+    "topic": "Vücut (A2)",
     "en": "toe",
     "tr": "ayak parmağı",
     "type": "isim",
@@ -4780,7 +4780,7 @@
   },
   {
     "id": 532,
-    "topic": "Vücut",
+    "topic": "Vücut (A2)",
     "en": "chin",
     "tr": "çene",
     "type": "isim",
@@ -4789,7 +4789,7 @@
   },
   {
     "id": 533,
-    "topic": "Vücut",
+    "topic": "Vücut (A2)",
     "en": "cheek",
     "tr": "yanak",
     "type": "isim",
@@ -4798,7 +4798,7 @@
   },
   {
     "id": 534,
-    "topic": "Vücut",
+    "topic": "Vücut (A2)",
     "en": "jaw",
     "tr": "alt çene",
     "type": "isim",
@@ -4807,7 +4807,7 @@
   },
   {
     "id": 535,
-    "topic": "Vücut",
+    "topic": "Vücut (A2)",
     "en": "brow",
     "tr": "kaş",
     "type": "isim",
@@ -4816,7 +4816,7 @@
   },
   {
     "id": 536,
-    "topic": "Vücut",
+    "topic": "Vücut (A2)",
     "en": "lip",
     "tr": "dudak",
     "type": "isim",
@@ -4825,7 +4825,7 @@
   },
   {
     "id": 537,
-    "topic": "Vücut",
+    "topic": "Vücut (A2)",
     "en": "tongue",
     "tr": "dil",
     "type": "isim",
@@ -4834,7 +4834,7 @@
   },
   {
     "id": 538,
-    "topic": "Vücut",
+    "topic": "Vücut (A2)",
     "en": "throat",
     "tr": "boğaz",
     "type": "isim",
@@ -4843,7 +4843,7 @@
   },
   {
     "id": 539,
-    "topic": "Vücut",
+    "topic": "Vücut (A2)",
     "en": "chest",
     "tr": "göğüs",
     "type": "isim",
@@ -4852,7 +4852,7 @@
   },
   {
     "id": 540,
-    "topic": "Vücut",
+    "topic": "Vücut (A2)",
     "en": "hip",
     "tr": "kalça",
     "type": "isim",
@@ -4861,7 +4861,7 @@
   },
   {
     "id": 541,
-    "topic": "Vücut",
+    "topic": "Vücut (A2)",
     "en": "elbow",
     "tr": "dirsek",
     "type": "isim",
@@ -4870,7 +4870,7 @@
   },
   {
     "id": 542,
-    "topic": "Vücut",
+    "topic": "Vücut (A2)",
     "en": "fist",
     "tr": "yumruk",
     "type": "isim",
@@ -4879,7 +4879,7 @@
   },
   {
     "id": 543,
-    "topic": "Vücut",
+    "topic": "Vücut (A2)",
     "en": "nail",
     "tr": "tırnak",
     "type": "isim",
@@ -4888,7 +4888,7 @@
   },
   {
     "id": 544,
-    "topic": "Vücut",
+    "topic": "Vücut (A2)",
     "en": "skin",
     "tr": "cilt",
     "type": "isim",
@@ -4897,7 +4897,7 @@
   },
   {
     "id": 545,
-    "topic": "Vücut",
+    "topic": "Vücut (A2)",
     "en": "bone",
     "tr": "kemik",
     "type": "isim",
@@ -4906,7 +4906,7 @@
   },
   {
     "id": 546,
-    "topic": "Yiyecekler",
+    "topic": "Yiyecekler (A2)",
     "en": "pasta",
     "tr": "makarna",
     "type": "isim",
@@ -4915,7 +4915,7 @@
   },
   {
     "id": 547,
-    "topic": "Yiyecekler",
+    "topic": "Yiyecekler (A2)",
     "en": "sandwich",
     "tr": "sandviç",
     "type": "isim",
@@ -4924,7 +4924,7 @@
   },
   {
     "id": 548,
-    "topic": "Yiyecekler",
+    "topic": "Yiyecekler (A2)",
     "en": "pizza",
     "tr": "pizza",
     "type": "isim",
@@ -4933,7 +4933,7 @@
   },
   {
     "id": 549,
-    "topic": "Yiyecekler",
+    "topic": "Yiyecekler (A2)",
     "en": "burger",
     "tr": "hamburger",
     "type": "isim",
@@ -4942,7 +4942,7 @@
   },
   {
     "id": 550,
-    "topic": "Yiyecekler",
+    "topic": "Yiyecekler (A2)",
     "en": "mushroom",
     "tr": "mantar",
     "type": "isim",
@@ -4951,7 +4951,7 @@
   },
   {
     "id": 551,
-    "topic": "Yiyecekler",
+    "topic": "Yiyecekler (A2)",
     "en": "carrot",
     "tr": "havuç",
     "type": "isim",
@@ -4960,7 +4960,7 @@
   },
   {
     "id": 552,
-    "topic": "Yiyecekler",
+    "topic": "Yiyecekler (A2)",
     "en": "onion",
     "tr": "soğan",
     "type": "isim",
@@ -4969,7 +4969,7 @@
   },
   {
     "id": 553,
-    "topic": "Yiyecekler",
+    "topic": "Yiyecekler (A2)",
     "en": "pepper",
     "tr": "biber",
     "type": "isim",
@@ -4978,7 +4978,7 @@
   },
   {
     "id": 554,
-    "topic": "Yiyecekler",
+    "topic": "Yiyecekler (A2)",
     "en": "lemon",
     "tr": "limon",
     "type": "isim",
@@ -4987,7 +4987,7 @@
   },
   {
     "id": 555,
-    "topic": "Yiyecekler",
+    "topic": "Yiyecekler (A2)",
     "en": "garlic",
     "tr": "sarımsak",
     "type": "isim",
@@ -4996,7 +4996,7 @@
   },
   {
     "id": 556,
-    "topic": "Yiyecekler",
+    "topic": "Yiyecekler (A2)",
     "en": "strawberry",
     "tr": "çilek",
     "type": "isim",
@@ -5005,7 +5005,7 @@
   },
   {
     "id": 557,
-    "topic": "Yiyecekler",
+    "topic": "Yiyecekler (A2)",
     "en": "grape",
     "tr": "üzüm",
     "type": "isim",
@@ -5014,7 +5014,7 @@
   },
   {
     "id": 558,
-    "topic": "Yiyecekler",
+    "topic": "Yiyecekler (A2)",
     "en": "watermelon",
     "tr": "karpuz",
     "type": "isim",
@@ -5023,7 +5023,7 @@
   },
   {
     "id": 559,
-    "topic": "Yiyecekler",
+    "topic": "Yiyecekler (A2)",
     "en": "pear",
     "tr": "armut",
     "type": "isim",
@@ -5032,7 +5032,7 @@
   },
   {
     "id": 560,
-    "topic": "Yiyecekler",
+    "topic": "Yiyecekler (A2)",
     "en": "pineapple",
     "tr": "ananas",
     "type": "isim",
@@ -5041,7 +5041,7 @@
   },
   {
     "id": 561,
-    "topic": "Yiyecekler",
+    "topic": "Yiyecekler (A2)",
     "en": "yogurt",
     "tr": "yoğurt",
     "type": "isim",
@@ -5050,7 +5050,7 @@
   },
   {
     "id": 562,
-    "topic": "Yiyecekler",
+    "topic": "Yiyecekler (A2)",
     "en": "sauce",
     "tr": "sos",
     "type": "isim",
@@ -5059,7 +5059,7 @@
   },
   {
     "id": 563,
-    "topic": "Yiyecekler",
+    "topic": "Yiyecekler (A2)",
     "en": "spice",
     "tr": "baharat",
     "type": "isim",
@@ -5068,7 +5068,7 @@
   },
   {
     "id": 564,
-    "topic": "Yiyecekler",
+    "topic": "Yiyecekler (A2)",
     "en": "meal",
     "tr": "öğün",
     "type": "isim",
@@ -5077,7 +5077,7 @@
   },
   {
     "id": 565,
-    "topic": "Yiyecekler",
+    "topic": "Yiyecekler (A2)",
     "en": "portion",
     "tr": "porsiyon",
     "type": "isim",
@@ -5086,7 +5086,7 @@
   },
   {
     "id": 566,
-    "topic": "Giyim",
+    "topic": "Giyim (A2)",
     "en": "suit",
     "tr": "takım elbise",
     "type": "isim",
@@ -5095,7 +5095,7 @@
   },
   {
     "id": 567,
-    "topic": "Giyim",
+    "topic": "Giyim (A2)",
     "en": "tie",
     "tr": "kravat",
     "type": "isim",
@@ -5104,7 +5104,7 @@
   },
   {
     "id": 568,
-    "topic": "Giyim",
+    "topic": "Giyim (A2)",
     "en": "belt",
     "tr": "kemer",
     "type": "isim",
@@ -5113,7 +5113,7 @@
   },
   {
     "id": 569,
-    "topic": "Giyim",
+    "topic": "Giyim (A2)",
     "en": "pocket",
     "tr": "cep",
     "type": "isim",
@@ -5122,7 +5122,7 @@
   },
   {
     "id": 570,
-    "topic": "Giyim",
+    "topic": "Giyim (A2)",
     "en": "button",
     "tr": "düğme",
     "type": "isim",
@@ -5131,7 +5131,7 @@
   },
   {
     "id": 571,
-    "topic": "Giyim",
+    "topic": "Giyim (A2)",
     "en": "zip",
     "tr": "fermuar",
     "type": "isim",
@@ -5140,7 +5140,7 @@
   },
   {
     "id": 572,
-    "topic": "Giyim",
+    "topic": "Giyim (A2)",
     "en": "sleeve",
     "tr": "kol",
     "type": "isim",
@@ -5149,7 +5149,7 @@
   },
   {
     "id": 573,
-    "topic": "Giyim",
+    "topic": "Giyim (A2)",
     "en": "collar",
     "tr": "yaka",
     "type": "isim",
@@ -5158,7 +5158,7 @@
   },
   {
     "id": 574,
-    "topic": "Giyim",
+    "topic": "Giyim (A2)",
     "en": "hood",
     "tr": "kapüşon",
     "type": "isim",
@@ -5167,7 +5167,7 @@
   },
   {
     "id": 575,
-    "topic": "Giyim",
+    "topic": "Giyim (A2)",
     "en": "shorts",
     "tr": "şort",
     "type": "isim",
@@ -5176,7 +5176,7 @@
   },
   {
     "id": 576,
-    "topic": "Giyim",
+    "topic": "Giyim (A2)",
     "en": "swimsuit",
     "tr": "mayo",
     "type": "isim",
@@ -5185,7 +5185,7 @@
   },
   {
     "id": 577,
-    "topic": "Giyim",
+    "topic": "Giyim (A2)",
     "en": "jeans",
     "tr": "kot pantolon",
     "type": "isim",
@@ -5194,7 +5194,7 @@
   },
   {
     "id": 578,
-    "topic": "Giyim",
+    "topic": "Giyim (A2)",
     "en": "vest",
     "tr": "yelek",
     "type": "isim",
@@ -5203,7 +5203,7 @@
   },
   {
     "id": 579,
-    "topic": "Giyim",
+    "topic": "Giyim (A2)",
     "en": "cardigan",
     "tr": "hırka",
     "type": "isim",
@@ -5212,7 +5212,7 @@
   },
   {
     "id": 580,
-    "topic": "Giyim",
+    "topic": "Giyim (A2)",
     "en": "blouse",
     "tr": "bluz",
     "type": "isim",
@@ -5221,7 +5221,7 @@
   },
   {
     "id": 581,
-    "topic": "Giyim",
+    "topic": "Giyim (A2)",
     "en": "sandals",
     "tr": "sandalet",
     "type": "isim",
@@ -5230,7 +5230,7 @@
   },
   {
     "id": 582,
-    "topic": "Giyim",
+    "topic": "Giyim (A2)",
     "en": "sneakers",
     "tr": "spor ayakkabı",
     "type": "isim",
@@ -5239,7 +5239,7 @@
   },
   {
     "id": 583,
-    "topic": "Giyim",
+    "topic": "Giyim (A2)",
     "en": "fabric",
     "tr": "kumaş",
     "type": "isim",
@@ -5248,7 +5248,7 @@
   },
   {
     "id": 584,
-    "topic": "Giyim",
+    "topic": "Giyim (A2)",
     "en": "fashion",
     "tr": "moda",
     "type": "isim",
@@ -5257,7 +5257,7 @@
   },
   {
     "id": 585,
-    "topic": "Giyim",
+    "topic": "Giyim (A2)",
     "en": "style",
     "tr": "stil",
     "type": "isim",
@@ -5266,7 +5266,7 @@
   },
   {
     "id": 586,
-    "topic": "Ev ve Mobilya",
+    "topic": "Ev ve Mobilya (A2)",
     "en": "shelf",
     "tr": "raf",
     "type": "isim",
@@ -5275,7 +5275,7 @@
   },
   {
     "id": 587,
-    "topic": "Ev ve Mobilya",
+    "topic": "Ev ve Mobilya (A2)",
     "en": "mirror",
     "tr": "ayna",
     "type": "isim",
@@ -5284,7 +5284,7 @@
   },
   {
     "id": 588,
-    "topic": "Ev ve Mobilya",
+    "topic": "Ev ve Mobilya (A2)",
     "en": "carpet",
     "tr": "halı",
     "type": "isim",
@@ -5293,7 +5293,7 @@
   },
   {
     "id": 589,
-    "topic": "Ev ve Mobilya",
+    "topic": "Ev ve Mobilya (A2)",
     "en": "curtain",
     "tr": "perde",
     "type": "isim",
@@ -5302,7 +5302,7 @@
   },
   {
     "id": 590,
-    "topic": "Ev ve Mobilya",
+    "topic": "Ev ve Mobilya (A2)",
     "en": "pillow",
     "tr": "yastık",
     "type": "isim",
@@ -5311,7 +5311,7 @@
   },
   {
     "id": 591,
-    "topic": "Ev ve Mobilya",
+    "topic": "Ev ve Mobilya (A2)",
     "en": "blanket",
     "tr": "battaniye",
     "type": "isim",
@@ -5320,7 +5320,7 @@
   },
   {
     "id": 592,
-    "topic": "Ev ve Mobilya",
+    "topic": "Ev ve Mobilya (A2)",
     "en": "shower",
     "tr": "duş",
     "type": "isim",
@@ -5329,7 +5329,7 @@
   },
   {
     "id": 593,
-    "topic": "Ev ve Mobilya",
+    "topic": "Ev ve Mobilya (A2)",
     "en": "toilet",
     "tr": "tuvalet",
     "type": "isim",
@@ -5338,7 +5338,7 @@
   },
   {
     "id": 594,
-    "topic": "Ev ve Mobilya",
+    "topic": "Ev ve Mobilya (A2)",
     "en": "sink",
     "tr": "lavabo",
     "type": "isim",
@@ -5347,7 +5347,7 @@
   },
   {
     "id": 595,
-    "topic": "Ev ve Mobilya",
+    "topic": "Ev ve Mobilya (A2)",
     "en": "tap",
     "tr": "musluk",
     "type": "isim",
@@ -5356,7 +5356,7 @@
   },
   {
     "id": 596,
-    "topic": "Ev ve Mobilya",
+    "topic": "Ev ve Mobilya (A2)",
     "en": "wardrobe",
     "tr": "gardırop",
     "type": "isim",
@@ -5365,7 +5365,7 @@
   },
   {
     "id": 597,
-    "topic": "Ev ve Mobilya",
+    "topic": "Ev ve Mobilya (A2)",
     "en": "drawer",
     "tr": "çekmece",
     "type": "isim",
@@ -5374,7 +5374,7 @@
   },
   {
     "id": 598,
-    "topic": "Ev ve Mobilya",
+    "topic": "Ev ve Mobilya (A2)",
     "en": "ceiling",
     "tr": "tavan",
     "type": "isim",
@@ -5383,7 +5383,7 @@
   },
   {
     "id": 599,
-    "topic": "Ev ve Mobilya",
+    "topic": "Ev ve Mobilya (A2)",
     "en": "balcony",
     "tr": "balkon",
     "type": "isim",
@@ -5392,7 +5392,7 @@
   },
   {
     "id": 600,
-    "topic": "Ev ve Mobilya",
+    "topic": "Ev ve Mobilya (A2)",
     "en": "garage",
     "tr": "garaj",
     "type": "isim",
@@ -5401,7 +5401,7 @@
   },
   {
     "id": 601,
-    "topic": "Ev ve Mobilya",
+    "topic": "Ev ve Mobilya (A2)",
     "en": "basement",
     "tr": "bodrum kat",
     "type": "isim",
@@ -5410,7 +5410,7 @@
   },
   {
     "id": 602,
-    "topic": "Ev ve Mobilya",
+    "topic": "Ev ve Mobilya (A2)",
     "en": "attic",
     "tr": "çatı katı",
     "type": "isim",
@@ -5419,7 +5419,7 @@
   },
   {
     "id": 603,
-    "topic": "Ev ve Mobilya",
+    "topic": "Ev ve Mobilya (A2)",
     "en": "hallway",
     "tr": "koridor",
     "type": "isim",
@@ -5428,7 +5428,7 @@
   },
   {
     "id": 604,
-    "topic": "Ev ve Mobilya",
+    "topic": "Ev ve Mobilya (A2)",
     "en": "furniture",
     "tr": "mobilya",
     "type": "isim",
@@ -5437,7 +5437,7 @@
   },
   {
     "id": 605,
-    "topic": "Ev ve Mobilya",
+    "topic": "Ev ve Mobilya (A2)",
     "en": "apartment",
     "tr": "daire",
     "type": "isim",
@@ -5446,7 +5446,7 @@
   },
   {
     "id": 606,
-    "topic": "Hayvanlar",
+    "topic": "Hayvanlar (A2)",
     "en": "wolf",
     "tr": "kurt",
     "type": "isim",
@@ -5455,7 +5455,7 @@
   },
   {
     "id": 607,
-    "topic": "Hayvanlar",
+    "topic": "Hayvanlar (A2)",
     "en": "tiger",
     "tr": "kaplan",
     "type": "isim",
@@ -5464,7 +5464,7 @@
   },
   {
     "id": 608,
-    "topic": "Hayvanlar",
+    "topic": "Hayvanlar (A2)",
     "en": "deer",
     "tr": "geyik",
     "type": "isim",
@@ -5473,7 +5473,7 @@
   },
   {
     "id": 609,
-    "topic": "Hayvanlar",
+    "topic": "Hayvanlar (A2)",
     "en": "fox",
     "tr": "tilki",
     "type": "isim",
@@ -5482,7 +5482,7 @@
   },
   {
     "id": 610,
-    "topic": "Hayvanlar",
+    "topic": "Hayvanlar (A2)",
     "en": "squirrel",
     "tr": "sincap",
     "type": "isim",
@@ -5491,7 +5491,7 @@
   },
   {
     "id": 611,
-    "topic": "Hayvanlar",
+    "topic": "Hayvanlar (A2)",
     "en": "parrot",
     "tr": "papağan",
     "type": "isim",
@@ -5500,7 +5500,7 @@
   },
   {
     "id": 612,
-    "topic": "Hayvanlar",
+    "topic": "Hayvanlar (A2)",
     "en": "dolphin",
     "tr": "yunus",
     "type": "isim",
@@ -5509,7 +5509,7 @@
   },
   {
     "id": 613,
-    "topic": "Hayvanlar",
+    "topic": "Hayvanlar (A2)",
     "en": "crocodile",
     "tr": "timsah",
     "type": "isim",
@@ -5518,7 +5518,7 @@
   },
   {
     "id": 614,
-    "topic": "Hayvanlar",
+    "topic": "Hayvanlar (A2)",
     "en": "penguin",
     "tr": "penguen",
     "type": "isim",
@@ -5527,7 +5527,7 @@
   },
   {
     "id": 615,
-    "topic": "Hayvanlar",
+    "topic": "Hayvanlar (A2)",
     "en": "owl",
     "tr": "baykuş",
     "type": "isim",
@@ -5536,7 +5536,7 @@
   },
   {
     "id": 616,
-    "topic": "Hayvanlar",
+    "topic": "Hayvanlar (A2)",
     "en": "goat",
     "tr": "keçi",
     "type": "isim",
@@ -5545,7 +5545,7 @@
   },
   {
     "id": 617,
-    "topic": "Hayvanlar",
+    "topic": "Hayvanlar (A2)",
     "en": "donkey",
     "tr": "eşek",
     "type": "isim",
@@ -5554,7 +5554,7 @@
   },
   {
     "id": 618,
-    "topic": "Hayvanlar",
+    "topic": "Hayvanlar (A2)",
     "en": "camel",
     "tr": "deve",
     "type": "isim",
@@ -5563,7 +5563,7 @@
   },
   {
     "id": 619,
-    "topic": "Hayvanlar",
+    "topic": "Hayvanlar (A2)",
     "en": "eagle",
     "tr": "kartal",
     "type": "isim",
@@ -5572,7 +5572,7 @@
   },
   {
     "id": 620,
-    "topic": "Hayvanlar",
+    "topic": "Hayvanlar (A2)",
     "en": "bat",
     "tr": "yarasa",
     "type": "isim",
@@ -5581,7 +5581,7 @@
   },
   {
     "id": 621,
-    "topic": "Hayvanlar",
+    "topic": "Hayvanlar (A2)",
     "en": "shark",
     "tr": "köpekbalığı",
     "type": "isim",
@@ -5590,7 +5590,7 @@
   },
   {
     "id": 622,
-    "topic": "Hayvanlar",
+    "topic": "Hayvanlar (A2)",
     "en": "lobster",
     "tr": "ıstakoz",
     "type": "isim",
@@ -5599,7 +5599,7 @@
   },
   {
     "id": 623,
-    "topic": "Hayvanlar",
+    "topic": "Hayvanlar (A2)",
     "en": "butterfly",
     "tr": "kelebek",
     "type": "isim",
@@ -5608,7 +5608,7 @@
   },
   {
     "id": 624,
-    "topic": "Hayvanlar",
+    "topic": "Hayvanlar (A2)",
     "en": "ant",
     "tr": "karınca",
     "type": "isim",
@@ -5617,7 +5617,7 @@
   },
   {
     "id": 625,
-    "topic": "Hayvanlar",
+    "topic": "Hayvanlar (A2)",
     "en": "worm",
     "tr": "solucan",
     "type": "isim",
@@ -5626,7 +5626,7 @@
   },
   {
     "id": 626,
-    "topic": "Günlük Fiiller",
+    "topic": "Günlük Fiiller (A2)",
     "en": "clean",
     "tr": "temizlemek",
     "type": "fiil",
@@ -5635,7 +5635,7 @@
   },
   {
     "id": 627,
-    "topic": "Günlük Fiiller",
+    "topic": "Günlük Fiiller (A2)",
     "en": "wash",
     "tr": "yıkamak",
     "type": "fiil",
@@ -5644,7 +5644,7 @@
   },
   {
     "id": 628,
-    "topic": "Günlük Fiiller",
+    "topic": "Günlük Fiiller (A2)",
     "en": "buy",
     "tr": "satın almak",
     "type": "fiil",
@@ -5653,7 +5653,7 @@
   },
   {
     "id": 629,
-    "topic": "Günlük Fiiller",
+    "topic": "Günlük Fiiller (A2)",
     "en": "carry",
     "tr": "taşımak",
     "type": "fiil",
@@ -5662,7 +5662,7 @@
   },
   {
     "id": 630,
-    "topic": "Günlük Fiiller",
+    "topic": "Günlük Fiiller (A2)",
     "en": "bring",
     "tr": "getirmek",
     "type": "fiil",
@@ -5671,7 +5671,7 @@
   },
   {
     "id": 631,
-    "topic": "Günlük Fiiller",
+    "topic": "Günlük Fiiller (A2)",
     "en": "send",
     "tr": "göndermek",
     "type": "fiil",
@@ -5680,7 +5680,7 @@
   },
   {
     "id": 632,
-    "topic": "Günlük Fiiller",
+    "topic": "Günlük Fiiller (A2)",
     "en": "show",
     "tr": "göstermek",
     "type": "fiil",
@@ -5689,7 +5689,7 @@
   },
   {
     "id": 633,
-    "topic": "Günlük Fiiller",
+    "topic": "Günlük Fiiller (A2)",
     "en": "find",
     "tr": "bulmak",
     "type": "fiil",
@@ -5698,7 +5698,7 @@
   },
   {
     "id": 634,
-    "topic": "Günlük Fiiller",
+    "topic": "Günlük Fiiller (A2)",
     "en": "return",
     "tr": "geri dönmek",
     "type": "fiil",
@@ -5707,7 +5707,7 @@
   },
   {
     "id": 635,
-    "topic": "Günlük Fiiller",
+    "topic": "Günlük Fiiller (A2)",
     "en": "break",
     "tr": "kırmak",
     "type": "fiil",
@@ -5716,7 +5716,7 @@
   },
   {
     "id": 636,
-    "topic": "Günlük Fiiller",
+    "topic": "Günlük Fiiller (A2)",
     "en": "fix",
     "tr": "tamir etmek",
     "type": "fiil",
@@ -5725,7 +5725,7 @@
   },
   {
     "id": 637,
-    "topic": "Günlük Fiiller",
+    "topic": "Günlük Fiiller (A2)",
     "en": "start",
     "tr": "başlamak",
     "type": "fiil",
@@ -5734,7 +5734,7 @@
   },
   {
     "id": 638,
-    "topic": "Günlük Fiiller",
+    "topic": "Günlük Fiiller (A2)",
     "en": "finish",
     "tr": "bitirmek",
     "type": "fiil",
@@ -5743,7 +5743,7 @@
   },
   {
     "id": 639,
-    "topic": "Günlük Fiiller",
+    "topic": "Günlük Fiiller (A2)",
     "en": "try",
     "tr": "denemek",
     "type": "fiil",
@@ -5752,7 +5752,7 @@
   },
   {
     "id": 640,
-    "topic": "Günlük Fiiller",
+    "topic": "Günlük Fiiller (A2)",
     "en": "choose",
     "tr": "seçmek",
     "type": "fiil",
@@ -5761,7 +5761,7 @@
   },
   {
     "id": 641,
-    "topic": "Günlük Fiiller",
+    "topic": "Günlük Fiiller (A2)",
     "en": "move",
     "tr": "hareket etmek",
     "type": "fiil",
@@ -5770,7 +5770,7 @@
   },
   {
     "id": 642,
-    "topic": "Günlük Fiiller",
+    "topic": "Günlük Fiiller (A2)",
     "en": "think",
     "tr": "düşünmek",
     "type": "fiil",
@@ -5779,7 +5779,7 @@
   },
   {
     "id": 643,
-    "topic": "Günlük Fiiller",
+    "topic": "Günlük Fiiller (A2)",
     "en": "forget",
     "tr": "unutmak",
     "type": "fiil",
@@ -5788,7 +5788,7 @@
   },
   {
     "id": 644,
-    "topic": "Günlük Fiiller",
+    "topic": "Günlük Fiiller (A2)",
     "en": "push",
     "tr": "itmek",
     "type": "fiil",
@@ -5797,7 +5797,7 @@
   },
   {
     "id": 645,
-    "topic": "Günlük Fiiller",
+    "topic": "Günlük Fiiller (A2)",
     "en": "pull",
     "tr": "çekmek",
     "type": "fiil",
@@ -5806,7 +5806,7 @@
   },
   {
     "id": 646,
-    "topic": "Doğa ve Hava",
+    "topic": "Doğa ve Hava (A2)",
     "en": "beach",
     "tr": "plaj",
     "type": "isim",
@@ -5815,7 +5815,7 @@
   },
   {
     "id": 647,
-    "topic": "Doğa ve Hava",
+    "topic": "Doğa ve Hava (A2)",
     "en": "desert",
     "tr": "çöl",
     "type": "isim",
@@ -5824,7 +5824,7 @@
   },
   {
     "id": 648,
-    "topic": "Doğa ve Hava",
+    "topic": "Doğa ve Hava (A2)",
     "en": "forest",
     "tr": "orman",
     "type": "isim",
@@ -5833,7 +5833,7 @@
   },
   {
     "id": 649,
-    "topic": "Doğa ve Hava",
+    "topic": "Doğa ve Hava (A2)",
     "en": "lake",
     "tr": "göl",
     "type": "isim",
@@ -5842,7 +5842,7 @@
   },
   {
     "id": 650,
-    "topic": "Doğa ve Hava",
+    "topic": "Doğa ve Hava (A2)",
     "en": "valley",
     "tr": "vadi",
     "type": "isim",
@@ -5851,7 +5851,7 @@
   },
   {
     "id": 651,
-    "topic": "Doğa ve Hava",
+    "topic": "Doğa ve Hava (A2)",
     "en": "island",
     "tr": "ada",
     "type": "isim",
@@ -5860,7 +5860,7 @@
   },
   {
     "id": 652,
-    "topic": "Doğa ve Hava",
+    "topic": "Doğa ve Hava (A2)",
     "en": "volcano",
     "tr": "yanardağ",
     "type": "isim",
@@ -5869,7 +5869,7 @@
   },
   {
     "id": 653,
-    "topic": "Doğa ve Hava",
+    "topic": "Doğa ve Hava (A2)",
     "en": "earthquake",
     "tr": "deprem",
     "type": "isim",
@@ -5878,7 +5878,7 @@
   },
   {
     "id": 654,
-    "topic": "Doğa ve Hava",
+    "topic": "Doğa ve Hava (A2)",
     "en": "rainbow",
     "tr": "gökkuşağı",
     "type": "isim",
@@ -5887,7 +5887,7 @@
   },
   {
     "id": 655,
-    "topic": "Doğa ve Hava",
+    "topic": "Doğa ve Hava (A2)",
     "en": "lightning",
     "tr": "şimşek",
     "type": "isim",
@@ -5896,7 +5896,7 @@
   },
   {
     "id": 656,
-    "topic": "Doğa ve Hava",
+    "topic": "Doğa ve Hava (A2)",
     "en": "thunder",
     "tr": "gök gürültüsü",
     "type": "isim",
@@ -5905,7 +5905,7 @@
   },
   {
     "id": 657,
-    "topic": "Doğa ve Hava",
+    "topic": "Doğa ve Hava (A2)",
     "en": "frost",
     "tr": "kırağı",
     "type": "isim",
@@ -5914,7 +5914,7 @@
   },
   {
     "id": 658,
-    "topic": "Doğa ve Hava",
+    "topic": "Doğa ve Hava (A2)",
     "en": "hail",
     "tr": "dolu",
     "type": "isim",
@@ -5923,7 +5923,7 @@
   },
   {
     "id": 659,
-    "topic": "Doğa ve Hava",
+    "topic": "Doğa ve Hava (A2)",
     "en": "flood",
     "tr": "sel",
     "type": "isim",
@@ -5932,7 +5932,7 @@
   },
   {
     "id": 660,
-    "topic": "Doğa ve Hava",
+    "topic": "Doğa ve Hava (A2)",
     "en": "drought",
     "tr": "kuraklık",
     "type": "isim",
@@ -5941,7 +5941,7 @@
   },
   {
     "id": 661,
-    "topic": "Doğa ve Hava",
+    "topic": "Doğa ve Hava (A2)",
     "en": "soil",
     "tr": "toprak",
     "type": "isim",
@@ -5950,7 +5950,7 @@
   },
   {
     "id": 662,
-    "topic": "Doğa ve Hava",
+    "topic": "Doğa ve Hava (A2)",
     "en": "rock",
     "tr": "kaya",
     "type": "isim",
@@ -5959,7 +5959,7 @@
   },
   {
     "id": 663,
-    "topic": "Doğa ve Hava",
+    "topic": "Doğa ve Hava (A2)",
     "en": "sand",
     "tr": "kum",
     "type": "isim",
@@ -5968,7 +5968,7 @@
   },
   {
     "id": 664,
-    "topic": "Doğa ve Hava",
+    "topic": "Doğa ve Hava (A2)",
     "en": "cliff",
     "tr": "uçurum",
     "type": "isim",
@@ -5977,7 +5977,7 @@
   },
   {
     "id": 665,
-    "topic": "Doğa ve Hava",
+    "topic": "Doğa ve Hava (A2)",
     "en": "cave",
     "tr": "mağara",
     "type": "isim",
@@ -5986,7 +5986,7 @@
   },
   {
     "id": 666,
-    "topic": "Günler, Aylar, Mevsimler",
+    "topic": "Günler, Aylar, Mevsimler (A2)",
     "en": "daily",
     "tr": "günlük",
     "type": "sıfat",
@@ -5995,7 +5995,7 @@
   },
   {
     "id": 667,
-    "topic": "Günler, Aylar, Mevsimler",
+    "topic": "Günler, Aylar, Mevsimler (A2)",
     "en": "weekly",
     "tr": "haftalık",
     "type": "sıfat",
@@ -6004,7 +6004,7 @@
   },
   {
     "id": 668,
-    "topic": "Günler, Aylar, Mevsimler",
+    "topic": "Günler, Aylar, Mevsimler (A2)",
     "en": "monthly",
     "tr": "aylık",
     "type": "sıfat",
@@ -6013,7 +6013,7 @@
   },
   {
     "id": 669,
-    "topic": "Günler, Aylar, Mevsimler",
+    "topic": "Günler, Aylar, Mevsimler (A2)",
     "en": "annual",
     "tr": "yıllık",
     "type": "sıfat",
@@ -6022,7 +6022,7 @@
   },
   {
     "id": 670,
-    "topic": "Günler, Aylar, Mevsimler",
+    "topic": "Günler, Aylar, Mevsimler (A2)",
     "en": "century",
     "tr": "yüzyıl",
     "type": "isim",
@@ -6031,7 +6031,7 @@
   },
   {
     "id": 671,
-    "topic": "Günler, Aylar, Mevsimler",
+    "topic": "Günler, Aylar, Mevsimler (A2)",
     "en": "decade",
     "tr": "on yıl",
     "type": "isim",
@@ -6040,7 +6040,7 @@
   },
   {
     "id": 672,
-    "topic": "Günler, Aylar, Mevsimler",
+    "topic": "Günler, Aylar, Mevsimler (A2)",
     "en": "fortnight",
     "tr": "iki hafta",
     "type": "isim",
@@ -6049,7 +6049,7 @@
   },
   {
     "id": 673,
-    "topic": "Günler, Aylar, Mevsimler",
+    "topic": "Günler, Aylar, Mevsimler (A2)",
     "en": "semester",
     "tr": "sömestr",
     "type": "isim",
@@ -6058,7 +6058,7 @@
   },
   {
     "id": 674,
-    "topic": "Günler, Aylar, Mevsimler",
+    "topic": "Günler, Aylar, Mevsimler (A2)",
     "en": "weekend",
     "tr": "hafta sonu",
     "type": "isim",
@@ -6067,7 +6067,7 @@
   },
   {
     "id": 675,
-    "topic": "Günler, Aylar, Mevsimler",
+    "topic": "Günler, Aylar, Mevsimler (A2)",
     "en": "holiday",
     "tr": "tatil",
     "type": "isim",
@@ -6076,7 +6076,7 @@
   },
   {
     "id": 676,
-    "topic": "Günler, Aylar, Mevsimler",
+    "topic": "Günler, Aylar, Mevsimler (A2)",
     "en": "calendar",
     "tr": "takvim",
     "type": "isim",
@@ -6085,7 +6085,7 @@
   },
   {
     "id": 677,
-    "topic": "Günler, Aylar, Mevsimler",
+    "topic": "Günler, Aylar, Mevsimler (A2)",
     "en": "schedule",
     "tr": "program",
     "type": "isim",
@@ -6094,7 +6094,7 @@
   },
   {
     "id": 678,
-    "topic": "Günler, Aylar, Mevsimler",
+    "topic": "Günler, Aylar, Mevsimler (A2)",
     "en": "birthday",
     "tr": "doğum günü",
     "type": "isim",
@@ -6103,7 +6103,7 @@
   },
   {
     "id": 679,
-    "topic": "Günler, Aylar, Mevsimler",
+    "topic": "Günler, Aylar, Mevsimler (A2)",
     "en": "anniversary",
     "tr": "yıl dönümü",
     "type": "isim",
@@ -6112,7 +6112,7 @@
   },
   {
     "id": 680,
-    "topic": "Günler, Aylar, Mevsimler",
+    "topic": "Günler, Aylar, Mevsimler (A2)",
     "en": "deadline",
     "tr": "son tarih",
     "type": "isim",
@@ -6121,7 +6121,7 @@
   },
   {
     "id": 681,
-    "topic": "Günler, Aylar, Mevsimler",
+    "topic": "Günler, Aylar, Mevsimler (A2)",
     "en": "occasion",
     "tr": "özel gün",
     "type": "isim",
@@ -6130,7 +6130,7 @@
   },
   {
     "id": 682,
-    "topic": "Günler, Aylar, Mevsimler",
+    "topic": "Günler, Aylar, Mevsimler (A2)",
     "en": "period",
     "tr": "dönem",
     "type": "isim",
@@ -6139,7 +6139,7 @@
   },
   {
     "id": 683,
-    "topic": "Günler, Aylar, Mevsimler",
+    "topic": "Günler, Aylar, Mevsimler (A2)",
     "en": "duration",
     "tr": "süre",
     "type": "isim",
@@ -6148,7 +6148,7 @@
   },
   {
     "id": 684,
-    "topic": "Günler, Aylar, Mevsimler",
+    "topic": "Günler, Aylar, Mevsimler (A2)",
     "en": "routine",
     "tr": "rutin",
     "type": "isim",
@@ -6157,7 +6157,7 @@
   },
   {
     "id": 685,
-    "topic": "Günler, Aylar, Mevsimler",
+    "topic": "Günler, Aylar, Mevsimler (A2)",
     "en": "forecast",
     "tr": "hava tahmini",
     "type": "isim",
@@ -6166,7 +6166,7 @@
   },
   {
     "id": 686,
-    "topic": "Zaman",
+    "topic": "Zaman (A2)",
     "en": "midnight",
     "tr": "gece yarısı",
     "type": "isim",
@@ -6175,7 +6175,7 @@
   },
   {
     "id": 687,
-    "topic": "Zaman",
+    "topic": "Zaman (A2)",
     "en": "noon",
     "tr": "öğlen",
     "type": "isim",
@@ -6184,7 +6184,7 @@
   },
   {
     "id": 688,
-    "topic": "Zaman",
+    "topic": "Zaman (A2)",
     "en": "afternoon",
     "tr": "öğleden sonra",
     "type": "isim",
@@ -6193,7 +6193,7 @@
   },
   {
     "id": 689,
-    "topic": "Zaman",
+    "topic": "Zaman (A2)",
     "en": "past",
     "tr": "geçmiş",
     "type": "isim",
@@ -6202,7 +6202,7 @@
   },
   {
     "id": 690,
-    "topic": "Zaman",
+    "topic": "Zaman (A2)",
     "en": "present",
     "tr": "şimdiki zaman",
     "type": "isim",
@@ -6211,7 +6211,7 @@
   },
   {
     "id": 691,
-    "topic": "Zaman",
+    "topic": "Zaman (A2)",
     "en": "future",
     "tr": "gelecek",
     "type": "isim",
@@ -6220,7 +6220,7 @@
   },
   {
     "id": 692,
-    "topic": "Zaman",
+    "topic": "Zaman (A2)",
     "en": "instant",
     "tr": "an",
     "type": "isim",
@@ -6229,7 +6229,7 @@
   },
   {
     "id": 693,
-    "topic": "Zaman",
+    "topic": "Zaman (A2)",
     "en": "moment",
     "tr": "kısa süre",
     "type": "isim",
@@ -6238,7 +6238,7 @@
   },
   {
     "id": 694,
-    "topic": "Zaman",
+    "topic": "Zaman (A2)",
     "en": "recently",
     "tr": "son zamanlarda",
     "type": "zarf",
@@ -6247,7 +6247,7 @@
   },
   {
     "id": 695,
-    "topic": "Zaman",
+    "topic": "Zaman (A2)",
     "en": "soon",
     "tr": "yakında",
     "type": "zarf",
@@ -6256,7 +6256,7 @@
   },
   {
     "id": 696,
-    "topic": "Zaman",
+    "topic": "Zaman (A2)",
     "en": "already",
     "tr": "zaten",
     "type": "zarf",
@@ -6265,7 +6265,7 @@
   },
   {
     "id": 697,
-    "topic": "Zaman",
+    "topic": "Zaman (A2)",
     "en": "still",
     "tr": "hâlâ",
     "type": "zarf",
@@ -6274,7 +6274,7 @@
   },
   {
     "id": 698,
-    "topic": "Zaman",
+    "topic": "Zaman (A2)",
     "en": "yet",
     "tr": "henüz",
     "type": "zarf",
@@ -6283,7 +6283,7 @@
   },
   {
     "id": 699,
-    "topic": "Zaman",
+    "topic": "Zaman (A2)",
     "en": "since",
     "tr": "beri",
     "type": "zarf",
@@ -6292,7 +6292,7 @@
   },
   {
     "id": 700,
-    "topic": "Zaman",
+    "topic": "Zaman (A2)",
     "en": "until",
     "tr": "kadar",
     "type": "zarf",
@@ -6301,7 +6301,7 @@
   },
   {
     "id": 701,
-    "topic": "Zaman",
+    "topic": "Zaman (A2)",
     "en": "before",
     "tr": "önce",
     "type": "zarf",
@@ -6310,7 +6310,7 @@
   },
   {
     "id": 702,
-    "topic": "Zaman",
+    "topic": "Zaman (A2)",
     "en": "after",
     "tr": "sonra",
     "type": "zarf",
@@ -6319,7 +6319,7 @@
   },
   {
     "id": 703,
-    "topic": "Zaman",
+    "topic": "Zaman (A2)",
     "en": "during",
     "tr": "boyunca",
     "type": "zarf",
@@ -6328,7 +6328,7 @@
   },
   {
     "id": 704,
-    "topic": "Zaman",
+    "topic": "Zaman (A2)",
     "en": "meanwhile",
     "tr": "bu sırada",
     "type": "zarf",
@@ -6337,7 +6337,7 @@
   },
   {
     "id": 705,
-    "topic": "Zaman",
+    "topic": "Zaman (A2)",
     "en": "suddenly",
     "tr": "aniden",
     "type": "zarf",
@@ -6346,7 +6346,7 @@
   },
   {
     "id": 706,
-    "topic": "Ulaşım",
+    "topic": "Ulaşım (A2)",
     "en": "metro",
     "tr": "metro",
     "type": "isim",
@@ -6355,7 +6355,7 @@
   },
   {
     "id": 707,
-    "topic": "Ulaşım",
+    "topic": "Ulaşım (A2)",
     "en": "tram",
     "tr": "tramvay",
     "type": "isim",
@@ -6364,7 +6364,7 @@
   },
   {
     "id": 708,
-    "topic": "Ulaşım",
+    "topic": "Ulaşım (A2)",
     "en": "helicopter",
     "tr": "helikopter",
     "type": "isim",
@@ -6373,7 +6373,7 @@
   },
   {
     "id": 709,
-    "topic": "Ulaşım",
+    "topic": "Ulaşım (A2)",
     "en": "motorbike",
     "tr": "motosiklet",
     "type": "isim",
@@ -6382,7 +6382,7 @@
   },
   {
     "id": 710,
-    "topic": "Ulaşım",
+    "topic": "Ulaşım (A2)",
     "en": "lorry",
     "tr": "kamyon",
     "type": "isim",
@@ -6391,7 +6391,7 @@
   },
   {
     "id": 711,
-    "topic": "Ulaşım",
+    "topic": "Ulaşım (A2)",
     "en": "ferry",
     "tr": "feribot",
     "type": "isim",
@@ -6400,7 +6400,7 @@
   },
   {
     "id": 712,
-    "topic": "Ulaşım",
+    "topic": "Ulaşım (A2)",
     "en": "highway",
     "tr": "karayolu",
     "type": "isim",
@@ -6409,7 +6409,7 @@
   },
   {
     "id": 713,
-    "topic": "Ulaşım",
+    "topic": "Ulaşım (A2)",
     "en": "motorway",
     "tr": "otoyol",
     "type": "isim",
@@ -6418,7 +6418,7 @@
   },
   {
     "id": 714,
-    "topic": "Ulaşım",
+    "topic": "Ulaşım (A2)",
     "en": "journey",
     "tr": "yolculuk",
     "type": "isim",
@@ -6427,7 +6427,7 @@
   },
   {
     "id": 715,
-    "topic": "Ulaşım",
+    "topic": "Ulaşım (A2)",
     "en": "trip",
     "tr": "gezi",
     "type": "isim",
@@ -6436,7 +6436,7 @@
   },
   {
     "id": 716,
-    "topic": "Ulaşım",
+    "topic": "Ulaşım (A2)",
     "en": "passport",
     "tr": "pasaport",
     "type": "isim",
@@ -6445,7 +6445,7 @@
   },
   {
     "id": 717,
-    "topic": "Ulaşım",
+    "topic": "Ulaşım (A2)",
     "en": "luggage",
     "tr": "bagaj",
     "type": "isim",
@@ -6454,7 +6454,7 @@
   },
   {
     "id": 718,
-    "topic": "Ulaşım",
+    "topic": "Ulaşım (A2)",
     "en": "platform",
     "tr": "peron",
     "type": "isim",
@@ -6463,7 +6463,7 @@
   },
   {
     "id": 719,
-    "topic": "Ulaşım",
+    "topic": "Ulaşım (A2)",
     "en": "departure",
     "tr": "kalkış",
     "type": "isim",
@@ -6472,7 +6472,7 @@
   },
   {
     "id": 720,
-    "topic": "Ulaşım",
+    "topic": "Ulaşım (A2)",
     "en": "destination",
     "tr": "hedef",
     "type": "isim",
@@ -6481,7 +6481,7 @@
   },
   {
     "id": 721,
-    "topic": "Ulaşım",
+    "topic": "Ulaşım (A2)",
     "en": "direction",
     "tr": "yön",
     "type": "isim",
@@ -6490,7 +6490,7 @@
   },
   {
     "id": 722,
-    "topic": "Ulaşım",
+    "topic": "Ulaşım (A2)",
     "en": "route",
     "tr": "güzergah",
     "type": "isim",
@@ -6499,7 +6499,7 @@
   },
   {
     "id": 723,
-    "topic": "Ulaşım",
+    "topic": "Ulaşım (A2)",
     "en": "traffic",
     "tr": "trafik",
     "type": "isim",
@@ -6508,7 +6508,7 @@
   },
   {
     "id": 724,
-    "topic": "Ulaşım",
+    "topic": "Ulaşım (A2)",
     "en": "fuel",
     "tr": "yakıt",
     "type": "isim",
@@ -6517,7 +6517,7 @@
   },
   {
     "id": 725,
-    "topic": "Ulaşım",
+    "topic": "Ulaşım (A2)",
     "en": "parking",
     "tr": "otopark",
     "type": "isim",
@@ -6526,7 +6526,7 @@
   },
   {
     "id": 726,
-    "topic": "Şehir ve Mekanlar",
+    "topic": "Şehir ve Mekanlar (A2)",
     "en": "stadium",
     "tr": "stadyum",
     "type": "isim",
@@ -6535,7 +6535,7 @@
   },
   {
     "id": 727,
-    "topic": "Şehir ve Mekanlar",
+    "topic": "Şehir ve Mekanlar (A2)",
     "en": "zoo",
     "tr": "hayvanat bahçesi",
     "type": "isim",
@@ -6544,7 +6544,7 @@
   },
   {
     "id": 728,
-    "topic": "Şehir ve Mekanlar",
+    "topic": "Şehir ve Mekanlar (A2)",
     "en": "theatre",
     "tr": "tiyatro",
     "type": "isim",
@@ -6553,7 +6553,7 @@
   },
   {
     "id": 729,
-    "topic": "Şehir ve Mekanlar",
+    "topic": "Şehir ve Mekanlar (A2)",
     "en": "port",
     "tr": "liman",
     "type": "isim",
@@ -6562,7 +6562,7 @@
   },
   {
     "id": 730,
-    "topic": "Şehir ve Mekanlar",
+    "topic": "Şehir ve Mekanlar (A2)",
     "en": "suburb",
     "tr": "banliyö",
     "type": "isim",
@@ -6571,7 +6571,7 @@
   },
   {
     "id": 731,
-    "topic": "Şehir ve Mekanlar",
+    "topic": "Şehir ve Mekanlar (A2)",
     "en": "neighbourhood",
     "tr": "mahalle",
     "type": "isim",
@@ -6580,7 +6580,7 @@
   },
   {
     "id": 732,
-    "topic": "Şehir ve Mekanlar",
+    "topic": "Şehir ve Mekanlar (A2)",
     "en": "supermarket",
     "tr": "süpermarket",
     "type": "isim",
@@ -6589,7 +6589,7 @@
   },
   {
     "id": 733,
-    "topic": "Şehir ve Mekanlar",
+    "topic": "Şehir ve Mekanlar (A2)",
     "en": "cafe",
     "tr": "kafe",
     "type": "isim",
@@ -6598,7 +6598,7 @@
   },
   {
     "id": 734,
-    "topic": "Şehir ve Mekanlar",
+    "topic": "Şehir ve Mekanlar (A2)",
     "en": "embassy",
     "tr": "büyükelçilik",
     "type": "isim",
@@ -6607,7 +6607,7 @@
   },
   {
     "id": 735,
-    "topic": "Şehir ve Mekanlar",
+    "topic": "Şehir ve Mekanlar (A2)",
     "en": "gallery",
     "tr": "galeri",
     "type": "isim",
@@ -6616,7 +6616,7 @@
   },
   {
     "id": 736,
-    "topic": "Şehir ve Mekanlar",
+    "topic": "Şehir ve Mekanlar (A2)",
     "en": "university",
     "tr": "üniversite",
     "type": "isim",
@@ -6625,7 +6625,7 @@
   },
   {
     "id": 737,
-    "topic": "Şehir ve Mekanlar",
+    "topic": "Şehir ve Mekanlar (A2)",
     "en": "castle",
     "tr": "kale",
     "type": "isim",
@@ -6634,7 +6634,7 @@
   },
   {
     "id": 738,
-    "topic": "Şehir ve Mekanlar",
+    "topic": "Şehir ve Mekanlar (A2)",
     "en": "harbour",
     "tr": "iç liman",
     "type": "isim",
@@ -6643,7 +6643,7 @@
   },
   {
     "id": 739,
-    "topic": "Şehir ve Mekanlar",
+    "topic": "Şehir ve Mekanlar (A2)",
     "en": "pier",
     "tr": "iskele",
     "type": "isim",
@@ -6652,7 +6652,7 @@
   },
   {
     "id": 740,
-    "topic": "Şehir ve Mekanlar",
+    "topic": "Şehir ve Mekanlar (A2)",
     "en": "fountain",
     "tr": "fıskiye",
     "type": "isim",
@@ -6661,7 +6661,7 @@
   },
   {
     "id": 741,
-    "topic": "Şehir ve Mekanlar",
+    "topic": "Şehir ve Mekanlar (A2)",
     "en": "intersection",
     "tr": "kavşak",
     "type": "isim",
@@ -6670,7 +6670,7 @@
   },
   {
     "id": 742,
-    "topic": "Şehir ve Mekanlar",
+    "topic": "Şehir ve Mekanlar (A2)",
     "en": "district",
     "tr": "ilçe",
     "type": "isim",
@@ -6679,7 +6679,7 @@
   },
   {
     "id": 743,
-    "topic": "Şehir ve Mekanlar",
+    "topic": "Şehir ve Mekanlar (A2)",
     "en": "landmark",
     "tr": "simge yapı",
     "type": "isim",
@@ -6688,7 +6688,7 @@
   },
   {
     "id": 744,
-    "topic": "Şehir ve Mekanlar",
+    "topic": "Şehir ve Mekanlar (A2)",
     "en": "outskirts",
     "tr": "şehir kenarı",
     "type": "isim",
@@ -6697,7 +6697,7 @@
   },
   {
     "id": 745,
-    "topic": "Şehir ve Mekanlar",
+    "topic": "Şehir ve Mekanlar (A2)",
     "en": "complex",
     "tr": "kompleks",
     "type": "isim",
@@ -6706,7 +6706,7 @@
   },
   {
     "id": 746,
-    "topic": "Alışveriş",
+    "topic": "Alışveriş (A2)",
     "en": "sale",
     "tr": "indirim",
     "type": "isim",
@@ -6715,7 +6715,7 @@
   },
   {
     "id": 747,
-    "topic": "Alışveriş",
+    "topic": "Alışveriş (A2)",
     "en": "refund",
     "tr": "geri ödeme",
     "type": "isim",
@@ -6724,7 +6724,7 @@
   },
   {
     "id": 748,
-    "topic": "Alışveriş",
+    "topic": "Alışveriş (A2)",
     "en": "exchange",
     "tr": "değiştirme",
     "type": "isim",
@@ -6733,7 +6733,7 @@
   },
   {
     "id": 749,
-    "topic": "Alışveriş",
+    "topic": "Alışveriş (A2)",
     "en": "warranty",
     "tr": "garanti",
     "type": "isim",
@@ -6742,7 +6742,7 @@
   },
   {
     "id": 750,
-    "topic": "Alışveriş",
+    "topic": "Alışveriş (A2)",
     "en": "delivery",
     "tr": "teslimat",
     "type": "isim",
@@ -6751,7 +6751,7 @@
   },
   {
     "id": 751,
-    "topic": "Alışveriş",
+    "topic": "Alışveriş (A2)",
     "en": "order",
     "tr": "sipariş",
     "type": "isim",
@@ -6760,7 +6760,7 @@
   },
   {
     "id": 752,
-    "topic": "Alışveriş",
+    "topic": "Alışveriş (A2)",
     "en": "item",
     "tr": "ürün",
     "type": "isim",
@@ -6769,7 +6769,7 @@
   },
   {
     "id": 753,
-    "topic": "Alışveriş",
+    "topic": "Alışveriş (A2)",
     "en": "stock",
     "tr": "stok",
     "type": "isim",
@@ -6778,7 +6778,7 @@
   },
   {
     "id": 754,
-    "topic": "Alışveriş",
+    "topic": "Alışveriş (A2)",
     "en": "catalogue",
     "tr": "katalog",
     "type": "isim",
@@ -6787,7 +6787,7 @@
   },
   {
     "id": 755,
-    "topic": "Alışveriş",
+    "topic": "Alışveriş (A2)",
     "en": "barcode",
     "tr": "barkod",
     "type": "isim",
@@ -6796,7 +6796,7 @@
   },
   {
     "id": 756,
-    "topic": "Alışveriş",
+    "topic": "Alışveriş (A2)",
     "en": "checkout",
     "tr": "kasa",
     "type": "isim",
@@ -6805,7 +6805,7 @@
   },
   {
     "id": 757,
-    "topic": "Alışveriş",
+    "topic": "Alışveriş (A2)",
     "en": "purchase",
     "tr": "satın alma",
     "type": "isim",
@@ -6814,7 +6814,7 @@
   },
   {
     "id": 758,
-    "topic": "Alışveriş",
+    "topic": "Alışveriş (A2)",
     "en": "gift",
     "tr": "hediye",
     "type": "isim",
@@ -6823,7 +6823,7 @@
   },
   {
     "id": 759,
-    "topic": "Alışveriş",
+    "topic": "Alışveriş (A2)",
     "en": "wrap",
     "tr": "sarmak",
     "type": "fiil",
@@ -6832,7 +6832,7 @@
   },
   {
     "id": 760,
-    "topic": "Alışveriş",
+    "topic": "Alışveriş (A2)",
     "en": "value",
     "tr": "değer",
     "type": "isim",
@@ -6841,7 +6841,7 @@
   },
   {
     "id": 761,
-    "topic": "Alışveriş",
+    "topic": "Alışveriş (A2)",
     "en": "budget",
     "tr": "bütçe",
     "type": "isim",
@@ -6850,7 +6850,7 @@
   },
   {
     "id": 762,
-    "topic": "Alışveriş",
+    "topic": "Alışveriş (A2)",
     "en": "wallet",
     "tr": "cüzdan",
     "type": "isim",
@@ -6859,7 +6859,7 @@
   },
   {
     "id": 763,
-    "topic": "Alışveriş",
+    "topic": "Alışveriş (A2)",
     "en": "invoice",
     "tr": "fatura",
     "type": "isim",
@@ -6868,7 +6868,7 @@
   },
   {
     "id": 764,
-    "topic": "Alışveriş",
+    "topic": "Alışveriş (A2)",
     "en": "label",
     "tr": "etiket",
     "type": "isim",
@@ -6877,7 +6877,7 @@
   },
   {
     "id": 765,
-    "topic": "Alışveriş",
+    "topic": "Alışveriş (A2)",
     "en": "shop",
     "tr": "dükkan",
     "type": "isim",
@@ -6886,7 +6886,7 @@
   },
   {
     "id": 766,
-    "topic": "Meslekler",
+    "topic": "Meslekler (A2)",
     "en": "architect",
     "tr": "mimar",
     "type": "isim",
@@ -6895,7 +6895,7 @@
   },
   {
     "id": 767,
-    "topic": "Meslekler",
+    "topic": "Meslekler (A2)",
     "en": "accountant",
     "tr": "muhasebeci",
     "type": "isim",
@@ -6904,7 +6904,7 @@
   },
   {
     "id": 768,
-    "topic": "Meslekler",
+    "topic": "Meslekler (A2)",
     "en": "mechanic",
     "tr": "tamirci",
     "type": "isim",
@@ -6913,7 +6913,7 @@
   },
   {
     "id": 769,
-    "topic": "Meslekler",
+    "topic": "Meslekler (A2)",
     "en": "plumber",
     "tr": "tesisatçı",
     "type": "isim",
@@ -6922,7 +6922,7 @@
   },
   {
     "id": 770,
-    "topic": "Meslekler",
+    "topic": "Meslekler (A2)",
     "en": "electrician",
     "tr": "elektrikçi",
     "type": "isim",
@@ -6931,7 +6931,7 @@
   },
   {
     "id": 771,
-    "topic": "Meslekler",
+    "topic": "Meslekler (A2)",
     "en": "photographer",
     "tr": "fotoğrafçı",
     "type": "isim",
@@ -6940,7 +6940,7 @@
   },
   {
     "id": 772,
-    "topic": "Meslekler",
+    "topic": "Meslekler (A2)",
     "en": "secretary",
     "tr": "sekreter",
     "type": "isim",
@@ -6949,7 +6949,7 @@
   },
   {
     "id": 773,
-    "topic": "Meslekler",
+    "topic": "Meslekler (A2)",
     "en": "programmer",
     "tr": "programcı",
     "type": "isim",
@@ -6958,7 +6958,7 @@
   },
   {
     "id": 774,
-    "topic": "Meslekler",
+    "topic": "Meslekler (A2)",
     "en": "chef",
     "tr": "şef",
     "type": "isim",
@@ -6967,7 +6967,7 @@
   },
   {
     "id": 775,
-    "topic": "Meslekler",
+    "topic": "Meslekler (A2)",
     "en": "firefighter",
     "tr": "itfaiyeci",
     "type": "isim",
@@ -6976,7 +6976,7 @@
   },
   {
     "id": 776,
-    "topic": "Meslekler",
+    "topic": "Meslekler (A2)",
     "en": "surgeon",
     "tr": "cerrah",
     "type": "isim",
@@ -6985,7 +6985,7 @@
   },
   {
     "id": 777,
-    "topic": "Meslekler",
+    "topic": "Meslekler (A2)",
     "en": "judge",
     "tr": "hakim",
     "type": "isim",
@@ -6994,7 +6994,7 @@
   },
   {
     "id": 778,
-    "topic": "Meslekler",
+    "topic": "Meslekler (A2)",
     "en": "banker",
     "tr": "bankacı",
     "type": "isim",
@@ -7003,7 +7003,7 @@
   },
   {
     "id": 779,
-    "topic": "Meslekler",
+    "topic": "Meslekler (A2)",
     "en": "translator",
     "tr": "çevirmen",
     "type": "isim",
@@ -7012,7 +7012,7 @@
   },
   {
     "id": 780,
-    "topic": "Meslekler",
+    "topic": "Meslekler (A2)",
     "en": "designer",
     "tr": "tasarımcı",
     "type": "isim",
@@ -7021,7 +7021,7 @@
   },
   {
     "id": 781,
-    "topic": "Meslekler",
+    "topic": "Meslekler (A2)",
     "en": "veterinarian",
     "tr": "veteriner",
     "type": "isim",
@@ -7030,7 +7030,7 @@
   },
   {
     "id": 782,
-    "topic": "Meslekler",
+    "topic": "Meslekler (A2)",
     "en": "librarian",
     "tr": "kütüphaneci",
     "type": "isim",
@@ -7039,7 +7039,7 @@
   },
   {
     "id": 783,
-    "topic": "Meslekler",
+    "topic": "Meslekler (A2)",
     "en": "barber",
     "tr": "berber",
     "type": "isim",
@@ -7048,7 +7048,7 @@
   },
   {
     "id": 784,
-    "topic": "Meslekler",
+    "topic": "Meslekler (A2)",
     "en": "coach",
     "tr": "antrenör",
     "type": "isim",
@@ -7057,7 +7057,7 @@
   },
   {
     "id": 785,
-    "topic": "Meslekler",
+    "topic": "Meslekler (A2)",
     "en": "director",
     "tr": "yönetmen",
     "type": "isim",
@@ -7066,7 +7066,7 @@
   },
   {
     "id": 786,
-    "topic": "Okul ve Eğitim",
+    "topic": "Okul ve Eğitim (A2)",
     "en": "certificate",
     "tr": "sertifika",
     "type": "isim",
@@ -7075,7 +7075,7 @@
   },
   {
     "id": 787,
-    "topic": "Okul ve Eğitim",
+    "topic": "Okul ve Eğitim (A2)",
     "en": "scholarship",
     "tr": "burs",
     "type": "isim",
@@ -7084,7 +7084,7 @@
   },
   {
     "id": 788,
-    "topic": "Okul ve Eğitim",
+    "topic": "Okul ve Eğitim (A2)",
     "en": "course",
     "tr": "kurs",
     "type": "isim",
@@ -7093,7 +7093,7 @@
   },
   {
     "id": 789,
-    "topic": "Okul ve Eğitim",
+    "topic": "Okul ve Eğitim (A2)",
     "en": "lecture",
     "tr": "ders",
     "type": "isim",
@@ -7102,7 +7102,7 @@
   },
   {
     "id": 790,
-    "topic": "Okul ve Eğitim",
+    "topic": "Okul ve Eğitim (A2)",
     "en": "assignment",
     "tr": "ödev",
     "type": "isim",
@@ -7111,7 +7111,7 @@
   },
   {
     "id": 791,
-    "topic": "Okul ve Eğitim",
+    "topic": "Okul ve Eğitim (A2)",
     "en": "project",
     "tr": "proje",
     "type": "isim",
@@ -7120,7 +7120,7 @@
   },
   {
     "id": 792,
-    "topic": "Okul ve Eğitim",
+    "topic": "Okul ve Eğitim (A2)",
     "en": "research",
     "tr": "araştırma",
     "type": "isim",
@@ -7129,7 +7129,7 @@
   },
   {
     "id": 793,
-    "topic": "Okul ve Eğitim",
+    "topic": "Okul ve Eğitim (A2)",
     "en": "knowledge",
     "tr": "bilgi",
     "type": "isim",
@@ -7138,7 +7138,7 @@
   },
   {
     "id": 794,
-    "topic": "Okul ve Eğitim",
+    "topic": "Okul ve Eğitim (A2)",
     "en": "skill",
     "tr": "beceri",
     "type": "isim",
@@ -7147,7 +7147,7 @@
   },
   {
     "id": 795,
-    "topic": "Okul ve Eğitim",
+    "topic": "Okul ve Eğitim (A2)",
     "en": "revision",
     "tr": "tekrar",
     "type": "isim",
@@ -7156,7 +7156,7 @@
   },
   {
     "id": 796,
-    "topic": "Okul ve Eğitim",
+    "topic": "Okul ve Eğitim (A2)",
     "en": "result",
     "tr": "sonuç",
     "type": "isim",
@@ -7165,7 +7165,7 @@
   },
   {
     "id": 797,
-    "topic": "Okul ve Eğitim",
+    "topic": "Okul ve Eğitim (A2)",
     "en": "presentation",
     "tr": "sunum",
     "type": "isim",
@@ -7174,7 +7174,7 @@
   },
   {
     "id": 798,
-    "topic": "Okul ve Eğitim",
+    "topic": "Okul ve Eğitim (A2)",
     "en": "graduate",
     "tr": "mezun olmak",
     "type": "fiil",
@@ -7183,7 +7183,7 @@
   },
   {
     "id": 799,
-    "topic": "Okul ve Eğitim",
+    "topic": "Okul ve Eğitim (A2)",
     "en": "degree",
     "tr": "diploma",
     "type": "isim",
@@ -7192,7 +7192,7 @@
   },
   {
     "id": 800,
-    "topic": "Okul ve Eğitim",
+    "topic": "Okul ve Eğitim (A2)",
     "en": "curriculum",
     "tr": "müfredat",
     "type": "isim",
@@ -7201,7 +7201,7 @@
   },
   {
     "id": 801,
-    "topic": "Okul ve Eğitim",
+    "topic": "Okul ve Eğitim (A2)",
     "en": "classroom",
     "tr": "derslik",
     "type": "isim",
@@ -7210,7 +7210,7 @@
   },
   {
     "id": 802,
-    "topic": "Okul ve Eğitim",
+    "topic": "Okul ve Eğitim (A2)",
     "en": "tutor",
     "tr": "özel öğretmen",
     "type": "isim",
@@ -7219,7 +7219,7 @@
   },
   {
     "id": 803,
-    "topic": "Okul ve Eğitim",
+    "topic": "Okul ve Eğitim (A2)",
     "en": "rule",
     "tr": "kural",
     "type": "isim",
@@ -7228,7 +7228,7 @@
   },
   {
     "id": 804,
-    "topic": "Okul ve Eğitim",
+    "topic": "Okul ve Eğitim (A2)",
     "en": "method",
     "tr": "yöntem",
     "type": "isim",
@@ -7237,7 +7237,7 @@
   },
   {
     "id": 805,
-    "topic": "Okul ve Eğitim",
+    "topic": "Okul ve Eğitim (A2)",
     "en": "educate",
     "tr": "eğitmek",
     "type": "fiil",
@@ -7246,7 +7246,7 @@
   },
   {
     "id": 806,
-    "topic": "Sağlık",
+    "topic": "Sağlık (A2)",
     "en": "symptom",
     "tr": "belirti",
     "type": "isim",
@@ -7255,7 +7255,7 @@
   },
   {
     "id": 807,
-    "topic": "Sağlık",
+    "topic": "Sağlık (A2)",
     "en": "diagnosis",
     "tr": "teşhis",
     "type": "isim",
@@ -7264,7 +7264,7 @@
   },
   {
     "id": 808,
-    "topic": "Sağlık",
+    "topic": "Sağlık (A2)",
     "en": "treatment",
     "tr": "tedavi",
     "type": "isim",
@@ -7273,7 +7273,7 @@
   },
   {
     "id": 809,
-    "topic": "Sağlık",
+    "topic": "Sağlık (A2)",
     "en": "surgery",
     "tr": "ameliyat",
     "type": "isim",
@@ -7282,7 +7282,7 @@
   },
   {
     "id": 810,
-    "topic": "Sağlık",
+    "topic": "Sağlık (A2)",
     "en": "blood",
     "tr": "kan",
     "type": "isim",
@@ -7291,7 +7291,7 @@
   },
   {
     "id": 811,
-    "topic": "Sağlık",
+    "topic": "Sağlık (A2)",
     "en": "pressure",
     "tr": "tansiyon",
     "type": "isim",
@@ -7300,7 +7300,7 @@
   },
   {
     "id": 812,
-    "topic": "Sağlık",
+    "topic": "Sağlık (A2)",
     "en": "pulse",
     "tr": "nabız",
     "type": "isim",
@@ -7309,7 +7309,7 @@
   },
   {
     "id": 813,
-    "topic": "Sağlık",
+    "topic": "Sağlık (A2)",
     "en": "infection",
     "tr": "enfeksiyon",
     "type": "isim",
@@ -7318,7 +7318,7 @@
   },
   {
     "id": 814,
-    "topic": "Sağlık",
+    "topic": "Sağlık (A2)",
     "en": "wound",
     "tr": "yara",
     "type": "isim",
@@ -7327,7 +7327,7 @@
   },
   {
     "id": 815,
-    "topic": "Sağlık",
+    "topic": "Sağlık (A2)",
     "en": "bandage",
     "tr": "sargı",
     "type": "isim",
@@ -7336,7 +7336,7 @@
   },
   {
     "id": 816,
-    "topic": "Sağlık",
+    "topic": "Sağlık (A2)",
     "en": "vitamin",
     "tr": "vitamin",
     "type": "isim",
@@ -7345,7 +7345,7 @@
   },
   {
     "id": 817,
-    "topic": "Sağlık",
+    "topic": "Sağlık (A2)",
     "en": "diet",
     "tr": "diyet",
     "type": "isim",
@@ -7354,7 +7354,7 @@
   },
   {
     "id": 818,
-    "topic": "Sağlık",
+    "topic": "Sağlık (A2)",
     "en": "mental",
     "tr": "zihinsel",
     "type": "sıfat",
@@ -7363,7 +7363,7 @@
   },
   {
     "id": 819,
-    "topic": "Sağlık",
+    "topic": "Sağlık (A2)",
     "en": "stress",
     "tr": "stres",
     "type": "isim",
@@ -7372,7 +7372,7 @@
   },
   {
     "id": 820,
-    "topic": "Sağlık",
+    "topic": "Sağlık (A2)",
     "en": "anxiety",
     "tr": "kaygı",
     "type": "isim",
@@ -7381,7 +7381,7 @@
   },
   {
     "id": 821,
-    "topic": "Sağlık",
+    "topic": "Sağlık (A2)",
     "en": "therapy",
     "tr": "terapi",
     "type": "isim",
@@ -7390,7 +7390,7 @@
   },
   {
     "id": 822,
-    "topic": "Sağlık",
+    "topic": "Sağlık (A2)",
     "en": "hygiene",
     "tr": "hijyen",
     "type": "isim",
@@ -7399,7 +7399,7 @@
   },
   {
     "id": 823,
-    "topic": "Sağlık",
+    "topic": "Sağlık (A2)",
     "en": "disabled",
     "tr": "engelli",
     "type": "sıfat",
@@ -7408,7 +7408,7 @@
   },
   {
     "id": 824,
-    "topic": "Sağlık",
+    "topic": "Sağlık (A2)",
     "en": "cure",
     "tr": "iyileştirmek",
     "type": "fiil",
@@ -7417,7 +7417,7 @@
   },
   {
     "id": 825,
-    "topic": "Sağlık",
+    "topic": "Sağlık (A2)",
     "en": "clinic",
     "tr": "klinik",
     "type": "isim",
@@ -7426,7 +7426,7 @@
   },
   {
     "id": 826,
-    "topic": "Spor",
+    "topic": "Spor (A2)",
     "en": "volleyball",
     "tr": "voleybol",
     "type": "isim",
@@ -7435,7 +7435,7 @@
   },
   {
     "id": 827,
-    "topic": "Spor",
+    "topic": "Spor (A2)",
     "en": "golf",
     "tr": "golf",
     "type": "isim",
@@ -7444,7 +7444,7 @@
   },
   {
     "id": 828,
-    "topic": "Spor",
+    "topic": "Spor (A2)",
     "en": "boxing",
     "tr": "boks",
     "type": "isim",
@@ -7453,7 +7453,7 @@
   },
   {
     "id": 829,
-    "topic": "Spor",
+    "topic": "Spor (A2)",
     "en": "wrestling",
     "tr": "güreş",
     "type": "isim",
@@ -7462,7 +7462,7 @@
   },
   {
     "id": 830,
-    "topic": "Spor",
+    "topic": "Spor (A2)",
     "en": "athletics",
     "tr": "atletizm",
     "type": "isim",
@@ -7471,7 +7471,7 @@
   },
   {
     "id": 831,
-    "topic": "Spor",
+    "topic": "Spor (A2)",
     "en": "marathon",
     "tr": "maraton",
     "type": "isim",
@@ -7480,7 +7480,7 @@
   },
   {
     "id": 832,
-    "topic": "Spor",
+    "topic": "Spor (A2)",
     "en": "sprint",
     "tr": "kısa koşu",
     "type": "isim",
@@ -7489,7 +7489,7 @@
   },
   {
     "id": 833,
-    "topic": "Spor",
+    "topic": "Spor (A2)",
     "en": "relay",
     "tr": "bayrak koşusu",
     "type": "isim",
@@ -7498,7 +7498,7 @@
   },
   {
     "id": 834,
-    "topic": "Spor",
+    "topic": "Spor (A2)",
     "en": "champion",
     "tr": "şampiyon",
     "type": "isim",
@@ -7507,7 +7507,7 @@
   },
   {
     "id": 835,
-    "topic": "Spor",
+    "topic": "Spor (A2)",
     "en": "tournament",
     "tr": "turnuva",
     "type": "isim",
@@ -7516,7 +7516,7 @@
   },
   {
     "id": 836,
-    "topic": "Spor",
+    "topic": "Spor (A2)",
     "en": "trophy",
     "tr": "kupa",
     "type": "isim",
@@ -7525,7 +7525,7 @@
   },
   {
     "id": 837,
-    "topic": "Spor",
+    "topic": "Spor (A2)",
     "en": "referee",
     "tr": "hakem",
     "type": "isim",
@@ -7534,7 +7534,7 @@
   },
   {
     "id": 838,
-    "topic": "Spor",
+    "topic": "Spor (A2)",
     "en": "medal",
     "tr": "madalya",
     "type": "isim",
@@ -7543,7 +7543,7 @@
   },
   {
     "id": 839,
-    "topic": "Spor",
+    "topic": "Spor (A2)",
     "en": "circuit",
     "tr": "pist",
     "type": "isim",
@@ -7552,7 +7552,7 @@
   },
   {
     "id": 840,
-    "topic": "Spor",
+    "topic": "Spor (A2)",
     "en": "race",
     "tr": "yarış",
     "type": "isim",
@@ -7561,7 +7561,7 @@
   },
   {
     "id": 841,
-    "topic": "Spor",
+    "topic": "Spor (A2)",
     "en": "fitness",
     "tr": "kondisyon",
     "type": "isim",
@@ -7570,7 +7570,7 @@
   },
   {
     "id": 842,
-    "topic": "Spor",
+    "topic": "Spor (A2)",
     "en": "strength",
     "tr": "güç",
     "type": "isim",
@@ -7579,7 +7579,7 @@
   },
   {
     "id": 843,
-    "topic": "Spor",
+    "topic": "Spor (A2)",
     "en": "flexible",
     "tr": "esnek",
     "type": "sıfat",
@@ -7588,7 +7588,7 @@
   },
   {
     "id": 844,
-    "topic": "Spor",
+    "topic": "Spor (A2)",
     "en": "compete",
     "tr": "yarışmak",
     "type": "fiil",
@@ -7597,7 +7597,7 @@
   },
   {
     "id": 845,
-    "topic": "Spor",
+    "topic": "Spor (A2)",
     "en": "defend",
     "tr": "savunmak",
     "type": "fiil",
@@ -7606,7 +7606,7 @@
   },
   {
     "id": 846,
-    "topic": "Duygular",
+    "topic": "Duygular (A2)",
     "en": "nervous",
     "tr": "gergin",
     "type": "sıfat",
@@ -7615,7 +7615,7 @@
   },
   {
     "id": 847,
-    "topic": "Duygular",
+    "topic": "Duygular (A2)",
     "en": "jealous",
     "tr": "kıskanç",
     "type": "sıfat",
@@ -7624,7 +7624,7 @@
   },
   {
     "id": 848,
-    "topic": "Duygular",
+    "topic": "Duygular (A2)",
     "en": "confused",
     "tr": "kafası karışık",
     "type": "sıfat",
@@ -7633,7 +7633,7 @@
   },
   {
     "id": 849,
-    "topic": "Duygular",
+    "topic": "Duygular (A2)",
     "en": "embarrassed",
     "tr": "mahcup",
     "type": "sıfat",
@@ -7642,7 +7642,7 @@
   },
   {
     "id": 850,
-    "topic": "Duygular",
+    "topic": "Duygular (A2)",
     "en": "ashamed",
     "tr": "utanmış",
     "type": "sıfat",
@@ -7651,7 +7651,7 @@
   },
   {
     "id": 851,
-    "topic": "Duygular",
+    "topic": "Duygular (A2)",
     "en": "grateful",
     "tr": "minnettar",
     "type": "sıfat",
@@ -7660,7 +7660,7 @@
   },
   {
     "id": 852,
-    "topic": "Duygular",
+    "topic": "Duygular (A2)",
     "en": "disappointed",
     "tr": "hayal kırıklığına uğramış",
     "type": "sıfat",
@@ -7669,7 +7669,7 @@
   },
   {
     "id": 853,
-    "topic": "Duygular",
+    "topic": "Duygular (A2)",
     "en": "relieved",
     "tr": "rahatlamış",
     "type": "sıfat",
@@ -7678,7 +7678,7 @@
   },
   {
     "id": 854,
-    "topic": "Duygular",
+    "topic": "Duygular (A2)",
     "en": "hopeful",
     "tr": "umutlu",
     "type": "sıfat",
@@ -7687,7 +7687,7 @@
   },
   {
     "id": 855,
-    "topic": "Duygular",
+    "topic": "Duygular (A2)",
     "en": "cheerful",
     "tr": "neşeli",
     "type": "sıfat",
@@ -7696,7 +7696,7 @@
   },
   {
     "id": 856,
-    "topic": "Duygular",
+    "topic": "Duygular (A2)",
     "en": "miserable",
     "tr": "mutsuz",
     "type": "sıfat",
@@ -7705,7 +7705,7 @@
   },
   {
     "id": 857,
-    "topic": "Duygular",
+    "topic": "Duygular (A2)",
     "en": "anxious",
     "tr": "endişeli",
     "type": "sıfat",
@@ -7714,7 +7714,7 @@
   },
   {
     "id": 858,
-    "topic": "Duygular",
+    "topic": "Duygular (A2)",
     "en": "confident",
     "tr": "kendinden emin",
     "type": "sıfat",
@@ -7723,7 +7723,7 @@
   },
   {
     "id": 859,
-    "topic": "Duygular",
+    "topic": "Duygular (A2)",
     "en": "curious",
     "tr": "meraklı",
     "type": "sıfat",
@@ -7732,7 +7732,7 @@
   },
   {
     "id": 860,
-    "topic": "Duygular",
+    "topic": "Duygular (A2)",
     "en": "frustrated",
     "tr": "sinirlenmiş",
     "type": "sıfat",
@@ -7741,7 +7741,7 @@
   },
   {
     "id": 861,
-    "topic": "Duygular",
+    "topic": "Duygular (A2)",
     "en": "content",
     "tr": "memnun",
     "type": "sıfat",
@@ -7750,7 +7750,7 @@
   },
   {
     "id": 862,
-    "topic": "Duygular",
+    "topic": "Duygular (A2)",
     "en": "shocked",
     "tr": "şoke olmuş",
     "type": "sıfat",
@@ -7759,7 +7759,7 @@
   },
   {
     "id": 863,
-    "topic": "Duygular",
+    "topic": "Duygular (A2)",
     "en": "homesick",
     "tr": "memleket özlemi çeken",
     "type": "sıfat",
@@ -7768,7 +7768,7 @@
   },
   {
     "id": 864,
-    "topic": "Duygular",
+    "topic": "Duygular (A2)",
     "en": "envious",
     "tr": "imrenen",
     "type": "sıfat",
@@ -7777,7 +7777,7 @@
   },
   {
     "id": 865,
-    "topic": "Duygular",
+    "topic": "Duygular (A2)",
     "en": "passionate",
     "tr": "tutkulu",
     "type": "sıfat",
@@ -7786,7 +7786,7 @@
   },
   {
     "id": 866,
-    "topic": "Teknoloji",
+    "topic": "Teknoloji (A2)",
     "en": "laptop",
     "tr": "dizüstü bilgisayar",
     "type": "isim",
@@ -7795,7 +7795,7 @@
   },
   {
     "id": 867,
-    "topic": "Teknoloji",
+    "topic": "Teknoloji (A2)",
     "en": "printer",
     "tr": "yazıcı",
     "type": "isim",
@@ -7804,7 +7804,7 @@
   },
   {
     "id": 868,
-    "topic": "Teknoloji",
+    "topic": "Teknoloji (A2)",
     "en": "scanner",
     "tr": "tarayıcı",
     "type": "isim",
@@ -7813,7 +7813,7 @@
   },
   {
     "id": 869,
-    "topic": "Teknoloji",
+    "topic": "Teknoloji (A2)",
     "en": "microphone",
     "tr": "mikrofon",
     "type": "isim",
@@ -7822,7 +7822,7 @@
   },
   {
     "id": 870,
-    "topic": "Teknoloji",
+    "topic": "Teknoloji (A2)",
     "en": "speaker",
     "tr": "hoparlör",
     "type": "isim",
@@ -7831,7 +7831,7 @@
   },
   {
     "id": 871,
-    "topic": "Teknoloji",
+    "topic": "Teknoloji (A2)",
     "en": "headphones",
     "tr": "kulaklık",
     "type": "isim",
@@ -7840,7 +7840,7 @@
   },
   {
     "id": 872,
-    "topic": "Teknoloji",
+    "topic": "Teknoloji (A2)",
     "en": "cable",
     "tr": "kablo",
     "type": "isim",
@@ -7849,7 +7849,7 @@
   },
   {
     "id": 873,
-    "topic": "Teknoloji",
+    "topic": "Teknoloji (A2)",
     "en": "wifi",
     "tr": "kablosuz ağ",
     "type": "isim",
@@ -7858,7 +7858,7 @@
   },
   {
     "id": 874,
-    "topic": "Teknoloji",
+    "topic": "Teknoloji (A2)",
     "en": "bluetooth",
     "tr": "bluetooth",
     "type": "isim",
@@ -7867,7 +7867,7 @@
   },
   {
     "id": 875,
-    "topic": "Teknoloji",
+    "topic": "Teknoloji (A2)",
     "en": "software",
     "tr": "yazılım",
     "type": "isim",
@@ -7876,7 +7876,7 @@
   },
   {
     "id": 876,
-    "topic": "Teknoloji",
+    "topic": "Teknoloji (A2)",
     "en": "hardware",
     "tr": "donanım",
     "type": "isim",
@@ -7885,7 +7885,7 @@
   },
   {
     "id": 877,
-    "topic": "Teknoloji",
+    "topic": "Teknoloji (A2)",
     "en": "virus",
     "tr": "virüs",
     "type": "isim",
@@ -7894,7 +7894,7 @@
   },
   {
     "id": 878,
-    "topic": "Teknoloji",
+    "topic": "Teknoloji (A2)",
     "en": "backup",
     "tr": "yedekleme",
     "type": "isim",
@@ -7903,7 +7903,7 @@
   },
   {
     "id": 879,
-    "topic": "Teknoloji",
+    "topic": "Teknoloji (A2)",
     "en": "update",
     "tr": "güncelleme",
     "type": "isim",
@@ -7912,7 +7912,7 @@
   },
   {
     "id": 880,
-    "topic": "Teknoloji",
+    "topic": "Teknoloji (A2)",
     "en": "search",
     "tr": "aramak",
     "type": "fiil",
@@ -7921,7 +7921,7 @@
   },
   {
     "id": 881,
-    "topic": "Teknoloji",
+    "topic": "Teknoloji (A2)",
     "en": "upload",
     "tr": "yüklemek",
     "type": "fiil",
@@ -7930,7 +7930,7 @@
   },
   {
     "id": 882,
-    "topic": "Teknoloji",
+    "topic": "Teknoloji (A2)",
     "en": "share",
     "tr": "paylaşmak",
     "type": "fiil",
@@ -7939,7 +7939,7 @@
   },
   {
     "id": 883,
-    "topic": "Teknoloji",
+    "topic": "Teknoloji (A2)",
     "en": "stream",
     "tr": "yayın akışı",
     "type": "isim",
@@ -7948,7 +7948,7 @@
   },
   {
     "id": 884,
-    "topic": "Teknoloji",
+    "topic": "Teknoloji (A2)",
     "en": "robot",
     "tr": "robot",
     "type": "isim",
@@ -7957,7 +7957,7 @@
   },
   {
     "id": 885,
-    "topic": "Teknoloji",
+    "topic": "Teknoloji (A2)",
     "en": "network",
     "tr": "ağ",
     "type": "isim",
