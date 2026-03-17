@@ -110,7 +110,7 @@ function FinishScreen({ topic, moves, pairs, onRetry, onBack, onHome }) {
 // ─────────────────────────────────────────────
 // Game board
 // ─────────────────────────────────────────────
-function GameBoard({ topic, cards, selected, matched, shaking, moves, onCardClick }) {
+function GameBoard({ topic, cards, selected, matched, shaking, moves, onCardClick, onExit }) {
   const totalPairs = cards.length / 2;
   const matchedPairs = matched.size / 2;
 
@@ -119,11 +119,20 @@ function GameBoard({ topic, cards, selected, matched, shaking, moves, onCardClic
       <div className="max-w-lg mx-auto px-3 pt-6 pb-10">
         {/* Header */}
         <div className="flex items-center justify-between mb-5 px-1">
-          <div>
-            <h2 className="font-bold text-gray-200">{topic}</h2>
-            <p className="text-xs text-gray-500">
-              {matchedPairs} / {totalPairs} eşleşti
-            </p>
+          <div className="flex items-center gap-3">
+            <button
+              onClick={onExit}
+              className="w-8 h-8 flex items-center justify-center rounded-xl bg-white/10
+                         border border-white/[0.07] text-gray-400 hover:text-white transition-colors text-sm"
+            >
+              ←
+            </button>
+            <div>
+              <h2 className="font-bold text-gray-200">{topic}</h2>
+              <p className="text-xs text-gray-500">
+                {matchedPairs} / {totalPairs} eşleşti
+              </p>
+            </div>
           </div>
           <div className="flex items-center gap-2 bg-violet-500/10 border border-violet-500/20 text-violet-400 rounded-xl px-4 py-2">
             <span className="text-sm font-bold tabular-nums">{moves}</span>
@@ -320,6 +329,7 @@ export default function MatchPage() {
       shaking={shaking}
       moves={moves}
       onCardClick={handleCardClick}
+      onExit={() => navigate('/topics')}
     />
   );
 }

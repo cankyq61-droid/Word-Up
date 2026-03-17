@@ -243,7 +243,7 @@ export default function QuizPage() {
         {/* Nav */}
         <div className="flex items-center justify-between mb-5">
           <button
-            onClick={() => setSel(null)}
+            onClick={() => wordIds ? navigate('/topics') : setSel(null)}
             className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-200 transition-colors"
           >
             ← {label}
