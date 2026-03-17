@@ -6,7 +6,7 @@ import { TOPIC_META, DEFAULT_META } from '../data/topics';
 import ProgressBar from '../components/ProgressBar';
 
 const allTopics = [...new Set(words.map((w) => w.topic))];
-const TOPICS_PER_PAGE = 8;
+const TOPICS_PER_PAGE = 7;
 
 const topicPages = [];
 for (let i = 0; i < allTopics.length; i += TOPICS_PER_PAGE) {
