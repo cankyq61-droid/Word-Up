@@ -22,7 +22,7 @@ function TopicSelect({ onSelect }) {
       <div className="max-w-lg mx-auto px-4 pt-8 pb-16">
         <div className="flex items-center gap-3 mb-8">
           <button
-            onClick={() => navigate('/')}
+            onClick={() => navigate('/topics')}
             className="w-9 h-9 flex items-center justify-center rounded-xl bg-white/10 border border-white/[0.07] text-gray-400 hover:text-white transition-colors"
           >
             ←
@@ -163,7 +163,7 @@ export default function LearnPage() {
         isLearned={isLearned}
         onRetry={() => setCurrentIndex(0)}
         onBack={() => { setSelectedTopic(null); setCurrentIndex(0); }}
-        onHome={() => navigate('/')}
+        onHome={() => navigate('/topics')}
         onQuiz={() => navigate('/quiz', { state: { topic: selectedTopic } })}
       />
     );
