@@ -7963,5 +7963,3965 @@
     "type": "isim",
     "exampleEn": "The network connection is slow.",
     "exampleTr": "Ağ bağlantısı yavaş."
+  },
+  {
+    "id": 886,
+    "topic": "Selamlaşma ve Tanışma (B1)",
+    "en": "colleague",
+    "tr": "iş arkadaşı",
+    "type": "isim",
+    "exampleEn": "My colleague helped me finish the report.",
+    "exampleTr": "İş arkadaşım raporu bitirmeme yardım etti."
+  },
+  {
+    "id": 887,
+    "topic": "Selamlaşma ve Tanışma (B1)",
+    "en": "acquaintance",
+    "tr": "tanıdık",
+    "type": "isim",
+    "exampleEn": "She is an acquaintance, not a close friend.",
+    "exampleTr": "O bir tanıdık, yakın arkadaş değil."
+  },
+  {
+    "id": 888,
+    "topic": "Selamlaşma ve Tanışma (B1)",
+    "en": "eloquent",
+    "tr": "belagatlı",
+    "type": "sıfat",
+    "exampleEn": "She gave an eloquent speech at the ceremony.",
+    "exampleTr": "Törende belagatlı bir konuşma yaptı."
+  },
+  {
+    "id": 889,
+    "topic": "Selamlaşma ve Tanışma (B1)",
+    "en": "candid",
+    "tr": "açık sözlü",
+    "type": "sıfat",
+    "exampleEn": "He was candid about his feelings.",
+    "exampleTr": "Duygularını açık sözlülükle paylaştı."
+  },
+  {
+    "id": 890,
+    "topic": "Selamlaşma ve Tanışma (B1)",
+    "en": "reputation",
+    "tr": "itibar",
+    "type": "isim",
+    "exampleEn": "She has a great reputation in her field.",
+    "exampleTr": "Kendi alanında harika bir itibarı var."
+  },
+  {
+    "id": 891,
+    "topic": "Selamlaşma ve Tanışma (B1)",
+    "en": "compliment",
+    "tr": "iltifat",
+    "type": "isim",
+    "exampleEn": "He gave her a sincere compliment.",
+    "exampleTr": "Ona içten bir iltifat etti."
+  },
+  {
+    "id": 892,
+    "topic": "Selamlaşma ve Tanışma (B1)",
+    "en": "farewell",
+    "tr": "veda",
+    "type": "isim",
+    "exampleEn": "They said their farewells at the airport.",
+    "exampleTr": "Havalimanında vedalaştılar."
+  },
+  {
+    "id": 893,
+    "topic": "Selamlaşma ve Tanışma (B1)",
+    "en": "handshake",
+    "tr": "el sıkışma",
+    "type": "isim",
+    "exampleEn": "A firm handshake shows confidence.",
+    "exampleTr": "Sıkı bir el sıkışma güven gösterir."
+  },
+  {
+    "id": 894,
+    "topic": "Selamlaşma ve Tanışma (B1)",
+    "en": "impression",
+    "tr": "izlenim",
+    "type": "isim",
+    "exampleEn": "She made a great first impression.",
+    "exampleTr": "Harika bir ilk izlenim bıraktı."
+  },
+  {
+    "id": 895,
+    "topic": "Selamlaşma ve Tanışma (B1)",
+    "en": "networking",
+    "tr": "ağ kurma",
+    "type": "isim",
+    "exampleEn": "Networking is important for career growth.",
+    "exampleTr": "Ağ kurma kariyer gelişimi için önemlidir."
+  },
+  {
+    "id": 896,
+    "topic": "Selamlaşma ve Tanışma (B1)",
+    "en": "acknowledge",
+    "tr": "kabul etmek",
+    "type": "fiil",
+    "exampleEn": "He acknowledged her contribution to the project.",
+    "exampleTr": "Projeye olan katkısını kabul etti."
+  },
+  {
+    "id": 897,
+    "topic": "Selamlaşma ve Tanışma (B1)",
+    "en": "approachable",
+    "tr": "ulaşılabilir",
+    "type": "sıfat",
+    "exampleEn": "The manager is very approachable.",
+    "exampleTr": "Müdür çok ulaşılabilir biri."
+  },
+  {
+    "id": 898,
+    "topic": "Selamlaşma ve Tanışma (B1)",
+    "en": "dialogue",
+    "tr": "diyalog",
+    "type": "isim",
+    "exampleEn": "Open dialogue helps resolve misunderstandings.",
+    "exampleTr": "Açık diyalog yanlış anlamaları çözmeye yardımcı olur."
+  },
+  {
+    "id": 899,
+    "topic": "Selamlaşma ve Tanışma (B1)",
+    "en": "mutual",
+    "tr": "karşılıklı",
+    "type": "sıfat",
+    "exampleEn": "We have many mutual friends.",
+    "exampleTr": "Pek çok ortak arkadaşımız var."
+  },
+  {
+    "id": 900,
+    "topic": "Selamlaşma ve Tanışma (B1)",
+    "en": "sincere",
+    "tr": "samimi",
+    "type": "sıfat",
+    "exampleEn": "Her apology was sincere.",
+    "exampleTr": "Özrü samimiydi."
+  },
+  {
+    "id": 901,
+    "topic": "Selamlaşma ve Tanışma (B1)",
+    "en": "bond",
+    "tr": "bağ",
+    "type": "isim",
+    "exampleEn": "They formed a strong bond over the years.",
+    "exampleTr": "Yıllar içinde güçlü bir bağ kurdular."
+  },
+  {
+    "id": 902,
+    "topic": "Selamlaşma ve Tanışma (B1)",
+    "en": "memorable",
+    "tr": "unutulmaz",
+    "type": "sıfat",
+    "exampleEn": "That was a memorable evening.",
+    "exampleTr": "O unutulmaz bir akşamdı."
+  },
+  {
+    "id": 903,
+    "topic": "Selamlaşma ve Tanışma (B1)",
+    "en": "reunion",
+    "tr": "yeniden buluşma",
+    "type": "isim",
+    "exampleEn": "The class reunion was held last weekend.",
+    "exampleTr": "Sınıf yeniden buluşması geçen hafta sonu yapıldı."
+  },
+  {
+    "id": 904,
+    "topic": "Selamlaşma ve Tanışma (B1)",
+    "en": "trustworthy",
+    "tr": "güvenilir",
+    "type": "sıfat",
+    "exampleEn": "He is a trustworthy person.",
+    "exampleTr": "Güvenilir bir insandır."
+  },
+  {
+    "id": 905,
+    "topic": "Selamlaşma ve Tanışma (B1)",
+    "en": "community",
+    "tr": "topluluk",
+    "type": "isim",
+    "exampleEn": "She is very active in her community.",
+    "exampleTr": "Topluluğunda çok aktif."
+  },
+  {
+    "id": 906,
+    "topic": "Sayılar (B1)",
+    "en": "proportion",
+    "tr": "oran",
+    "type": "isim",
+    "exampleEn": "A large proportion of students passed.",
+    "exampleTr": "Öğrencilerin büyük bir oranı geçti."
+  },
+  {
+    "id": 907,
+    "topic": "Sayılar (B1)",
+    "en": "decimal",
+    "tr": "ondalık",
+    "type": "isim",
+    "exampleEn": "Write the answer as a decimal number.",
+    "exampleTr": "Cevabı ondalık sayı olarak yaz."
+  },
+  {
+    "id": 908,
+    "topic": "Sayılar (B1)",
+    "en": "percentage",
+    "tr": "yüzde",
+    "type": "isim",
+    "exampleEn": "What percentage of students passed the exam?",
+    "exampleTr": "Öğrencilerin yüzde kaçı sınavı geçti?"
+  },
+  {
+    "id": 909,
+    "topic": "Sayılar (B1)",
+    "en": "estimate",
+    "tr": "tahmin etmek",
+    "type": "fiil",
+    "exampleEn": "Can you estimate the total cost?",
+    "exampleTr": "Toplam maliyeti tahmin edebilir misin?"
+  },
+  {
+    "id": 910,
+    "topic": "Sayılar (B1)",
+    "en": "precise",
+    "tr": "kesin",
+    "type": "sıfat",
+    "exampleEn": "Give me the precise measurement.",
+    "exampleTr": "Bana kesin ölçüyü ver."
+  },
+  {
+    "id": 911,
+    "topic": "Sayılar (B1)",
+    "en": "approximate",
+    "tr": "yaklaşık",
+    "type": "sıfat",
+    "exampleEn": "The approximate distance is 50 km.",
+    "exampleTr": "Yaklaşık mesafe 50 km'dir."
+  },
+  {
+    "id": 912,
+    "topic": "Sayılar (B1)",
+    "en": "equation",
+    "tr": "denklem",
+    "type": "isim",
+    "exampleEn": "Solve this equation for x.",
+    "exampleTr": "Bu denklemi x için çöz."
+  },
+  {
+    "id": 913,
+    "topic": "Sayılar (B1)",
+    "en": "calculation",
+    "tr": "hesaplama",
+    "type": "isim",
+    "exampleEn": "Double-check your calculation.",
+    "exampleTr": "Hesaplamalarını tekrar kontrol et."
+  },
+  {
+    "id": 914,
+    "topic": "Sayılar (B1)",
+    "en": "statistic",
+    "tr": "istatistik",
+    "type": "isim",
+    "exampleEn": "The statistics show a clear trend.",
+    "exampleTr": "İstatistikler açık bir eğilim gösteriyor."
+  },
+  {
+    "id": 915,
+    "topic": "Sayılar (B1)",
+    "en": "formula",
+    "tr": "formül",
+    "type": "isim",
+    "exampleEn": "Use the correct formula to find the area.",
+    "exampleTr": "Alanı bulmak için doğru formülü kullan."
+  },
+  {
+    "id": 916,
+    "topic": "Sayılar (B1)",
+    "en": "ratio",
+    "tr": "oran",
+    "type": "isim",
+    "exampleEn": "The ratio of boys to girls is 3 to 2.",
+    "exampleTr": "Erkek-kız oranı 3'e 2'dir."
+  },
+  {
+    "id": 917,
+    "topic": "Sayılar (B1)",
+    "en": "median",
+    "tr": "medyan",
+    "type": "isim",
+    "exampleEn": "The median score of the class was 70.",
+    "exampleTr": "Sınıfın medyan puanı 70'ti."
+  },
+  {
+    "id": 918,
+    "topic": "Sayılar (B1)",
+    "en": "maximum",
+    "tr": "maksimum",
+    "type": "isim",
+    "exampleEn": "What is the maximum speed allowed?",
+    "exampleTr": "İzin verilen maksimum hız nedir?"
+  },
+  {
+    "id": 919,
+    "topic": "Sayılar (B1)",
+    "en": "minimum",
+    "tr": "minimum",
+    "type": "isim",
+    "exampleEn": "The minimum age to vote is 18.",
+    "exampleTr": "Oy kullanma için asgari yaş 18'dir."
+  },
+  {
+    "id": 920,
+    "topic": "Sayılar (B1)",
+    "en": "exponent",
+    "tr": "üs",
+    "type": "isim",
+    "exampleEn": "2 to the power of 3 is an exponent example.",
+    "exampleTr": "2'nin 3. kuvveti bir üs örneğidir."
+  },
+  {
+    "id": 921,
+    "topic": "Sayılar (B1)",
+    "en": "denominator",
+    "tr": "payda",
+    "type": "isim",
+    "exampleEn": "The denominator is the bottom number of a fraction.",
+    "exampleTr": "Payda, kesrin alt sayısıdır."
+  },
+  {
+    "id": 922,
+    "topic": "Sayılar (B1)",
+    "en": "subtract",
+    "tr": "çıkarmak",
+    "type": "fiil",
+    "exampleEn": "Subtract 15 from 100.",
+    "exampleTr": "100'den 15 çıkar."
+  },
+  {
+    "id": 923,
+    "topic": "Sayılar (B1)",
+    "en": "negative",
+    "tr": "negatif",
+    "type": "sıfat",
+    "exampleEn": "The temperature is negative today.",
+    "exampleTr": "Bugün sıcaklık negatif."
+  },
+  {
+    "id": 924,
+    "topic": "Sayılar (B1)",
+    "en": "sequence",
+    "tr": "dizi",
+    "type": "isim",
+    "exampleEn": "What is the next number in this sequence?",
+    "exampleTr": "Bu dizideki sonraki sayı nedir?"
+  },
+  {
+    "id": 925,
+    "topic": "Sayılar (B1)",
+    "en": "infinite",
+    "tr": "sonsuz",
+    "type": "sıfat",
+    "exampleEn": "The universe is said to be infinite.",
+    "exampleTr": "Evrenin sonsuz olduğu söylenir."
+  },
+  {
+    "id": 926,
+    "topic": "Renkler (B1)",
+    "en": "cerulean",
+    "tr": "gök mavisi",
+    "type": "isim",
+    "exampleEn": "The sky was a deep cerulean blue.",
+    "exampleTr": "Gökyüzü derin bir gök mavisi rengindeydi."
+  },
+  {
+    "id": 927,
+    "topic": "Renkler (B1)",
+    "en": "crimson",
+    "tr": "kızıl",
+    "type": "isim",
+    "exampleEn": "She wore a crimson dress at the party.",
+    "exampleTr": "Partide kızıl bir elbise giymişti."
+  },
+  {
+    "id": 928,
+    "topic": "Renkler (B1)",
+    "en": "ecru",
+    "tr": "krem",
+    "type": "isim",
+    "exampleEn": "The tablecloth was ecru in color.",
+    "exampleTr": "Masa örtüsü krem rengindeydi."
+  },
+  {
+    "id": 929,
+    "topic": "Renkler (B1)",
+    "en": "vermilion",
+    "tr": "parlak kırmızı",
+    "type": "isim",
+    "exampleEn": "The artist used vermilion for the flowers.",
+    "exampleTr": "Sanatçı çiçekler için parlak kırmızı kullandı."
+  },
+  {
+    "id": 930,
+    "topic": "Renkler (B1)",
+    "en": "cobalt",
+    "tr": "kobalt mavisi",
+    "type": "isim",
+    "exampleEn": "He wore a cobalt blue shirt.",
+    "exampleTr": "Kobalt mavisi bir gömlek giymişti."
+  },
+  {
+    "id": 931,
+    "topic": "Renkler (B1)",
+    "en": "charcoal",
+    "tr": "kömür grisi",
+    "type": "isim",
+    "exampleEn": "The charcoal jacket looked elegant.",
+    "exampleTr": "Kömür grisi ceket şık görünüyordu."
+  },
+  {
+    "id": 932,
+    "topic": "Renkler (B1)",
+    "en": "copper",
+    "tr": "bakır rengi",
+    "type": "isim",
+    "exampleEn": "Her hair had a copper tint.",
+    "exampleTr": "Saçlarında bakır rengi tonlar vardı."
+  },
+  {
+    "id": 933,
+    "topic": "Renkler (B1)",
+    "en": "saffron",
+    "tr": "safran sarısı",
+    "type": "isim",
+    "exampleEn": "She wore a saffron-colored dress.",
+    "exampleTr": "Safran sarısı renkte bir elbise giydi."
+  },
+  {
+    "id": 934,
+    "topic": "Renkler (B1)",
+    "en": "lilac",
+    "tr": "leylak rengi",
+    "type": "isim",
+    "exampleEn": "The lilac blossoms filled the garden.",
+    "exampleTr": "Leylak çiçekleri bahçeyi doldurdu."
+  },
+  {
+    "id": 935,
+    "topic": "Renkler (B1)",
+    "en": "slate",
+    "tr": "kurşun grisi",
+    "type": "isim",
+    "exampleEn": "The roof tiles were slate grey.",
+    "exampleTr": "Çatı kiremitleri kurşun grisi rengindeydi."
+  },
+  {
+    "id": 936,
+    "topic": "Renkler (B1)",
+    "en": "amber",
+    "tr": "kehribar",
+    "type": "isim",
+    "exampleEn": "Her eyes were an amber color.",
+    "exampleTr": "Gözleri kehribar rengindeydi."
+  },
+  {
+    "id": 937,
+    "topic": "Renkler (B1)",
+    "en": "vivid",
+    "tr": "canlı",
+    "type": "sıfat",
+    "exampleEn": "The painting used vivid colors.",
+    "exampleTr": "Tablo canlı renkler kullandı."
+  },
+  {
+    "id": 938,
+    "topic": "Renkler (B1)",
+    "en": "subdued",
+    "tr": "soluk",
+    "type": "sıfat",
+    "exampleEn": "The room was decorated in subdued shades.",
+    "exampleTr": "Oda soluk tonlarla dekore edildi."
+  },
+  {
+    "id": 939,
+    "topic": "Renkler (B1)",
+    "en": "transparent",
+    "tr": "şeffaf",
+    "type": "sıfat",
+    "exampleEn": "The glass is completely transparent.",
+    "exampleTr": "Cam tamamen şeffaf."
+  },
+  {
+    "id": 940,
+    "topic": "Renkler (B1)",
+    "en": "metallic",
+    "tr": "metalik",
+    "type": "sıfat",
+    "exampleEn": "The car had a metallic finish.",
+    "exampleTr": "Arabanın metalik bir görünümü vardı."
+  },
+  {
+    "id": 941,
+    "topic": "Renkler (B1)",
+    "en": "hue",
+    "tr": "renk tonu",
+    "type": "isim",
+    "exampleEn": "The painting featured every hue of the rainbow.",
+    "exampleTr": "Tablo gökkuşağının her renk tonunu içeriyordu."
+  },
+  {
+    "id": 942,
+    "topic": "Renkler (B1)",
+    "en": "saturated",
+    "tr": "doygun",
+    "type": "sıfat",
+    "exampleEn": "Use more saturated colors for the poster.",
+    "exampleTr": "Afiş için daha doygun renkler kullan."
+  },
+  {
+    "id": 943,
+    "topic": "Renkler (B1)",
+    "en": "muted",
+    "tr": "soluk",
+    "type": "sıfat",
+    "exampleEn": "She preferred muted tones in her home.",
+    "exampleTr": "Evinde soluk tonları tercih etti."
+  },
+  {
+    "id": 944,
+    "topic": "Renkler (B1)",
+    "en": "contrast",
+    "tr": "kontrast",
+    "type": "isim",
+    "exampleEn": "There is strong contrast between the two colors.",
+    "exampleTr": "İki renk arasında güçlü bir kontrast var."
+  },
+  {
+    "id": 945,
+    "topic": "Renkler (B1)",
+    "en": "blend",
+    "tr": "karışım",
+    "type": "isim",
+    "exampleEn": "The blend of colors was stunning.",
+    "exampleTr": "Renklerin karışımı çarpıcıydı."
+  },
+  {
+    "id": 946,
+    "topic": "Aile (B1)",
+    "en": "guardian",
+    "tr": "veli",
+    "type": "isim",
+    "exampleEn": "The guardian signed the school forms.",
+    "exampleTr": "Veli okul formlarını imzaladı."
+  },
+  {
+    "id": 947,
+    "topic": "Aile (B1)",
+    "en": "inherit",
+    "tr": "miras almak",
+    "type": "fiil",
+    "exampleEn": "She will inherit the house from her parents.",
+    "exampleTr": "Evi ailesinden miras alacak."
+  },
+  {
+    "id": 948,
+    "topic": "Aile (B1)",
+    "en": "orphan",
+    "tr": "yetim",
+    "type": "isim",
+    "exampleEn": "The orphan was adopted by a kind family.",
+    "exampleTr": "Yetim, şefkatli bir aile tarafından evlat edinildi."
+  },
+  {
+    "id": 949,
+    "topic": "Aile (B1)",
+    "en": "divorce",
+    "tr": "boşanma",
+    "type": "isim",
+    "exampleEn": "The divorce was difficult for the children.",
+    "exampleTr": "Boşanma çocuklar için zor oldu."
+  },
+  {
+    "id": 950,
+    "topic": "Aile (B1)",
+    "en": "custody",
+    "tr": "velayet",
+    "type": "isim",
+    "exampleEn": "She was awarded full custody of the kids.",
+    "exampleTr": "Çocukların tam velayeti ona verildi."
+  },
+  {
+    "id": 951,
+    "topic": "Aile (B1)",
+    "en": "kin",
+    "tr": "akraba",
+    "type": "isim",
+    "exampleEn": "He has no close kin nearby.",
+    "exampleTr": "Yakınında yakın akrabası yok."
+  },
+  {
+    "id": 952,
+    "topic": "Aile (B1)",
+    "en": "stepparent",
+    "tr": "üvey ebeveyn",
+    "type": "isim",
+    "exampleEn": "He gets along well with his stepparent.",
+    "exampleTr": "Üvey ebeveynleriyle iyi geçiniyor."
+  },
+  {
+    "id": 953,
+    "topic": "Aile (B1)",
+    "en": "upbringing",
+    "tr": "yetiştirilme",
+    "type": "isim",
+    "exampleEn": "Her upbringing was strict but loving.",
+    "exampleTr": "Yetiştirilme tarzı sıkı ama sevgi doluydu."
+  },
+  {
+    "id": 954,
+    "topic": "Aile (B1)",
+    "en": "affection",
+    "tr": "sevgi",
+    "type": "isim",
+    "exampleEn": "Children need affection to grow well.",
+    "exampleTr": "Çocukların iyi gelişmek için sevgiye ihtiyacı var."
+  },
+  {
+    "id": 955,
+    "topic": "Aile (B1)",
+    "en": "breadwinner",
+    "tr": "evin direği",
+    "type": "isim",
+    "exampleEn": "She became the breadwinner after losing his job.",
+    "exampleTr": "İşini kaybettikten sonra evin direği oldu."
+  },
+  {
+    "id": 956,
+    "topic": "Aile (B1)",
+    "en": "ancestor",
+    "tr": "ata",
+    "type": "isim",
+    "exampleEn": "Our ancestors lived in this village.",
+    "exampleTr": "Atalarımız bu köyde yaşadı."
+  },
+  {
+    "id": 957,
+    "topic": "Aile (B1)",
+    "en": "descendant",
+    "tr": "torun",
+    "type": "isim",
+    "exampleEn": "She is a descendant of a famous explorer.",
+    "exampleTr": "Ünlü bir kaşifin torunudur."
+  },
+  {
+    "id": 958,
+    "topic": "Aile (B1)",
+    "en": "estranged",
+    "tr": "yabancılaşmış",
+    "type": "sıfat",
+    "exampleEn": "He is estranged from his family.",
+    "exampleTr": "Ailesinden yabancılaşmış."
+  },
+  {
+    "id": 959,
+    "topic": "Aile (B1)",
+    "en": "nurture",
+    "tr": "beslemek",
+    "type": "fiil",
+    "exampleEn": "Parents must nurture their children.",
+    "exampleTr": "Ebeveynler çocuklarını beslemelidir."
+  },
+  {
+    "id": 960,
+    "topic": "Aile (B1)",
+    "en": "kinship",
+    "tr": "akrabalık",
+    "type": "isim",
+    "exampleEn": "Kinship ties are strong in this culture.",
+    "exampleTr": "Bu kültürde akrabalık bağları güçlüdür."
+  },
+  {
+    "id": 961,
+    "topic": "Aile (B1)",
+    "en": "unity",
+    "tr": "birlik",
+    "type": "isim",
+    "exampleEn": "Family unity is important in hard times.",
+    "exampleTr": "Zor zamanlarda aile birliği önemlidir."
+  },
+  {
+    "id": 962,
+    "topic": "Aile (B1)",
+    "en": "sacrifice",
+    "tr": "fedakarlık",
+    "type": "isim",
+    "exampleEn": "Parents make many sacrifices for their kids.",
+    "exampleTr": "Ebeveynler çocukları için çok fedakarlık yapar."
+  },
+  {
+    "id": 963,
+    "topic": "Aile (B1)",
+    "en": "reconcile",
+    "tr": "barışmak",
+    "type": "fiil",
+    "exampleEn": "They reconciled after years of conflict.",
+    "exampleTr": "Yıllarca süren anlaşmazlıktan sonra barıştılar."
+  },
+  {
+    "id": 964,
+    "topic": "Aile (B1)",
+    "en": "heritage",
+    "tr": "miras",
+    "type": "isim",
+    "exampleEn": "They are proud of their cultural heritage.",
+    "exampleTr": "Kültürel miraslarıyla gurur duyuyorlar."
+  },
+  {
+    "id": 965,
+    "topic": "Aile (B1)",
+    "en": "lineage",
+    "tr": "soy",
+    "type": "isim",
+    "exampleEn": "She traced her lineage back centuries.",
+    "exampleTr": "Soyunu yüzyıllar öncesine kadar izledi."
+  },
+  {
+    "id": 966,
+    "topic": "Vücut (B1)",
+    "en": "palpitation",
+    "tr": "çarpıntı",
+    "type": "isim",
+    "exampleEn": "She felt a palpitation after running.",
+    "exampleTr": "Koşu sonrası çarpıntı hissetti."
+  },
+  {
+    "id": 967,
+    "topic": "Vücut (B1)",
+    "en": "tissue",
+    "tr": "doku",
+    "type": "isim",
+    "exampleEn": "The tissue was damaged in the accident.",
+    "exampleTr": "Kaza sırasında doku zarar gördü."
+  },
+  {
+    "id": 968,
+    "topic": "Vücut (B1)",
+    "en": "artery",
+    "tr": "atardamar",
+    "type": "isim",
+    "exampleEn": "The artery carries blood from the heart.",
+    "exampleTr": "Atardamar kalpten kan taşır."
+  },
+  {
+    "id": 969,
+    "topic": "Vücut (B1)",
+    "en": "posture",
+    "tr": "duruş",
+    "type": "isim",
+    "exampleEn": "Good posture is essential for back health.",
+    "exampleTr": "İyi duruş, sırt sağlığı için önemlidir."
+  },
+  {
+    "id": 970,
+    "topic": "Vücut (B1)",
+    "en": "cartilage",
+    "tr": "kıkırdak",
+    "type": "isim",
+    "exampleEn": "Cartilage protects the joints.",
+    "exampleTr": "Kıkırdak eklemleri korur."
+  },
+  {
+    "id": 971,
+    "topic": "Vücut (B1)",
+    "en": "gland",
+    "tr": "bez",
+    "type": "isim",
+    "exampleEn": "The gland produces important hormones.",
+    "exampleTr": "Bez önemli hormonlar üretir."
+  },
+  {
+    "id": 972,
+    "topic": "Vücut (B1)",
+    "en": "immune",
+    "tr": "bağışıklık",
+    "type": "sıfat",
+    "exampleEn": "The immune system fights infections.",
+    "exampleTr": "Bağışıklık sistemi enfeksiyonlarla savaşır."
+  },
+  {
+    "id": 973,
+    "topic": "Vücut (B1)",
+    "en": "metabolism",
+    "tr": "metabolizma",
+    "type": "isim",
+    "exampleEn": "Exercise boosts your metabolism.",
+    "exampleTr": "Egzersiz metabolizmanızı hızlandırır."
+  },
+  {
+    "id": 974,
+    "topic": "Vücut (B1)",
+    "en": "neuron",
+    "tr": "nöron",
+    "type": "isim",
+    "exampleEn": "Neurons transmit signals in the brain.",
+    "exampleTr": "Nöronlar beyindeki sinyalleri iletir."
+  },
+  {
+    "id": 975,
+    "topic": "Vücut (B1)",
+    "en": "hormone",
+    "tr": "hormon",
+    "type": "isim",
+    "exampleEn": "Hormones regulate many body functions.",
+    "exampleTr": "Hormonlar birçok vücut fonksiyonunu düzenler."
+  },
+  {
+    "id": 976,
+    "topic": "Vücut (B1)",
+    "en": "vein",
+    "tr": "toplardamar",
+    "type": "isim",
+    "exampleEn": "Blood flows back to the heart through veins.",
+    "exampleTr": "Kan toplardamarlar yoluyla kalbe geri döner."
+  },
+  {
+    "id": 977,
+    "topic": "Vücut (B1)",
+    "en": "spinal",
+    "tr": "omurilik",
+    "type": "sıfat",
+    "exampleEn": "He suffered a spinal injury.",
+    "exampleTr": "Omurilik yaralanması geçirdi."
+  },
+  {
+    "id": 978,
+    "topic": "Vücut (B1)",
+    "en": "respiratory",
+    "tr": "solunum",
+    "type": "sıfat",
+    "exampleEn": "Respiratory health is vital.",
+    "exampleTr": "Solunum sağlığı hayati önem taşır."
+  },
+  {
+    "id": 979,
+    "topic": "Vücut (B1)",
+    "en": "reflex",
+    "tr": "refleks",
+    "type": "isim",
+    "exampleEn": "His reflexes were quick.",
+    "exampleTr": "Refleksleri hızlıydı."
+  },
+  {
+    "id": 980,
+    "topic": "Vücut (B1)",
+    "en": "cavity",
+    "tr": "boşluk",
+    "type": "isim",
+    "exampleEn": "The chest cavity contains the lungs.",
+    "exampleTr": "Göğüs boşluğu akciğerleri içerir."
+  },
+  {
+    "id": 981,
+    "topic": "Vücut (B1)",
+    "en": "bruise",
+    "tr": "çürük",
+    "type": "isim",
+    "exampleEn": "She had a bruise on her arm.",
+    "exampleTr": "Kolunda bir çürük vardı."
+  },
+  {
+    "id": 982,
+    "topic": "Vücut (B1)",
+    "en": "circulation",
+    "tr": "dolaşım",
+    "type": "isim",
+    "exampleEn": "Poor circulation causes cold hands.",
+    "exampleTr": "Kötü dolaşım soğuk ellere neden olur."
+  },
+  {
+    "id": 983,
+    "topic": "Vücut (B1)",
+    "en": "diagnose",
+    "tr": "teşhis koymak",
+    "type": "fiil",
+    "exampleEn": "The doctor diagnosed him with flu.",
+    "exampleTr": "Doktor ona grip teşhisi koydu."
+  },
+  {
+    "id": 984,
+    "topic": "Vücut (B1)",
+    "en": "affliction",
+    "tr": "hastalık",
+    "type": "isim",
+    "exampleEn": "He suffered from a rare affliction.",
+    "exampleTr": "Nadir bir hastalıktan muzdaripti."
+  },
+  {
+    "id": 985,
+    "topic": "Vücut (B1)",
+    "en": "remedy",
+    "tr": "çare",
+    "type": "isim",
+    "exampleEn": "Rest is the best remedy for a cold.",
+    "exampleTr": "İstirahat, soğuk algınlığının en iyi çaresidir."
+  },
+  {
+    "id": 986,
+    "topic": "Yiyecekler (B1)",
+    "en": "cuisine",
+    "tr": "mutfak",
+    "type": "isim",
+    "exampleEn": "Italian cuisine is popular worldwide.",
+    "exampleTr": "İtalyan mutfağı dünya çapında popülerdir."
+  },
+  {
+    "id": 987,
+    "topic": "Yiyecekler (B1)",
+    "en": "ingredient",
+    "tr": "malzeme",
+    "type": "isim",
+    "exampleEn": "What ingredients do you need for this recipe?",
+    "exampleTr": "Bu tarif için hangi malzemelere ihtiyacın var?"
+  },
+  {
+    "id": 988,
+    "topic": "Yiyecekler (B1)",
+    "en": "marinate",
+    "tr": "marine etmek",
+    "type": "fiil",
+    "exampleEn": "Marinate the chicken overnight.",
+    "exampleTr": "Tavuğu bir gece boyunca marine edin."
+  },
+  {
+    "id": 989,
+    "topic": "Yiyecekler (B1)",
+    "en": "serving",
+    "tr": "porsiyon",
+    "type": "isim",
+    "exampleEn": "One serving contains 200 calories.",
+    "exampleTr": "Bir porsiyon 200 kalori içerir."
+  },
+  {
+    "id": 990,
+    "topic": "Yiyecekler (B1)",
+    "en": "nutrition",
+    "tr": "beslenme",
+    "type": "isim",
+    "exampleEn": "Nutrition labels help you make healthy choices.",
+    "exampleTr": "Besin etiketleri sağlıklı seçimler yapmanıza yardımcı olur."
+  },
+  {
+    "id": 991,
+    "topic": "Yiyecekler (B1)",
+    "en": "fermented",
+    "tr": "fermente",
+    "type": "sıfat",
+    "exampleEn": "Fermented foods are good for digestion.",
+    "exampleTr": "Fermente gıdalar sindirim için iyidir."
+  },
+  {
+    "id": 992,
+    "topic": "Yiyecekler (B1)",
+    "en": "seasoning",
+    "tr": "çeşni",
+    "type": "isim",
+    "exampleEn": "Add seasoning to taste.",
+    "exampleTr": "Tat için çeşni ekleyin."
+  },
+  {
+    "id": 993,
+    "topic": "Yiyecekler (B1)",
+    "en": "garnish",
+    "tr": "süsleme",
+    "type": "isim",
+    "exampleEn": "The chef added a garnish of herbs.",
+    "exampleTr": "Şef bitkisel bir süsleme ekledi."
+  },
+  {
+    "id": 994,
+    "topic": "Yiyecekler (B1)",
+    "en": "appetizer",
+    "tr": "iştah açıcı",
+    "type": "isim",
+    "exampleEn": "We ordered soup as an appetizer.",
+    "exampleTr": "Başlangıç olarak çorba sipariş ettik."
+  },
+  {
+    "id": 995,
+    "topic": "Yiyecekler (B1)",
+    "en": "dessert",
+    "tr": "tatlı",
+    "type": "isim",
+    "exampleEn": "We shared a chocolate dessert.",
+    "exampleTr": "Çikolatalı bir tatlıyı paylaştık."
+  },
+  {
+    "id": 996,
+    "topic": "Yiyecekler (B1)",
+    "en": "beverage",
+    "tr": "içecek",
+    "type": "isim",
+    "exampleEn": "Please choose your beverage.",
+    "exampleTr": "Lütfen içeceğinizi seçin."
+  },
+  {
+    "id": 997,
+    "topic": "Yiyecekler (B1)",
+    "en": "organic",
+    "tr": "organik",
+    "type": "sıfat",
+    "exampleEn": "She prefers to buy organic vegetables.",
+    "exampleTr": "Organik sebze almayı tercih ediyor."
+  },
+  {
+    "id": 998,
+    "topic": "Yiyecekler (B1)",
+    "en": "calorific",
+    "tr": "kalorili",
+    "type": "sıfat",
+    "exampleEn": "Fried food is very calorific.",
+    "exampleTr": "Kızartmalar çok kalorilidir."
+  },
+  {
+    "id": 999,
+    "topic": "Yiyecekler (B1)",
+    "en": "texture",
+    "tr": "kıvam",
+    "type": "isim",
+    "exampleEn": "The cake had a smooth texture.",
+    "exampleTr": "Pastanın pürüzsüz bir kıvamı vardı."
+  },
+  {
+    "id": 1000,
+    "topic": "Yiyecekler (B1)",
+    "en": "savoury",
+    "tr": "tuzlu",
+    "type": "sıfat",
+    "exampleEn": "I prefer savoury foods over sweet ones.",
+    "exampleTr": "Tatlı yiyecekler yerine tuzluları tercih ederim."
+  },
+  {
+    "id": 1001,
+    "topic": "Yiyecekler (B1)",
+    "en": "bittersweet",
+    "tr": "acı tatlı",
+    "type": "sıfat",
+    "exampleEn": "The chocolate was bittersweet.",
+    "exampleTr": "Çikolata acı tatlıydı."
+  },
+  {
+    "id": 1002,
+    "topic": "Yiyecekler (B1)",
+    "en": "culinary",
+    "tr": "mutfak sanatı",
+    "type": "sıfat",
+    "exampleEn": "She has a culinary degree.",
+    "exampleTr": "Mutfak sanatları diploması var."
+  },
+  {
+    "id": 1003,
+    "topic": "Yiyecekler (B1)",
+    "en": "staple",
+    "tr": "temel gıda",
+    "type": "isim",
+    "exampleEn": "Rice is a staple food in many countries.",
+    "exampleTr": "Pirinç birçok ülkede temel gıdadır."
+  },
+  {
+    "id": 1004,
+    "topic": "Yiyecekler (B1)",
+    "en": "fermentation",
+    "tr": "fermantasyon",
+    "type": "isim",
+    "exampleEn": "Fermentation changes the flavor of food.",
+    "exampleTr": "Fermantasyon yiyeceğin tadını değiştirir."
+  },
+  {
+    "id": 1005,
+    "topic": "Yiyecekler (B1)",
+    "en": "protein",
+    "tr": "protein",
+    "type": "isim",
+    "exampleEn": "Eggs are a great source of protein.",
+    "exampleTr": "Yumurta harika bir protein kaynağıdır."
+  },
+  {
+    "id": 1006,
+    "topic": "Giyim (B1)",
+    "en": "attire",
+    "tr": "kıyafet",
+    "type": "isim",
+    "exampleEn": "Business attire is required for the event.",
+    "exampleTr": "Etkinlik için iş kıyafeti gerekmektedir."
+  },
+  {
+    "id": 1007,
+    "topic": "Giyim (B1)",
+    "en": "tailor",
+    "tr": "terzi",
+    "type": "isim",
+    "exampleEn": "The tailor adjusted the suit perfectly.",
+    "exampleTr": "Terzi takım elbiseyi mükemmel şekilde ayarladı."
+  },
+  {
+    "id": 1008,
+    "topic": "Giyim (B1)",
+    "en": "wrinkle",
+    "tr": "kırışıklık",
+    "type": "isim",
+    "exampleEn": "Iron the shirt to remove the wrinkles.",
+    "exampleTr": "Kırışıklıkları gidermek için gömleği ütüle."
+  },
+  {
+    "id": 1009,
+    "topic": "Giyim (B1)",
+    "en": "mend",
+    "tr": "onarmak",
+    "type": "fiil",
+    "exampleEn": "She mended the torn seam.",
+    "exampleTr": "Yırtık dikişi onardı."
+  },
+  {
+    "id": 1010,
+    "topic": "Giyim (B1)",
+    "en": "textile",
+    "tr": "tekstil",
+    "type": "isim",
+    "exampleEn": "The textile industry is growing rapidly.",
+    "exampleTr": "Tekstil endüstrisi hızla büyüyor."
+  },
+  {
+    "id": 1011,
+    "topic": "Giyim (B1)",
+    "en": "vintage",
+    "tr": "eski moda",
+    "type": "sıfat",
+    "exampleEn": "She wore a vintage dress to the party.",
+    "exampleTr": "Partiye eski moda bir elbise giydi."
+  },
+  {
+    "id": 1012,
+    "topic": "Giyim (B1)",
+    "en": "alteration",
+    "tr": "tadilat",
+    "type": "isim",
+    "exampleEn": "She took the dress for alteration.",
+    "exampleTr": "Elbiseyi tadilata götürdü."
+  },
+  {
+    "id": 1013,
+    "topic": "Giyim (B1)",
+    "en": "bespoke",
+    "tr": "ısmarlama",
+    "type": "sıfat",
+    "exampleEn": "He ordered a bespoke suit.",
+    "exampleTr": "Ismarlama bir takım elbise sipariş etti."
+  },
+  {
+    "id": 1014,
+    "topic": "Giyim (B1)",
+    "en": "hemline",
+    "tr": "etek ucu",
+    "type": "isim",
+    "exampleEn": "The hemline was raised for the new season.",
+    "exampleTr": "Yeni sezon için etek ucu kısa yapıldı."
+  },
+  {
+    "id": 1015,
+    "topic": "Giyim (B1)",
+    "en": "accessory",
+    "tr": "aksesuar",
+    "type": "isim",
+    "exampleEn": "The right accessory can complete a look.",
+    "exampleTr": "Doğru aksesuar bir görünümü tamamlayabilir."
+  },
+  {
+    "id": 1016,
+    "topic": "Giyim (B1)",
+    "en": "lining",
+    "tr": "astar",
+    "type": "isim",
+    "exampleEn": "The coat has a silk lining.",
+    "exampleTr": "Montun ipek bir astarı var."
+  },
+  {
+    "id": 1017,
+    "topic": "Giyim (B1)",
+    "en": "threadbare",
+    "tr": "yıpranmış",
+    "type": "sıfat",
+    "exampleEn": "The coat was old and threadbare.",
+    "exampleTr": "Mont eski ve yıpranmıştı."
+  },
+  {
+    "id": 1018,
+    "topic": "Giyim (B1)",
+    "en": "sustainable",
+    "tr": "sürdürülebilir",
+    "type": "sıfat",
+    "exampleEn": "Sustainable fashion is gaining popularity.",
+    "exampleTr": "Sürdürülebilir moda giderek popülerleşiyor."
+  },
+  {
+    "id": 1019,
+    "topic": "Giyim (B1)",
+    "en": "dye",
+    "tr": "boyamak",
+    "type": "fiil",
+    "exampleEn": "She dyed her skirt a new color.",
+    "exampleTr": "Eteğini yeni bir renge boyadı."
+  },
+  {
+    "id": 1020,
+    "topic": "Giyim (B1)",
+    "en": "collection",
+    "tr": "koleksiyon",
+    "type": "isim",
+    "exampleEn": "The spring collection was impressive.",
+    "exampleTr": "Bahar koleksiyonu etkileyiciydi."
+  },
+  {
+    "id": 1021,
+    "topic": "Giyim (B1)",
+    "en": "sheer",
+    "tr": "neredeyse şeffaf",
+    "type": "sıfat",
+    "exampleEn": "The blouse was made of sheer fabric.",
+    "exampleTr": "Bluz neredeyse şeffaf kumaştan yapılmıştı."
+  },
+  {
+    "id": 1022,
+    "topic": "Giyim (B1)",
+    "en": "elastic",
+    "tr": "esnek",
+    "type": "sıfat",
+    "exampleEn": "The waistband is elastic for comfort.",
+    "exampleTr": "Bel bandı rahatlık için esnektir."
+  },
+  {
+    "id": 1023,
+    "topic": "Giyim (B1)",
+    "en": "reversible",
+    "tr": "çift taraflı",
+    "type": "sıfat",
+    "exampleEn": "This jacket is reversible.",
+    "exampleTr": "Bu ceket çift taraflı."
+  },
+  {
+    "id": 1024,
+    "topic": "Giyim (B1)",
+    "en": "trendy",
+    "tr": "moda",
+    "type": "sıfat",
+    "exampleEn": "She always dresses in trendy clothes.",
+    "exampleTr": "Her zaman modaya uygun giyinir."
+  },
+  {
+    "id": 1025,
+    "topic": "Giyim (B1)",
+    "en": "embroidery",
+    "tr": "nakış",
+    "type": "isim",
+    "exampleEn": "The blouse has beautiful embroidery on it.",
+    "exampleTr": "Bluzun üzerinde güzel nakışlar var."
+  },
+  {
+    "id": 1026,
+    "topic": "Ev ve Mobilya (B1)",
+    "en": "renovation",
+    "tr": "yenileme",
+    "type": "isim",
+    "exampleEn": "The kitchen renovation took three weeks.",
+    "exampleTr": "Mutfak yenilemesi üç hafta sürdü."
+  },
+  {
+    "id": 1027,
+    "topic": "Ev ve Mobilya (B1)",
+    "en": "landlord",
+    "tr": "ev sahibi",
+    "type": "isim",
+    "exampleEn": "The landlord raised the rent this year.",
+    "exampleTr": "Ev sahibi bu yıl kira artırdı."
+  },
+  {
+    "id": 1028,
+    "topic": "Ev ve Mobilya (B1)",
+    "en": "tenant",
+    "tr": "kiracı",
+    "type": "isim",
+    "exampleEn": "The tenant signed a one-year lease.",
+    "exampleTr": "Kiracı bir yıllık kira sözleşmesi imzaladı."
+  },
+  {
+    "id": 1029,
+    "topic": "Ev ve Mobilya (B1)",
+    "en": "mortgage",
+    "tr": "ipotek",
+    "type": "isim",
+    "exampleEn": "They took out a mortgage to buy the house.",
+    "exampleTr": "Evi satın almak için ipotek çektiler."
+  },
+  {
+    "id": 1030,
+    "topic": "Ev ve Mobilya (B1)",
+    "en": "insulation",
+    "tr": "yalıtım",
+    "type": "isim",
+    "exampleEn": "Good insulation reduces heating costs.",
+    "exampleTr": "İyi yalıtım ısıtma maliyetlerini azaltır."
+  },
+  {
+    "id": 1031,
+    "topic": "Ev ve Mobilya (B1)",
+    "en": "plumbing",
+    "tr": "sıhhi tesisat",
+    "type": "isim",
+    "exampleEn": "The plumbing was fixed by a professional.",
+    "exampleTr": "Sıhhi tesisat bir profesyonel tarafından onarıldı."
+  },
+  {
+    "id": 1032,
+    "topic": "Ev ve Mobilya (B1)",
+    "en": "decor",
+    "tr": "dekorasyon",
+    "type": "isim",
+    "exampleEn": "The decor of the living room was elegant.",
+    "exampleTr": "Oturma odasının dekorasyonu zarifti."
+  },
+  {
+    "id": 1033,
+    "topic": "Ev ve Mobilya (B1)",
+    "en": "leakage",
+    "tr": "sızıntı",
+    "type": "isim",
+    "exampleEn": "There was a water leakage in the ceiling.",
+    "exampleTr": "Tavanda su sızıntısı vardı."
+  },
+  {
+    "id": 1034,
+    "topic": "Ev ve Mobilya (B1)",
+    "en": "furnish",
+    "tr": "döşemek",
+    "type": "fiil",
+    "exampleEn": "They furnished the apartment beautifully.",
+    "exampleTr": "Daireyi güzelce döşediler."
+  },
+  {
+    "id": 1035,
+    "topic": "Ev ve Mobilya (B1)",
+    "en": "loft",
+    "tr": "çatı katı",
+    "type": "isim",
+    "exampleEn": "They converted the loft into a bedroom.",
+    "exampleTr": "Çatı katını yatak odasına dönüştürdüler."
+  },
+  {
+    "id": 1036,
+    "topic": "Ev ve Mobilya (B1)",
+    "en": "foyer",
+    "tr": "giriş holü",
+    "type": "isim",
+    "exampleEn": "The guests waited in the foyer.",
+    "exampleTr": "Misafirler giriş holünde bekledi."
+  },
+  {
+    "id": 1037,
+    "topic": "Ev ve Mobilya (B1)",
+    "en": "outlet",
+    "tr": "priz",
+    "type": "isim",
+    "exampleEn": "Plug the charger into the outlet.",
+    "exampleTr": "Şarj cihazını prize tak."
+  },
+  {
+    "id": 1038,
+    "topic": "Ev ve Mobilya (B1)",
+    "en": "threshold",
+    "tr": "eşik",
+    "type": "isim",
+    "exampleEn": "He stood at the threshold of the door.",
+    "exampleTr": "Kapının eşiğinde durdu."
+  },
+  {
+    "id": 1039,
+    "topic": "Ev ve Mobilya (B1)",
+    "en": "floorplan",
+    "tr": "kat planı",
+    "type": "isim",
+    "exampleEn": "The floorplan shows three bedrooms.",
+    "exampleTr": "Kat planı üç yatak odası gösteriyor."
+  },
+  {
+    "id": 1040,
+    "topic": "Ev ve Mobilya (B1)",
+    "en": "upholstery",
+    "tr": "döşeme",
+    "type": "isim",
+    "exampleEn": "The sofa has leather upholstery.",
+    "exampleTr": "Koltukta deri döşeme var."
+  },
+  {
+    "id": 1041,
+    "topic": "Ev ve Mobilya (B1)",
+    "en": "ventilation",
+    "tr": "havalandırma",
+    "type": "isim",
+    "exampleEn": "Proper ventilation prevents mold.",
+    "exampleTr": "Uygun havalandırma küfe engel olur."
+  },
+  {
+    "id": 1042,
+    "topic": "Ev ve Mobilya (B1)",
+    "en": "detached",
+    "tr": "müstakil",
+    "type": "sıfat",
+    "exampleEn": "They live in a detached house.",
+    "exampleTr": "Müstakil bir evde yaşıyorlar."
+  },
+  {
+    "id": 1043,
+    "topic": "Ev ve Mobilya (B1)",
+    "en": "faucet",
+    "tr": "musluk",
+    "type": "isim",
+    "exampleEn": "The faucet was dripping all night.",
+    "exampleTr": "Musluk bütün gece damladı."
+  },
+  {
+    "id": 1044,
+    "topic": "Ev ve Mobilya (B1)",
+    "en": "remodeling",
+    "tr": "tadilat",
+    "type": "isim",
+    "exampleEn": "Major remodeling work began last month.",
+    "exampleTr": "Geçen ay büyük tadilat çalışmaları başladı."
+  },
+  {
+    "id": 1045,
+    "topic": "Ev ve Mobilya (B1)",
+    "en": "storage",
+    "tr": "depolama",
+    "type": "isim",
+    "exampleEn": "There is plenty of storage in the kitchen.",
+    "exampleTr": "Mutfakta bolca depolama alanı var."
+  },
+  {
+    "id": 1046,
+    "topic": "Hayvanlar (B1)",
+    "en": "predator",
+    "tr": "yırtıcı",
+    "type": "isim",
+    "exampleEn": "The lion is a predator at the top of the food chain.",
+    "exampleTr": "Aslan, besin zincirinin zirvesindeki bir yırtıcıdır."
+  },
+  {
+    "id": 1047,
+    "topic": "Hayvanlar (B1)",
+    "en": "prey",
+    "tr": "av",
+    "type": "isim",
+    "exampleEn": "The deer was the prey of the wolf.",
+    "exampleTr": "Geyik kurdun avıydı."
+  },
+  {
+    "id": 1048,
+    "topic": "Hayvanlar (B1)",
+    "en": "habitat",
+    "tr": "habitat",
+    "type": "isim",
+    "exampleEn": "Deforestation destroys animal habitats.",
+    "exampleTr": "Ormansızlaşma hayvan habitatlarını yok eder."
+  },
+  {
+    "id": 1049,
+    "topic": "Hayvanlar (B1)",
+    "en": "camouflage",
+    "tr": "kamuflaj",
+    "type": "isim",
+    "exampleEn": "The chameleon uses camouflage to hide.",
+    "exampleTr": "Bukalemun saklanmak için kamuflaj kullanır."
+  },
+  {
+    "id": 1050,
+    "topic": "Hayvanlar (B1)",
+    "en": "hibernate",
+    "tr": "kış uykusuna yatmak",
+    "type": "fiil",
+    "exampleEn": "Bears hibernate during winter.",
+    "exampleTr": "Ayılar kışın kış uykusuna yatar."
+  },
+  {
+    "id": 1051,
+    "topic": "Hayvanlar (B1)",
+    "en": "domesticated",
+    "tr": "evcilleştirilmiş",
+    "type": "sıfat",
+    "exampleEn": "Dogs are domesticated animals.",
+    "exampleTr": "Köpekler evcilleştirilmiş hayvanlardır."
+  },
+  {
+    "id": 1052,
+    "topic": "Hayvanlar (B1)",
+    "en": "endangered",
+    "tr": "nesli tehlikede",
+    "type": "sıfat",
+    "exampleEn": "The panda is an endangered species.",
+    "exampleTr": "Panda nesli tehlikede olan bir türdür."
+  },
+  {
+    "id": 1053,
+    "topic": "Hayvanlar (B1)",
+    "en": "migration",
+    "tr": "göç",
+    "type": "isim",
+    "exampleEn": "Bird migration occurs twice a year.",
+    "exampleTr": "Kuş göçü yılda iki kez gerçekleşir."
+  },
+  {
+    "id": 1054,
+    "topic": "Hayvanlar (B1)",
+    "en": "venom",
+    "tr": "zehir",
+    "type": "isim",
+    "exampleEn": "Some snakes produce deadly venom.",
+    "exampleTr": "Bazı yılanlar ölümcül zehir üretir."
+  },
+  {
+    "id": 1055,
+    "topic": "Hayvanlar (B1)",
+    "en": "nocturnal",
+    "tr": "gece aktif",
+    "type": "sıfat",
+    "exampleEn": "Owls are nocturnal birds.",
+    "exampleTr": "Baykuşlar gece aktif kuşlardır."
+  },
+  {
+    "id": 1056,
+    "topic": "Hayvanlar (B1)",
+    "en": "omnivore",
+    "tr": "her şeyi yiyen",
+    "type": "isim",
+    "exampleEn": "Humans are omnivores.",
+    "exampleTr": "İnsanlar hepçildir."
+  },
+  {
+    "id": 1057,
+    "topic": "Hayvanlar (B1)",
+    "en": "herbivore",
+    "tr": "otçul",
+    "type": "isim",
+    "exampleEn": "Rabbits are herbivores.",
+    "exampleTr": "Tavşanlar otçul hayvanlardır."
+  },
+  {
+    "id": 1058,
+    "topic": "Hayvanlar (B1)",
+    "en": "carnivore",
+    "tr": "etçil",
+    "type": "isim",
+    "exampleEn": "Tigers are carnivores.",
+    "exampleTr": "Kaplanlar etçil hayvanlardır."
+  },
+  {
+    "id": 1059,
+    "topic": "Hayvanlar (B1)",
+    "en": "extinction",
+    "tr": "nesil tükenmesi",
+    "type": "isim",
+    "exampleEn": "Many species face extinction today.",
+    "exampleTr": "Günümüzde pek çok tür nesil tükenmesiyle karşı karşıya."
+  },
+  {
+    "id": 1060,
+    "topic": "Hayvanlar (B1)",
+    "en": "sanctuary",
+    "tr": "sığınak",
+    "type": "isim",
+    "exampleEn": "The injured bird was taken to a sanctuary.",
+    "exampleTr": "Yaralı kuş bir sığınağa götürüldü."
+  },
+  {
+    "id": 1061,
+    "topic": "Hayvanlar (B1)",
+    "en": "venomous",
+    "tr": "zehirli",
+    "type": "sıfat",
+    "exampleEn": "Be careful, that spider is venomous.",
+    "exampleTr": "Dikkatli ol, o örümcek zehirlidir."
+  },
+  {
+    "id": 1062,
+    "topic": "Hayvanlar (B1)",
+    "en": "tame",
+    "tr": "evcil",
+    "type": "sıfat",
+    "exampleEn": "The horse became very tame over time.",
+    "exampleTr": "At zamanla çok evcil hale geldi."
+  },
+  {
+    "id": 1063,
+    "topic": "Hayvanlar (B1)",
+    "en": "poaching",
+    "tr": "kaçak avcılık",
+    "type": "isim",
+    "exampleEn": "Poaching threatens many wildlife species.",
+    "exampleTr": "Kaçak avcılık birçok yaban hayatı türünü tehdit ediyor."
+  },
+  {
+    "id": 1064,
+    "topic": "Hayvanlar (B1)",
+    "en": "mating",
+    "tr": "çiftleşme",
+    "type": "isim",
+    "exampleEn": "Peacocks display their feathers during mating season.",
+    "exampleTr": "Tavus kuşları çiftleşme mevsiminde tüylerini açar."
+  },
+  {
+    "id": 1065,
+    "topic": "Hayvanlar (B1)",
+    "en": "camouflaged",
+    "tr": "kamufle edilmiş",
+    "type": "sıfat",
+    "exampleEn": "The insect was perfectly camouflaged on the bark.",
+    "exampleTr": "Böcek kabuk üzerinde mükemmel şekilde kamufle edilmişti."
+  },
+  {
+    "id": 1066,
+    "topic": "Günlük Fiiller (B1)",
+    "en": "accomplish",
+    "tr": "başarmak",
+    "type": "fiil",
+    "exampleEn": "She accomplished all her goals this year.",
+    "exampleTr": "Bu yıl tüm hedeflerini başardı."
+  },
+  {
+    "id": 1067,
+    "topic": "Günlük Fiiller (B1)",
+    "en": "adapt",
+    "tr": "uyum sağlamak",
+    "type": "fiil",
+    "exampleEn": "He quickly adapted to the new environment.",
+    "exampleTr": "Yeni ortama hızla uyum sağladı."
+  },
+  {
+    "id": 1068,
+    "topic": "Günlük Fiiller (B1)",
+    "en": "delay",
+    "tr": "ertelemek",
+    "type": "fiil",
+    "exampleEn": "They decided to delay the trip.",
+    "exampleTr": "Geziy ertelemeye karar verdiler."
+  },
+  {
+    "id": 1069,
+    "topic": "Günlük Fiiller (B1)",
+    "en": "negotiate",
+    "tr": "müzakere etmek",
+    "type": "fiil",
+    "exampleEn": "They negotiated a better deal.",
+    "exampleTr": "Daha iyi bir anlaşma müzakere ettiler."
+  },
+  {
+    "id": 1070,
+    "topic": "Günlük Fiiller (B1)",
+    "en": "motivate",
+    "tr": "motive etmek",
+    "type": "fiil",
+    "exampleEn": "The coach motivated the players before the game.",
+    "exampleTr": "Koç oyuncuları maçtan önce motive etti."
+  },
+  {
+    "id": 1071,
+    "topic": "Günlük Fiiller (B1)",
+    "en": "participate",
+    "tr": "katılmak",
+    "type": "fiil",
+    "exampleEn": "Everyone is welcome to participate.",
+    "exampleTr": "Herkes katılmaya davetlidir."
+  },
+  {
+    "id": 1072,
+    "topic": "Günlük Fiiller (B1)",
+    "en": "hesitate",
+    "tr": "tereddüt etmek",
+    "type": "fiil",
+    "exampleEn": "Don't hesitate to ask for help.",
+    "exampleTr": "Yardım istemekten tereddüt etme."
+  },
+  {
+    "id": 1073,
+    "topic": "Günlük Fiiller (B1)",
+    "en": "prioritize",
+    "tr": "önceliklendirmek",
+    "type": "fiil",
+    "exampleEn": "Prioritize your health above everything.",
+    "exampleTr": "Her şeyden önce sağlığını önceliklendir."
+  },
+  {
+    "id": 1074,
+    "topic": "Günlük Fiiller (B1)",
+    "en": "confront",
+    "tr": "yüzleşmek",
+    "type": "fiil",
+    "exampleEn": "She confronted her fear of heights.",
+    "exampleTr": "Yükseklik korkusuyla yüzleşti."
+  },
+  {
+    "id": 1075,
+    "topic": "Günlük Fiiller (B1)",
+    "en": "evaluate",
+    "tr": "değerlendirmek",
+    "type": "fiil",
+    "exampleEn": "We need to evaluate our progress.",
+    "exampleTr": "İlerlememizi değerlendirmemiz gerekiyor."
+  },
+  {
+    "id": 1076,
+    "topic": "Günlük Fiiller (B1)",
+    "en": "eliminate",
+    "tr": "ortadan kaldırmak",
+    "type": "fiil",
+    "exampleEn": "We must eliminate all possible risks.",
+    "exampleTr": "Tüm olası riskleri ortadan kaldırmalıyız."
+  },
+  {
+    "id": 1077,
+    "topic": "Günlük Fiiller (B1)",
+    "en": "establish",
+    "tr": "kurmak",
+    "type": "fiil",
+    "exampleEn": "They established a new company last year.",
+    "exampleTr": "Geçen yıl yeni bir şirket kurdular."
+  },
+  {
+    "id": 1078,
+    "topic": "Günlük Fiiller (B1)",
+    "en": "maintain",
+    "tr": "sürdürmek",
+    "type": "fiil",
+    "exampleEn": "It is hard to maintain a healthy diet.",
+    "exampleTr": "Sağlıklı bir diyet sürdürmek zordur."
+  },
+  {
+    "id": 1079,
+    "topic": "Günlük Fiiller (B1)",
+    "en": "overcome",
+    "tr": "üstesinden gelmek",
+    "type": "fiil",
+    "exampleEn": "She overcame many obstacles in her life.",
+    "exampleTr": "Hayatında pek çok engelin üstesinden geldi."
+  },
+  {
+    "id": 1080,
+    "topic": "Günlük Fiiller (B1)",
+    "en": "perceive",
+    "tr": "algılamak",
+    "type": "fiil",
+    "exampleEn": "How do you perceive this situation?",
+    "exampleTr": "Bu durumu nasıl algılıyorsunuz?"
+  },
+  {
+    "id": 1081,
+    "topic": "Günlük Fiiller (B1)",
+    "en": "pursue",
+    "tr": "peşinden gitmek",
+    "type": "fiil",
+    "exampleEn": "He pursued his dream despite the challenges.",
+    "exampleTr": "Zorluklara rağmen hayalinin peşinden gitti."
+  },
+  {
+    "id": 1082,
+    "topic": "Günlük Fiiller (B1)",
+    "en": "reconsider",
+    "tr": "yeniden düşünmek",
+    "type": "fiil",
+    "exampleEn": "Please reconsider your decision.",
+    "exampleTr": "Lütfen kararınızı yeniden düşünün."
+  },
+  {
+    "id": 1083,
+    "topic": "Günlük Fiiller (B1)",
+    "en": "resolve",
+    "tr": "çözmek",
+    "type": "fiil",
+    "exampleEn": "We need to resolve this conflict quickly.",
+    "exampleTr": "Bu çatışmayı hızlıca çözmemiz gerekiyor."
+  },
+  {
+    "id": 1084,
+    "topic": "Günlük Fiiller (B1)",
+    "en": "tolerate",
+    "tr": "tahammül etmek",
+    "type": "fiil",
+    "exampleEn": "She couldn't tolerate the noise anymore.",
+    "exampleTr": "Artık gürültüye tahammül edemedi."
+  },
+  {
+    "id": 1085,
+    "topic": "Günlük Fiiller (B1)",
+    "en": "transform",
+    "tr": "dönüştürmek",
+    "type": "fiil",
+    "exampleEn": "Exercise can transform your body.",
+    "exampleTr": "Egzersiz vücudunuzu dönüştürebilir."
+  },
+  {
+    "id": 1086,
+    "topic": "Doğa ve Hava (B1)",
+    "en": "desertification",
+    "tr": "çölleşme",
+    "type": "isim",
+    "exampleEn": "Desertification threatens farmland in Africa.",
+    "exampleTr": "Çölleşme Afrika'daki tarım arazilerini tehdit ediyor."
+  },
+  {
+    "id": 1087,
+    "topic": "Doğa ve Hava (B1)",
+    "en": "inundation",
+    "tr": "su baskını",
+    "type": "isim",
+    "exampleEn": "The inundation left roads impassable.",
+    "exampleTr": "Su baskını yolları geçilmez hale getirdi."
+  },
+  {
+    "id": 1088,
+    "topic": "Doğa ve Hava (B1)",
+    "en": "glacier",
+    "tr": "buzul",
+    "type": "isim",
+    "exampleEn": "Glaciers are melting due to global warming.",
+    "exampleTr": "Buzullar küresel ısınma nedeniyle eriyor."
+  },
+  {
+    "id": 1089,
+    "topic": "Doğa ve Hava (B1)",
+    "en": "erosion",
+    "tr": "erozyon",
+    "type": "isim",
+    "exampleEn": "Erosion damaged the coastline.",
+    "exampleTr": "Erozyon kıyı şeridine zarar verdi."
+  },
+  {
+    "id": 1090,
+    "topic": "Doğa ve Hava (B1)",
+    "en": "ecosystem",
+    "tr": "ekosistem",
+    "type": "isim",
+    "exampleEn": "We must protect the ocean ecosystem.",
+    "exampleTr": "Okyanus ekosistemini korumamız gerekiyor."
+  },
+  {
+    "id": 1091,
+    "topic": "Doğa ve Hava (B1)",
+    "en": "precipitation",
+    "tr": "yağış",
+    "type": "isim",
+    "exampleEn": "High precipitation is expected this week.",
+    "exampleTr": "Bu hafta yüksek yağış bekleniyor."
+  },
+  {
+    "id": 1092,
+    "topic": "Doğa ve Hava (B1)",
+    "en": "humidity",
+    "tr": "nem",
+    "type": "isim",
+    "exampleEn": "The humidity made the heat unbearable.",
+    "exampleTr": "Nem sıcağı dayanılmaz kıldı."
+  },
+  {
+    "id": 1093,
+    "topic": "Doğa ve Hava (B1)",
+    "en": "landslide",
+    "tr": "heyelan",
+    "type": "isim",
+    "exampleEn": "A landslide blocked the mountain road.",
+    "exampleTr": "Heyelan dağ yolunu kapattı."
+  },
+  {
+    "id": 1094,
+    "topic": "Doğa ve Hava (B1)",
+    "en": "biodiversity",
+    "tr": "biyoçeşitlilik",
+    "type": "isim",
+    "exampleEn": "Biodiversity is essential for life on Earth.",
+    "exampleTr": "Biyoçeşitlilik, Dünya'daki yaşam için elzemdir."
+  },
+  {
+    "id": 1095,
+    "topic": "Doğa ve Hava (B1)",
+    "en": "deforestation",
+    "tr": "ormansızlaşma",
+    "type": "isim",
+    "exampleEn": "Deforestation threatens wildlife.",
+    "exampleTr": "Ormansızlaşma yaban hayatını tehdit ediyor."
+  },
+  {
+    "id": 1096,
+    "topic": "Doğa ve Hava (B1)",
+    "en": "altitude",
+    "tr": "rakım",
+    "type": "isim",
+    "exampleEn": "The altitude affected his breathing.",
+    "exampleTr": "Rakım nefes almasını etkiledi."
+  },
+  {
+    "id": 1097,
+    "topic": "Doğa ve Hava (B1)",
+    "en": "terrain",
+    "tr": "arazi",
+    "type": "isim",
+    "exampleEn": "The terrain was rocky and difficult to cross.",
+    "exampleTr": "Arazi kayalık ve geçilmesi zordu."
+  },
+  {
+    "id": 1098,
+    "topic": "Doğa ve Hava (B1)",
+    "en": "renewable",
+    "tr": "yenilenebilir",
+    "type": "sıfat",
+    "exampleEn": "We must invest in renewable energy.",
+    "exampleTr": "Yenilenebilir enerjiye yatırım yapmalıyız."
+  },
+  {
+    "id": 1099,
+    "topic": "Doğa ve Hava (B1)",
+    "en": "tidal",
+    "tr": "gelgitli",
+    "type": "sıfat",
+    "exampleEn": "Tidal waves can be very destructive.",
+    "exampleTr": "Gelgit dalgaları çok yıkıcı olabilir."
+  },
+  {
+    "id": 1100,
+    "topic": "Doğa ve Hava (B1)",
+    "en": "temperate",
+    "tr": "ılıman",
+    "type": "sıfat",
+    "exampleEn": "The region has a temperate climate.",
+    "exampleTr": "Bölgenin ılıman bir iklimi var."
+  },
+  {
+    "id": 1101,
+    "topic": "Doğa ve Hava (B1)",
+    "en": "catastrophe",
+    "tr": "felaket",
+    "type": "isim",
+    "exampleEn": "The earthquake was a natural catastrophe.",
+    "exampleTr": "Deprem doğal bir felaket ti."
+  },
+  {
+    "id": 1102,
+    "topic": "Doğa ve Hava (B1)",
+    "en": "emission",
+    "tr": "emisyon",
+    "type": "isim",
+    "exampleEn": "We need to reduce carbon emissions.",
+    "exampleTr": "Karbon emisyonlarını azaltmamız gerekiyor."
+  },
+  {
+    "id": 1103,
+    "topic": "Doğa ve Hava (B1)",
+    "en": "conservation",
+    "tr": "koruma",
+    "type": "isim",
+    "exampleEn": "Wildlife conservation is a global issue.",
+    "exampleTr": "Yaban hayatı koruma küresel bir sorundur."
+  },
+  {
+    "id": 1104,
+    "topic": "Doğa ve Hava (B1)",
+    "en": "estuary",
+    "tr": "haliç",
+    "type": "isim",
+    "exampleEn": "The estuary is home to many birds.",
+    "exampleTr": "Haliç birçok kuşa ev sahipliği yapar."
+  },
+  {
+    "id": 1105,
+    "topic": "Doğa ve Hava (B1)",
+    "en": "gust",
+    "tr": "rüzgar kası",
+    "type": "isim",
+    "exampleEn": "A strong gust of wind knocked the sign down.",
+    "exampleTr": "Güçlü bir rüzgar kasırgası tabelayı devirdi."
+  },
+  {
+    "id": 1106,
+    "topic": "Günler, Aylar, Mevsimler (B1)",
+    "en": "fiscal",
+    "tr": "mali",
+    "type": "sıfat",
+    "exampleEn": "The fiscal year ends in December.",
+    "exampleTr": "Mali yıl Aralık'ta sona erer."
+  },
+  {
+    "id": 1107,
+    "topic": "Günler, Aylar, Mevsimler (B1)",
+    "en": "solstice",
+    "tr": "gün dönümü",
+    "type": "isim",
+    "exampleEn": "The summer solstice is the longest day.",
+    "exampleTr": "Yaz gün dönümü en uzun gündür."
+  },
+  {
+    "id": 1108,
+    "topic": "Günler, Aylar, Mevsimler (B1)",
+    "en": "equinox",
+    "tr": "ekinoks",
+    "type": "isim",
+    "exampleEn": "Day and night are equal at the equinox.",
+    "exampleTr": "Ekinoksta gün ve gece eşittir."
+  },
+  {
+    "id": 1109,
+    "topic": "Günler, Aylar, Mevsimler (B1)",
+    "en": "leap year",
+    "tr": "artık yıl",
+    "type": "isim",
+    "exampleEn": "February has 29 days in a leap year.",
+    "exampleTr": "Artık yılda Şubat 29 gün çeker."
+  },
+  {
+    "id": 1110,
+    "topic": "Günler, Aylar, Mevsimler (B1)",
+    "en": "millennium",
+    "tr": "bin yıl",
+    "type": "isim",
+    "exampleEn": "A new millennium began in the year 2000.",
+    "exampleTr": "Yeni bir bin yıl 2000 yılında başladı."
+  },
+  {
+    "id": 1111,
+    "topic": "Günler, Aylar, Mevsimler (B1)",
+    "en": "quarterly",
+    "tr": "üç aylık",
+    "type": "sıfat",
+    "exampleEn": "The report is published quarterly.",
+    "exampleTr": "Rapor üç ayda bir yayımlanır."
+  },
+  {
+    "id": 1112,
+    "topic": "Günler, Aylar, Mevsimler (B1)",
+    "en": "commemoration",
+    "tr": "anma töreni",
+    "type": "isim",
+    "exampleEn": "The commemoration was held on the 10th.",
+    "exampleTr": "Anma töreni 10'unda yapıldı."
+  },
+  {
+    "id": 1113,
+    "topic": "Günler, Aylar, Mevsimler (B1)",
+    "en": "epoch",
+    "tr": "çağ",
+    "type": "isim",
+    "exampleEn": "We are entering a new technological epoch.",
+    "exampleTr": "Yeni bir teknolojik çağa giriyoruz."
+  },
+  {
+    "id": 1114,
+    "topic": "Günler, Aylar, Mevsimler (B1)",
+    "en": "biannual",
+    "tr": "yılda iki kez",
+    "type": "sıfat",
+    "exampleEn": "The event is held biannually.",
+    "exampleTr": "Etkinlik yılda iki kez düzenlenir."
+  },
+  {
+    "id": 1115,
+    "topic": "Günler, Aylar, Mevsimler (B1)",
+    "en": "era",
+    "tr": "dönem",
+    "type": "isim",
+    "exampleEn": "The Renaissance was an important era.",
+    "exampleTr": "Rönesans önemli bir dönemdi."
+  },
+  {
+    "id": 1116,
+    "topic": "Günler, Aylar, Mevsimler (B1)",
+    "en": "overdue",
+    "tr": "gecikmiş",
+    "type": "sıfat",
+    "exampleEn": "The library book is long overdue.",
+    "exampleTr": "Kütüphane kitabı çoktan gecikmiş."
+  },
+  {
+    "id": 1117,
+    "topic": "Günler, Aylar, Mevsimler (B1)",
+    "en": "timetable",
+    "tr": "zaman çizelgesi",
+    "type": "isim",
+    "exampleEn": "The project timetable was updated.",
+    "exampleTr": "Proje zaman çizelgesi güncellendi."
+  },
+  {
+    "id": 1118,
+    "topic": "Günler, Aylar, Mevsimler (B1)",
+    "en": "interval",
+    "tr": "aralık",
+    "type": "isim",
+    "exampleEn": "There was a short interval between sessions.",
+    "exampleTr": "Oturumlar arasında kısa bir aralık vardı."
+  },
+  {
+    "id": 1119,
+    "topic": "Günler, Aylar, Mevsimler (B1)",
+    "en": "longevity",
+    "tr": "uzun ömürlülük",
+    "type": "isim",
+    "exampleEn": "Regular exercise contributes to longevity.",
+    "exampleTr": "Düzenli egzersiz uzun ömürlülüğe katkıda bulunur."
+  },
+  {
+    "id": 1120,
+    "topic": "Günler, Aylar, Mevsimler (B1)",
+    "en": "perpetual",
+    "tr": "sürekli",
+    "type": "sıfat",
+    "exampleEn": "She was in a state of perpetual stress.",
+    "exampleTr": "Sürekli bir stres halindeydi."
+  },
+  {
+    "id": 1121,
+    "topic": "Günler, Aylar, Mevsimler (B1)",
+    "en": "consecutive",
+    "tr": "ardışık",
+    "type": "sıfat",
+    "exampleEn": "He worked five consecutive days.",
+    "exampleTr": "Beş ardışık gün çalıştı."
+  },
+  {
+    "id": 1122,
+    "topic": "Günler, Aylar, Mevsimler (B1)",
+    "en": "milestone",
+    "tr": "kilometre taşı",
+    "type": "isim",
+    "exampleEn": "Graduating was a major milestone.",
+    "exampleTr": "Mezun olmak büyük bir kilometre taşıydı."
+  },
+  {
+    "id": 1123,
+    "topic": "Günler, Aylar, Mevsimler (B1)",
+    "en": "transition",
+    "tr": "geçiş",
+    "type": "isim",
+    "exampleEn": "The transition from summer to autumn was fast.",
+    "exampleTr": "Yazdan sonbahara geçiş hızlıydı."
+  },
+  {
+    "id": 1124,
+    "topic": "Günler, Aylar, Mevsimler (B1)",
+    "en": "interim",
+    "tr": "geçici",
+    "type": "sıfat",
+    "exampleEn": "An interim manager was appointed.",
+    "exampleTr": "Geçici bir müdür atandı."
+  },
+  {
+    "id": 1125,
+    "topic": "Günler, Aylar, Mevsimler (B1)",
+    "en": "prolonged",
+    "tr": "uzayan",
+    "type": "sıfat",
+    "exampleEn": "There was a prolonged silence in the room.",
+    "exampleTr": "Odada uzayan bir sessizlik oldu."
+  },
+  {
+    "id": 1126,
+    "topic": "Zaman (B1)",
+    "en": "simultaneous",
+    "tr": "eş zamanlı",
+    "type": "sıfat",
+    "exampleEn": "Simultaneous translation was provided.",
+    "exampleTr": "Eş zamanlı çeviri sağlandı."
+  },
+  {
+    "id": 1127,
+    "topic": "Zaman (B1)",
+    "en": "momentary",
+    "tr": "anlık",
+    "type": "sıfat",
+    "exampleEn": "There was a momentary pause in the music.",
+    "exampleTr": "Müzikte anlık bir duraklama oldu."
+  },
+  {
+    "id": 1128,
+    "topic": "Zaman (B1)",
+    "en": "elapsed",
+    "tr": "geçmiş",
+    "type": "sıfat",
+    "exampleEn": "An hour had elapsed since he left.",
+    "exampleTr": "Ayrılmasından bu yana bir saat geçmişti."
+  },
+  {
+    "id": 1129,
+    "topic": "Zaman (B1)",
+    "en": "eventual",
+    "tr": "nihai",
+    "type": "sıfat",
+    "exampleEn": "The eventual outcome was a success.",
+    "exampleTr": "Nihai sonuç bir başarıydı."
+  },
+  {
+    "id": 1130,
+    "topic": "Zaman (B1)",
+    "en": "promptly",
+    "tr": "derhal",
+    "type": "zarf",
+    "exampleEn": "She replied promptly to all emails.",
+    "exampleTr": "Tüm e-postalara derhal yanıt verdi."
+  },
+  {
+    "id": 1131,
+    "topic": "Zaman (B1)",
+    "en": "postpone",
+    "tr": "ertelemek",
+    "type": "fiil",
+    "exampleEn": "The meeting was postponed to next week.",
+    "exampleTr": "Toplantı gelecek haftaya ertelendi."
+  },
+  {
+    "id": 1132,
+    "topic": "Zaman (B1)",
+    "en": "punctual",
+    "tr": "dakik",
+    "type": "sıfat",
+    "exampleEn": "He is always punctual for appointments.",
+    "exampleTr": "Randevularına her zaman dakiktir."
+  },
+  {
+    "id": 1133,
+    "topic": "Zaman (B1)",
+    "en": "obsolete",
+    "tr": "eskimiş",
+    "type": "sıfat",
+    "exampleEn": "That technology is now obsolete.",
+    "exampleTr": "O teknoloji artık eskimiş."
+  },
+  {
+    "id": 1134,
+    "topic": "Zaman (B1)",
+    "en": "contemporary",
+    "tr": "çağdaş",
+    "type": "sıfat",
+    "exampleEn": "She is a contemporary artist.",
+    "exampleTr": "Çağdaş bir sanatçıdır."
+  },
+  {
+    "id": 1135,
+    "topic": "Zaman (B1)",
+    "en": "foreseeable",
+    "tr": "öngörülebilir",
+    "type": "sıfat",
+    "exampleEn": "In the foreseeable future, nothing will change.",
+    "exampleTr": "Öngörülebilir gelecekte hiçbir şey değişmeyecek."
+  },
+  {
+    "id": 1136,
+    "topic": "Zaman (B1)",
+    "en": "timely",
+    "tr": "zamanında",
+    "type": "sıfat",
+    "exampleEn": "A timely response is important in business.",
+    "exampleTr": "İş dünyasında zamanında yanıt önemlidir."
+  },
+  {
+    "id": 1137,
+    "topic": "Zaman (B1)",
+    "en": "outdated",
+    "tr": "güncelliğini yitirmiş",
+    "type": "sıfat",
+    "exampleEn": "The system is outdated and needs updating.",
+    "exampleTr": "Sistem güncelliğini yitirmiş ve güncellenmesi gerekiyor."
+  },
+  {
+    "id": 1138,
+    "topic": "Zaman (B1)",
+    "en": "chronological",
+    "tr": "kronolojik",
+    "type": "sıfat",
+    "exampleEn": "List the events in chronological order.",
+    "exampleTr": "Olayları kronolojik sıraya göre listele."
+  },
+  {
+    "id": 1139,
+    "topic": "Zaman (B1)",
+    "en": "recurrent",
+    "tr": "tekrarlayan",
+    "type": "sıfat",
+    "exampleEn": "He had recurrent headaches.",
+    "exampleTr": "Tekrarlayan baş ağrıları vardı."
+  },
+  {
+    "id": 1140,
+    "topic": "Zaman (B1)",
+    "en": "imminent",
+    "tr": "yakın",
+    "type": "sıfat",
+    "exampleEn": "The storm was imminent.",
+    "exampleTr": "Fırtına yakındı."
+  },
+  {
+    "id": 1141,
+    "topic": "Zaman (B1)",
+    "en": "lapse",
+    "tr": "geçmek",
+    "type": "fiil",
+    "exampleEn": "Time seems to lapse quickly when you are busy.",
+    "exampleTr": "Meşgulken zaman hızla geçiyor gibi görünür."
+  },
+  {
+    "id": 1142,
+    "topic": "Zaman (B1)",
+    "en": "expedite",
+    "tr": "hızlandırmak",
+    "type": "fiil",
+    "exampleEn": "We need to expedite the delivery process.",
+    "exampleTr": "Teslimat sürecini hızlandırmamız gerekiyor."
+  },
+  {
+    "id": 1143,
+    "topic": "Zaman (B1)",
+    "en": "cutoff",
+    "tr": "son tarih",
+    "type": "isim",
+    "exampleEn": "The cutoff date for applications is Friday.",
+    "exampleTr": "Başvurular için son tarih Cuma'dır."
+  },
+  {
+    "id": 1144,
+    "topic": "Zaman (B1)",
+    "en": "linger",
+    "tr": "oyalanmak",
+    "type": "fiil",
+    "exampleEn": "Don't linger in the doorway.",
+    "exampleTr": "Kapı eşiğinde oyalanma."
+  },
+  {
+    "id": 1145,
+    "topic": "Zaman (B1)",
+    "en": "retrospect",
+    "tr": "geriye bakış",
+    "type": "isim",
+    "exampleEn": "In retrospect, the decision was wrong.",
+    "exampleTr": "Geriye bakıldığında, karar yanlıştı."
+  },
+  {
+    "id": 1146,
+    "topic": "Ulaşım (B1)",
+    "en": "commute",
+    "tr": "işe gidip gelmek",
+    "type": "fiil",
+    "exampleEn": "He commutes two hours every day.",
+    "exampleTr": "Her gün iki saat işe gidip geliyor."
+  },
+  {
+    "id": 1147,
+    "topic": "Ulaşım (B1)",
+    "en": "infrastructure",
+    "tr": "altyapı",
+    "type": "isim",
+    "exampleEn": "The transport infrastructure needs improvement.",
+    "exampleTr": "Ulaşım altyapısının iyileştirilmesi gerekiyor."
+  },
+  {
+    "id": 1148,
+    "topic": "Ulaşım (B1)",
+    "en": "exhaust",
+    "tr": "egzoz",
+    "type": "isim",
+    "exampleEn": "Electric cars produce no exhaust fumes.",
+    "exampleTr": "Elektrikli araçlar egzoz dumanı üretmez."
+  },
+  {
+    "id": 1149,
+    "topic": "Ulaşım (B1)",
+    "en": "congestion",
+    "tr": "trafik sıkışıklığı",
+    "type": "isim",
+    "exampleEn": "Traffic congestion is a big problem in cities.",
+    "exampleTr": "Trafik sıkışıklığı şehirlerde büyük bir sorundur."
+  },
+  {
+    "id": 1150,
+    "topic": "Ulaşım (B1)",
+    "en": "carpool",
+    "tr": "araç paylaşımı",
+    "type": "isim",
+    "exampleEn": "Carpooling reduces traffic and pollution.",
+    "exampleTr": "Araç paylaşımı trafiği ve kirliliği azaltır."
+  },
+  {
+    "id": 1151,
+    "topic": "Ulaşım (B1)",
+    "en": "itinerary",
+    "tr": "seyahat planı",
+    "type": "isim",
+    "exampleEn": "The travel agency sent us the itinerary.",
+    "exampleTr": "Seyahat acentesi bize seyahat planını gönderdi."
+  },
+  {
+    "id": 1152,
+    "topic": "Ulaşım (B1)",
+    "en": "navigation",
+    "tr": "navigasyon",
+    "type": "isim",
+    "exampleEn": "GPS navigation made driving much easier.",
+    "exampleTr": "GPS navigasyon araç kullanmayı çok kolaylaştırdı."
+  },
+  {
+    "id": 1153,
+    "topic": "Ulaşım (B1)",
+    "en": "pedestrian",
+    "tr": "yaya",
+    "type": "isim",
+    "exampleEn": "Pedestrians should use the crosswalk.",
+    "exampleTr": "Yayalar yaya geçidini kullanmalıdır."
+  },
+  {
+    "id": 1154,
+    "topic": "Ulaşım (B1)",
+    "en": "cargo",
+    "tr": "kargo",
+    "type": "isim",
+    "exampleEn": "The ship was loaded with cargo.",
+    "exampleTr": "Gemi kargoyla yüklendi."
+  },
+  {
+    "id": 1155,
+    "topic": "Ulaşım (B1)",
+    "en": "transit",
+    "tr": "transit",
+    "type": "isim",
+    "exampleEn": "The goods were in transit for two weeks.",
+    "exampleTr": "Mallar iki hafta boyunca transit taşımadaydı."
+  },
+  {
+    "id": 1156,
+    "topic": "Ulaşım (B1)",
+    "en": "overpass",
+    "tr": "köprülü kavşak",
+    "type": "isim",
+    "exampleEn": "The overpass was built to ease traffic.",
+    "exampleTr": "Köprülü kavşak trafiği rahatlatmak için inşa edildi."
+  },
+  {
+    "id": 1157,
+    "topic": "Ulaşım (B1)",
+    "en": "roundabout",
+    "tr": "dönel kavşak",
+    "type": "isim",
+    "exampleEn": "Turn left at the roundabout.",
+    "exampleTr": "Dönel kavşakta sola dönün."
+  },
+  {
+    "id": 1158,
+    "topic": "Ulaşım (B1)",
+    "en": "commuter",
+    "tr": "işe gidip gelen",
+    "type": "isim",
+    "exampleEn": "The train is full of commuters in the morning.",
+    "exampleTr": "Tren sabahları işe gidip gelenlerle dolu."
+  },
+  {
+    "id": 1159,
+    "topic": "Ulaşım (B1)",
+    "en": "toll",
+    "tr": "ücret",
+    "type": "isim",
+    "exampleEn": "There is a toll to cross this bridge.",
+    "exampleTr": "Bu köprüden geçmek için ücret alınır."
+  },
+  {
+    "id": 1160,
+    "topic": "Ulaşım (B1)",
+    "en": "bypass",
+    "tr": "çevre yolu",
+    "type": "isim",
+    "exampleEn": "We took the bypass to avoid traffic.",
+    "exampleTr": "Trafikten kaçınmak için çevre yolunu kullandık."
+  },
+  {
+    "id": 1161,
+    "topic": "Ulaşım (B1)",
+    "en": "depart",
+    "tr": "hareket etmek",
+    "type": "fiil",
+    "exampleEn": "The train departs at 8 am.",
+    "exampleTr": "Tren sabah 8'de hareket eder."
+  },
+  {
+    "id": 1162,
+    "topic": "Ulaşım (B1)",
+    "en": "terminal",
+    "tr": "terminal",
+    "type": "isim",
+    "exampleEn": "Check-in is at terminal 2.",
+    "exampleTr": "Check-in terminal 2'dedir."
+  },
+  {
+    "id": 1163,
+    "topic": "Ulaşım (B1)",
+    "en": "elevation",
+    "tr": "yükseklik",
+    "type": "isim",
+    "exampleEn": "The plane reached its cruising elevation.",
+    "exampleTr": "Uçak seyir yüksekliğine ulaştı."
+  },
+  {
+    "id": 1164,
+    "topic": "Ulaşım (B1)",
+    "en": "layover",
+    "tr": "aktarma",
+    "type": "isim",
+    "exampleEn": "Our flight has a three-hour layover in Paris.",
+    "exampleTr": "Uçuşumuzun Paris'te üç saatlik aktarması var."
+  },
+  {
+    "id": 1165,
+    "topic": "Ulaşım (B1)",
+    "en": "dispatch",
+    "tr": "sevkiyat",
+    "type": "isim",
+    "exampleEn": "The dispatch center coordinated all deliveries.",
+    "exampleTr": "Sevkiyat merkezi tüm teslimatları koordine etti."
+  },
+  {
+    "id": 1166,
+    "topic": "Şehir ve Mekanlar (B1)",
+    "en": "metropolitan",
+    "tr": "büyükşehir",
+    "type": "sıfat",
+    "exampleEn": "Istanbul is a metropolitan city.",
+    "exampleTr": "İstanbul büyükşehirdir."
+  },
+  {
+    "id": 1167,
+    "topic": "Şehir ve Mekanlar (B1)",
+    "en": "borough",
+    "tr": "bölge",
+    "type": "isim",
+    "exampleEn": "Each borough has its own council.",
+    "exampleTr": "Her bölgenin kendi konseyi var."
+  },
+  {
+    "id": 1168,
+    "topic": "Şehir ve Mekanlar (B1)",
+    "en": "precinct",
+    "tr": "semt",
+    "type": "isim",
+    "exampleEn": "The police precinct covers this area.",
+    "exampleTr": "Polis semt birimi bu bölgeyi kapsıyor."
+  },
+  {
+    "id": 1169,
+    "topic": "Şehir ve Mekanlar (B1)",
+    "en": "municipality",
+    "tr": "belediye",
+    "type": "isim",
+    "exampleEn": "The municipality fixed the roads.",
+    "exampleTr": "Belediye yolları tamir etti."
+  },
+  {
+    "id": 1170,
+    "topic": "Şehir ve Mekanlar (B1)",
+    "en": "gentrification",
+    "tr": "soylulaştırma",
+    "type": "isim",
+    "exampleEn": "Gentrification is changing the old neighborhood.",
+    "exampleTr": "Soylulaştırma eski mahalleyi değiştiriyor."
+  },
+  {
+    "id": 1171,
+    "topic": "Şehir ve Mekanlar (B1)",
+    "en": "alley",
+    "tr": "ara sokak",
+    "type": "isim",
+    "exampleEn": "They walked through a narrow alley.",
+    "exampleTr": "Dar bir ara sokaktan geçtiler."
+  },
+  {
+    "id": 1172,
+    "topic": "Şehir ve Mekanlar (B1)",
+    "en": "boulevard",
+    "tr": "bulvar",
+    "type": "isim",
+    "exampleEn": "The café is on the main boulevard.",
+    "exampleTr": "Kafe ana bulvardadır."
+  },
+  {
+    "id": 1173,
+    "topic": "Şehir ve Mekanlar (B1)",
+    "en": "monument",
+    "tr": "anıt",
+    "type": "isim",
+    "exampleEn": "The monument was built to honor the soldiers.",
+    "exampleTr": "Anıt askerleri onurlandırmak için inşa edildi."
+  },
+  {
+    "id": 1174,
+    "topic": "Şehir ve Mekanlar (B1)",
+    "en": "plaza",
+    "tr": "meydan",
+    "type": "isim",
+    "exampleEn": "We met at the central plaza.",
+    "exampleTr": "Merkez meydanda buluştuk."
+  },
+  {
+    "id": 1175,
+    "topic": "Şehir ve Mekanlar (B1)",
+    "en": "periphery",
+    "tr": "kenar mahalle",
+    "type": "isim",
+    "exampleEn": "They moved to the periphery of the city.",
+    "exampleTr": "Şehrin kenar mahallesine taşındılar."
+  },
+  {
+    "id": 1176,
+    "topic": "Şehir ve Mekanlar (B1)",
+    "en": "urban",
+    "tr": "kentsel",
+    "type": "sıfat",
+    "exampleEn": "Urban areas face unique challenges.",
+    "exampleTr": "Kentsel alanlar kendine özgü zorluklarla karşı karşıya."
+  },
+  {
+    "id": 1177,
+    "topic": "Şehir ve Mekanlar (B1)",
+    "en": "rural",
+    "tr": "kırsal",
+    "type": "sıfat",
+    "exampleEn": "She prefers rural life over city life.",
+    "exampleTr": "Şehir yerine kırsal yaşamı tercih ediyor."
+  },
+  {
+    "id": 1178,
+    "topic": "Şehir ve Mekanlar (B1)",
+    "en": "civic",
+    "tr": "sivil",
+    "type": "sıfat",
+    "exampleEn": "Citizens have civic responsibilities.",
+    "exampleTr": "Vatandaşların sivil sorumlulukları vardır."
+  },
+  {
+    "id": 1179,
+    "topic": "Şehir ve Mekanlar (B1)",
+    "en": "residential",
+    "tr": "konut",
+    "type": "sıfat",
+    "exampleEn": "This is a residential area.",
+    "exampleTr": "Burası konut bölgesidir."
+  },
+  {
+    "id": 1180,
+    "topic": "Şehir ve Mekanlar (B1)",
+    "en": "commercial",
+    "tr": "ticari",
+    "type": "sıfat",
+    "exampleEn": "The commercial district is very busy.",
+    "exampleTr": "Ticari bölge çok işlek."
+  },
+  {
+    "id": 1181,
+    "topic": "Şehir ve Mekanlar (B1)",
+    "en": "zoning",
+    "tr": "imar",
+    "type": "isim",
+    "exampleEn": "Zoning laws limit building heights.",
+    "exampleTr": "İmar yasaları bina yüksekliklerini sınırlar."
+  },
+  {
+    "id": 1182,
+    "topic": "Şehir ve Mekanlar (B1)",
+    "en": "pedestrianize",
+    "tr": "yayalaştırmak",
+    "type": "fiil",
+    "exampleEn": "The city decided to pedestrianize the center.",
+    "exampleTr": "Şehir merkezi yayalaştırmaya karar verdi."
+  },
+  {
+    "id": 1183,
+    "topic": "Şehir ve Mekanlar (B1)",
+    "en": "greenspace",
+    "tr": "yeşil alan",
+    "type": "isim",
+    "exampleEn": "More greenspace is needed in the city.",
+    "exampleTr": "Şehirde daha fazla yeşil alan gerekiyor."
+  },
+  {
+    "id": 1184,
+    "topic": "Şehir ve Mekanlar (B1)",
+    "en": "architecture",
+    "tr": "mimari",
+    "type": "isim",
+    "exampleEn": "The city is known for its unique architecture.",
+    "exampleTr": "Şehir kendine özgü mimarisiyle tanınır."
+  },
+  {
+    "id": 1185,
+    "topic": "Şehir ve Mekanlar (B1)",
+    "en": "sewage",
+    "tr": "kanalizasyon",
+    "type": "isim",
+    "exampleEn": "The sewage system needs an upgrade.",
+    "exampleTr": "Kanalizasyon sistemi yenilenmeye ihtiyaç duyuyor."
+  },
+  {
+    "id": 1186,
+    "topic": "Alışveriş (B1)",
+    "en": "guarantee",
+    "tr": "güvence",
+    "type": "isim",
+    "exampleEn": "The product comes with a satisfaction guarantee.",
+    "exampleTr": "Ürün memnuniyet güvencesiyle geliyor."
+  },
+  {
+    "id": 1187,
+    "topic": "Alışveriş (B1)",
+    "en": "installment",
+    "tr": "taksit",
+    "type": "isim",
+    "exampleEn": "She paid for the laptop in installments.",
+    "exampleTr": "Dizüstü bilgisayarı taksitle ödedi."
+  },
+  {
+    "id": 1188,
+    "topic": "Alışveriş (B1)",
+    "en": "wholesale",
+    "tr": "toptan",
+    "type": "isim",
+    "exampleEn": "They bought the goods at wholesale prices.",
+    "exampleTr": "Malları toptan fiyata satın aldılar."
+  },
+  {
+    "id": 1189,
+    "topic": "Alışveriş (B1)",
+    "en": "retail",
+    "tr": "perakende",
+    "type": "isim",
+    "exampleEn": "Retail prices are higher than wholesale.",
+    "exampleTr": "Perakende fiyatlar toptandan daha yüksektir."
+  },
+  {
+    "id": 1190,
+    "topic": "Alışveriş (B1)",
+    "en": "reimbursement",
+    "tr": "geri ödeme",
+    "type": "isim",
+    "exampleEn": "She requested reimbursement for the broken item.",
+    "exampleTr": "Kırık ürün için geri ödeme talep etti."
+  },
+  {
+    "id": 1191,
+    "topic": "Alışveriş (B1)",
+    "en": "barter",
+    "tr": "takas",
+    "type": "isim",
+    "exampleEn": "In some markets, barter is still used.",
+    "exampleTr": "Bazı pazarlarda hâlâ takas kullanılmaktadır."
+  },
+  {
+    "id": 1192,
+    "topic": "Alışveriş (B1)",
+    "en": "loyalty card",
+    "tr": "sadakat kartı",
+    "type": "isim",
+    "exampleEn": "Use your loyalty card to earn points.",
+    "exampleTr": "Puan kazanmak için sadakat kartını kullan."
+  },
+  {
+    "id": 1193,
+    "topic": "Alışveriş (B1)",
+    "en": "billing",
+    "tr": "fatura kesme",
+    "type": "isim",
+    "exampleEn": "Monthly billing is sent automatically.",
+    "exampleTr": "Aylık fatura kesme otomatik olarak yapılır."
+  },
+  {
+    "id": 1194,
+    "topic": "Alışveriş (B1)",
+    "en": "counterfeit",
+    "tr": "sahte",
+    "type": "sıfat",
+    "exampleEn": "The bag was counterfeit, not an original.",
+    "exampleTr": "Çanta orijinal değil, sahteydi."
+  },
+  {
+    "id": 1195,
+    "topic": "Alışveriş (B1)",
+    "en": "vendor",
+    "tr": "satıcı",
+    "type": "isim",
+    "exampleEn": "The street vendor sold fresh fruit.",
+    "exampleTr": "Sokak satıcısı taze meyve satıyordu."
+  },
+  {
+    "id": 1196,
+    "topic": "Alışveriş (B1)",
+    "en": "auction",
+    "tr": "müzayede",
+    "type": "isim",
+    "exampleEn": "The painting was sold at auction.",
+    "exampleTr": "Tablo müzayedede satıldı."
+  },
+  {
+    "id": 1197,
+    "topic": "Alışveriş (B1)",
+    "en": "surplus",
+    "tr": "fazlalık",
+    "type": "isim",
+    "exampleEn": "The store had a surplus of winter coats.",
+    "exampleTr": "Mağazanın kış montlarında fazlalık vardı."
+  },
+  {
+    "id": 1198,
+    "topic": "Alışveriş (B1)",
+    "en": "consumerism",
+    "tr": "tüketicilik",
+    "type": "isim",
+    "exampleEn": "Consumerism is driving overconsumption.",
+    "exampleTr": "Tüketicilik aşırı tüketime yol açıyor."
+  },
+  {
+    "id": 1199,
+    "topic": "Alışveriş (B1)",
+    "en": "transaction",
+    "tr": "işlem",
+    "type": "isim",
+    "exampleEn": "The bank declined the transaction.",
+    "exampleTr": "Banka işlemi reddetti."
+  },
+  {
+    "id": 1200,
+    "topic": "Alışveriş (B1)",
+    "en": "bargain",
+    "tr": "pazarlık yapmak",
+    "type": "fiil",
+    "exampleEn": "She bargained for a lower price at the market.",
+    "exampleTr": "Pazarda daha düşük bir fiyat için pazarlık yaptı."
+  },
+  {
+    "id": 1201,
+    "topic": "Alışveriş (B1)",
+    "en": "subscribe",
+    "tr": "abone olmak",
+    "type": "fiil",
+    "exampleEn": "Subscribe to get exclusive discounts.",
+    "exampleTr": "Özel indirimler için abone ol."
+  },
+  {
+    "id": 1202,
+    "topic": "Alışveriş (B1)",
+    "en": "premium",
+    "tr": "birinci kalite",
+    "type": "sıfat",
+    "exampleEn": "This is a premium brand.",
+    "exampleTr": "Bu birinci kalite bir markadır."
+  },
+  {
+    "id": 1203,
+    "topic": "Alışveriş (B1)",
+    "en": "coupon",
+    "tr": "kupon",
+    "type": "isim",
+    "exampleEn": "She used a coupon for 10% off.",
+    "exampleTr": "Yüzde 10 indirim için kupon kullandı."
+  },
+  {
+    "id": 1204,
+    "topic": "Alışveriş (B1)",
+    "en": "expenditure",
+    "tr": "harcama",
+    "type": "isim",
+    "exampleEn": "Monthly expenditure must be kept under control.",
+    "exampleTr": "Aylık harcamalar kontrol altında tutulmalıdır."
+  },
+  {
+    "id": 1205,
+    "topic": "Alışveriş (B1)",
+    "en": "impulse",
+    "tr": "dürtü",
+    "type": "isim",
+    "exampleEn": "He made an impulse purchase at the store.",
+    "exampleTr": "Mağazada dürtüsel bir satın alma yaptı."
+  },
+  {
+    "id": 1206,
+    "topic": "Meslekler (B1)",
+    "en": "entrepreneur",
+    "tr": "girişimci",
+    "type": "isim",
+    "exampleEn": "She became a successful entrepreneur.",
+    "exampleTr": "Başarılı bir girişimci oldu."
+  },
+  {
+    "id": 1207,
+    "topic": "Meslekler (B1)",
+    "en": "consultant",
+    "tr": "danışman",
+    "type": "isim",
+    "exampleEn": "They hired a consultant to improve sales.",
+    "exampleTr": "Satışları artırmak için bir danışman tuttular."
+  },
+  {
+    "id": 1208,
+    "topic": "Meslekler (B1)",
+    "en": "freelancer",
+    "tr": "serbest çalışan",
+    "type": "isim",
+    "exampleEn": "He works as a freelancer from home.",
+    "exampleTr": "Evden serbest çalışan olarak çalışıyor."
+  },
+  {
+    "id": 1209,
+    "topic": "Meslekler (B1)",
+    "en": "supervisor",
+    "tr": "amir",
+    "type": "isim",
+    "exampleEn": "The supervisor reviewed the work.",
+    "exampleTr": "Amir çalışmayı gözden geçirdi."
+  },
+  {
+    "id": 1210,
+    "topic": "Meslekler (B1)",
+    "en": "recruiter",
+    "tr": "işe alım uzmanı",
+    "type": "isim",
+    "exampleEn": "The recruiter contacted me about the vacancy.",
+    "exampleTr": "İşe alım uzmanı pozisyon hakkında benimle iletişime geçti."
+  },
+  {
+    "id": 1211,
+    "topic": "Meslekler (B1)",
+    "en": "intern",
+    "tr": "stajyer",
+    "type": "isim",
+    "exampleEn": "The intern worked in the marketing department.",
+    "exampleTr": "Stajyer pazarlama departmanında çalıştı."
+  },
+  {
+    "id": 1212,
+    "topic": "Meslekler (B1)",
+    "en": "executive",
+    "tr": "yönetici",
+    "type": "isim",
+    "exampleEn": "The executive made an important decision.",
+    "exampleTr": "Yönetici önemli bir karar aldı."
+  },
+  {
+    "id": 1213,
+    "topic": "Meslekler (B1)",
+    "en": "analyst",
+    "tr": "analist",
+    "type": "isim",
+    "exampleEn": "The analyst reviewed the market trends.",
+    "exampleTr": "Analist piyasa trendlerini inceledi."
+  },
+  {
+    "id": 1214,
+    "topic": "Meslekler (B1)",
+    "en": "mediator",
+    "tr": "arabulucu",
+    "type": "isim",
+    "exampleEn": "A mediator helped resolve the dispute.",
+    "exampleTr": "Arabulucu anlaşmazlığı çözmeye yardımcı oldu."
+  },
+  {
+    "id": 1215,
+    "topic": "Meslekler (B1)",
+    "en": "auditor",
+    "tr": "denetçi",
+    "type": "isim",
+    "exampleEn": "The auditor checked the company's finances.",
+    "exampleTr": "Denetçi şirketin finanslarını kontrol etti."
+  },
+  {
+    "id": 1216,
+    "topic": "Meslekler (B1)",
+    "en": "diplomat",
+    "tr": "diplomat",
+    "type": "isim",
+    "exampleEn": "The diplomat negotiated a peace treaty.",
+    "exampleTr": "Diplomat bir barış antlaşması müzakere etti."
+  },
+  {
+    "id": 1217,
+    "topic": "Meslekler (B1)",
+    "en": "craftsman",
+    "tr": "zanaatkar",
+    "type": "isim",
+    "exampleEn": "The craftsman made a beautiful table.",
+    "exampleTr": "Zanaatkar güzel bir masa yaptı."
+  },
+  {
+    "id": 1218,
+    "topic": "Meslekler (B1)",
+    "en": "paralegal",
+    "tr": "hukuk asistanı",
+    "type": "isim",
+    "exampleEn": "The paralegal prepared the legal documents.",
+    "exampleTr": "Hukuk asistanı yasal belgeleri hazırladı."
+  },
+  {
+    "id": 1219,
+    "topic": "Meslekler (B1)",
+    "en": "curator",
+    "tr": "küratör",
+    "type": "isim",
+    "exampleEn": "The curator organized the art exhibition.",
+    "exampleTr": "Küratör sanat sergisini düzenledi."
+  },
+  {
+    "id": 1220,
+    "topic": "Meslekler (B1)",
+    "en": "pharmacist",
+    "tr": "eczacı",
+    "type": "isim",
+    "exampleEn": "The pharmacist explained how to take the medicine.",
+    "exampleTr": "Eczacı ilacı nasıl alacağını anlattı."
+  },
+  {
+    "id": 1221,
+    "topic": "Meslekler (B1)",
+    "en": "radiologist",
+    "tr": "radyolog",
+    "type": "isim",
+    "exampleEn": "The radiologist read the x-ray.",
+    "exampleTr": "Radyolog röntgeni okudu."
+  },
+  {
+    "id": 1222,
+    "topic": "Meslekler (B1)",
+    "en": "horticulturist",
+    "tr": "bahçıvan uzmanı",
+    "type": "isim",
+    "exampleEn": "The horticulturist advised on plant care.",
+    "exampleTr": "Bahçıvan uzmanı bitki bakımı konusunda tavsiyelerde bulundu."
+  },
+  {
+    "id": 1223,
+    "topic": "Meslekler (B1)",
+    "en": "logistician",
+    "tr": "lojistikçi",
+    "type": "isim",
+    "exampleEn": "The logistician coordinated the supply chain.",
+    "exampleTr": "Lojistikçi tedarik zincirini koordine etti."
+  },
+  {
+    "id": 1224,
+    "topic": "Meslekler (B1)",
+    "en": "biomedical",
+    "tr": "biyomedikal",
+    "type": "sıfat",
+    "exampleEn": "She works in biomedical research.",
+    "exampleTr": "Biyomedikal araştırmada çalışıyor."
+  },
+  {
+    "id": 1225,
+    "topic": "Meslekler (B1)",
+    "en": "actuary",
+    "tr": "aktüer",
+    "type": "isim",
+    "exampleEn": "The actuary calculated insurance risks.",
+    "exampleTr": "Aktüer sigorta risklerini hesapladı."
+  },
+  {
+    "id": 1226,
+    "topic": "Okul ve Eğitim (B1)",
+    "en": "coursework",
+    "tr": "ders çalışması",
+    "type": "isim",
+    "exampleEn": "The coursework was assessed throughout the year.",
+    "exampleTr": "Ders çalışması yıl boyunca değerlendirildi."
+  },
+  {
+    "id": 1227,
+    "topic": "Okul ve Eğitim (B1)",
+    "en": "fellowship",
+    "tr": "akademik burs",
+    "type": "isim",
+    "exampleEn": "She received a fellowship to study abroad.",
+    "exampleTr": "Yurt dışında çalışmak için akademik burs aldı."
+  },
+  {
+    "id": 1228,
+    "topic": "Okul ve Eğitim (B1)",
+    "en": "dissertation",
+    "tr": "tez",
+    "type": "isim",
+    "exampleEn": "He submitted his dissertation last week.",
+    "exampleTr": "Geçen hafta tezini teslim etti."
+  },
+  {
+    "id": 1229,
+    "topic": "Okul ve Eğitim (B1)",
+    "en": "trimester",
+    "tr": "üç aylık dönem",
+    "type": "isim",
+    "exampleEn": "The school year is divided into trimesters.",
+    "exampleTr": "Okul yılı üç aylık dönemlere ayrılmıştır."
+  },
+  {
+    "id": 1230,
+    "topic": "Okul ve Eğitim (B1)",
+    "en": "syllabus",
+    "tr": "ders programı",
+    "type": "isim",
+    "exampleEn": "Read the syllabus before the first class.",
+    "exampleTr": "İlk dersten önce ders programını oku."
+  },
+  {
+    "id": 1231,
+    "topic": "Okul ve Eğitim (B1)",
+    "en": "accredited",
+    "tr": "akredite",
+    "type": "sıfat",
+    "exampleEn": "Make sure the institution is accredited.",
+    "exampleTr": "Kurumun akredite olduğundan emin ol."
+  },
+  {
+    "id": 1232,
+    "topic": "Okul ve Eğitim (B1)",
+    "en": "enrollment",
+    "tr": "kayıt",
+    "type": "isim",
+    "exampleEn": "Enrollment for the new term is now open.",
+    "exampleTr": "Yeni dönem kayıtları şimdi açık."
+  },
+  {
+    "id": 1233,
+    "topic": "Okul ve Eğitim (B1)",
+    "en": "tutoring",
+    "tr": "özel ders",
+    "type": "isim",
+    "exampleEn": "He provided tutoring in mathematics.",
+    "exampleTr": "Matematikte özel ders verdi."
+  },
+  {
+    "id": 1234,
+    "topic": "Okul ve Eğitim (B1)",
+    "en": "plagiarism",
+    "tr": "intihal",
+    "type": "isim",
+    "exampleEn": "Plagiarism is a serious academic offence.",
+    "exampleTr": "İntihal ciddi bir akademik suçtur."
+  },
+  {
+    "id": 1235,
+    "topic": "Okul ve Eğitim (B1)",
+    "en": "certify",
+    "tr": "sertifikalandırmak",
+    "type": "fiil",
+    "exampleEn": "The program certifies students in first aid.",
+    "exampleTr": "Program öğrencileri ilk yardım konusunda sertifikalandırır."
+  },
+  {
+    "id": 1236,
+    "topic": "Okul ve Eğitim (B1)",
+    "en": "elective",
+    "tr": "seçmeli ders",
+    "type": "isim",
+    "exampleEn": "Students can choose any elective they like.",
+    "exampleTr": "Öğrenciler istedikleri seçmeli dersi seçebilir."
+  },
+  {
+    "id": 1237,
+    "topic": "Okul ve Eğitim (B1)",
+    "en": "faculty",
+    "tr": "fakülte",
+    "type": "isim",
+    "exampleEn": "She is part of the science faculty.",
+    "exampleTr": "Fen fakültesinin bir üyesidir."
+  },
+  {
+    "id": 1238,
+    "topic": "Okul ve Eğitim (B1)",
+    "en": "transcript",
+    "tr": "transkript",
+    "type": "isim",
+    "exampleEn": "Submit your official transcript.",
+    "exampleTr": "Resmi transkriptini teslim et."
+  },
+  {
+    "id": 1239,
+    "topic": "Okul ve Eğitim (B1)",
+    "en": "postgraduate",
+    "tr": "lisansüstü",
+    "type": "sıfat",
+    "exampleEn": "He enrolled in a postgraduate program.",
+    "exampleTr": "Lisansüstü programa kayıt yaptırdı."
+  },
+  {
+    "id": 1240,
+    "topic": "Okul ve Eğitim (B1)",
+    "en": "academic",
+    "tr": "akademik",
+    "type": "sıfat",
+    "exampleEn": "Her academic performance improved this year.",
+    "exampleTr": "Akademik performansı bu yıl iyileşti."
+  },
+  {
+    "id": 1241,
+    "topic": "Okul ve Eğitim (B1)",
+    "en": "internship",
+    "tr": "staj",
+    "type": "isim",
+    "exampleEn": "The internship gave her valuable experience.",
+    "exampleTr": "Staj ona değerli deneyim kazandırdı."
+  },
+  {
+    "id": 1242,
+    "topic": "Okul ve Eğitim (B1)",
+    "en": "mentorship",
+    "tr": "mentorluk",
+    "type": "isim",
+    "exampleEn": "Good mentorship can guide your career.",
+    "exampleTr": "İyi mentorluk kariyerinizi yönlendirebilir."
+  },
+  {
+    "id": 1243,
+    "topic": "Okul ve Eğitim (B1)",
+    "en": "pedagogy",
+    "tr": "pedagoji",
+    "type": "isim",
+    "exampleEn": "Modern pedagogy focuses on the student.",
+    "exampleTr": "Modern pedagoji öğrenciye odaklanır."
+  },
+  {
+    "id": 1244,
+    "topic": "Okul ve Eğitim (B1)",
+    "en": "literacy",
+    "tr": "okuryazarlık",
+    "type": "isim",
+    "exampleEn": "Digital literacy is essential nowadays.",
+    "exampleTr": "Dijital okuryazarlık günümüzde zorunludur."
+  },
+  {
+    "id": 1245,
+    "topic": "Okul ve Eğitim (B1)",
+    "en": "recess",
+    "tr": "teneffüs",
+    "type": "isim",
+    "exampleEn": "Children played outside during recess.",
+    "exampleTr": "Çocuklar teneffüste dışarıda oynadı."
+  },
+  {
+    "id": 1246,
+    "topic": "Sağlık (B1)",
+    "en": "rehabilitation",
+    "tr": "rehabilitasyon",
+    "type": "isim",
+    "exampleEn": "He underwent rehabilitation after surgery.",
+    "exampleTr": "Ameliyat sonrası rehabilitasyon gördü."
+  },
+  {
+    "id": 1247,
+    "topic": "Sağlık (B1)",
+    "en": "chronic",
+    "tr": "kronik",
+    "type": "sıfat",
+    "exampleEn": "She suffers from chronic back pain.",
+    "exampleTr": "Kronik sırt ağrısı çekiyor."
+  },
+  {
+    "id": 1248,
+    "topic": "Sağlık (B1)",
+    "en": "epidemic",
+    "tr": "salgın",
+    "type": "isim",
+    "exampleEn": "The epidemic spread across multiple countries.",
+    "exampleTr": "Salgın birçok ülkeye yayıldı."
+  },
+  {
+    "id": 1249,
+    "topic": "Sağlık (B1)",
+    "en": "vaccination",
+    "tr": "aşılama",
+    "type": "isim",
+    "exampleEn": "Vaccination helps prevent serious diseases.",
+    "exampleTr": "Aşılama ciddi hastalıkların önüne geçer."
+  },
+  {
+    "id": 1250,
+    "topic": "Sağlık (B1)",
+    "en": "prognosis",
+    "tr": "prognoz",
+    "type": "isim",
+    "exampleEn": "The doctor gave a positive prognosis.",
+    "exampleTr": "Doktor olumlu bir prognoz verdi."
+  },
+  {
+    "id": 1251,
+    "topic": "Sağlık (B1)",
+    "en": "sanitation",
+    "tr": "sanitasyon",
+    "type": "isim",
+    "exampleEn": "Sanitation is vital for public health.",
+    "exampleTr": "Sanitasyon, halk sağlığı için hayati önem taşır."
+  },
+  {
+    "id": 1252,
+    "topic": "Sağlık (B1)",
+    "en": "contagious",
+    "tr": "bulaşıcı",
+    "type": "sıfat",
+    "exampleEn": "The virus is highly contagious.",
+    "exampleTr": "Virüs son derece bulaşıcıdır."
+  },
+  {
+    "id": 1253,
+    "topic": "Sağlık (B1)",
+    "en": "preventable",
+    "tr": "önlenebilir",
+    "type": "sıfat",
+    "exampleEn": "Many diseases are preventable with vaccines.",
+    "exampleTr": "Pek çok hastalık aşıyla önlenebilir."
+  },
+  {
+    "id": 1254,
+    "topic": "Sağlık (B1)",
+    "en": "physiology",
+    "tr": "fizyoloji",
+    "type": "isim",
+    "exampleEn": "She studied physiology at university.",
+    "exampleTr": "Üniversitede fizyoloji okudu."
+  },
+  {
+    "id": 1255,
+    "topic": "Sağlık (B1)",
+    "en": "malnourished",
+    "tr": "yetersiz beslenen",
+    "type": "sıfat",
+    "exampleEn": "The child was malnourished and frail.",
+    "exampleTr": "Çocuk yetersiz besleniyor ve zayıftı."
+  },
+  {
+    "id": 1256,
+    "topic": "Sağlık (B1)",
+    "en": "ailment",
+    "tr": "rahatsızlık",
+    "type": "isim",
+    "exampleEn": "He complained about a minor ailment.",
+    "exampleTr": "Küçük bir rahatsızlıktan şikayet etti."
+  },
+  {
+    "id": 1257,
+    "topic": "Sağlık (B1)",
+    "en": "immunity",
+    "tr": "bağışıklık",
+    "type": "isim",
+    "exampleEn": "A healthy diet boosts immunity.",
+    "exampleTr": "Sağlıklı beslenme bağışıklığı güçlendirir."
+  },
+  {
+    "id": 1258,
+    "topic": "Sağlık (B1)",
+    "en": "sedentary",
+    "tr": "hareketsiz",
+    "type": "sıfat",
+    "exampleEn": "A sedentary lifestyle is bad for health.",
+    "exampleTr": "Hareketsiz bir yaşam tarzı sağlık için kötüdür."
+  },
+  {
+    "id": 1259,
+    "topic": "Sağlık (B1)",
+    "en": "cardiologist",
+    "tr": "kardiyolog",
+    "type": "isim",
+    "exampleEn": "The cardiologist reviewed his heart results.",
+    "exampleTr": "Kardiyolog kalp sonuçlarını inceledi."
+  },
+  {
+    "id": 1260,
+    "topic": "Sağlık (B1)",
+    "en": "dosage",
+    "tr": "dozaj",
+    "type": "isim",
+    "exampleEn": "Take the correct dosage of the medicine.",
+    "exampleTr": "İlacın doğru dozajını alın."
+  },
+  {
+    "id": 1261,
+    "topic": "Sağlık (B1)",
+    "en": "ward",
+    "tr": "koğuş",
+    "type": "isim",
+    "exampleEn": "The patient was moved to a private ward.",
+    "exampleTr": "Hasta özel bir koğuşa alındı."
+  },
+  {
+    "id": 1262,
+    "topic": "Sağlık (B1)",
+    "en": "prescription",
+    "tr": "reçete",
+    "type": "isim",
+    "exampleEn": "You need a prescription for this medicine.",
+    "exampleTr": "Bu ilaç için reçeteye ihtiyacınız var."
+  },
+  {
+    "id": 1263,
+    "topic": "Sağlık (B1)",
+    "en": "outbreak",
+    "tr": "salgın patlak",
+    "type": "isim",
+    "exampleEn": "An outbreak of flu swept through the school.",
+    "exampleTr": "Okulda grip salgını patlak verdi."
+  },
+  {
+    "id": 1264,
+    "topic": "Sağlık (B1)",
+    "en": "organ",
+    "tr": "organ",
+    "type": "isim",
+    "exampleEn": "Organ donation can save lives.",
+    "exampleTr": "Organ bağışı hayat kurtarabilir."
+  },
+  {
+    "id": 1265,
+    "topic": "Sağlık (B1)",
+    "en": "mental health",
+    "tr": "ruh sağlığı",
+    "type": "isim",
+    "exampleEn": "Mental health is as important as physical health.",
+    "exampleTr": "Ruh sağlığı, fiziksel sağlık kadar önemlidir."
+  },
+  {
+    "id": 1266,
+    "topic": "Spor (B1)",
+    "en": "endurance",
+    "tr": "dayanıklılık",
+    "type": "isim",
+    "exampleEn": "Marathon running requires great endurance.",
+    "exampleTr": "Maraton koşmak büyük dayanıklılık gerektirir."
+  },
+  {
+    "id": 1267,
+    "topic": "Spor (B1)",
+    "en": "agility",
+    "tr": "çeviklik",
+    "type": "isim",
+    "exampleEn": "Football players need agility.",
+    "exampleTr": "Futbolcular çevikliğe ihtiyaç duyar."
+  },
+  {
+    "id": 1268,
+    "topic": "Spor (B1)",
+    "en": "championship",
+    "tr": "şampiyona",
+    "type": "isim",
+    "exampleEn": "They won the national championship.",
+    "exampleTr": "Ulusal şampiyonayı kazandılar."
+  },
+  {
+    "id": 1269,
+    "topic": "Spor (B1)",
+    "en": "penalty",
+    "tr": "penaltı",
+    "type": "isim",
+    "exampleEn": "He scored the winning penalty.",
+    "exampleTr": "Kazandıran penaltıyı o attı."
+  },
+  {
+    "id": 1270,
+    "topic": "Spor (B1)",
+    "en": "doping",
+    "tr": "doping",
+    "type": "isim",
+    "exampleEn": "Doping is banned in all professional sports.",
+    "exampleTr": "Doping tüm profesyonel sporlarda yasaktır."
+  },
+  {
+    "id": 1271,
+    "topic": "Spor (B1)",
+    "en": "substitute",
+    "tr": "yedek oyuncu",
+    "type": "isim",
+    "exampleEn": "The substitute came on in the second half.",
+    "exampleTr": "Yedek ikinci yarıda sahaya girdi."
+  },
+  {
+    "id": 1272,
+    "topic": "Spor (B1)",
+    "en": "umpire",
+    "tr": "hakem",
+    "type": "isim",
+    "exampleEn": "The umpire made a controversial call.",
+    "exampleTr": "Hakem tartışmalı bir karar verdi."
+  },
+  {
+    "id": 1273,
+    "topic": "Spor (B1)",
+    "en": "hydration",
+    "tr": "sıvı alımı",
+    "type": "isim",
+    "exampleEn": "Good hydration is essential during exercise.",
+    "exampleTr": "Egzersiz sırasında iyi sıvı alımı önemlidir."
+  },
+  {
+    "id": 1274,
+    "topic": "Spor (B1)",
+    "en": "stamina",
+    "tr": "enerji",
+    "type": "isim",
+    "exampleEn": "She has great stamina for a long race.",
+    "exampleTr": "Uzun koşu için harika enerjisi var."
+  },
+  {
+    "id": 1275,
+    "topic": "Spor (B1)",
+    "en": "playoff",
+    "tr": "eleme",
+    "type": "isim",
+    "exampleEn": "The team advanced to the playoff round.",
+    "exampleTr": "Takım eleme turuna ilerledi."
+  },
+  {
+    "id": 1276,
+    "topic": "Spor (B1)",
+    "en": "disqualified",
+    "tr": "diskalifiye",
+    "type": "sıfat",
+    "exampleEn": "The runner was disqualified for cheating.",
+    "exampleTr": "Koşucu hile yapması nedeniyle diskalifiye edildi."
+  },
+  {
+    "id": 1277,
+    "topic": "Spor (B1)",
+    "en": "sportsmanship",
+    "tr": "centilmenlik",
+    "type": "isim",
+    "exampleEn": "Good sportsmanship means respecting opponents.",
+    "exampleTr": "İyi centilmenlik rakiplere saygı göstermek anlamına gelir."
+  },
+  {
+    "id": 1278,
+    "topic": "Spor (B1)",
+    "en": "dash",
+    "tr": "kısa koşu",
+    "type": "isim",
+    "exampleEn": "She won the 100m dash easily.",
+    "exampleTr": "100 metre kısa koşusunu kolayca kazandı."
+  },
+  {
+    "id": 1279,
+    "topic": "Spor (B1)",
+    "en": "tactics",
+    "tr": "taktik",
+    "type": "isim",
+    "exampleEn": "The coach explained the team's tactics.",
+    "exampleTr": "Koç takımın taktiklerini anlattı."
+  },
+  {
+    "id": 1280,
+    "topic": "Spor (B1)",
+    "en": "offside",
+    "tr": "ofsayt",
+    "type": "isim",
+    "exampleEn": "The goal was cancelled for offside.",
+    "exampleTr": "Gol ofsayt nedeniyle iptal edildi."
+  },
+  {
+    "id": 1281,
+    "topic": "Spor (B1)",
+    "en": "fixture",
+    "tr": "maç programı",
+    "type": "isim",
+    "exampleEn": "The fixture list was published today.",
+    "exampleTr": "Maç programı bugün yayımlandı."
+  },
+  {
+    "id": 1282,
+    "topic": "Spor (B1)",
+    "en": "podium",
+    "tr": "podyum",
+    "type": "isim",
+    "exampleEn": "The athlete stood on the podium to receive their medal.",
+    "exampleTr": "Sporcu madalyasını almak için podyuma çıktı."
+  },
+  {
+    "id": 1283,
+    "topic": "Spor (B1)",
+    "en": "velocity",
+    "tr": "hız",
+    "type": "isim",
+    "exampleEn": "The velocity of the ball was incredible.",
+    "exampleTr": "Topun hızı inanılmazdı."
+  },
+  {
+    "id": 1284,
+    "topic": "Spor (B1)",
+    "en": "physique",
+    "tr": "fizik yapı",
+    "type": "isim",
+    "exampleEn": "The swimmer had an impressive physique.",
+    "exampleTr": "Yüzücünün etkileyici bir fizik yapısı vardı."
+  },
+  {
+    "id": 1285,
+    "topic": "Spor (B1)",
+    "en": "dehydrated",
+    "tr": "susuz kalmış",
+    "type": "sıfat",
+    "exampleEn": "The player was dehydrated after the match.",
+    "exampleTr": "Oyuncu maçtan sonra susuz kalmıştı."
+  },
+  {
+    "id": 1286,
+    "topic": "Duygular (B1)",
+    "en": "ambivalent",
+    "tr": "kararsız",
+    "type": "sıfat",
+    "exampleEn": "She felt ambivalent about the decision.",
+    "exampleTr": "Karar hakkında kararsız hissetti."
+  },
+  {
+    "id": 1287,
+    "topic": "Duygular (B1)",
+    "en": "nostalgic",
+    "tr": "nostaljik",
+    "type": "sıfat",
+    "exampleEn": "The song made him feel nostalgic.",
+    "exampleTr": "Şarkı onu nostaljik hissettirdi."
+  },
+  {
+    "id": 1288,
+    "topic": "Duygular (B1)",
+    "en": "empathy",
+    "tr": "empati",
+    "type": "isim",
+    "exampleEn": "Empathy is understanding others' feelings.",
+    "exampleTr": "Empati, başkalarının duygularını anlamaktır."
+  },
+  {
+    "id": 1289,
+    "topic": "Duygular (B1)",
+    "en": "regret",
+    "tr": "pişmanlık",
+    "type": "isim",
+    "exampleEn": "She had deep regret over her words.",
+    "exampleTr": "Sözleri için derin bir pişmanlık duydu."
+  },
+  {
+    "id": 1290,
+    "topic": "Duygular (B1)",
+    "en": "resentment",
+    "tr": "kırgınlık",
+    "type": "isim",
+    "exampleEn": "His resentment grew over the years.",
+    "exampleTr": "Kırgınlığı yıllar içinde büyüdü."
+  },
+  {
+    "id": 1291,
+    "topic": "Duygular (B1)",
+    "en": "contentment",
+    "tr": "memnuniyet",
+    "type": "isim",
+    "exampleEn": "She felt a deep sense of contentment.",
+    "exampleTr": "Derin bir memnuniyet hissi duydu."
+  },
+  {
+    "id": 1292,
+    "topic": "Duygular (B1)",
+    "en": "overwhelmed",
+    "tr": "bunalmış",
+    "type": "sıfat",
+    "exampleEn": "She felt overwhelmed by the workload.",
+    "exampleTr": "İş yükü karşısında bunalmış hissetti."
+  },
+  {
+    "id": 1293,
+    "topic": "Duygular (B1)",
+    "en": "anticipation",
+    "tr": "beklenti",
+    "type": "isim",
+    "exampleEn": "He was full of anticipation before the trip.",
+    "exampleTr": "Gezi öncesi beklentiyle doluydu."
+  },
+  {
+    "id": 1294,
+    "topic": "Duygular (B1)",
+    "en": "longing",
+    "tr": "özlem",
+    "type": "isim",
+    "exampleEn": "She felt a longing for her hometown.",
+    "exampleTr": "Memleketi için özlem duydu."
+  },
+  {
+    "id": 1295,
+    "topic": "Duygular (B1)",
+    "en": "apprehensive",
+    "tr": "kaygılı",
+    "type": "sıfat",
+    "exampleEn": "He was apprehensive about the interview.",
+    "exampleTr": "Mülakat konusunda kaygılıydı."
+  },
+  {
+    "id": 1296,
+    "topic": "Duygular (B1)",
+    "en": "gratitude",
+    "tr": "minnettarlık",
+    "type": "isim",
+    "exampleEn": "She expressed her gratitude with a smile.",
+    "exampleTr": "Minnettarlığını bir gülümsemeyle dile getirdi."
+  },
+  {
+    "id": 1297,
+    "topic": "Duygular (B1)",
+    "en": "disillusioned",
+    "tr": "hayal kırıklığına uğramış",
+    "type": "sıfat",
+    "exampleEn": "He became disillusioned with politics.",
+    "exampleTr": "Politikadan hayal kırıklığına uğradı."
+  },
+  {
+    "id": 1298,
+    "topic": "Duygular (B1)",
+    "en": "humiliation",
+    "tr": "aşağılanma",
+    "type": "isim",
+    "exampleEn": "The public humiliation was hard to bear.",
+    "exampleTr": "Kamuoyu önünde aşağılanmak dayanılmazdı."
+  },
+  {
+    "id": 1299,
+    "topic": "Duygular (B1)",
+    "en": "enthusiasm",
+    "tr": "coşku",
+    "type": "isim",
+    "exampleEn": "The students showed great enthusiasm.",
+    "exampleTr": "Öğrenciler büyük coşku gösterdi."
+  },
+  {
+    "id": 1300,
+    "topic": "Duygular (B1)",
+    "en": "indifferent",
+    "tr": "ilgisiz",
+    "type": "sıfat",
+    "exampleEn": "She seemed indifferent to the criticism.",
+    "exampleTr": "Eleştiriye ilgisiz görünüyordu."
+  },
+  {
+    "id": 1301,
+    "topic": "Duygular (B1)",
+    "en": "compassionate",
+    "tr": "merhametli",
+    "type": "sıfat",
+    "exampleEn": "The nurse was very compassionate.",
+    "exampleTr": "Hemşire çok merhametliydi."
+  },
+  {
+    "id": 1302,
+    "topic": "Duygular (B1)",
+    "en": "vulnerable",
+    "tr": "kırılgan",
+    "type": "sıfat",
+    "exampleEn": "Children are vulnerable in conflict zones.",
+    "exampleTr": "Çocuklar çatışma bölgelerinde kırılgandır."
+  },
+  {
+    "id": 1303,
+    "topic": "Duygular (B1)",
+    "en": "irritable",
+    "tr": "sinirli",
+    "type": "sıfat",
+    "exampleEn": "He becomes irritable when he is tired.",
+    "exampleTr": "Yorgun olduğunda sinirli hale gelir."
+  },
+  {
+    "id": 1304,
+    "topic": "Duygular (B1)",
+    "en": "serene",
+    "tr": "huzurlu",
+    "type": "sıfat",
+    "exampleEn": "The lake looked serene at dawn.",
+    "exampleTr": "Göl şafakta huzurlu görünüyordu."
+  },
+  {
+    "id": 1305,
+    "topic": "Duygular (B1)",
+    "en": "poignant",
+    "tr": "dokunaklı",
+    "type": "sıfat",
+    "exampleEn": "The farewell scene was very poignant.",
+    "exampleTr": "Veda sahnesi çok dokunaklıydı."
+  },
+  {
+    "id": 1306,
+    "topic": "Teknoloji (B1)",
+    "en": "algorithm",
+    "tr": "algoritma",
+    "type": "isim",
+    "exampleEn": "The algorithm sorted the data quickly.",
+    "exampleTr": "Algoritma verileri hızla sıraladı."
+  },
+  {
+    "id": 1307,
+    "topic": "Teknoloji (B1)",
+    "en": "bandwidth",
+    "tr": "bant genişliği",
+    "type": "isim",
+    "exampleEn": "High bandwidth allows faster internet.",
+    "exampleTr": "Yüksek bant genişliği daha hızlı internet sağlar."
+  },
+  {
+    "id": 1308,
+    "topic": "Teknoloji (B1)",
+    "en": "encryption",
+    "tr": "şifreleme",
+    "type": "isim",
+    "exampleEn": "Encryption protects your personal data.",
+    "exampleTr": "Şifreleme kişisel verilerinizi korur."
+  },
+  {
+    "id": 1309,
+    "topic": "Teknoloji (B1)",
+    "en": "cache",
+    "tr": "önbellek",
+    "type": "isim",
+    "exampleEn": "Clear the cache to improve app performance.",
+    "exampleTr": "Uygulama performansını artırmak için önbelleği temizleyin."
+  },
+  {
+    "id": 1310,
+    "topic": "Teknoloji (B1)",
+    "en": "server",
+    "tr": "sunucu",
+    "type": "isim",
+    "exampleEn": "The server crashed during the update.",
+    "exampleTr": "Güncelleme sırasında sunucu çöktü."
+  },
+  {
+    "id": 1311,
+    "topic": "Teknoloji (B1)",
+    "en": "firmware",
+    "tr": "ürün yazılımı",
+    "type": "isim",
+    "exampleEn": "Update the firmware on your router.",
+    "exampleTr": "Yönlendiriciinizdeki ürün yazılımını güncelleyin."
+  },
+  {
+    "id": 1312,
+    "topic": "Teknoloji (B1)",
+    "en": "interface",
+    "tr": "arayüz",
+    "type": "isim",
+    "exampleEn": "The user interface is easy to navigate.",
+    "exampleTr": "Kullanıcı arayüzü gezinmesi kolaydır."
+  },
+  {
+    "id": 1313,
+    "topic": "Teknoloji (B1)",
+    "en": "cybersecurity",
+    "tr": "siber güvenlik",
+    "type": "isim",
+    "exampleEn": "Cybersecurity is a growing field.",
+    "exampleTr": "Siber güvenlik büyüyen bir alandır."
+  },
+  {
+    "id": 1314,
+    "topic": "Teknoloji (B1)",
+    "en": "prototype",
+    "tr": "prototip",
+    "type": "isim",
+    "exampleEn": "The engineers built a prototype first.",
+    "exampleTr": "Mühendisler önce bir prototip yaptı."
+  },
+  {
+    "id": 1315,
+    "topic": "Teknoloji (B1)",
+    "en": "autonomous",
+    "tr": "otonom",
+    "type": "sıfat",
+    "exampleEn": "Autonomous vehicles are being tested now.",
+    "exampleTr": "Otonom araçlar şu anda test ediliyor."
+  },
+  {
+    "id": 1316,
+    "topic": "Teknoloji (B1)",
+    "en": "blockchain",
+    "tr": "blok zinciri",
+    "type": "isim",
+    "exampleEn": "Blockchain ensures secure transactions.",
+    "exampleTr": "Blok zinciri güvenli işlemler sağlar."
+  },
+  {
+    "id": 1317,
+    "topic": "Teknoloji (B1)",
+    "en": "sensor",
+    "tr": "sensör",
+    "type": "isim",
+    "exampleEn": "The sensor detects movement in the room.",
+    "exampleTr": "Sensör odadaki hareketi algılar."
+  },
+  {
+    "id": 1318,
+    "topic": "Teknoloji (B1)",
+    "en": "processor",
+    "tr": "işlemci",
+    "type": "isim",
+    "exampleEn": "A faster processor improves performance.",
+    "exampleTr": "Daha hızlı bir işlemci performansı artırır."
+  },
+  {
+    "id": 1319,
+    "topic": "Teknoloji (B1)",
+    "en": "latency",
+    "tr": "gecikme",
+    "type": "isim",
+    "exampleEn": "Low latency is critical for gaming.",
+    "exampleTr": "Oyun oynamak için düşük gecikme kritik öneme sahiptir."
+  },
+  {
+    "id": 1320,
+    "topic": "Teknoloji (B1)",
+    "en": "scalable",
+    "tr": "ölçeklenebilir",
+    "type": "sıfat",
+    "exampleEn": "The system is scalable to millions of users.",
+    "exampleTr": "Sistem milyonlarca kullanıcıya ölçeklenebilir."
+  },
+  {
+    "id": 1321,
+    "topic": "Teknoloji (B1)",
+    "en": "interoperability",
+    "tr": "birlikte çalışabilirlik",
+    "type": "isim",
+    "exampleEn": "Interoperability allows different systems to communicate.",
+    "exampleTr": "Birlikte çalışabilirlik farklı sistemlerin iletişim kurmasını sağlar."
+  },
+  {
+    "id": 1322,
+    "topic": "Teknoloji (B1)",
+    "en": "debugging",
+    "tr": "hata ayıklama",
+    "type": "isim",
+    "exampleEn": "Debugging code can take hours.",
+    "exampleTr": "Kod hata ayıklama saatler alabilir."
+  },
+  {
+    "id": 1323,
+    "topic": "Teknoloji (B1)",
+    "en": "iteration",
+    "tr": "yineleme",
+    "type": "isim",
+    "exampleEn": "Each iteration improved the product.",
+    "exampleTr": "Her yineleme ürünü iyileştirdi."
+  },
+  {
+    "id": 1324,
+    "topic": "Teknoloji (B1)",
+    "en": "deployment",
+    "tr": "dağıtım",
+    "type": "isim",
+    "exampleEn": "The app deployment was successful.",
+    "exampleTr": "Uygulama dağıtımı başarılı oldu."
+  },
+  {
+    "id": 1325,
+    "topic": "Teknoloji (B1)",
+    "en": "virtualization",
+    "tr": "sanallaştırma",
+    "type": "isim",
+    "exampleEn": "Virtualization allows multiple systems on one server.",
+    "exampleTr": "Sanallaştırma bir sunucuda birden fazla sisteme izin verir."
   }
 ]
