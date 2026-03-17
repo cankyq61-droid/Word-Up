@@ -70,9 +70,9 @@ export default function Dashboard() {
   }
 
   return (
-    <div className="h-[100dvh] bg-[#080812] overflow-hidden flex items-center justify-center">
+    <div className="h-[100dvh] bg-[#080812] overflow-hidden">
       <div className="w-full max-w-lg mx-auto px-4 pt-safe flex flex-col gap-3
-                      h-full max-h-[780px] py-5">
+                      h-full py-5">
 
         {/* ── Header ── */}
         <div className="flex items-center justify-center gap-2.5 flex-shrink-0">
