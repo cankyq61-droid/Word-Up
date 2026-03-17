@@ -17,16 +17,25 @@ function shuffle(arr) {
   return a;
 }
 
-function buildOptions(correctWord) {
-  const distractors = shuffle(words.filter((w) => w.id !== correctWord.id)).slice(0, OPTIONS_COUNT - 1);
-  return shuffle([correctWord, ...distractors]);
+function buildOptions(correctWord, pool = words) {
+  // Try to pick distractors from the given pool first
+  let distractors = shuffle(pool.filter((w) => w.id !== correctWord.id));
+  // If pool doesn't have enough words, pad with words from the full list
+  if (distractors.length < OPTIONS_COUNT - 1) {
+    const usedIds = new Set(distractors.map((w) => w.id));
+    usedIds.add(correctWord.id);
+    const extra = shuffle(words.filter((w) => !usedIds.has(w.id)));
+    distractors = [...distractors, ...extra];
+  }
+  return shuffle([correctWord, ...distractors.slice(0, OPTIONS_COUNT - 1)]);
 }
 
 function buildQuiz(sel, wordIds) {
   if (wordIds && wordIds.length > 0) {
-    const quizWords = shuffle(words.filter((w) => wordIds.includes(w.id)));
-    const options = quizWords.length > 0 ? buildOptions(quizWords[0]) : [];
-    return { quizWords, options };
+    const pool = words.filter((w) => wordIds.includes(w.id));
+    const quizWords = shuffle(pool);
+    const options = quizWords.length > 0 ? buildOptions(quizWords[0], pool) : [];
+    return { quizWords, options, pool };
   }
   if (!sel) return { quizWords: [], options: [] };
   const pool = Array.isArray(sel)
@@ -172,10 +181,11 @@ export default function QuizPage() {
   useEffect(() => {
     const w = quizWords[currentIndex];
     if (!w) return;
-    setOptions(buildOptions(w));
+    const pool = wordIds ? words.filter((x) => wordIds.includes(x.id)) : words;
+    setOptions(buildOptions(w, pool));
     setSelectedId(null);
     setIsAnswered(false);
-  }, [currentIndex, quizWords]);
+  }, [currentIndex, quizWords, wordIds]);
 
   function startQuiz(newSel, newLabel, newWordIds = null) {
     const { quizWords: qw, options: opts } = buildQuiz(newSel, newWordIds);
