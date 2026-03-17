@@ -71,12 +71,12 @@ export default function Dashboard() {
 
   return (
     <div className="h-[100dvh] bg-[#080812] overflow-hidden">
-      <div className="h-full max-w-lg mx-auto px-4 pt-safe flex flex-col pt-7 pb-5">
+      <div className="h-full max-w-lg mx-auto px-4 pt-safe flex flex-col pt-5 pb-5">
 
         {/* ── Header ── */}
-        <div className="flex items-center gap-2.5 mb-4 flex-shrink-0">
+        <div className="flex items-center justify-center gap-2.5 mb-4 flex-shrink-0">
           <span className="text-2xl">📖</span>
-          <div>
+          <div className="text-center">
             <h1 className="text-[19px] font-extrabold text-white leading-tight tracking-tight">
               İngilizce Kelimeler
             </h1>
@@ -193,7 +193,7 @@ export default function Dashboard() {
               {topicPages.map((pageTopics, pageIdx) => (
                 <div
                   key={pageIdx}
-                  className="w-full flex-shrink-0 flex flex-col justify-between"
+                  className="w-full flex-shrink-0 flex flex-col gap-1.5"
                 >
                   {pageTopics.map((topic) => {
                     const tw = words.filter((w) => w.topic === topic);
