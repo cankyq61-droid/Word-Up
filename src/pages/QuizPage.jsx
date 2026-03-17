@@ -126,7 +126,7 @@ function FinishScreen({ label, score, total, results, onRetry, onBack, onHome })
         </div>
 
         <div className="space-y-3">
-          <button onClick={onRetry} className="w-full bg-emerald-500 hover:bg-emerald-400 text-black font-bold py-4 rounded-2xl transition-colors shadow-[0_0_20px_#10b98130]">
+          <button onClick={onRetry} className="w-full bg-emerald-500 hover:bg-emerald-400 text-white font-bold py-4 rounded-2xl transition-colors shadow-[0_0_20px_#10b98130]">
             🔄 Tekrar Test Et
           </button>
           <button onClick={onBack} className="w-full bg-white/10 hover:bg-white/15 text-gray-300 font-semibold py-4 rounded-2xl transition-colors">
@@ -292,7 +292,7 @@ export default function QuizPage() {
             if (!isAnswered)
               cls += 'bg-[#0e0e1a] border-2 border-white/10 text-gray-200 hover:border-cyan-500/50 hover:bg-cyan-500/10 active:scale-[0.97]';
             else if (isCorrectOption)
-              cls += 'bg-emerald-500 border-2 border-emerald-400 text-black shadow-[0_0_16px_#10b98140]';
+              cls += 'bg-emerald-500 border-2 border-emerald-400 text-white shadow-[0_0_16px_#10b98140]';
             else if (isSelectedOption)
               cls += 'bg-pink-500/80 border-2 border-pink-400 text-white animate-shake';
             else

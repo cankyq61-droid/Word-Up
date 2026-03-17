@@ -87,14 +87,14 @@ function FinishScreen({ topic, topicWords, isLearned, onRetry, onBack, onHome, o
         <div className="space-y-3">
           <button
             onClick={onQuiz}
-            className="w-full bg-emerald-500 hover:bg-emerald-400 text-black font-bold py-4 rounded-2xl
+            className="w-full bg-emerald-500 hover:bg-emerald-400 text-white font-bold py-4 rounded-2xl
                        transition-colors shadow-[0_0_20px_#10b98130]"
           >
             🧠 Şimdi Test Et
           </button>
           <button
             onClick={onRetry}
-            className="w-full bg-cyan-500 hover:bg-cyan-400 text-black font-bold py-4 rounded-2xl
+            className="w-full bg-cyan-500 hover:bg-cyan-400 text-white font-bold py-4 rounded-2xl
                        transition-colors shadow-[0_0_20px_#22d3ee20]"
           >
             🔄 Tekrar Çalış
@@ -281,7 +281,7 @@ export default function LearnPage() {
           <button
             onClick={() => handleAction(true)}
             disabled={cardState !== 'idle'}
-            className="py-4 rounded-2xl bg-emerald-500 text-black font-bold text-sm
+            className="py-4 rounded-2xl bg-emerald-500 text-white font-bold text-sm
                        hover:bg-emerald-400 active:bg-emerald-600 active:scale-[0.97]
                        transition-all shadow-[0_0_20px_#10b98130] disabled:opacity-50"
           >

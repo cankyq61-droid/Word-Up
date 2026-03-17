@@ -217,7 +217,7 @@ export default function Dashboard() {
         <div className="space-y-2 flex-shrink-0">
           <button
             onClick={() => navigate('/learn')}
-            className="w-full bg-cyan-500 hover:bg-cyan-400 active:bg-cyan-600 text-black
+            className="w-full bg-cyan-500 hover:bg-cyan-400 active:bg-cyan-600 text-white
                        font-bold py-3.5 rounded-2xl transition-colors shadow-[0_0_24px_#22d3ee30] text-sm"
           >
             📖 Öğrenmeye Başla
@@ -225,7 +225,7 @@ export default function Dashboard() {
           <div className="grid grid-cols-2 gap-2">
             <button
               onClick={() => navigate('/quiz', { state: { topics: allTopics, pageLabel: 'Tüm Konular' } })}
-              className="w-full bg-emerald-500 hover:bg-emerald-400 text-black font-bold py-3.5
+              className="w-full bg-emerald-500 hover:bg-emerald-400 text-white font-bold py-3.5
                          rounded-2xl transition-colors shadow-[0_0_24px_#10b98130] text-sm"
             >
               🧠 Çoktan Seçmeli
