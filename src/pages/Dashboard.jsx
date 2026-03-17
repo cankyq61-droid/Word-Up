@@ -70,11 +70,12 @@ export default function Dashboard() {
   }
 
   return (
-    <div className="h-[100dvh] bg-[#080812] overflow-hidden">
-      <div className="h-full max-w-lg mx-auto px-4 pt-safe flex flex-col pt-5 pb-5">
+    <div className="h-[100dvh] bg-[#080812] overflow-hidden flex items-center justify-center">
+      <div className="w-full max-w-lg mx-auto px-4 pt-safe flex flex-col gap-3
+                      h-full max-h-[780px] py-5">
 
         {/* ── Header ── */}
-        <div className="flex items-center justify-center gap-2.5 mb-4 flex-shrink-0">
+        <div className="flex items-center justify-center gap-2.5 flex-shrink-0">
           <span className="text-2xl">📖</span>
           <div className="text-center">
             <h1 className="text-[19px] font-extrabold text-white leading-tight tracking-tight">
@@ -85,7 +86,7 @@ export default function Dashboard() {
         </div>
 
         {/* ── Stats ── */}
-        <div className="grid grid-cols-3 gap-2 mb-3 flex-shrink-0">
+        <div className="grid grid-cols-3 gap-2 flex-shrink-0">
           {[
             { label: 'Toplam',    value: totalWords,                color: 'text-cyan-400',    bg: 'bg-cyan-500/10 border border-cyan-500/20'      },
             { label: 'Öğrenilen', value: totalLearned,             color: 'text-emerald-400', bg: 'bg-emerald-500/10 border border-emerald-500/20' },
@@ -99,7 +100,7 @@ export default function Dashboard() {
         </div>
 
         {/* ── Overall progress ── */}
-        <div className="bg-[#0e0e1a] rounded-xl px-4 py-3 border border-white/[0.07] mb-4 flex-shrink-0">
+        <div className="bg-[#0e0e1a] rounded-xl px-4 py-3 border border-white/[0.07] flex-shrink-0">
           <div className="flex justify-between items-center mb-2">
             <span className="text-xs font-semibold text-gray-400">Genel İlerleme</span>
             <span className="text-xs font-bold text-cyan-400 tabular-nums">{progressPct}%</span>
