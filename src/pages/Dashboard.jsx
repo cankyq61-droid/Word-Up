@@ -107,8 +107,8 @@ export default function Dashboard() {
           <ProgressBar value={progressPct} colorClass="bg-cyan-500" />
         </div>
 
-        {/* ── Topics slider ── */}
-        <div className="flex-1 flex flex-col min-h-0 mb-4">
+        {/* ── Topics slider + CTA ── */}
+        <div className="flex-1 flex flex-col min-h-0">
 
           {/* Section header + controls */}
           <div className="flex items-center justify-between mb-2 flex-shrink-0">
@@ -211,36 +211,37 @@ export default function Dashboard() {
               ))}
             </div>
           </div>
-        </div>
 
-        {/* ── CTA buttons ── */}
-        <div className="space-y-2 flex-shrink-0">
-          <button
-            onClick={() => navigate('/learn')}
-            className="w-full bg-cyan-500 hover:bg-cyan-400 active:bg-cyan-600 text-white
-                       font-bold py-3.5 rounded-2xl transition-colors shadow-[0_0_24px_#22d3ee30] text-sm"
-          >
-            📖 Öğrenmeye Başla
-          </button>
-          <div className="grid grid-cols-2 gap-2">
+          {/* ── CTA buttons ── */}
+          <div className="space-y-2 flex-shrink-0 mt-2">
             <button
-              onClick={() => navigate('/quiz', { state: { topics: allTopics, pageLabel: 'Tüm Konular' } })}
-              className="w-full bg-emerald-500 hover:bg-emerald-400 text-white font-bold py-3.5
-                         rounded-2xl transition-colors shadow-[0_0_24px_#10b98130] text-sm"
+              onClick={() => navigate('/learn')}
+              className="w-full bg-cyan-500 hover:bg-cyan-400 active:bg-cyan-600 text-white
+                         font-bold py-3.5 rounded-2xl transition-colors shadow-[0_0_24px_#22d3ee30] text-sm"
             >
-              🧠 Çoktan Seçmeli
+              📖 Öğrenmeye Başla
             </button>
-            <button
-              onClick={() => navigate('/match', { state: { topics: allTopics, pageLabel: 'Tüm Konular' } })}
-              className="w-full bg-violet-600 hover:bg-violet-500 text-white font-bold py-3.5
-                         rounded-2xl transition-colors shadow-[0_0_24px_#7c3aed30] text-sm border border-violet-500/30"
-            >
-              🎮 Eşleştirme
-            </button>
+            <div className="grid grid-cols-2 gap-2">
+              <button
+                onClick={() => navigate('/quiz', { state: { topics: allTopics, pageLabel: 'Tüm Konular' } })}
+                className="w-full bg-emerald-500 hover:bg-emerald-400 text-white font-bold py-3.5
+                           rounded-2xl transition-colors shadow-[0_0_24px_#10b98130] text-sm"
+              >
+                🧠 Çoktan Seçmeli
+              </button>
+              <button
+                onClick={() => navigate('/match', { state: { topics: allTopics, pageLabel: 'Tüm Konular' } })}
+                className="w-full bg-violet-600 hover:bg-violet-500 text-white font-bold py-3.5
+                           rounded-2xl transition-colors shadow-[0_0_24px_#7c3aed30] text-sm border border-violet-500/30"
+              >
+                🎮 Eşleştirme
+              </button>
+            </div>
           </div>
         </div>
 
       </div>
+    </div>
     </div>
   );
 }
