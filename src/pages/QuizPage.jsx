@@ -8,8 +8,6 @@ import { useSpeech } from '../hooks/useSpeech';
 const allTopics = [...new Set(words.map((w) => w.topic))];
 const OPTIONS_COUNT = 8;
 
-// ─── Helpers ──────────────────────────────────────────────────────────────────
-
 function shuffle(arr) {
   const a = [...arr];
   for (let i = a.length - 1; i > 0; i--) {
@@ -19,16 +17,11 @@ function shuffle(arr) {
   return a;
 }
 
-/** Build 8 options: 1 correct + 7 random distractors from the full pool */
 function buildOptions(correctWord) {
   const distractors = shuffle(words.filter((w) => w.id !== correctWord.id)).slice(0, OPTIONS_COUNT - 1);
   return shuffle([correctWord, ...distractors]);
 }
 
-/**
- * sel: string (single topic) | string[] (multi-topic page quiz)
- * Returns shuffled quiz words and first options set.
- */
 function buildQuiz(sel) {
   if (!sel) return { quizWords: [], options: [] };
   const pool = Array.isArray(sel)
@@ -45,18 +38,18 @@ function TopicSelect({ onSelect }) {
   const { getLearnedCount } = useProgress();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-white to-teal-50">
+    <div className="min-h-screen bg-[#080812]">
       <div className="max-w-lg mx-auto px-4 pt-8 pb-16">
         <div className="flex items-center gap-3 mb-8">
           <button
             onClick={() => navigate('/')}
-            className="w-9 h-9 flex items-center justify-center rounded-xl bg-white shadow-sm text-gray-500 hover:text-gray-800 transition-colors"
+            className="w-9 h-9 flex items-center justify-center rounded-xl bg-white/10 border border-white/[0.07] text-gray-400 hover:text-white transition-colors"
           >
             ←
           </button>
           <div>
-            <h1 className="text-xl font-bold text-gray-900">Çoktan Seçmeli Test</h1>
-            <p className="text-xs text-gray-400">Hangi konuyu test etmek istersin?</p>
+            <h1 className="text-xl font-bold text-white">Çoktan Seçmeli Test</h1>
+            <p className="text-xs text-gray-500">Hangi konuyu test etmek istersin?</p>
           </div>
         </div>
 
@@ -69,18 +62,19 @@ function TopicSelect({ onSelect }) {
               <button
                 key={topic}
                 onClick={() => onSelect(topic, topic)}
-                className="w-full text-left bg-white rounded-2xl p-5 shadow-sm border border-gray-100 hover:border-emerald-200 hover:shadow-md active:scale-[0.98] transition-all flex items-center gap-4"
+                className="w-full text-left bg-[#0e0e1a] rounded-2xl p-5 border border-white/[0.07]
+                           hover:border-emerald-500/30 active:scale-[0.98] transition-all flex items-center gap-4"
               >
                 <span className={`w-12 h-12 flex items-center justify-center rounded-xl text-2xl ${meta.bg} text-white shadow-sm`}>
                   {meta.icon}
                 </span>
                 <div className="flex-1">
-                  <h3 className="font-semibold text-gray-800">{topic}</h3>
-                  <p className="text-xs text-gray-400 mt-0.5">
+                  <h3 className="font-semibold text-gray-200">{topic}</h3>
+                  <p className="text-xs text-gray-500 mt-0.5">
                     {tw.length} soru · {learned} öğrenilmiş
                   </p>
                 </div>
-                <span className="text-gray-300 text-xl">›</span>
+                <span className="text-gray-600 text-xl">›</span>
               </button>
             );
           })}
@@ -100,46 +94,45 @@ function FinishScreen({ label, score, total, results, onRetry, onBack, onHome })
     : 'Flashcard\'larla tekrar çalış!';
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-white to-teal-50 flex items-center justify-center px-4">
-      <div className="w-full max-w-sm bg-white rounded-3xl p-8 shadow-xl text-center animate-pop-in">
+    <div className="min-h-screen bg-[#080812] flex items-center justify-center px-4">
+      <div className="w-full max-w-sm bg-[#0e0e1a] border border-white/[0.07] rounded-3xl p-8 shadow-xl text-center animate-pop-in">
         <div className="text-6xl mb-4">{emoji}</div>
-        <h2 className="text-2xl font-bold text-gray-900 mb-1">Test Tamamlandı!</h2>
+        <h2 className="text-2xl font-bold text-white mb-1">Test Tamamlandı!</h2>
         <p className="text-gray-400 text-sm mb-5">{label} · {message}</p>
 
-        <div className="bg-emerald-50 rounded-2xl p-5 mb-5">
-          <p className="text-5xl font-extrabold text-emerald-600 tabular-nums">
+        <div className="bg-emerald-500/10 border border-emerald-500/20 rounded-2xl p-5 mb-5">
+          <p className="text-5xl font-extrabold text-emerald-400 tabular-nums">
             {score}
-            <span className="text-2xl text-gray-400 font-normal"> / {total}</span>
+            <span className="text-2xl text-gray-500 font-normal"> / {total}</span>
           </p>
           <p className="text-sm text-emerald-500 font-medium mt-1">doğru cevap · %{pct}</p>
         </div>
 
         <div className="flex gap-3 mb-6">
-          <div className="flex-1 bg-green-50 rounded-xl p-3">
-            <p className="text-2xl font-bold text-green-600">{score}</p>
-            <p className="text-xs text-green-500 font-medium">Doğru ✓</p>
+          <div className="flex-1 bg-emerald-500/10 border border-emerald-500/20 rounded-xl p-3">
+            <p className="text-2xl font-bold text-emerald-400">{score}</p>
+            <p className="text-xs text-emerald-500 font-medium">Doğru ✓</p>
           </div>
-          <div className="flex-1 bg-red-50 rounded-xl p-3">
-            <p className="text-2xl font-bold text-red-500">{total - score}</p>
-            <p className="text-xs text-red-400 font-medium">Yanlış ✗</p>
+          <div className="flex-1 bg-pink-500/10 border border-pink-500/20 rounded-xl p-3">
+            <p className="text-2xl font-bold text-pink-400">{total - score}</p>
+            <p className="text-xs text-pink-500 font-medium">Yanlış ✗</p>
           </div>
         </div>
 
-        {/* Result strip */}
         <div className="flex gap-[3px] mb-7">
           {results.map((r, i) => (
-            <div key={i} className={`h-2 flex-1 rounded-full ${r ? 'bg-green-400' : 'bg-red-400'}`} />
+            <div key={i} className={`h-2 flex-1 rounded-full ${r ? 'bg-emerald-500' : 'bg-pink-500'}`} />
           ))}
         </div>
 
         <div className="space-y-3">
-          <button onClick={onRetry} className="w-full bg-emerald-600 text-white font-bold py-4 rounded-2xl hover:bg-emerald-700 transition-colors shadow-lg shadow-emerald-200">
+          <button onClick={onRetry} className="w-full bg-emerald-500 hover:bg-emerald-400 text-black font-bold py-4 rounded-2xl transition-colors shadow-[0_0_20px_#10b98130]">
             🔄 Tekrar Test Et
           </button>
-          <button onClick={onBack} className="w-full bg-gray-100 text-gray-700 font-semibold py-4 rounded-2xl hover:bg-gray-200 transition-colors">
+          <button onClick={onBack} className="w-full bg-white/10 hover:bg-white/15 text-gray-300 font-semibold py-4 rounded-2xl transition-colors">
             Başka Konu Seç
           </button>
-          <button onClick={onHome} className="w-full text-emerald-500 font-medium py-3">
+          <button onClick={onHome} className="w-full text-gray-500 hover:text-gray-300 font-medium py-3 transition-colors">
             Ana Sayfaya Dön
           </button>
         </div>
@@ -155,8 +148,6 @@ export default function QuizPage() {
   const { speak, isSupported } = useSpeech();
   const { markLearned, markUnlearned } = useProgress();
 
-  // sel  : string | string[] | null  — what we quiz on
-  // label: string                    — what we display
   const initSel   = location.state?.topics ?? location.state?.topic ?? null;
   const initLabel = location.state?.pageLabel ?? location.state?.topic ?? null;
 
@@ -171,7 +162,6 @@ export default function QuizPage() {
   const [score,        setScore]        = useState(0);
   const [results,      setResults]      = useState([]);
 
-  // Regenerate options when current word changes
   useEffect(() => {
     const w = quizWords[currentIndex];
     if (!w) return;
@@ -180,7 +170,6 @@ export default function QuizPage() {
     setIsAnswered(false);
   }, [currentIndex, quizWords]);
 
-  /** sel: string | string[], lbl: display string */
   function startQuiz(newSel, newLabel) {
     const { quizWords: qw, options: opts } = buildQuiz(newSel);
     setSel(newSel);
@@ -209,10 +198,8 @@ export default function QuizPage() {
     setTimeout(() => setCurrentIndex((i) => i + 1), correct ? 900 : 1500);
   }
 
-  // ── No selection yet → topic picker ──
   if (!sel) return <TopicSelect onSelect={startQuiz} />;
 
-  // ── Finished ──
   if (currentIndex >= quizWords.length && quizWords.length > 0) {
     return (
       <FinishScreen
@@ -231,16 +218,15 @@ export default function QuizPage() {
 
   const current = quizWords[currentIndex];
 
-  // ── Quiz in progress ──
   return (
-    <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-white to-teal-50">
+    <div className="min-h-screen bg-[#080812]">
       <div className="max-w-lg mx-auto px-4 pt-6 pb-10">
 
         {/* Nav */}
         <div className="flex items-center justify-between mb-5">
           <button
             onClick={() => setSel(null)}
-            className="flex items-center gap-2 text-sm text-gray-400 hover:text-gray-700 transition-colors"
+            className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-200 transition-colors"
           >
             ← {label}
           </button>
@@ -256,8 +242,8 @@ export default function QuizPage() {
               key={i}
               className={`h-1.5 flex-1 rounded-full transition-all duration-500 ${
                 i < results.length
-                  ? results[i] ? 'bg-green-400' : 'bg-red-400'
-                  : i === currentIndex ? 'bg-emerald-600' : 'bg-gray-200'
+                  ? results[i] ? 'bg-emerald-500' : 'bg-pink-500'
+                  : i === currentIndex ? 'bg-cyan-500' : 'bg-white/10'
               }`}
             />
           ))}
@@ -265,32 +251,33 @@ export default function QuizPage() {
 
         {/* Score badge */}
         <div className="flex justify-end mb-4">
-          <div className="flex items-center gap-2 bg-white rounded-xl px-3 py-1.5 shadow-sm border border-gray-100 text-xs font-bold">
-            <span className="text-green-600">{score} ✓</span>
-            <span className="text-gray-300">|</span>
-            <span className="text-red-400">{currentIndex - score} ✗</span>
+          <div className="flex items-center gap-2 bg-[#0e0e1a] border border-white/[0.07] rounded-xl px-3 py-1.5 text-xs font-bold">
+            <span className="text-emerald-400">{score} ✓</span>
+            <span className="text-gray-600">|</span>
+            <span className="text-pink-400">{currentIndex - score} ✗</span>
           </div>
         </div>
 
         {/* Question card */}
-        <div className="bg-white rounded-3xl shadow-lg p-6 mb-5">
-          <p className="text-[11px] text-gray-400 uppercase tracking-widest text-center mb-5 font-semibold">
+        <div className="bg-[#0e0e1a] border border-white/[0.07] rounded-3xl p-6 mb-5">
+          <p className="text-[11px] text-gray-500 uppercase tracking-widest text-center mb-5 font-semibold">
             Türkçe karşılığı nedir?
           </p>
           <div className="flex items-center justify-center gap-3 mb-3">
-            <h2 className="text-4xl font-extrabold text-gray-900 break-words text-center">
+            <h2 className="text-4xl font-extrabold text-white break-words text-center">
               {current.en}
             </h2>
             <button
               onClick={() => speak(current.en)}
               disabled={!isSupported}
               title="Kelimeyi dinle"
-              className="flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-xl bg-emerald-50 text-emerald-500 hover:bg-emerald-100 active:scale-95 transition-all disabled:opacity-40"
+              className="flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-xl
+                         bg-cyan-500/10 text-cyan-400 hover:bg-cyan-500/20 active:scale-95 transition-all disabled:opacity-40"
             >
               🔊
             </button>
           </div>
-          <p className="text-center text-xs text-gray-400 font-semibold uppercase tracking-widest">
+          <p className="text-center text-xs text-gray-500 font-semibold uppercase tracking-widest">
             {current.type}
           </p>
         </div>
@@ -302,15 +289,19 @@ export default function QuizPage() {
             const isSelectedOption = option.id === selectedId;
 
             let cls = 'w-full min-h-[60px] py-3 px-4 rounded-xl font-semibold text-sm transition-all duration-200 text-left leading-tight break-words ';
-            if (!isAnswered)          cls += 'bg-white border-2 border-gray-200 text-gray-700 hover:border-emerald-400 hover:bg-emerald-50 active:scale-[0.97] shadow-sm';
-            else if (isCorrectOption) cls += 'bg-green-500 border-2 border-green-500 text-white shadow-lg shadow-green-200';
-            else if (isSelectedOption)cls += 'bg-red-500 border-2 border-red-500 text-white shadow-lg shadow-red-200 animate-shake';
-            else                      cls += 'bg-gray-50 border-2 border-gray-100 text-gray-300 cursor-default';
+            if (!isAnswered)
+              cls += 'bg-[#0e0e1a] border-2 border-white/10 text-gray-200 hover:border-cyan-500/50 hover:bg-cyan-500/10 active:scale-[0.97]';
+            else if (isCorrectOption)
+              cls += 'bg-emerald-500 border-2 border-emerald-400 text-black shadow-[0_0_16px_#10b98140]';
+            else if (isSelectedOption)
+              cls += 'bg-pink-500/80 border-2 border-pink-400 text-white animate-shake';
+            else
+              cls += 'bg-white/5 border-2 border-white/5 text-gray-600 cursor-default';
 
             return (
               <button key={option.id} onClick={() => handleAnswer(option)} disabled={isAnswered} className={cls}>
                 {option.tr}
-                {isAnswered && isCorrectOption  && <span className="ml-1">✓</span>}
+                {isAnswered && isCorrectOption   && <span className="ml-1">✓</span>}
                 {isAnswered && isSelectedOption && !isCorrectOption && <span className="ml-1">✗</span>}
               </button>
             );
@@ -319,12 +310,12 @@ export default function QuizPage() {
 
         {/* Wrong-answer hint */}
         {isAnswered && selectedId !== null && selectedId !== current.id && (
-          <div className="mt-4 bg-orange-50 rounded-2xl p-4 border border-orange-100 animate-slide-up">
-            <p className="text-sm text-orange-700">
+          <div className="mt-4 bg-orange-500/10 border border-orange-500/20 rounded-2xl p-4 animate-slide-up">
+            <p className="text-sm text-orange-300">
               <span className="font-bold">Doğru cevap: </span>
               <span className="font-semibold">{current.tr}</span>
             </p>
-            <p className="text-xs text-orange-400 mt-1 italic">{current.exampleEn}</p>
+            <p className="text-xs text-orange-500 mt-1 italic">{current.exampleEn}</p>
           </div>
         )}
       </div>

@@ -18,17 +18,16 @@ function TopicSelect({ onSelect }) {
   const { getLearnedCount } = useProgress();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-blue-50">
+    <div className="min-h-screen bg-[#080812]">
       <div className="max-w-lg mx-auto px-4 pt-8 pb-16">
-        {/* Header */}
         <div className="flex items-center gap-3 mb-8">
           <button
             onClick={() => navigate('/')}
-            className="w-9 h-9 flex items-center justify-center rounded-xl bg-white shadow-sm text-gray-500 hover:text-gray-800 transition-colors"
+            className="w-9 h-9 flex items-center justify-center rounded-xl bg-white/10 border border-white/[0.07] text-gray-400 hover:text-white transition-colors"
           >
             ←
           </button>
-          <h1 className="text-xl font-bold text-gray-900">Konu Seç</h1>
+          <h1 className="text-xl font-bold text-white">Konu Seç</h1>
         </div>
 
         <div className="space-y-3">
@@ -42,20 +41,19 @@ function TopicSelect({ onSelect }) {
               <button
                 key={topic}
                 onClick={() => onSelect(topic)}
-                className="w-full text-left bg-white rounded-2xl p-5 shadow-sm border border-gray-100 hover:border-indigo-200 hover:shadow-md active:scale-[0.98] transition-all flex items-center gap-4"
+                className="w-full text-left bg-[#0e0e1a] rounded-2xl p-5 border border-white/[0.07]
+                           hover:border-cyan-500/30 active:scale-[0.98] transition-all flex items-center gap-4"
               >
-                <span
-                  className={`w-12 h-12 flex items-center justify-center rounded-xl text-2xl ${meta.bg} text-white shadow-sm`}
-                >
+                <span className={`w-12 h-12 flex items-center justify-center rounded-xl text-2xl ${meta.bg} text-white shadow-sm`}>
                   {meta.icon}
                 </span>
                 <div className="flex-1">
-                  <h3 className="font-semibold text-gray-800">{topic}</h3>
-                  <p className="text-xs text-gray-400 mt-0.5">
+                  <h3 className="font-semibold text-gray-200">{topic}</h3>
+                  <p className="text-xs text-gray-500 mt-0.5">
                     {topicWords.length} kelime · {pct}% tamamlandı
                   </p>
                 </div>
-                <span className="text-gray-300 text-xl">›</span>
+                <span className="text-gray-600 text-xl">›</span>
               </button>
             );
           })}
@@ -73,39 +71,41 @@ function FinishScreen({ topic, topicWords, isLearned, onRetry, onBack, onHome, o
   const pct = Math.round((learnedCount / topicWords.length) * 100);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-blue-50 flex items-center justify-center px-4">
-      <div className="w-full max-w-sm bg-white rounded-3xl p-8 shadow-xl text-center animate-pop-in">
+    <div className="min-h-screen bg-[#080812] flex items-center justify-center px-4">
+      <div className="w-full max-w-sm bg-[#0e0e1a] border border-white/[0.07] rounded-3xl p-8 shadow-xl text-center animate-pop-in">
         <div className="text-6xl mb-4">{pct === 100 ? '🎉' : '👏'}</div>
-        <h2 className="text-2xl font-bold text-gray-900 mb-1">
+        <h2 className="text-2xl font-bold text-white mb-1">
           {pct === 100 ? 'Mükemmel!' : 'Konu Tamamlandı!'}
         </h2>
-        <p className="text-gray-500 mb-2">{topic}</p>
-        <p className="text-4xl font-extrabold text-indigo-600 tabular-nums mb-1">
+        <p className="text-gray-400 mb-2">{topic}</p>
+        <p className="text-4xl font-extrabold text-cyan-400 tabular-nums mb-1">
           {learnedCount}
-          <span className="text-xl text-gray-400 font-normal"> / {topicWords.length}</span>
+          <span className="text-xl text-gray-500 font-normal"> / {topicWords.length}</span>
         </p>
-        <p className="text-sm text-gray-400 mb-8">kelime öğrenildi</p>
+        <p className="text-sm text-gray-500 mb-8">kelime öğrenildi</p>
 
         <div className="space-y-3">
           <button
             onClick={onQuiz}
-            className="w-full bg-emerald-500 text-white font-bold py-4 rounded-2xl hover:bg-emerald-600 transition-colors shadow-lg shadow-emerald-200"
+            className="w-full bg-emerald-500 hover:bg-emerald-400 text-black font-bold py-4 rounded-2xl
+                       transition-colors shadow-[0_0_20px_#10b98130]"
           >
             🧠 Şimdi Test Et
           </button>
           <button
             onClick={onRetry}
-            className="w-full bg-indigo-600 text-white font-bold py-4 rounded-2xl hover:bg-indigo-700 transition-colors shadow-lg shadow-indigo-200"
+            className="w-full bg-cyan-500 hover:bg-cyan-400 text-black font-bold py-4 rounded-2xl
+                       transition-colors shadow-[0_0_20px_#22d3ee20]"
           >
             🔄 Tekrar Çalış
           </button>
           <button
             onClick={onBack}
-            className="w-full bg-gray-100 text-gray-700 font-semibold py-4 rounded-2xl hover:bg-gray-200 transition-colors"
+            className="w-full bg-white/10 hover:bg-white/15 text-gray-300 font-semibold py-4 rounded-2xl transition-colors"
           >
             Başka Konu Seç
           </button>
-          <button onClick={onHome} className="w-full text-indigo-500 font-medium py-3">
+          <button onClick={onHome} className="w-full text-gray-500 hover:text-gray-300 font-medium py-3 transition-colors">
             Ana Sayfaya Dön
           </button>
         </div>
@@ -125,7 +125,6 @@ export default function LearnPage() {
 
   const [selectedTopic, setSelectedTopic] = useState(location.state?.topic ?? null);
   const [currentIndex, setCurrentIndex] = useState(0);
-  // 'idle' | 'leaving-learned' | 'leaving-not'
   const [cardState, setCardState] = useState('idle');
 
   const topicWords = selectedTopic ? words.filter((w) => w.topic === selectedTopic) : [];
@@ -145,7 +144,6 @@ export default function LearnPage() {
     }, 320);
   }
 
-  // ── Topic selection ──
   if (!selectedTopic) {
     return (
       <TopicSelect
@@ -157,7 +155,6 @@ export default function LearnPage() {
     );
   }
 
-  // ── Finished ──
   if (isFinished) {
     return (
       <FinishScreen
@@ -172,7 +169,6 @@ export default function LearnPage() {
     );
   }
 
-  // ── Flashcard ──
   const learnedSoFar = topicWords.slice(0, currentIndex).filter((w) => isLearned(w.id)).length;
 
   const cardOpacity =
@@ -183,14 +179,14 @@ export default function LearnPage() {
       : 'opacity-100 translate-x-0';
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-blue-50">
+    <div className="min-h-screen bg-[#080812]">
       <div className="max-w-lg mx-auto px-4 pt-6 pb-10">
 
         {/* ── Nav bar ── */}
         <div className="flex items-center justify-between mb-5">
           <button
             onClick={() => setSelectedTopic(null)}
-            className="flex items-center gap-2 text-sm text-gray-400 hover:text-gray-700 transition-colors"
+            className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-200 transition-colors"
           >
             ← {selectedTopic}
           </button>
@@ -207,11 +203,11 @@ export default function LearnPage() {
               className={`h-1.5 flex-1 rounded-full transition-all duration-500 ${
                 i < currentIndex
                   ? isLearned(w.id)
-                    ? 'bg-green-400'
-                    : 'bg-red-300'
+                    ? 'bg-emerald-500'
+                    : 'bg-pink-500'
                   : i === currentIndex
-                  ? 'bg-indigo-500'
-                  : 'bg-gray-200'
+                  ? 'bg-cyan-500'
+                  : 'bg-white/10'
               }`}
             />
           ))}
@@ -219,7 +215,7 @@ export default function LearnPage() {
 
         {/* ── Card ── */}
         <div
-          className={`bg-white rounded-3xl shadow-lg p-6 mb-5 transition-all duration-300 ease-in-out ${cardOpacity}`}
+          className={`bg-[#0e0e1a] border border-white/[0.07] rounded-3xl p-6 mb-5 transition-all duration-300 ease-in-out ${cardOpacity}`}
         >
           {/* Top row: speaker + type badge */}
           <div className="flex items-center justify-between mb-6">
@@ -227,48 +223,48 @@ export default function LearnPage() {
               onClick={() => speak(current.en)}
               disabled={!isSupported}
               title="Kelimeyi dinle"
-              className="w-12 h-12 flex items-center justify-center rounded-2xl bg-indigo-50 text-indigo-500 text-xl hover:bg-indigo-100 active:scale-95 transition-all disabled:opacity-40"
+              className="w-12 h-12 flex items-center justify-center rounded-2xl bg-cyan-500/10 text-cyan-400 text-xl
+                         hover:bg-cyan-500/20 active:scale-95 transition-all disabled:opacity-40"
             >
               🔊
             </button>
-            <span className="px-3 py-1 rounded-full bg-gray-100 text-gray-400 text-xs font-semibold uppercase tracking-widest">
+            <span className="px-3 py-1 rounded-full bg-white/10 text-gray-400 text-xs font-semibold uppercase tracking-widest">
               {TYPE_LABELS[current.type] ?? current.type}
             </span>
           </div>
 
           {/* Word */}
           <div className="text-center mb-8 px-2">
-            <h2 className="text-5xl font-extrabold text-gray-900 mb-3 leading-tight break-words">
+            <h2 className="text-5xl font-extrabold text-white mb-3 leading-tight break-words">
               {current.en}
             </h2>
-            <p className="text-xl font-semibold text-indigo-600">{current.tr}</p>
+            <p className="text-xl font-semibold text-cyan-400">{current.tr}</p>
           </div>
 
-          {/* Divider */}
-          <div className="border-t border-gray-100 pt-5">
+          {/* Divider + example */}
+          <div className="border-t border-white/[0.07] pt-5">
             <div className="flex items-start gap-3">
               <button
                 onClick={() => speak(current.exampleEn)}
                 disabled={!isSupported}
                 title="Örnek cümleyi dinle"
-                className="mt-0.5 w-9 h-9 flex-shrink-0 flex items-center justify-center rounded-xl bg-gray-50 text-gray-400 hover:bg-gray-100 active:scale-95 transition-all disabled:opacity-40"
+                className="mt-0.5 w-9 h-9 flex-shrink-0 flex items-center justify-center rounded-xl
+                           bg-white/5 text-gray-500 hover:bg-white/10 active:scale-95 transition-all disabled:opacity-40"
               >
                 🔊
               </button>
               <div>
-                <p className="text-gray-700 font-medium leading-relaxed text-sm">
-                  {current.exampleEn}
-                </p>
-                <p className="text-gray-400 text-sm mt-1 leading-relaxed">{current.exampleTr}</p>
+                <p className="text-gray-300 font-medium leading-relaxed text-sm">{current.exampleEn}</p>
+                <p className="text-gray-500 text-sm mt-1 leading-relaxed">{current.exampleTr}</p>
               </div>
             </div>
           </div>
         </div>
 
         {/* ── Sub-counter ── */}
-        <p className="text-center text-xs text-gray-400 mb-4">
+        <p className="text-center text-xs text-gray-600 mb-4">
           Bu turda{' '}
-          <span className="font-semibold text-green-500">{learnedSoFar} kelime</span> öğrenildi
+          <span className="font-semibold text-emerald-400">{learnedSoFar} kelime</span> öğrenildi
         </p>
 
         {/* ── Action buttons ── */}
@@ -276,14 +272,18 @@ export default function LearnPage() {
           <button
             onClick={() => handleAction(false)}
             disabled={cardState !== 'idle'}
-            className="py-4 rounded-2xl border-2 border-gray-200 text-gray-600 font-bold text-sm hover:border-red-200 hover:bg-red-50 hover:text-red-500 active:scale-[0.97] transition-all disabled:opacity-50"
+            className="py-4 rounded-2xl border-2 border-white/10 text-gray-400 font-bold text-sm
+                       hover:border-pink-500/40 hover:bg-pink-500/10 hover:text-pink-400
+                       active:scale-[0.97] transition-all disabled:opacity-50"
           >
             😕 Henüz Değil
           </button>
           <button
             onClick={() => handleAction(true)}
             disabled={cardState !== 'idle'}
-            className="py-4 rounded-2xl bg-green-500 text-white font-bold text-sm hover:bg-green-600 active:bg-green-700 active:scale-[0.97] transition-all shadow-lg shadow-green-200 disabled:opacity-50"
+            className="py-4 rounded-2xl bg-emerald-500 text-black font-bold text-sm
+                       hover:bg-emerald-400 active:bg-emerald-600 active:scale-[0.97]
+                       transition-all shadow-[0_0_20px_#10b98130] disabled:opacity-50"
           >
             ✅ Öğrendim
           </button>

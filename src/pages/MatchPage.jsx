@@ -23,18 +23,18 @@ function TopicSelect({ onSelect }) {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-pink-50">
+    <div className="min-h-screen bg-[#080812]">
       <div className="max-w-lg mx-auto px-4 pt-8 pb-16">
         <div className="flex items-center gap-3 mb-6">
           <button
             onClick={() => navigate('/')}
-            className="w-9 h-9 flex items-center justify-center rounded-xl bg-white shadow-sm text-gray-500 hover:text-gray-800 transition-colors"
+            className="w-9 h-9 flex items-center justify-center rounded-xl bg-white/10 border border-white/[0.07] text-gray-400 hover:text-white transition-colors"
           >
             ←
           </button>
           <div>
-            <h1 className="text-xl font-bold text-gray-900">Eşleştirme Oyunu</h1>
-            <p className="text-xs text-gray-400">Oynamak için bir konu seç</p>
+            <h1 className="text-xl font-bold text-white">Eşleştirme Oyunu</h1>
+            <p className="text-xs text-gray-500">Oynamak için bir konu seç</p>
           </div>
         </div>
 
@@ -46,18 +46,17 @@ function TopicSelect({ onSelect }) {
               <button
                 key={topic}
                 onClick={() => onSelect(topic, topic)}
-                className="w-full text-left bg-white rounded-2xl p-5 shadow-sm border border-gray-100 hover:border-purple-200 hover:shadow-md active:scale-[0.98] transition-all flex items-center gap-4"
+                className="w-full text-left bg-[#0e0e1a] rounded-2xl p-5 border border-white/[0.07]
+                           hover:border-violet-500/30 active:scale-[0.98] transition-all flex items-center gap-4"
               >
-                <span
-                  className={`w-12 h-12 flex items-center justify-center rounded-xl text-2xl ${meta.bg} text-white shadow-sm`}
-                >
+                <span className={`w-12 h-12 flex items-center justify-center rounded-xl text-2xl ${meta.bg} text-white shadow-sm`}>
                   {meta.icon}
                 </span>
                 <div className="flex-1">
-                  <h3 className="font-semibold text-gray-800">{topic}</h3>
-                  <p className="text-xs text-gray-400 mt-0.5">{count} çift kart</p>
+                  <h3 className="font-semibold text-gray-200">{topic}</h3>
+                  <p className="text-xs text-gray-500 mt-0.5">{count} çift kart</p>
                 </div>
-                <span className="text-gray-300 text-xl">›</span>
+                <span className="text-gray-600 text-xl">›</span>
               </button>
             );
           })}
@@ -74,31 +73,32 @@ function FinishScreen({ topic, moves, pairs, onRetry, onBack, onHome }) {
   const rating = moves <= pairs ? '🥇' : moves <= pairs * 1.5 ? '🥈' : '🥉';
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-pink-50 flex items-center justify-center px-4">
-      <div className="w-full max-w-sm bg-white rounded-3xl p-8 shadow-xl text-center animate-pop-in">
+    <div className="min-h-screen bg-[#080812] flex items-center justify-center px-4">
+      <div className="w-full max-w-sm bg-[#0e0e1a] border border-white/[0.07] rounded-3xl p-8 shadow-xl text-center animate-pop-in">
         <div className="text-6xl mb-4">{rating}</div>
-        <h2 className="text-2xl font-bold text-gray-900 mb-1">Tebrikler!</h2>
-        <p className="text-gray-500 mb-6">{topic} · Tüm çiftler eşleştirildi</p>
+        <h2 className="text-2xl font-bold text-white mb-1">Tebrikler!</h2>
+        <p className="text-gray-400 mb-6">{topic} · Tüm çiftler eşleştirildi</p>
 
-        <div className="bg-purple-50 rounded-2xl p-5 mb-8">
-          <p className="text-5xl font-extrabold text-purple-600 tabular-nums">{moves}</p>
-          <p className="text-sm text-purple-400 font-medium mt-1">toplam hamle</p>
+        <div className="bg-violet-500/10 border border-violet-500/20 rounded-2xl p-5 mb-8">
+          <p className="text-5xl font-extrabold text-violet-400 tabular-nums">{moves}</p>
+          <p className="text-sm text-violet-400 font-medium mt-1">toplam hamle</p>
         </div>
 
         <div className="space-y-3">
           <button
             onClick={onRetry}
-            className="w-full bg-purple-600 text-white font-bold py-4 rounded-2xl hover:bg-purple-700 transition-colors shadow-lg shadow-purple-200"
+            className="w-full bg-violet-600 hover:bg-violet-500 text-white font-bold py-4 rounded-2xl
+                       transition-colors shadow-[0_0_20px_#7c3aed30]"
           >
             🔄 Tekrar Oyna
           </button>
           <button
             onClick={onBack}
-            className="w-full bg-gray-100 text-gray-700 font-semibold py-4 rounded-2xl hover:bg-gray-200 transition-colors"
+            className="w-full bg-white/10 hover:bg-white/15 text-gray-300 font-semibold py-4 rounded-2xl transition-colors"
           >
             Başka Konu Seç
           </button>
-          <button onClick={onHome} className="w-full text-purple-500 font-medium py-3">
+          <button onClick={onHome} className="w-full text-gray-500 hover:text-gray-300 font-medium py-3 transition-colors">
             Ana Sayfaya Dön
           </button>
         </div>
@@ -115,26 +115,26 @@ function GameBoard({ topic, cards, selected, matched, shaking, moves, onCardClic
   const matchedPairs = matched.size / 2;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-pink-50">
+    <div className="min-h-screen bg-[#080812]">
       <div className="max-w-lg mx-auto px-3 pt-6 pb-10">
         {/* Header */}
         <div className="flex items-center justify-between mb-5 px-1">
           <div>
-            <h2 className="font-bold text-gray-800">{topic}</h2>
-            <p className="text-xs text-gray-400">
+            <h2 className="font-bold text-gray-200">{topic}</h2>
+            <p className="text-xs text-gray-500">
               {matchedPairs} / {totalPairs} eşleşti
             </p>
           </div>
-          <div className="flex items-center gap-2 bg-purple-100 text-purple-700 rounded-xl px-4 py-2">
+          <div className="flex items-center gap-2 bg-violet-500/10 border border-violet-500/20 text-violet-400 rounded-xl px-4 py-2">
             <span className="text-sm font-bold tabular-nums">{moves}</span>
             <span className="text-xs font-medium">hamle</span>
           </div>
         </div>
 
         {/* Progress bar */}
-        <div className="w-full bg-gray-200 rounded-full h-1.5 mb-5 overflow-hidden">
+        <div className="w-full bg-white/10 rounded-full h-1.5 mb-5 overflow-hidden">
           <div
-            className="bg-purple-500 h-1.5 rounded-full transition-all duration-500"
+            className="bg-violet-500 h-1.5 rounded-full transition-all duration-500"
             style={{ width: `${(matchedPairs / totalPairs) * 100}%` }}
           />
         </div>
@@ -156,12 +156,12 @@ function GameBoard({ topic, cards, selected, matched, shaking, moves, onCardClic
               cardClass += 'opacity-0 scale-75 pointer-events-none ';
             } else if (isSelected) {
               cardClass += isEN
-                ? 'bg-blue-600 text-white shadow-lg shadow-blue-200 scale-105 '
-                : 'bg-rose-500 text-white shadow-lg shadow-rose-200 scale-105 ';
+                ? 'bg-cyan-500 text-black shadow-[0_0_16px_#22d3ee40] scale-105 '
+                : 'bg-violet-500 text-white shadow-[0_0_16px_#8b5cf640] scale-105 ';
             } else {
               cardClass += isEN
-                ? 'bg-blue-100 text-blue-800 hover:bg-blue-200 active:scale-95 '
-                : 'bg-rose-100 text-rose-800 hover:bg-rose-200 active:scale-95 ';
+                ? 'bg-cyan-500/15 text-cyan-300 border border-cyan-500/20 hover:bg-cyan-500/25 active:scale-95 '
+                : 'bg-violet-500/15 text-violet-300 border border-violet-500/20 hover:bg-violet-500/25 active:scale-95 ';
             }
 
             if (isShaking) cardClass += 'animate-shake ';
@@ -182,12 +182,12 @@ function GameBoard({ topic, cards, selected, matched, shaking, moves, onCardClic
         {/* Legend */}
         <div className="flex gap-4 justify-center mt-6">
           <div className="flex items-center gap-1.5">
-            <div className="w-3 h-3 rounded bg-blue-200" />
-            <span className="text-xs text-gray-400">İngilizce</span>
+            <div className="w-3 h-3 rounded bg-cyan-500/30 border border-cyan-500/40" />
+            <span className="text-xs text-gray-500">İngilizce</span>
           </div>
           <div className="flex items-center gap-1.5">
-            <div className="w-3 h-3 rounded bg-rose-200" />
-            <span className="text-xs text-gray-400">Türkçe</span>
+            <div className="w-3 h-3 rounded bg-violet-500/30 border border-violet-500/40" />
+            <span className="text-xs text-gray-500">Türkçe</span>
           </div>
         </div>
       </div>
@@ -232,7 +232,6 @@ export default function MatchPage() {
     setIsChecking(false);
   }, []);
 
-  // Auto-start if navigated with topics in state
   useEffect(() => {
     if (initTopics) buildGame(initTopics);
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -259,7 +258,6 @@ export default function MatchPage() {
         const [a, b] = newSelected;
 
         if (a.wordId === b.wordId && a.type !== b.type) {
-          // ✅ Correct
           setTimeout(() => {
             setMatched((prev) => {
               const next = new Set(prev);
@@ -271,7 +269,6 @@ export default function MatchPage() {
             setIsChecking(false);
           }, 400);
         } else {
-          // ❌ Wrong
           setShaking(new Set([a.id, b.id]));
           setTimeout(() => {
             setSelected([]);
@@ -284,7 +281,6 @@ export default function MatchPage() {
     [isChecking, matched, selected]
   );
 
-  // Check win condition
   useEffect(() => {
     if (cards.length > 0 && matched.size === cards.length) {
       const t = setTimeout(() => setFinished(true), 500);
