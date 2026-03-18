@@ -1,0 +1,152 @@
+'use strict';
+const fs   = require('fs');
+const path = require('path');
+
+const WORDS_PATH = path.join(__dirname, '..', 'src', 'data', 'words.json');
+const A1_PATH    = path.join(__dirname, 'is_kariyer_a1.json');
+const A2_PATH    = path.join(__dirname, 'is_kariyer_a2.json');
+const OUT_PATH   = path.join(__dirname, 'is_kariyer_b1.json');
+
+const existing   = JSON.parse(fs.readFileSync(WORDS_PATH, 'utf8'));
+const a1Words    = JSON.parse(fs.readFileSync(A1_PATH, 'utf8'));
+const a2Words    = JSON.parse(fs.readFileSync(A2_PATH, 'utf8'));
+const usedEN     = new Set([...existing, ...a1Words, ...a2Words].map(w => w.en.toLowerCase()));
+
+// ─── 5 konu × 20 kelime = 100 giriş, ID 1966-2065 ───────────────────────────
+const newWords = [
+
+  // ── İş ve Kariyer (B1) — 1966-1985 ────────────────────────────────────────
+  { id: 1966, topic: 'İş ve Kariyer (B1)',       en: 'restructuring',  tr: 'yeniden yapılandırma', type: 'noun', exampleEn: 'The company went through a major restructuring.',      exampleTr: 'Şirket büyük bir yeniden yapılandırma sürecinden geçti.' },
+  { id: 1967, topic: 'İş ve Kariyer (B1)',       en: 'acquisition',    tr: 'satın alma',           type: 'noun', exampleEn: 'The acquisition of the rival firm was completed.',     exampleTr: 'Rakip firmanın satın alınması tamamlandı.' },
+  { id: 1968, topic: 'İş ve Kariyer (B1)',       en: 'merger',         tr: 'birleşme',             type: 'noun', exampleEn: 'The merger created the largest bank in the region.',   exampleTr: 'Birleşme bölgenin en büyük bankasını oluşturdu.' },
+  { id: 1969, topic: 'İş ve Kariyer (B1)',       en: 'stakeholder',    tr: 'paydaş',               type: 'noun', exampleEn: 'All stakeholders must approve the new strategy.',      exampleTr: 'Tüm paydaşların yeni stratejiyi onaylaması gerekir.' },
+  { id: 1970, topic: 'İş ve Kariyer (B1)',       en: 'subsidiary',     tr: 'bağlı kuruluş',        type: 'noun', exampleEn: 'The subsidiary operates independently in Europe.',     exampleTr: 'Bağlı kuruluş Avrupa\'da bağımsız olarak faaliyet gösteriyor.' },
+  { id: 1971, topic: 'İş ve Kariyer (B1)',       en: 'franchising',    tr: 'bayilik sistemi',      type: 'noun', exampleEn: 'Franchising lets entrepreneurs use an existing brand.', exampleTr: 'Bayilik sistemi girişimcilerin mevcut bir markayı kullanmasını sağlar.' },
+  { id: 1972, topic: 'İş ve Kariyer (B1)',       en: 'governance',     tr: 'yönetişim',            type: 'noun', exampleEn: 'Good governance ensures accountability at all levels.', exampleTr: 'İyi yönetişim tüm kademelerde hesap verebilirliği sağlar.' },
+  { id: 1973, topic: 'İş ve Kariyer (B1)',       en: 'audit',          tr: 'denetim',              type: 'noun', exampleEn: 'An external audit is conducted every year.',          exampleTr: 'Her yıl harici bir denetim yapılır.' },
+  { id: 1974, topic: 'İş ve Kariyer (B1)',       en: 'compliance',     tr: 'uyum',                 type: 'noun', exampleEn: 'Compliance with data laws is mandatory.',             exampleTr: 'Veri yasalarına uyum zorunludur.' },
+  { id: 1975, topic: 'İş ve Kariyer (B1)',       en: 'logistics',      tr: 'lojistik',             type: 'noun', exampleEn: 'The logistics team manages all shipments.',           exampleTr: 'Lojistik ekibi tüm sevkiyatları yönetir.' },
+  { id: 1976, topic: 'İş ve Kariyer (B1)',       en: 'corporate',      tr: 'kurumsal',             type: 'adj',  exampleEn: 'Corporate culture affects how employees behave.',     exampleTr: 'Kurumsal kültür çalışanların davranışlarını etkiler.' },
+  { id: 1977, topic: 'İş ve Kariyer (B1)',       en: 'outsourcing',    tr: 'dış kaynak kullanımı', type: 'noun', exampleEn: 'Outsourcing IT reduces internal costs.',              exampleTr: 'IT dış kaynak kullanımı dahili maliyetleri düşürür.' },
+  { id: 1978, topic: 'İş ve Kariyer (B1)',       en: 'liability',      tr: 'yükümlülük',           type: 'noun', exampleEn: 'Directors have personal liability for company debts.', exampleTr: 'Yöneticilerin şirket borçları için kişisel yükümlülüğü vardır.' },
+  { id: 1979, topic: 'İş ve Kariyer (B1)',       en: 'transparency',   tr: 'şeffaflık',            type: 'noun', exampleEn: 'Transparency builds trust with shareholders.',         exampleTr: 'Şeffaflık hissedarlarla güven inşa eder.' },
+  { id: 1980, topic: 'İş ve Kariyer (B1)',       en: 'succession',     tr: 'ardıllık',             type: 'noun', exampleEn: 'A succession plan ensures business continuity.',       exampleTr: 'Ardıllık planı iş sürekliliğini güvence altına alır.' },
+  { id: 1981, topic: 'İş ve Kariyer (B1)',       en: 'accountability', tr: 'hesap verebilirlik',   type: 'noun', exampleEn: 'Accountability means owning the results of your work.', exampleTr: 'Hesap verebilirlik çalışmanızın sonuçlarına sahip çıkmak demektir.' },
+  { id: 1982, topic: 'İş ve Kariyer (B1)',       en: 'workflow',       tr: 'iş akışı',             type: 'noun', exampleEn: 'Automating the workflow saves hours each week.',       exampleTr: 'İş akışını otomatikleştirmek her hafta saatler kazandırır.' },
+  { id: 1983, topic: 'İş ve Kariyer (B1)',       en: 'mandate',        tr: 'yetki',                type: 'noun', exampleEn: 'The committee has a clear mandate to reform policy.',  exampleTr: 'Komitenin politikayı yenilemek için açık bir yetkisi var.' },
+  { id: 1984, topic: 'İş ve Kariyer (B1)',       en: 'hierarchy',      tr: 'hiyerarşi',            type: 'noun', exampleEn: 'A flat hierarchy encourages open communication.',      exampleTr: 'Düz hiyerarşi açık iletişimi teşvik eder.' },
+  { id: 1985, topic: 'İş ve Kariyer (B1)',       en: 'probationary',   tr: 'deneme süresindeki',   type: 'adj',  exampleEn: 'He is still in his probationary period.',            exampleTr: 'Hâlâ deneme süresindedir.' },
+
+  // ── Finans ve Ekonomi (B1) — 1986-2005 ────────────────────────────────────
+  { id: 1986, topic: 'Finans ve Ekonomi (B1)',   en: 'liquidity',      tr: 'likidite',             type: 'noun', exampleEn: 'Banks must maintain a minimum level of liquidity.',   exampleTr: 'Bankalar asgari bir likidite düzeyini sürdürmelidir.' },
+  { id: 1987, topic: 'Finans ve Ekonomi (B1)',   en: 'volatility',     tr: 'oynaklık',             type: 'noun', exampleEn: 'Market volatility rose sharply during the crisis.',   exampleTr: 'Kriz döneminde piyasa oynaklığı keskin biçimde arttı.' },
+  { id: 1988, topic: 'Finans ve Ekonomi (B1)',   en: 'hedge',          tr: 'riskten korunma',      type: 'noun', exampleEn: 'Buying gold is often used as a hedge against inflation.', exampleTr: 'Altın almak genellikle enflasyona karşı riskten korunma aracı olarak kullanılır.' },
+  { id: 1989, topic: 'Finans ve Ekonomi (B1)',   en: 'commodity',      tr: 'emtia',                type: 'noun', exampleEn: 'Oil is the most traded commodity in the world.',       exampleTr: 'Petrol dünyada en çok işlem gören emtiadır.' },
+  { id: 1990, topic: 'Finans ve Ekonomi (B1)',   en: 'derivative',     tr: 'türev ürün',           type: 'noun', exampleEn: 'A derivative derives its value from an underlying asset.', exampleTr: 'Türev ürün değerini dayanak varlıktan alır.' },
+  { id: 1991, topic: 'Finans ve Ekonomi (B1)',   en: 'austerity',      tr: 'kemer sıkma',          type: 'noun', exampleEn: 'The government introduced austerity measures.',        exampleTr: 'Hükümet kemer sıkma önlemleri tanıttı.' },
+  { id: 1992, topic: 'Finans ve Ekonomi (B1)',   en: 'devaluation',    tr: 'devalüasyon',          type: 'noun', exampleEn: 'Devaluation makes exports cheaper and imports costlier.', exampleTr: 'Devalüasyon ihracatı ucuz, ithalatı pahalı hale getirir.' },
+  { id: 1993, topic: 'Finans ve Ekonomi (B1)',   en: 'appreciation',   tr: 'değer kazanma',        type: 'noun', exampleEn: 'Currency appreciation hurts export competitiveness.',  exampleTr: 'Para birimi değer kazanması ihracat rekabetçiliğini zedeler.' },
+  { id: 1994, topic: 'Finans ve Ekonomi (B1)',   en: 'speculation',    tr: 'spekülasyon',          type: 'noun', exampleEn: 'Speculation in property markets can cause price bubbles.', exampleTr: 'Emlak piyasasındaki spekülasyon fiyat balonlarına neden olabilir.' },
+  { id: 1995, topic: 'Finans ve Ekonomi (B1)',   en: 'collateral',     tr: 'teminat',              type: 'noun', exampleEn: 'The house was used as collateral for the loan.',       exampleTr: 'Ev kredi için teminat olarak kullanıldı.' },
+  { id: 1996, topic: 'Finans ve Ekonomi (B1)',   en: 'amortization',   tr: 'amortisman',           type: 'noun', exampleEn: 'Amortization spreads the cost of an asset over time.',  exampleTr: 'Amortisman bir varlığın maliyetini zamana yayar.' },
+  { id: 1997, topic: 'Finans ve Ekonomi (B1)',   en: 'capitalization', tr: 'sermayeye dönüştürme', type: 'noun', exampleEn: 'Market capitalization reflects a company\'s total value.', exampleTr: 'Piyasa değeri bir şirketin toplam değerini yansıtır.' },
+  { id: 1998, topic: 'Finans ve Ekonomi (B1)',   en: 'securitization', tr: 'menkul kıymetleştirme', type: 'noun', exampleEn: 'Securitization converts loans into tradeable securities.', exampleTr: 'Menkul kıymetleştirme kredileri işlem görebilir menkul kıymetlere dönüştürür.' },
+  { id: 1999, topic: 'Finans ve Ekonomi (B1)',   en: 'bankruptcy',     tr: 'iflas',                type: 'noun', exampleEn: 'The airline filed for bankruptcy after the pandemic.',  exampleTr: 'Havayolu salgının ardından iflas başvurusunda bulundu.' },
+  { id: 2000, topic: 'Finans ve Ekonomi (B1)',   en: 'microeconomics', tr: 'mikro ekonomi',        type: 'noun', exampleEn: 'Microeconomics studies the behaviour of individual firms.', exampleTr: 'Mikro ekonomi bireysel firmaların davranışını inceler.' },
+  { id: 2001, topic: 'Finans ve Ekonomi (B1)',   en: 'macroeconomics', tr: 'makro ekonomi',        type: 'noun', exampleEn: 'Macroeconomics looks at the economy as a whole.',       exampleTr: 'Makro ekonomi ekonomiye bütün olarak bakar.' },
+  { id: 2002, topic: 'Finans ve Ekonomi (B1)',   en: 'payable',        tr: 'ödenecek',             type: 'adj',  exampleEn: 'The invoice is payable within thirty days.',           exampleTr: 'Fatura otuz gün içinde ödenecektir.' },
+  { id: 2003, topic: 'Finans ve Ekonomi (B1)',   en: 'receivable',     tr: 'alacak',               type: 'noun', exampleEn: 'Accounts receivable shows money owed to the company.',  exampleTr: 'Alacaklar şirkete borçlu olunan parayı gösterir.' },
+  { id: 2004, topic: 'Finans ve Ekonomi (B1)',   en: 'monetary',       tr: 'parasal',              type: 'adj',  exampleEn: 'The central bank sets monetary policy for the country.', exampleTr: 'Merkez bankası ülke için parasal politikayı belirler.' },
+  { id: 2005, topic: 'Finans ve Ekonomi (B1)',   en: 'quantitative',   tr: 'niceliksel',           type: 'adj',  exampleEn: 'Quantitative easing injects money into the economy.',   exampleTr: 'Niceliksel genişleme ekonomiye para enjekte eder.' },
+
+  // ── Hukuk ve Yargı (B1) — 2006-2025 ──────────────────────────────────────
+  { id: 2006, topic: 'Hukuk ve Yargı (B1)',      en: 'litigation',     tr: 'dava süreci',          type: 'noun', exampleEn: 'Both sides prefer to avoid costly litigation.',       exampleTr: 'Her iki taraf da maliyetli dava sürecinden kaçınmayı tercih eder.' },
+  { id: 2007, topic: 'Hukuk ve Yargı (B1)',      en: 'arbitration',    tr: 'tahkim',               type: 'noun', exampleEn: 'The dispute was settled through arbitration.',         exampleTr: 'Anlaşmazlık tahkim yoluyla çözüldü.' },
+  { id: 2008, topic: 'Hukuk ve Yargı (B1)',      en: 'mediation',      tr: 'arabuluculuk',         type: 'noun', exampleEn: 'Mediation is faster and cheaper than going to court.',  exampleTr: 'Arabuluculuk mahkemeye gitmekten daha hızlı ve ucuzdur.' },
+  { id: 2009, topic: 'Hukuk ve Yargı (B1)',      en: 'precedent',      tr: 'emsal',                type: 'noun', exampleEn: 'This ruling sets a precedent for future cases.',        exampleTr: 'Bu karar gelecekteki davalar için emsal oluşturuyor.' },
+  { id: 2010, topic: 'Hukuk ve Yargı (B1)',      en: 'constitution',   tr: 'anayasa',              type: 'noun', exampleEn: 'The constitution guarantees freedom of speech.',        exampleTr: 'Anayasa ifade özgürlüğünü güvence altına alır.' },
+  { id: 2011, topic: 'Hukuk ve Yargı (B1)',      en: 'amendment',      tr: 'değişiklik',           type: 'noun', exampleEn: 'A constitutional amendment requires a two-thirds vote.', exampleTr: 'Anayasa değişikliği üçte iki çoğunluk oyunu gerektirir.' },
+  { id: 2012, topic: 'Hukuk ve Yargı (B1)',      en: 'sovereignty',    tr: 'egemenlik',            type: 'noun', exampleEn: 'National sovereignty must be respected by all states.',  exampleTr: 'Ulusal egemenlik tüm devletler tarafından saygı görmelidir.' },
+  { id: 2013, topic: 'Hukuk ve Yargı (B1)',      en: 'tribunal',       tr: 'özel mahkeme',         type: 'noun', exampleEn: 'The employment tribunal ruled in her favour.',          exampleTr: 'İstihdam özel mahkemesi onun lehine karar verdi.' },
+  { id: 2014, topic: 'Hukuk ve Yargı (B1)',      en: 'indictment',     tr: 'iddianame',            type: 'noun', exampleEn: 'The grand jury returned a formal indictment.',          exampleTr: 'Büyük jüri resmi bir iddianame hazırladı.' },
+  { id: 2015, topic: 'Hukuk ve Yargı (B1)',      en: 'extradition',    tr: 'iade',                 type: 'noun', exampleEn: 'The country refused the extradition request.',          exampleTr: 'Ülke iade talebini reddetti.' },
+  { id: 2016, topic: 'Hukuk ve Yargı (B1)',      en: 'subpoena',       tr: 'tanıklık celbi',       type: 'noun', exampleEn: 'She received a subpoena to testify in court.',          exampleTr: 'Mahkemede tanıklık etmesi için celp aldı.' },
+  { id: 2017, topic: 'Hukuk ve Yargı (B1)',      en: 'perjury',        tr: 'yalan yere yemin',     type: 'noun', exampleEn: 'Perjury is a serious criminal offence.',               exampleTr: 'Yalan yere yemin ciddi bir suçtur.' },
+  { id: 2018, topic: 'Hukuk ve Yargı (B1)',      en: 'injunction',     tr: 'ihtiyati tedbir',      type: 'noun', exampleEn: 'The court issued an injunction to stop the sale.',      exampleTr: 'Mahkeme satışı durdurmak için ihtiyati tedbir kararı verdi.' },
+  { id: 2019, topic: 'Hukuk ve Yargı (B1)',      en: 'affidavit',      tr: 'yemin altında ifade',  type: 'noun', exampleEn: 'The witness submitted a written affidavit.',            exampleTr: 'Tanık yazılı yemin altında ifade sundu.' },
+  { id: 2020, topic: 'Hukuk ve Yargı (B1)',      en: 'deposition',     tr: 'tanıklık',             type: 'noun', exampleEn: 'The lawyer took the witness\'s deposition.',            exampleTr: 'Avukat tanığın ifadesini aldı.' },
+  { id: 2021, topic: 'Hukuk ve Yargı (B1)',      en: 'negligence',     tr: 'ihmal',                type: 'noun', exampleEn: 'The hospital was sued for medical negligence.',         exampleTr: 'Hastane tıbbi ihmalden dava edildi.' },
+  { id: 2022, topic: 'Hukuk ve Yargı (B1)',      en: 'malpractice',    tr: 'mesleki ihmal',        type: 'noun', exampleEn: 'The doctor was accused of malpractice.',               exampleTr: 'Doktor mesleki ihmalle suçlandı.' },
+  { id: 2023, topic: 'Hukuk ve Yargı (B1)',      en: 'antitrust',      tr: 'tekel karşıtı',        type: 'adj',  exampleEn: 'Antitrust laws prevent monopolies from forming.',       exampleTr: 'Tekel karşıtı yasalar tekellerin oluşmasını engeller.' },
+  { id: 2024, topic: 'Hukuk ve Yargı (B1)',      en: 'infringement',   tr: 'hak ihlali',           type: 'noun', exampleEn: 'Patent infringement can result in heavy fines.',        exampleTr: 'Patent hak ihlali ağır para cezalarına yol açabilir.' },
+  { id: 2025, topic: 'Hukuk ve Yargı (B1)',      en: 'contempt',       tr: 'mahkemeye saygısızlık', type: 'noun', exampleEn: 'He was jailed for contempt of court.',                exampleTr: 'Mahkemeye saygısızlık nedeniyle tutuklandı.' },
+
+  // ── Pazarlama ve Reklam (B1) — 2026-2045 ─────────────────────────────────
+  { id: 2026, topic: 'Pazarlama ve Reklam (B1)', en: 'omnichannel',   tr: 'çok kanallı',           type: 'adj',  exampleEn: 'An omnichannel strategy links online and offline sales.', exampleTr: 'Çok kanallı strateji çevrimiçi ve çevrimdışı satışları birbirine bağlar.' },
+  { id: 2027, topic: 'Pazarlama ve Reklam (B1)', en: 'programmatic',  tr: 'programatik',           type: 'adj',  exampleEn: 'Programmatic advertising targets users automatically.',   exampleTr: 'Programatik reklamcılık kullanıcıları otomatik olarak hedefler.' },
+  { id: 2028, topic: 'Pazarlama ve Reklam (B1)', en: 'remarketing',   tr: 'yeniden hedefleme',     type: 'noun', exampleEn: 'Remarketing shows ads to people who visited your site.',  exampleTr: 'Yeniden hedefleme sitenizi ziyaret edenlere reklam gösterir.' },
+  { id: 2029, topic: 'Pazarlama ve Reklam (B1)', en: 'attribution',   tr: 'atıf',                  type: 'noun', exampleEn: 'Attribution models show which channel drove the sale.',  exampleTr: 'Atıf modelleri hangi kanalın satışı sağladığını gösterir.' },
+  { id: 2030, topic: 'Pazarlama ve Reklam (B1)', en: 'pipeline',      tr: 'satış hattı',           type: 'noun', exampleEn: 'The sales pipeline shows every deal in progress.',       exampleTr: 'Satış hattı süreçteki her anlaşmayı gösterir.' },
+  { id: 2031, topic: 'Pazarlama ve Reklam (B1)', en: 'automation',    tr: 'otomasyon',             type: 'noun', exampleEn: 'Email automation sends messages at the right time.',     exampleTr: 'E-posta otomasyonu mesajları doğru zamanda gönderir.' },
+  { id: 2032, topic: 'Pazarlama ve Reklam (B1)', en: 'disruption',    tr: 'piyasa sarsıcılığı',    type: 'noun', exampleEn: 'Digital disruption changed the retail industry forever.', exampleTr: 'Dijital piyasa sarsıcılığı perakende sektörünü sonsuza dek değiştirdi.' },
+  { id: 2033, topic: 'Pazarlama ve Reklam (B1)', en: 'inbound',       tr: 'gelen pazarlama',       type: 'adj',  exampleEn: 'Inbound marketing attracts customers through content.',   exampleTr: 'Gelen pazarlama içerik aracılığıyla müşteri çeker.' },
+  { id: 2034, topic: 'Pazarlama ve Reklam (B1)', en: 'outbound',      tr: 'giden pazarlama',       type: 'adj',  exampleEn: 'Outbound marketing reaches customers via cold calls.',   exampleTr: 'Giden pazarlama soğuk aramalar aracılığıyla müşterilere ulaşır.' },
+  { id: 2035, topic: 'Pazarlama ve Reklam (B1)', en: 'copywriting',   tr: 'metin yazarlığı',       type: 'noun', exampleEn: 'Good copywriting persuades readers to take action.',     exampleTr: 'İyi metin yazarlığı okuyucuları harekete geçmeye ikna eder.' },
+  { id: 2036, topic: 'Pazarlama ve Reklam (B1)', en: 'multimedia',    tr: 'çoklu ortam',           type: 'noun', exampleEn: 'Multimedia campaigns combine video, audio and text.',    exampleTr: 'Çoklu ortam kampanyaları video, ses ve metni birleştirir.' },
+  { id: 2037, topic: 'Pazarlama ve Reklam (B1)', en: 'interactive',   tr: 'etkileşimli',           type: 'adj',  exampleEn: 'Interactive content keeps users engaged for longer.',    exampleTr: 'Etkileşimli içerik kullanıcıların daha uzun süre ilgisini çeker.' },
+  { id: 2038, topic: 'Pazarlama ve Reklam (B1)', en: 'immersive',     tr: 'sürükleyici',           type: 'adj',  exampleEn: 'Immersive experiences create emotional brand connections.', exampleTr: 'Sürükleyici deneyimler duygusal marka bağları oluşturur.' },
+  { id: 2039, topic: 'Pazarlama ve Reklam (B1)', en: 'personalization', tr: 'kişiselleştirme',     type: 'noun', exampleEn: 'Personalization improves the customer experience.',      exampleTr: 'Kişiselleştirme müşteri deneyimini iyileştirir.' },
+  { id: 2040, topic: 'Pazarlama ve Reklam (B1)', en: 'localization',  tr: 'yerelleştirme',         type: 'noun', exampleEn: 'Localization adapts content for different markets.',     exampleTr: 'Yerelleştirme içeriği farklı pazarlara uyarlar.' },
+  { id: 2041, topic: 'Pazarlama ve Reklam (B1)', en: 'monetize',      tr: 'gelire dönüştürmek',    type: 'verb', exampleEn: 'She found a way to monetize her online following.',      exampleTr: 'Çevrimiçi takipçi kitlesini gelire dönüştürmenin yolunu buldu.' },
+  { id: 2042, topic: 'Pazarlama ve Reklam (B1)', en: 'rebranding',    tr: 'yeniden markalama',     type: 'noun', exampleEn: 'The company\'s rebranding refreshed its public image.',   exampleTr: 'Şirketin yeniden markalama çalışması kamuoyu imajını tazeledi.' },
+  { id: 2043, topic: 'Pazarlama ve Reklam (B1)', en: 'sponsorship',   tr: 'sponsorluk',            type: 'noun', exampleEn: 'The sponsorship of the festival increased brand visibility.', exampleTr: 'Festivale verilen sponsorluk marka görünürlüğünü artırdı.' },
+  { id: 2044, topic: 'Pazarlama ve Reklam (B1)', en: 'ambassador',    tr: 'marka elçisi',          type: 'noun', exampleEn: 'The athlete became an ambassador for the sports brand.',  exampleTr: 'Sporcu, spor markasının marka elçisi oldu.' },
+  { id: 2045, topic: 'Pazarlama ve Reklam (B1)', en: 'funnel',        tr: 'satış hunisi',          type: 'noun', exampleEn: 'The marketing funnel guides buyers from awareness to purchase.', exampleTr: 'Pazarlama satış hunisi alıcıları farkındalıktan satın almaya yönlendirir.' },
+
+  // ── İnsan Kaynakları (B1) — 2046-2065 ────────────────────────────────────
+  { id: 2046, topic: 'İnsan Kaynakları (B1)',    en: 'talent',         tr: 'yetenek',              type: 'noun', exampleEn: 'Attracting talent is a top priority for HR teams.',    exampleTr: 'Yetenek çekmek İK ekipleri için birincil önceliktir.' },
+  { id: 2047, topic: 'İnsan Kaynakları (B1)',    en: 'staffing',       tr: 'kadrolama',            type: 'noun', exampleEn: 'Staffing agencies help fill vacancies quickly.',         exampleTr: 'Kadrolama ajansları pozisyonların hızla doldurulmasına yardımcı olur.' },
+  { id: 2048, topic: 'İnsan Kaynakları (B1)',    en: 'evaluation',     tr: 'değerlendirme',        type: 'noun', exampleEn: 'Annual evaluation reviews each employee\'s progress.',   exampleTr: 'Yıllık değerlendirme her çalışanın ilerleyişini gözden geçirir.' },
+  { id: 2049, topic: 'İnsan Kaynakları (B1)',    en: 'recruitment',    tr: 'işe alım',             type: 'noun', exampleEn: 'Online platforms have transformed recruitment.',          exampleTr: 'Çevrimiçi platformlar işe alımı dönüştürdü.' },
+  { id: 2050, topic: 'İnsan Kaynakları (B1)',    en: 'negotiation',    tr: 'müzakere',             type: 'noun', exampleEn: 'Salary negotiation is a skill every candidate needs.',   exampleTr: 'Maaş müzakeresi her adayın ihtiyaç duyduğu bir beceridir.' },
+  { id: 2051, topic: 'İnsan Kaynakları (B1)',    en: 'disciplinary',   tr: 'disiplin',             type: 'adj',  exampleEn: 'A disciplinary hearing was held for the misconduct.',   exampleTr: 'Uygunsuz davranış için disiplin duruşması yapıldı.' },
+  { id: 2052, topic: 'İnsan Kaynakları (B1)',    en: 'severance',      tr: 'kıdem tazminatı',      type: 'noun', exampleEn: 'She received three months severance pay.',              exampleTr: 'Üç aylık kıdem tazminatı aldı.' },
+  { id: 2053, topic: 'İnsan Kaynakları (B1)',    en: 'productivity',   tr: 'verimlilik',           type: 'noun', exampleEn: 'Remote working can boost employee productivity.',        exampleTr: 'Uzaktan çalışma çalışan verimliliğini artırabilir.' },
+  { id: 2054, topic: 'İnsan Kaynakları (B1)',    en: 'delegation',     tr: 'yetki devri',          type: 'noun', exampleEn: 'Effective delegation frees managers for strategic tasks.',exampleTr: 'Etkili yetki devri yöneticileri stratejik görevler için serbest bırakır.' },
+  { id: 2055, topic: 'İnsan Kaynakları (B1)',    en: 'collaborative',  tr: 'işbirlikçi',           type: 'adj',  exampleEn: 'A collaborative workplace improves team outcomes.',       exampleTr: 'İşbirlikçi bir işyeri ekip sonuçlarını iyileştirir.' },
+  { id: 2056, topic: 'İnsan Kaynakları (B1)',    en: 'certification',  tr: 'sertifikasyon',        type: 'noun', exampleEn: 'HR certification proves professional competence.',        exampleTr: 'İK sertifikasyonu mesleki yetkinliği kanıtlar.' },
+  { id: 2057, topic: 'İnsan Kaynakları (B1)',    en: 'proficiency',    tr: 'yeterlilik',           type: 'noun', exampleEn: 'Language proficiency is required for the role.',         exampleTr: 'Rol için dil yeterliliği gerekmektedir.' },
+  { id: 2058, topic: 'İnsan Kaynakları (B1)',    en: 'entitlement',    tr: 'hak kazanma',          type: 'noun', exampleEn: 'Annual leave entitlement is twenty-five days.',          exampleTr: 'Yıllık izin hak kazanımı yirmi beş gündür.' },
+  { id: 2059, topic: 'İnsan Kaynakları (B1)',    en: 'inclusivity',    tr: 'kapsayıcılık anlayışı',type: 'noun', exampleEn: 'Inclusivity policies ensure fair treatment for all.',     exampleTr: 'Kapsayıcılık anlayışı politikaları herkese adil muameleyi güvence altına alır.' },
+  { id: 2060, topic: 'İnsan Kaynakları (B1)',    en: 'empower',        tr: 'güçlendirmek',         type: 'verb', exampleEn: 'Good managers empower their teams to make decisions.',   exampleTr: 'İyi yöneticiler ekiplerini karar almak için güçlendirir.' },
+  { id: 2061, topic: 'İnsan Kaynakları (B1)',    en: 'formalize',      tr: 'resmileştirmek',       type: 'verb', exampleEn: 'HR must formalize all employment agreements in writing.',exampleTr: 'İK tüm istihdam sözleşmelerini yazılı olarak resmileştirmelidir.' },
+  { id: 2062, topic: 'İnsan Kaynakları (B1)',    en: 'harassment',     tr: 'taciz',                type: 'noun', exampleEn: 'Harassment in the workplace is strictly prohibited.',     exampleTr: 'İşyerinde taciz kesinlikle yasaktır.' },
+  { id: 2063, topic: 'İnsan Kaynakları (B1)',    en: 'paternity',      tr: 'babalık izni',         type: 'noun', exampleEn: 'Paternity leave allows new fathers to bond with their child.', exampleTr: 'Babalık izni yeni babaların bebekleriyle bağ kurmasına olanak tanır.' },
+  { id: 2064, topic: 'İnsan Kaynakları (B1)',    en: 'successor',      tr: 'halef',                type: 'noun', exampleEn: 'The CEO named her successor before retiring.',           exampleTr: 'Genel müdür emekli olmadan önce halefi belirledi.' },
+  { id: 2065, topic: 'İnsan Kaynakları (B1)',    en: 'continuity',     tr: 'süreklilik',           type: 'noun', exampleEn: 'Business continuity planning prevents disruptions.',     exampleTr: 'İş sürekliliği planlaması aksaklıkları önler.' },
+];
+
+// ─── 1. İç tekrar kontrolü ───────────────────────────────────────────────────
+const enSet = new Set();
+const intDups = [];
+for (const w of newWords) {
+  const key = w.en.toLowerCase();
+  if (enSet.has(key)) intDups.push(w.en);
+  else enSet.add(key);
+}
+if (intDups.length) { console.error('Dahili tekrar:', intDups); process.exit(1); }
+
+// ─── 2. Önceki kelimelerle çakışma kontrolü ──────────────────────────────────
+const crossDups = newWords.filter(w => usedEN.has(w.en.toLowerCase())).map(w => w.en);
+if (crossDups.length) { console.error('Çakışma:', crossDups); process.exit(1); }
+
+// ─── 3. ID kontrolü ──────────────────────────────────────────────────────────
+const ids = newWords.map(w => w.id);
+if (Math.min(...ids) !== 1966 || Math.max(...ids) !== 2065 || ids.length !== 100) {
+  console.error(`ID hatalı: min=${Math.min(...ids)} max=${Math.max(...ids)} count=${ids.length}`);
+  process.exit(1);
+}
+
+// ─── 4. JSON dosyasına yaz ───────────────────────────────────────────────────
+fs.writeFileSync(OUT_PATH, JSON.stringify(newWords, null, 2), 'utf8');
+console.log(`Tamam! ${newWords.length} kelime → ${OUT_PATH}`);

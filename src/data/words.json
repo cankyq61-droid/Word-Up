@@ -15883,5 +15883,3605 @@
     "type": "sıfat",
     "exampleEn": "Neuromorphic chips replicate brain functions.",
     "exampleTr": "Nöromorfik çipler beyin fonksiyonlarını kopyalar."
+  },
+  {
+    "id": 1766,
+    "topic": "İş ve Kariyer",
+    "en": "career",
+    "tr": "kariyer",
+    "type": "noun",
+    "exampleEn": "She has a great career in medicine.",
+    "exampleTr": "Tıp alanında harika bir kariyeri var."
+  },
+  {
+    "id": 1767,
+    "topic": "İş ve Kariyer",
+    "en": "resume",
+    "tr": "özgeçmiş",
+    "type": "noun",
+    "exampleEn": "Please send your resume by email.",
+    "exampleTr": "Lütfen özgeçmişinizi e-posta ile gönderin."
+  },
+  {
+    "id": 1768,
+    "topic": "İş ve Kariyer",
+    "en": "paycheck",
+    "tr": "maaş çeki",
+    "type": "noun",
+    "exampleEn": "I receive my paycheck every month.",
+    "exampleTr": "Her ay maaş çekimi alıyorum."
+  },
+  {
+    "id": 1769,
+    "topic": "İş ve Kariyer",
+    "en": "workplace",
+    "tr": "işyeri",
+    "type": "noun",
+    "exampleEn": "The workplace should be safe and clean.",
+    "exampleTr": "İşyeri güvenli ve temiz olmalıdır."
+  },
+  {
+    "id": 1770,
+    "topic": "İş ve Kariyer",
+    "en": "shift",
+    "tr": "vardiya",
+    "type": "noun",
+    "exampleEn": "She works the night shift.",
+    "exampleTr": "Gece vardiyasında çalışıyor."
+  },
+  {
+    "id": 1771,
+    "topic": "İş ve Kariyer",
+    "en": "workload",
+    "tr": "iş yükü",
+    "type": "noun",
+    "exampleEn": "The workload is heavy this month.",
+    "exampleTr": "Bu ay iş yükü ağır."
+  },
+  {
+    "id": 1772,
+    "topic": "İş ve Kariyer",
+    "en": "department",
+    "tr": "departman",
+    "type": "noun",
+    "exampleEn": "He works in the sales department.",
+    "exampleTr": "Satış departmanında çalışıyor."
+  },
+  {
+    "id": 1773,
+    "topic": "İş ve Kariyer",
+    "en": "headquarters",
+    "tr": "genel merkez",
+    "type": "noun",
+    "exampleEn": "The headquarters is in the city centre.",
+    "exampleTr": "Genel merkez şehir merkezindedir."
+  },
+  {
+    "id": 1774,
+    "topic": "İş ve Kariyer",
+    "en": "recruit",
+    "tr": "işe almak",
+    "type": "verb",
+    "exampleEn": "They want to recruit ten new people.",
+    "exampleTr": "On yeni kişiyi işe almak istiyorlar."
+  },
+  {
+    "id": 1775,
+    "topic": "İş ve Kariyer",
+    "en": "pension",
+    "tr": "emeklilik maaşı",
+    "type": "noun",
+    "exampleEn": "He saves money for his pension.",
+    "exampleTr": "Emeklilik maaşı için para biriktiriyor."
+  },
+  {
+    "id": 1776,
+    "topic": "İş ve Kariyer",
+    "en": "vacancy",
+    "tr": "açık pozisyon",
+    "type": "noun",
+    "exampleEn": "There is a vacancy in the marketing team.",
+    "exampleTr": "Pazarlama ekibinde açık pozisyon var."
+  },
+  {
+    "id": 1777,
+    "topic": "İş ve Kariyer",
+    "en": "promotion",
+    "tr": "terfi",
+    "type": "noun",
+    "exampleEn": "She got a promotion last year.",
+    "exampleTr": "Geçen yıl terfi etti."
+  },
+  {
+    "id": 1778,
+    "topic": "İş ve Kariyer",
+    "en": "employer",
+    "tr": "işveren",
+    "type": "noun",
+    "exampleEn": "My employer is very supportive.",
+    "exampleTr": "İşverenem çok destekleyici."
+  },
+  {
+    "id": 1779,
+    "topic": "İş ve Kariyer",
+    "en": "staff",
+    "tr": "personel",
+    "type": "noun",
+    "exampleEn": "Our staff is dedicated and hardworking.",
+    "exampleTr": "Personelimiz özverili ve çalışkan."
+  },
+  {
+    "id": 1780,
+    "topic": "İş ve Kariyer",
+    "en": "interview",
+    "tr": "mülakat",
+    "type": "noun",
+    "exampleEn": "I have a job interview tomorrow.",
+    "exampleTr": "Yarın iş mülakatım var."
+  },
+  {
+    "id": 1781,
+    "topic": "İş ve Kariyer",
+    "en": "contract",
+    "tr": "sözleşme",
+    "type": "noun",
+    "exampleEn": "Please read the contract before signing it.",
+    "exampleTr": "İmzalamadan önce sözleşmeyi okuyun."
+  },
+  {
+    "id": 1782,
+    "topic": "İş ve Kariyer",
+    "en": "overtime",
+    "tr": "fazla mesai",
+    "type": "noun",
+    "exampleEn": "I worked overtime to finish the project.",
+    "exampleTr": "Projeyi bitirmek için fazla mesai yaptım."
+  },
+  {
+    "id": 1783,
+    "topic": "İş ve Kariyer",
+    "en": "resignation",
+    "tr": "istifa",
+    "type": "noun",
+    "exampleEn": "He handed in his resignation on Friday.",
+    "exampleTr": "Cuma günü istifasını verdi."
+  },
+  {
+    "id": 1784,
+    "topic": "İş ve Kariyer",
+    "en": "mission",
+    "tr": "misyon",
+    "type": "noun",
+    "exampleEn": "Our company mission is to help customers.",
+    "exampleTr": "Şirket misyonumuz müşterilere yardımcı olmaktır."
+  },
+  {
+    "id": 1785,
+    "topic": "İş ve Kariyer",
+    "en": "objective",
+    "tr": "amaç",
+    "type": "noun",
+    "exampleEn": "The main objective is to increase sales.",
+    "exampleTr": "Temel amaç satışları artırmaktır."
+  },
+  {
+    "id": 1786,
+    "topic": "Finans ve Ekonomi",
+    "en": "income",
+    "tr": "gelir",
+    "type": "noun",
+    "exampleEn": "Her income is higher than average.",
+    "exampleTr": "Geliri ortalamanın üzerinde."
+  },
+  {
+    "id": 1787,
+    "topic": "Finans ve Ekonomi",
+    "en": "profit",
+    "tr": "kar",
+    "type": "noun",
+    "exampleEn": "The company made a big profit this year.",
+    "exampleTr": "Şirket bu yıl büyük kar etti."
+  },
+  {
+    "id": 1788,
+    "topic": "Finans ve Ekonomi",
+    "en": "loss",
+    "tr": "zarar",
+    "type": "noun",
+    "exampleEn": "They reported a loss last quarter.",
+    "exampleTr": "Geçen çeyrek zarar açıkladılar."
+  },
+  {
+    "id": 1789,
+    "topic": "Finans ve Ekonomi",
+    "en": "debt",
+    "tr": "borç",
+    "type": "noun",
+    "exampleEn": "He is trying to pay off his debt.",
+    "exampleTr": "Borcunu ödemeye çalışıyor."
+  },
+  {
+    "id": 1790,
+    "topic": "Finans ve Ekonomi",
+    "en": "credit",
+    "tr": "kredi",
+    "type": "noun",
+    "exampleEn": "She applied for a credit at the bank.",
+    "exampleTr": "Bankaya kredi başvurusu yaptı."
+  },
+  {
+    "id": 1791,
+    "topic": "Finans ve Ekonomi",
+    "en": "tax",
+    "tr": "vergi",
+    "type": "noun",
+    "exampleEn": "Everyone must pay tax to the government.",
+    "exampleTr": "Herkes devlete vergi ödemek zorundadır."
+  },
+  {
+    "id": 1792,
+    "topic": "Finans ve Ekonomi",
+    "en": "fee",
+    "tr": "ücret",
+    "type": "noun",
+    "exampleEn": "There is a small fee for using this service.",
+    "exampleTr": "Bu hizmetin kullanımı için küçük bir ücret var."
+  },
+  {
+    "id": 1793,
+    "topic": "Finans ve Ekonomi",
+    "en": "deposit",
+    "tr": "mevduat",
+    "type": "noun",
+    "exampleEn": "I made a deposit into my savings account.",
+    "exampleTr": "Tasarruf hesabıma mevduat yatırdım."
+  },
+  {
+    "id": 1794,
+    "topic": "Finans ve Ekonomi",
+    "en": "balance",
+    "tr": "bakiye",
+    "type": "noun",
+    "exampleEn": "What is the balance in your account?",
+    "exampleTr": "Hesabınızdaki bakiye ne kadar?"
+  },
+  {
+    "id": 1795,
+    "topic": "Finans ve Ekonomi",
+    "en": "invest",
+    "tr": "yatırım yapmak",
+    "type": "verb",
+    "exampleEn": "It is wise to invest in education.",
+    "exampleTr": "Eğitime yatırım yapmak akıllıcadır."
+  },
+  {
+    "id": 1796,
+    "topic": "Finans ve Ekonomi",
+    "en": "loan",
+    "tr": "borç",
+    "type": "noun",
+    "exampleEn": "He took a loan to buy a car.",
+    "exampleTr": "Araba almak için borç aldı."
+  },
+  {
+    "id": 1797,
+    "topic": "Finans ve Ekonomi",
+    "en": "interest",
+    "tr": "faiz",
+    "type": "noun",
+    "exampleEn": "The interest rate on the loan is five percent.",
+    "exampleTr": "Kredinin faiz oranı yüzde beştir."
+  },
+  {
+    "id": 1798,
+    "topic": "Finans ve Ekonomi",
+    "en": "savings",
+    "tr": "tasarruf",
+    "type": "noun",
+    "exampleEn": "She keeps her savings in a bank account.",
+    "exampleTr": "Tasarrufunu banka hesabında tutuyor."
+  },
+  {
+    "id": 1799,
+    "topic": "Finans ve Ekonomi",
+    "en": "currency",
+    "tr": "para birimi",
+    "type": "noun",
+    "exampleEn": "The currency of Japan is the yen.",
+    "exampleTr": "Japonyanın para birimi yendir."
+  },
+  {
+    "id": 1800,
+    "topic": "Finans ve Ekonomi",
+    "en": "revenue",
+    "tr": "hasılat",
+    "type": "noun",
+    "exampleEn": "The company revenue grew by ten percent.",
+    "exampleTr": "Şirket hasılatı yüzde on arttı."
+  },
+  {
+    "id": 1801,
+    "topic": "Finans ve Ekonomi",
+    "en": "expense",
+    "tr": "gider",
+    "type": "noun",
+    "exampleEn": "Travel is a big expense for the company.",
+    "exampleTr": "Seyahat şirket için büyük bir giderdir."
+  },
+  {
+    "id": 1802,
+    "topic": "Finans ve Ekonomi",
+    "en": "fund",
+    "tr": "fon",
+    "type": "noun",
+    "exampleEn": "The government set up a fund for schools.",
+    "exampleTr": "Hükümet okullar için bir fon oluşturdu."
+  },
+  {
+    "id": 1803,
+    "topic": "Finans ve Ekonomi",
+    "en": "inflation",
+    "tr": "enflasyon",
+    "type": "noun",
+    "exampleEn": "High inflation makes living more expensive.",
+    "exampleTr": "Yüksek enflasyon yaşam maliyetini artırır."
+  },
+  {
+    "id": 1804,
+    "topic": "Finans ve Ekonomi",
+    "en": "transfer",
+    "tr": "havale",
+    "type": "noun",
+    "exampleEn": "She made a bank transfer to her friend.",
+    "exampleTr": "Arkadaşına banka havalesi yaptı."
+  },
+  {
+    "id": 1805,
+    "topic": "Finans ve Ekonomi",
+    "en": "withdraw",
+    "tr": "para çekmek",
+    "type": "verb",
+    "exampleEn": "I need to withdraw some money from the ATM.",
+    "exampleTr": "ATM den biraz para çekmem gerekiyor."
+  },
+  {
+    "id": 1806,
+    "topic": "Hukuk ve Yargı",
+    "en": "law",
+    "tr": "kanun",
+    "type": "noun",
+    "exampleEn": "Everyone must obey the law.",
+    "exampleTr": "Herkes kanuna uymak zorundadır."
+  },
+  {
+    "id": 1807,
+    "topic": "Hukuk ve Yargı",
+    "en": "right",
+    "tr": "hak",
+    "type": "noun",
+    "exampleEn": "Freedom of speech is a basic right.",
+    "exampleTr": "Konuşma özgürlüğü temel bir haktır."
+  },
+  {
+    "id": 1808,
+    "topic": "Hukuk ve Yargı",
+    "en": "court",
+    "tr": "mahkeme",
+    "type": "noun",
+    "exampleEn": "The case will be heard in court next week.",
+    "exampleTr": "Dava gelecek hafta mahkemede görülecek."
+  },
+  {
+    "id": 1809,
+    "topic": "Hukuk ve Yargı",
+    "en": "crime",
+    "tr": "suç",
+    "type": "noun",
+    "exampleEn": "Stealing is a crime.",
+    "exampleTr": "Çalmak bir suçtur."
+  },
+  {
+    "id": 1810,
+    "topic": "Hukuk ve Yargı",
+    "en": "prison",
+    "tr": "cezaevi",
+    "type": "noun",
+    "exampleEn": "He was sent to prison for two years.",
+    "exampleTr": "İki yıl cezaevine gönderildi."
+  },
+  {
+    "id": 1811,
+    "topic": "Hukuk ve Yargı",
+    "en": "fine",
+    "tr": "para cezası",
+    "type": "noun",
+    "exampleEn": "He paid a fine for parking illegally.",
+    "exampleTr": "Yasadışı park ettiği için para cezası ödedi."
+  },
+  {
+    "id": 1812,
+    "topic": "Hukuk ve Yargı",
+    "en": "guilty",
+    "tr": "suçlu",
+    "type": "adj",
+    "exampleEn": "The jury found him guilty.",
+    "exampleTr": "Jüri onu suçlu buldu."
+  },
+  {
+    "id": 1813,
+    "topic": "Hukuk ve Yargı",
+    "en": "innocent",
+    "tr": "masum",
+    "type": "adj",
+    "exampleEn": "She was proved innocent in the end.",
+    "exampleTr": "Sonunda masum olduğu kanıtlandı."
+  },
+  {
+    "id": 1814,
+    "topic": "Hukuk ve Yargı",
+    "en": "trial",
+    "tr": "yargılama",
+    "type": "noun",
+    "exampleEn": "The trial lasted three days.",
+    "exampleTr": "Yargılama üç gün sürdü."
+  },
+  {
+    "id": 1815,
+    "topic": "Hukuk ve Yargı",
+    "en": "witness",
+    "tr": "tanık",
+    "type": "noun",
+    "exampleEn": "The witness gave a clear statement.",
+    "exampleTr": "Tanık net bir ifade verdi."
+  },
+  {
+    "id": 1816,
+    "topic": "Hukuk ve Yargı",
+    "en": "evidence",
+    "tr": "delil",
+    "type": "noun",
+    "exampleEn": "The police found strong evidence.",
+    "exampleTr": "Polis güçlü delil buldu."
+  },
+  {
+    "id": 1817,
+    "topic": "Hukuk ve Yargı",
+    "en": "verdict",
+    "tr": "karar",
+    "type": "noun",
+    "exampleEn": "The judge announced the verdict.",
+    "exampleTr": "Hakim kararı açıkladı."
+  },
+  {
+    "id": 1818,
+    "topic": "Hukuk ve Yargı",
+    "en": "sentence",
+    "tr": "hüküm",
+    "type": "noun",
+    "exampleEn": "The judge gave a five-year sentence.",
+    "exampleTr": "Hakim beş yıl hüküm verdi."
+  },
+  {
+    "id": 1819,
+    "topic": "Hukuk ve Yargı",
+    "en": "appeal",
+    "tr": "temyiz",
+    "type": "noun",
+    "exampleEn": "His lawyer filed an appeal.",
+    "exampleTr": "Avukatı temyize başvurdu."
+  },
+  {
+    "id": 1820,
+    "topic": "Hukuk ve Yargı",
+    "en": "bail",
+    "tr": "kefalet",
+    "type": "noun",
+    "exampleEn": "The suspect was released on bail.",
+    "exampleTr": "Şüpheli kefaletle serbest bırakıldı."
+  },
+  {
+    "id": 1821,
+    "topic": "Hukuk ve Yargı",
+    "en": "legal",
+    "tr": "yasal",
+    "type": "adj",
+    "exampleEn": "You need legal advice before signing.",
+    "exampleTr": "İmzalamadan önce yasal tavsiye almanız gerekir."
+  },
+  {
+    "id": 1822,
+    "topic": "Hukuk ve Yargı",
+    "en": "prohibit",
+    "tr": "yasaklamak",
+    "type": "verb",
+    "exampleEn": "Smoking is prohibited in public places.",
+    "exampleTr": "Kamuya açık alanlarda sigara içmek yasaklanmıştır."
+  },
+  {
+    "id": 1823,
+    "topic": "Hukuk ve Yargı",
+    "en": "permit",
+    "tr": "izin vermek",
+    "type": "verb",
+    "exampleEn": "You are not permitted to enter this area.",
+    "exampleTr": "Bu alana girmenize izin verilmiyor."
+  },
+  {
+    "id": 1824,
+    "topic": "Hukuk ve Yargı",
+    "en": "obey",
+    "tr": "uymak",
+    "type": "verb",
+    "exampleEn": "Citizens must obey the rules.",
+    "exampleTr": "Vatandaşlar kurallara uymak zorundadır."
+  },
+  {
+    "id": 1825,
+    "topic": "Hukuk ve Yargı",
+    "en": "accuse",
+    "tr": "suçlamak",
+    "type": "verb",
+    "exampleEn": "He was accused of theft.",
+    "exampleTr": "Hırsızlıkla suçlandı."
+  },
+  {
+    "id": 1826,
+    "topic": "Pazarlama ve Reklam",
+    "en": "advertise",
+    "tr": "reklam yapmak",
+    "type": "verb",
+    "exampleEn": "They advertise their products on TV.",
+    "exampleTr": "Ürünlerini televizyonda reklam yapıyorlar."
+  },
+  {
+    "id": 1827,
+    "topic": "Pazarlama ve Reklam",
+    "en": "campaign",
+    "tr": "kampanya",
+    "type": "noun",
+    "exampleEn": "The advertising campaign was a great success.",
+    "exampleTr": "Reklam kampanyası büyük bir başarıydı."
+  },
+  {
+    "id": 1828,
+    "topic": "Pazarlama ve Reklam",
+    "en": "logo",
+    "tr": "logo",
+    "type": "noun",
+    "exampleEn": "Their logo is a simple red circle.",
+    "exampleTr": "Logoları basit bir kırmızı dairedir."
+  },
+  {
+    "id": 1829,
+    "topic": "Pazarlama ve Reklam",
+    "en": "slogan",
+    "tr": "slogan",
+    "type": "noun",
+    "exampleEn": "A good slogan is easy to remember.",
+    "exampleTr": "İyi bir slogan akılda kalıcıdır."
+  },
+  {
+    "id": 1830,
+    "topic": "Pazarlama ve Reklam",
+    "en": "audience",
+    "tr": "hedef kitle",
+    "type": "noun",
+    "exampleEn": "Know your audience before you advertise.",
+    "exampleTr": "Reklam yapmadan önce hedef kitlenizi tanıyın."
+  },
+  {
+    "id": 1831,
+    "topic": "Pazarlama ve Reklam",
+    "en": "poster",
+    "tr": "afiş",
+    "type": "noun",
+    "exampleEn": "They put a poster on every wall.",
+    "exampleTr": "Her duvara bir afiş koydular."
+  },
+  {
+    "id": 1832,
+    "topic": "Pazarlama ve Reklam",
+    "en": "flyer",
+    "tr": "el ilanı",
+    "type": "noun",
+    "exampleEn": "We gave out flyers in the shopping street.",
+    "exampleTr": "Alışveriş caddesinde el ilanı dağıttık."
+  },
+  {
+    "id": 1833,
+    "topic": "Pazarlama ve Reklam",
+    "en": "billboard",
+    "tr": "reklam panosu",
+    "type": "noun",
+    "exampleEn": "There is a large billboard on the highway.",
+    "exampleTr": "Otoyolda büyük bir reklam panosu var."
+  },
+  {
+    "id": 1834,
+    "topic": "Pazarlama ve Reklam",
+    "en": "sponsor",
+    "tr": "sponsor",
+    "type": "noun",
+    "exampleEn": "The event had a major sponsor this year.",
+    "exampleTr": "Etkinliğin bu yıl büyük bir sponsoru vardı."
+  },
+  {
+    "id": 1835,
+    "topic": "Pazarlama ve Reklam",
+    "en": "promote",
+    "tr": "tanıtmak",
+    "type": "verb",
+    "exampleEn": "They used social media to promote the sale.",
+    "exampleTr": "İndirimi tanıtmak için sosyal medya kullandılar."
+  },
+  {
+    "id": 1836,
+    "topic": "Pazarlama ve Reklam",
+    "en": "awareness",
+    "tr": "farkındalık",
+    "type": "noun",
+    "exampleEn": "The campaign raised awareness about health.",
+    "exampleTr": "Kampanya sağlık konusunda farkındalık yarattı."
+  },
+  {
+    "id": 1837,
+    "topic": "Pazarlama ve Reklam",
+    "en": "launch",
+    "tr": "piyasaya sürmek",
+    "type": "verb",
+    "exampleEn": "They will launch a new product next month.",
+    "exampleTr": "Gelecek ay yeni bir ürün piyasaya sürecekler."
+  },
+  {
+    "id": 1838,
+    "topic": "Pazarlama ve Reklam",
+    "en": "viral",
+    "tr": "viral",
+    "type": "adj",
+    "exampleEn": "The video went viral overnight.",
+    "exampleTr": "Video bir gecede viral oldu."
+  },
+  {
+    "id": 1839,
+    "topic": "Pazarlama ve Reklam",
+    "en": "strategy",
+    "tr": "strateji",
+    "type": "noun",
+    "exampleEn": "We need a clear marketing strategy.",
+    "exampleTr": "Net bir pazarlama stratejisine ihtiyacımız var."
+  },
+  {
+    "id": 1840,
+    "topic": "Pazarlama ve Reklam",
+    "en": "brochure",
+    "tr": "broşür",
+    "type": "noun",
+    "exampleEn": "Please take a brochure from the desk.",
+    "exampleTr": "Lütfen masadan bir broşür alın."
+  },
+  {
+    "id": 1841,
+    "topic": "Pazarlama ve Reklam",
+    "en": "newsletter",
+    "tr": "haber bülteni",
+    "type": "noun",
+    "exampleEn": "Sign up for our weekly newsletter.",
+    "exampleTr": "Haftalık haber bültenimize abone olun."
+  },
+  {
+    "id": 1842,
+    "topic": "Pazarlama ve Reklam",
+    "en": "catalog",
+    "tr": "katalog",
+    "type": "noun",
+    "exampleEn": "The catalog shows all our products.",
+    "exampleTr": "Katalog tüm ürünlerimizi göstermektedir."
+  },
+  {
+    "id": 1843,
+    "topic": "Pazarlama ve Reklam",
+    "en": "publicity",
+    "tr": "tanıtım",
+    "type": "noun",
+    "exampleEn": "Good publicity helps a business grow.",
+    "exampleTr": "İyi tanıtım bir işletmenin büyümesine yardımcı olur."
+  },
+  {
+    "id": 1844,
+    "topic": "Pazarlama ve Reklam",
+    "en": "reach",
+    "tr": "erişim",
+    "type": "noun",
+    "exampleEn": "Social media has a wide reach.",
+    "exampleTr": "Sosyal medyanın geniş bir erişimi var."
+  },
+  {
+    "id": 1845,
+    "topic": "Pazarlama ve Reklam",
+    "en": "publish",
+    "tr": "yayımlamak",
+    "type": "verb",
+    "exampleEn": "They publish new articles every week.",
+    "exampleTr": "Her hafta yeni makaleler yayımlıyorlar."
+  },
+  {
+    "id": 1846,
+    "topic": "İnsan Kaynakları",
+    "en": "hire",
+    "tr": "istihdam etmek",
+    "type": "verb",
+    "exampleEn": "We need to hire a new designer.",
+    "exampleTr": "Yeni bir tasarımcı istihdam etmemiz gerekiyor."
+  },
+  {
+    "id": 1847,
+    "topic": "İnsan Kaynakları",
+    "en": "employee",
+    "tr": "çalışan",
+    "type": "noun",
+    "exampleEn": "Every employee gets a welcome package.",
+    "exampleTr": "Her çalışan bir karşılama paketi alır."
+  },
+  {
+    "id": 1848,
+    "topic": "İnsan Kaynakları",
+    "en": "training",
+    "tr": "eğitim",
+    "type": "noun",
+    "exampleEn": "New staff must complete a training programme.",
+    "exampleTr": "Yeni personel bir eğitim programını tamamlamalıdır."
+  },
+  {
+    "id": 1849,
+    "topic": "İnsan Kaynakları",
+    "en": "benefit",
+    "tr": "yan hak",
+    "type": "noun",
+    "exampleEn": "Health insurance is an important benefit.",
+    "exampleTr": "Sağlık sigortası önemli bir yan haktır."
+  },
+  {
+    "id": 1850,
+    "topic": "İnsan Kaynakları",
+    "en": "absence",
+    "tr": "devamsızlık",
+    "type": "noun",
+    "exampleEn": "You must report any absence to your manager.",
+    "exampleTr": "Her devamsızlığı yöneticinize bildirmelisiniz."
+  },
+  {
+    "id": 1851,
+    "topic": "İnsan Kaynakları",
+    "en": "attendance",
+    "tr": "devam",
+    "type": "noun",
+    "exampleEn": "Good attendance is important at work.",
+    "exampleTr": "İşte iyi devam önemlidir."
+  },
+  {
+    "id": 1852,
+    "topic": "İnsan Kaynakları",
+    "en": "payroll",
+    "tr": "bordro",
+    "type": "noun",
+    "exampleEn": "The payroll is processed on the last Friday.",
+    "exampleTr": "Bordro son Cuma günü işlenir."
+  },
+  {
+    "id": 1853,
+    "topic": "İnsan Kaynakları",
+    "en": "compensation",
+    "tr": "tazminat",
+    "type": "noun",
+    "exampleEn": "He received compensation for the extra hours.",
+    "exampleTr": "Fazla saatler için tazminat aldı."
+  },
+  {
+    "id": 1854,
+    "topic": "İnsan Kaynakları",
+    "en": "background",
+    "tr": "geçmiş",
+    "type": "noun",
+    "exampleEn": "We check the background of all applicants.",
+    "exampleTr": "Tüm başvuranların geçmişini kontrol ederiz."
+  },
+  {
+    "id": 1855,
+    "topic": "İnsan Kaynakları",
+    "en": "reference",
+    "tr": "referans",
+    "type": "noun",
+    "exampleEn": "Please provide two references from past jobs.",
+    "exampleTr": "Lütfen önceki işlerden iki referans sağlayın."
+  },
+  {
+    "id": 1856,
+    "topic": "İnsan Kaynakları",
+    "en": "orientation",
+    "tr": "oryantasyon",
+    "type": "noun",
+    "exampleEn": "New employees attend a one-day orientation.",
+    "exampleTr": "Yeni çalışanlar bir günlük oryantasyona katılır."
+  },
+  {
+    "id": 1857,
+    "topic": "İnsan Kaynakları",
+    "en": "handbook",
+    "tr": "el kitabı",
+    "type": "noun",
+    "exampleEn": "Read the staff handbook for company rules.",
+    "exampleTr": "Şirket kuralları için personel el kitabını okuyun."
+  },
+  {
+    "id": 1858,
+    "topic": "İnsan Kaynakları",
+    "en": "policy",
+    "tr": "politika",
+    "type": "noun",
+    "exampleEn": "The company has a clear leave policy.",
+    "exampleTr": "Şirketin net bir izin politikası var."
+  },
+  {
+    "id": 1859,
+    "topic": "İnsan Kaynakları",
+    "en": "diversity",
+    "tr": "çeşitlilik",
+    "type": "noun",
+    "exampleEn": "Diversity makes a team stronger.",
+    "exampleTr": "Çeşitlilik bir ekibi daha güçlü kılar."
+  },
+  {
+    "id": 1860,
+    "topic": "İnsan Kaynakları",
+    "en": "inclusion",
+    "tr": "kapsayıcılık",
+    "type": "noun",
+    "exampleEn": "Inclusion means everyone feels welcome.",
+    "exampleTr": "Kapsayıcılık herkesin kendini kabul görmüş hissetmesi demektir."
+  },
+  {
+    "id": 1861,
+    "topic": "İnsan Kaynakları",
+    "en": "grievance",
+    "tr": "şikayet",
+    "type": "noun",
+    "exampleEn": "You can raise a grievance with HR.",
+    "exampleTr": "İnsan Kaynakları birimine şikayet iletebilirsiniz."
+  },
+  {
+    "id": 1862,
+    "topic": "İnsan Kaynakları",
+    "en": "termination",
+    "tr": "işten çıkarma",
+    "type": "noun",
+    "exampleEn": "Termination requires a written notice.",
+    "exampleTr": "İşten çıkarma yazılı bir ihbar gerektirir."
+  },
+  {
+    "id": 1863,
+    "topic": "İnsan Kaynakları",
+    "en": "redundancy",
+    "tr": "toplu işten çıkarma",
+    "type": "noun",
+    "exampleEn": "The factory announced fifty redundancies.",
+    "exampleTr": "Fabrika elli kişinin toplu işten çıkarılacağını açıkladı."
+  },
+  {
+    "id": 1864,
+    "topic": "İnsan Kaynakları",
+    "en": "relocation",
+    "tr": "yer değiştirme",
+    "type": "noun",
+    "exampleEn": "The job comes with a relocation package.",
+    "exampleTr": "İş, yer değiştirme paketi içermektedir."
+  },
+  {
+    "id": 1865,
+    "topic": "İnsan Kaynakları",
+    "en": "workforce",
+    "tr": "iş gücü",
+    "type": "noun",
+    "exampleEn": "The company has a diverse workforce.",
+    "exampleTr": "Şirketin çeşitli bir iş gücü var."
+  },
+  {
+    "id": 1866,
+    "topic": "İş ve Kariyer (A2)",
+    "en": "performance",
+    "tr": "performans",
+    "type": "noun",
+    "exampleEn": "His performance at work was excellent.",
+    "exampleTr": "İşteki performansı mükemmeldi."
+  },
+  {
+    "id": 1867,
+    "topic": "İş ve Kariyer (A2)",
+    "en": "feedback",
+    "tr": "geri bildirim",
+    "type": "noun",
+    "exampleEn": "She gave me useful feedback on my report.",
+    "exampleTr": "Raporuma faydalı geri bildirim verdi."
+  },
+  {
+    "id": 1868,
+    "topic": "İş ve Kariyer (A2)",
+    "en": "bonus",
+    "tr": "ikramiye",
+    "type": "noun",
+    "exampleEn": "Employees receive a bonus at the end of the year.",
+    "exampleTr": "Çalışanlar yıl sonunda ikramiye alır."
+  },
+  {
+    "id": 1869,
+    "topic": "İş ve Kariyer (A2)",
+    "en": "probation",
+    "tr": "deneme süresi",
+    "type": "noun",
+    "exampleEn": "New staff work on probation for three months.",
+    "exampleTr": "Yeni personel üç ay deneme süresinde çalışır."
+  },
+  {
+    "id": 1870,
+    "topic": "İş ve Kariyer (A2)",
+    "en": "layoff",
+    "tr": "işten çıkarma",
+    "type": "noun",
+    "exampleEn": "The factory announced a layoff of fifty workers.",
+    "exampleTr": "Fabrika elli işçiyi işten çıkaracağını duyurdu."
+  },
+  {
+    "id": 1871,
+    "topic": "İş ve Kariyer (A2)",
+    "en": "freelance",
+    "tr": "serbest çalışma",
+    "type": "noun",
+    "exampleEn": "She decided to work freelance after leaving the firm.",
+    "exampleTr": "Firmadan ayrıldıktan sonra serbest çalışmaya karar verdi."
+  },
+  {
+    "id": 1872,
+    "topic": "İş ve Kariyer (A2)",
+    "en": "remote",
+    "tr": "uzaktan",
+    "type": "adj",
+    "exampleEn": "Remote work became very common after 2020.",
+    "exampleTr": "Uzaktan çalışma 2020 sonrasında çok yaygınlaştı."
+  },
+  {
+    "id": 1873,
+    "topic": "İş ve Kariyer (A2)",
+    "en": "turnover",
+    "tr": "işgücü devri",
+    "type": "noun",
+    "exampleEn": "High turnover is costly for any business.",
+    "exampleTr": "Yüksek işgücü devri her işletme için maliyetlidir."
+  },
+  {
+    "id": 1874,
+    "topic": "İş ve Kariyer (A2)",
+    "en": "incentive",
+    "tr": "teşvik",
+    "type": "noun",
+    "exampleEn": "The company offers incentives to top performers.",
+    "exampleTr": "Şirket en iyi performans gösterenlere teşvik sunar."
+  },
+  {
+    "id": 1875,
+    "topic": "İş ve Kariyer (A2)",
+    "en": "onboard",
+    "tr": "işe alıştırmak",
+    "type": "verb",
+    "exampleEn": "We onboard new employees in their first week.",
+    "exampleTr": "Yeni çalışanları ilk haftada işe alıştırıyoruz."
+  },
+  {
+    "id": 1876,
+    "topic": "İş ve Kariyer (A2)",
+    "en": "employment",
+    "tr": "istihdam",
+    "type": "noun",
+    "exampleEn": "Full employment is the goal of most governments.",
+    "exampleTr": "Tam istihdam çoğu hükümetin hedefidir."
+  },
+  {
+    "id": 1877,
+    "topic": "İş ve Kariyer (A2)",
+    "en": "dismissal",
+    "tr": "görevden alma",
+    "type": "noun",
+    "exampleEn": "Unfair dismissal can lead to a legal case.",
+    "exampleTr": "Haksız görevden alma yasal davaya yol açabilir."
+  },
+  {
+    "id": 1878,
+    "topic": "İş ve Kariyer (A2)",
+    "en": "merit",
+    "tr": "liyakat",
+    "type": "noun",
+    "exampleEn": "Promotions should be based on merit.",
+    "exampleTr": "Terfilerin liyakate dayalı olması gerekir."
+  },
+  {
+    "id": 1879,
+    "topic": "İş ve Kariyer (A2)",
+    "en": "appraise",
+    "tr": "değerlendirmek",
+    "type": "verb",
+    "exampleEn": "Managers appraise staff every six months.",
+    "exampleTr": "Yöneticiler personeli altı ayda bir değerlendirir."
+  },
+  {
+    "id": 1880,
+    "topic": "İş ve Kariyer (A2)",
+    "en": "benchmark",
+    "tr": "kıyaslama ölçütü",
+    "type": "noun",
+    "exampleEn": "Use industry benchmarks to measure your progress.",
+    "exampleTr": "İlerlemenizi ölçmek için sektör kıyaslama ölçütlerini kullanın."
+  },
+  {
+    "id": 1881,
+    "topic": "İş ve Kariyer (A2)",
+    "en": "collaborate",
+    "tr": "işbirliği yapmak",
+    "type": "verb",
+    "exampleEn": "The two teams collaborate on every project.",
+    "exampleTr": "İki ekip her projede işbirliği yapar."
+  },
+  {
+    "id": 1882,
+    "topic": "İş ve Kariyer (A2)",
+    "en": "delegate",
+    "tr": "yetki devretmek",
+    "type": "verb",
+    "exampleEn": "A good manager knows how to delegate tasks.",
+    "exampleTr": "İyi bir yönetici görevleri nasıl devredeceğini bilir."
+  },
+  {
+    "id": 1883,
+    "topic": "İş ve Kariyer (A2)",
+    "en": "roster",
+    "tr": "vardiya listesi",
+    "type": "noun",
+    "exampleEn": "Check the roster to see when you work next.",
+    "exampleTr": "Bir sonraki çalışma zamanını görmek için vardiya listesine bak."
+  },
+  {
+    "id": 1884,
+    "topic": "İş ve Kariyer (A2)",
+    "en": "vision",
+    "tr": "vizyon",
+    "type": "noun",
+    "exampleEn": "The CEO shared the company vision with all staff.",
+    "exampleTr": "Genel müdür şirket vizyonunu tüm personelle paylaştı."
+  },
+  {
+    "id": 1885,
+    "topic": "İş ve Kariyer (A2)",
+    "en": "target",
+    "tr": "hedef",
+    "type": "noun",
+    "exampleEn": "The sales team hit their monthly target.",
+    "exampleTr": "Satış ekibi aylık hedefine ulaştı."
+  },
+  {
+    "id": 1886,
+    "topic": "Finans ve Ekonomi (A2)",
+    "en": "tariff",
+    "tr": "gümrük tarifesi",
+    "type": "noun",
+    "exampleEn": "The government raised the tariff on imported goods.",
+    "exampleTr": "Hükümet ithal mallara uygulanan gümrük tarifesini artırdı."
+  },
+  {
+    "id": 1887,
+    "topic": "Finans ve Ekonomi (A2)",
+    "en": "subsidy",
+    "tr": "sübvansiyon",
+    "type": "noun",
+    "exampleEn": "Farmers receive a subsidy from the government.",
+    "exampleTr": "Çiftçiler hükümetten sübvansiyon alır."
+  },
+  {
+    "id": 1888,
+    "topic": "Finans ve Ekonomi (A2)",
+    "en": "recession",
+    "tr": "durgunluk",
+    "type": "noun",
+    "exampleEn": "Many businesses closed during the recession.",
+    "exampleTr": "Durgunluk döneminde pek çok işletme kapandı."
+  },
+  {
+    "id": 1889,
+    "topic": "Finans ve Ekonomi (A2)",
+    "en": "capital",
+    "tr": "sermaye",
+    "type": "noun",
+    "exampleEn": "You need capital to start a new business.",
+    "exampleTr": "Yeni bir iş kurmak için sermayeye ihtiyaç duyarsınız."
+  },
+  {
+    "id": 1890,
+    "topic": "Finans ve Ekonomi (A2)",
+    "en": "wealth",
+    "tr": "servet",
+    "type": "noun",
+    "exampleEn": "Education is a form of wealth.",
+    "exampleTr": "Eğitim bir servet biçimidir."
+  },
+  {
+    "id": 1891,
+    "topic": "Finans ve Ekonomi (A2)",
+    "en": "export",
+    "tr": "ihracat",
+    "type": "noun",
+    "exampleEn": "Car exports rose by twenty percent last year.",
+    "exampleTr": "Araç ihracatı geçen yıl yüzde yirmi arttı."
+  },
+  {
+    "id": 1892,
+    "topic": "Finans ve Ekonomi (A2)",
+    "en": "import",
+    "tr": "ithalat",
+    "type": "noun",
+    "exampleEn": "The country relies on food imports.",
+    "exampleTr": "Ülke gıda ithalatına bağımlıdır."
+  },
+  {
+    "id": 1893,
+    "topic": "Finans ve Ekonomi (A2)",
+    "en": "trade",
+    "tr": "ticaret",
+    "type": "noun",
+    "exampleEn": "International trade benefits all countries.",
+    "exampleTr": "Uluslararası ticaret tüm ülkelere fayda sağlar."
+  },
+  {
+    "id": 1894,
+    "topic": "Finans ve Ekonomi (A2)",
+    "en": "asset",
+    "tr": "varlık",
+    "type": "noun",
+    "exampleEn": "Property is one of the most valuable assets.",
+    "exampleTr": "Gayrimenkul en değerli varlıklardan biridir."
+  },
+  {
+    "id": 1895,
+    "topic": "Finans ve Ekonomi (A2)",
+    "en": "equity",
+    "tr": "özkaynak",
+    "type": "noun",
+    "exampleEn": "She owns forty percent equity in the company.",
+    "exampleTr": "Şirkette yüzde kırk oranında özkaynağa sahip."
+  },
+  {
+    "id": 1896,
+    "topic": "Finans ve Ekonomi (A2)",
+    "en": "valuation",
+    "tr": "değerleme",
+    "type": "noun",
+    "exampleEn": "The startup received a high valuation this year.",
+    "exampleTr": "Girişim bu yıl yüksek bir değerleme aldı."
+  },
+  {
+    "id": 1897,
+    "topic": "Finans ve Ekonomi (A2)",
+    "en": "portfolio",
+    "tr": "portföy",
+    "type": "noun",
+    "exampleEn": "A diverse portfolio reduces financial risk.",
+    "exampleTr": "Çeşitlendirilmiş bir portföy finansal riski azaltır."
+  },
+  {
+    "id": 1898,
+    "topic": "Finans ve Ekonomi (A2)",
+    "en": "grant",
+    "tr": "hibe",
+    "type": "noun",
+    "exampleEn": "She received a grant to fund her research.",
+    "exampleTr": "Araştırmasını finanse etmek için hibe aldı."
+  },
+  {
+    "id": 1899,
+    "topic": "Finans ve Ekonomi (A2)",
+    "en": "allocation",
+    "tr": "tahsis",
+    "type": "noun",
+    "exampleEn": "The budget allocation for health was increased.",
+    "exampleTr": "Sağlık için bütçe tahsisi artırıldı."
+  },
+  {
+    "id": 1900,
+    "topic": "Finans ve Ekonomi (A2)",
+    "en": "repayment",
+    "tr": "geri ödeme",
+    "type": "noun",
+    "exampleEn": "Monthly repayment of the loan is five hundred euros.",
+    "exampleTr": "Aylık kredi geri ödemesi beş yüz eurodur."
+  },
+  {
+    "id": 1901,
+    "topic": "Finans ve Ekonomi (A2)",
+    "en": "borrowing",
+    "tr": "borçlanma",
+    "type": "noun",
+    "exampleEn": "Government borrowing increased during the crisis.",
+    "exampleTr": "Kriz döneminde devlet borçlanması arttı."
+  },
+  {
+    "id": 1902,
+    "topic": "Finans ve Ekonomi (A2)",
+    "en": "wages",
+    "tr": "ücretler",
+    "type": "noun",
+    "exampleEn": "Wages in the tech sector are rising fast.",
+    "exampleTr": "Teknoloji sektöründe ücretler hızla artıyor."
+  },
+  {
+    "id": 1903,
+    "topic": "Finans ve Ekonomi (A2)",
+    "en": "treasury",
+    "tr": "hazine",
+    "type": "noun",
+    "exampleEn": "The treasury released its annual budget report.",
+    "exampleTr": "Hazine yıllık bütçe raporunu yayımladı."
+  },
+  {
+    "id": 1904,
+    "topic": "Finans ve Ekonomi (A2)",
+    "en": "markup",
+    "tr": "kar marjı",
+    "type": "noun",
+    "exampleEn": "A high markup increases profit per item sold.",
+    "exampleTr": "Yüksek kar marjı satılan her üründen elde edilen karı artırır."
+  },
+  {
+    "id": 1905,
+    "topic": "Finans ve Ekonomi (A2)",
+    "en": "overhead",
+    "tr": "genel giderler",
+    "type": "noun",
+    "exampleEn": "Rent and utilities are part of the overhead.",
+    "exampleTr": "Kira ve faturalar genel giderlerin bir parçasıdır."
+  },
+  {
+    "id": 1906,
+    "topic": "Hukuk ve Yargı (A2)",
+    "en": "lawsuit",
+    "tr": "dava",
+    "type": "noun",
+    "exampleEn": "She filed a lawsuit against her former employer.",
+    "exampleTr": "Eski işverenine karşı dava açtı."
+  },
+  {
+    "id": 1907,
+    "topic": "Hukuk ve Yargı (A2)",
+    "en": "plaintiff",
+    "tr": "davacı",
+    "type": "noun",
+    "exampleEn": "The plaintiff must prove their claims in court.",
+    "exampleTr": "Davacı, iddialarını mahkemede kanıtlamak zorundadır."
+  },
+  {
+    "id": 1908,
+    "topic": "Hukuk ve Yargı (A2)",
+    "en": "defendant",
+    "tr": "davalı",
+    "type": "noun",
+    "exampleEn": "The defendant denied all the charges.",
+    "exampleTr": "Davalı tüm suçlamaları reddetti."
+  },
+  {
+    "id": 1909,
+    "topic": "Hukuk ve Yargı (A2)",
+    "en": "statute",
+    "tr": "kanun maddesi",
+    "type": "noun",
+    "exampleEn": "The statute clearly defines this offence.",
+    "exampleTr": "Kanun maddesi bu suçu açıkça tanımlamaktadır."
+  },
+  {
+    "id": 1910,
+    "topic": "Hukuk ve Yargı (A2)",
+    "en": "regulation",
+    "tr": "yönetmelik",
+    "type": "noun",
+    "exampleEn": "New safety regulations came into force last year.",
+    "exampleTr": "Yeni güvenlik yönetmelikleri geçen yıl yürürlüğe girdi."
+  },
+  {
+    "id": 1911,
+    "topic": "Hukuk ve Yargı (A2)",
+    "en": "enforcement",
+    "tr": "uygulama",
+    "type": "noun",
+    "exampleEn": "Enforcement of traffic laws has increased.",
+    "exampleTr": "Trafik yasalarının uygulanması artırıldı."
+  },
+  {
+    "id": 1912,
+    "topic": "Hukuk ve Yargı (A2)",
+    "en": "jurisdiction",
+    "tr": "yetki alanı",
+    "type": "noun",
+    "exampleEn": "This case falls under federal jurisdiction.",
+    "exampleTr": "Bu dava federal yetki alanına girer."
+  },
+  {
+    "id": 1913,
+    "topic": "Hukuk ve Yargı (A2)",
+    "en": "testimony",
+    "tr": "ifade",
+    "type": "noun",
+    "exampleEn": "Her testimony was crucial to the trial.",
+    "exampleTr": "İfadesi yargılama için çok önemliydi."
+  },
+  {
+    "id": 1914,
+    "topic": "Hukuk ve Yargı (A2)",
+    "en": "jury",
+    "tr": "jüri",
+    "type": "noun",
+    "exampleEn": "The jury deliberated for two days.",
+    "exampleTr": "Jüri iki gün müzakere etti."
+  },
+  {
+    "id": 1915,
+    "topic": "Hukuk ve Yargı (A2)",
+    "en": "prosecute",
+    "tr": "kovuşturmak",
+    "type": "verb",
+    "exampleEn": "The state decided to prosecute the suspect.",
+    "exampleTr": "Devlet şüpheliyi kovuşturmaya karar verdi."
+  },
+  {
+    "id": 1916,
+    "topic": "Hukuk ve Yargı (A2)",
+    "en": "acquit",
+    "tr": "beraat ettirmek",
+    "type": "verb",
+    "exampleEn": "The court acquitted him of all charges.",
+    "exampleTr": "Mahkeme onu tüm suçlamalardan beraat ettirdi."
+  },
+  {
+    "id": 1917,
+    "topic": "Hukuk ve Yargı (A2)",
+    "en": "convict",
+    "tr": "mahkum etmek",
+    "type": "verb",
+    "exampleEn": "He was convicted of fraud last month.",
+    "exampleTr": "Geçen ay dolandırıcılıktan mahkum edildi."
+  },
+  {
+    "id": 1918,
+    "topic": "Hukuk ve Yargı (A2)",
+    "en": "parole",
+    "tr": "şartlı tahliye",
+    "type": "noun",
+    "exampleEn": "He was released on parole after two years.",
+    "exampleTr": "İki yıl sonra şartlı tahliyeyle serbest bırakıldı."
+  },
+  {
+    "id": 1919,
+    "topic": "Hukuk ve Yargı (A2)",
+    "en": "complaint",
+    "tr": "şikayet",
+    "type": "noun",
+    "exampleEn": "She submitted a formal complaint to the police.",
+    "exampleTr": "Polise resmi bir şikayet dilekçesi verdi."
+  },
+  {
+    "id": 1920,
+    "topic": "Hukuk ve Yargı (A2)",
+    "en": "allegation",
+    "tr": "iddia",
+    "type": "noun",
+    "exampleEn": "The allegations against him were never proven.",
+    "exampleTr": "Ona yönelik iddialar hiçbir zaman kanıtlanamadı."
+  },
+  {
+    "id": 1921,
+    "topic": "Hukuk ve Yargı (A2)",
+    "en": "breach",
+    "tr": "ihlal",
+    "type": "noun",
+    "exampleEn": "A breach of contract can lead to legal action.",
+    "exampleTr": "Sözleşme ihlali hukuki işleme yol açabilir."
+  },
+  {
+    "id": 1922,
+    "topic": "Hukuk ve Yargı (A2)",
+    "en": "tort",
+    "tr": "haksız fiil",
+    "type": "noun",
+    "exampleEn": "Negligence is a common type of tort.",
+    "exampleTr": "İhmal yaygın bir haksız fiil türüdür."
+  },
+  {
+    "id": 1923,
+    "topic": "Hukuk ve Yargı (A2)",
+    "en": "clause",
+    "tr": "madde",
+    "type": "noun",
+    "exampleEn": "Read every clause before signing the agreement.",
+    "exampleTr": "Sözleşmeyi imzalamadan önce her maddeyi okuyun."
+  },
+  {
+    "id": 1924,
+    "topic": "Hukuk ve Yargı (A2)",
+    "en": "obligation",
+    "tr": "yükümlülük",
+    "type": "noun",
+    "exampleEn": "You have a legal obligation to pay your taxes.",
+    "exampleTr": "Verginizi ödeme konusunda yasal yükümlülüğünüz var."
+  },
+  {
+    "id": 1925,
+    "topic": "Hukuk ve Yargı (A2)",
+    "en": "infringe",
+    "tr": "ihlal etmek",
+    "type": "verb",
+    "exampleEn": "Using that logo would infringe copyright.",
+    "exampleTr": "O logoyu kullanmak telif hakkını ihlal eder."
+  },
+  {
+    "id": 1926,
+    "topic": "Pazarlama ve Reklam (A2)",
+    "en": "demographics",
+    "tr": "demografik yapı",
+    "type": "noun",
+    "exampleEn": "The demographics of the city changed over ten years.",
+    "exampleTr": "Şehrin demografik yapısı on yılda değişti."
+  },
+  {
+    "id": 1927,
+    "topic": "Pazarlama ve Reklam (A2)",
+    "en": "segmentation",
+    "tr": "segmentasyon",
+    "type": "noun",
+    "exampleEn": "Market segmentation helps target the right customers.",
+    "exampleTr": "Pazar segmentasyonu doğru müşterilere ulaşmayı sağlar."
+  },
+  {
+    "id": 1928,
+    "topic": "Pazarlama ve Reklam (A2)",
+    "en": "positioning",
+    "tr": "konumlandırma",
+    "type": "noun",
+    "exampleEn": "Brand positioning sets you apart from rivals.",
+    "exampleTr": "Marka konumlandırma sizi rakiplerden ayırır."
+  },
+  {
+    "id": 1929,
+    "topic": "Pazarlama ve Reklam (A2)",
+    "en": "branding",
+    "tr": "markalaşma",
+    "type": "noun",
+    "exampleEn": "Strong branding builds customer loyalty.",
+    "exampleTr": "Güçlü markalaşma müşteri sadakati oluşturur."
+  },
+  {
+    "id": 1930,
+    "topic": "Pazarlama ve Reklam (A2)",
+    "en": "identity",
+    "tr": "kimlik",
+    "type": "noun",
+    "exampleEn": "Visual identity includes colours, fonts and logos.",
+    "exampleTr": "Görsel kimlik renkleri, yazı tiplerini ve logoları kapsar."
+  },
+  {
+    "id": 1931,
+    "topic": "Pazarlama ve Reklam (A2)",
+    "en": "engagement",
+    "tr": "etkileşim",
+    "type": "noun",
+    "exampleEn": "High engagement means people interact with your posts.",
+    "exampleTr": "Yüksek etkileşim insanların gönderilerinizle ilgilendiği anlamına gelir."
+  },
+  {
+    "id": 1932,
+    "topic": "Pazarlama ve Reklam (A2)",
+    "en": "conversion",
+    "tr": "dönüşüm",
+    "type": "noun",
+    "exampleEn": "Conversion rate shows how many visitors become buyers.",
+    "exampleTr": "Dönüşüm oranı kaç ziyaretçinin alıcıya dönüştüğünü gösterir."
+  },
+  {
+    "id": 1933,
+    "topic": "Pazarlama ve Reklam (A2)",
+    "en": "analytics",
+    "tr": "analitik",
+    "type": "noun",
+    "exampleEn": "Analytics tools track website traffic and sales.",
+    "exampleTr": "Analitik araçlar web sitesi trafiğini ve satışları takip eder."
+  },
+  {
+    "id": 1934,
+    "topic": "Pazarlama ve Reklam (A2)",
+    "en": "keyword",
+    "tr": "anahtar kelime",
+    "type": "noun",
+    "exampleEn": "Choose the right keyword to rank on search engines.",
+    "exampleTr": "Arama motorlarında üst sıralara çıkmak için doğru anahtar kelimeyi seçin."
+  },
+  {
+    "id": 1935,
+    "topic": "Pazarlama ve Reklam (A2)",
+    "en": "influencer",
+    "tr": "etki sahibi kişi",
+    "type": "noun",
+    "exampleEn": "The brand partnered with a popular influencer.",
+    "exampleTr": "Marka popüler bir etki sahibi kişiyle iş ortaklığı kurdu."
+  },
+  {
+    "id": 1936,
+    "topic": "Pazarlama ve Reklam (A2)",
+    "en": "affiliate",
+    "tr": "ortak",
+    "type": "noun",
+    "exampleEn": "Affiliate marketing rewards partners for each sale.",
+    "exampleTr": "Ortaklık pazarlaması her satış için ortakları ödüllendirir."
+  },
+  {
+    "id": 1937,
+    "topic": "Pazarlama ve Reklam (A2)",
+    "en": "testimonial",
+    "tr": "müşteri yorumu",
+    "type": "noun",
+    "exampleEn": "Customer testimonials build trust in a product.",
+    "exampleTr": "Müşteri yorumları bir ürüne olan güveni artırır."
+  },
+  {
+    "id": 1938,
+    "topic": "Pazarlama ve Reklam (A2)",
+    "en": "endorsement",
+    "tr": "onay",
+    "type": "noun",
+    "exampleEn": "A celebrity endorsement can boost product sales.",
+    "exampleTr": "Ünlü bir kişinin onayı ürün satışlarını artırabilir."
+  },
+  {
+    "id": 1939,
+    "topic": "Pazarlama ve Reklam (A2)",
+    "en": "niche",
+    "tr": "niş",
+    "type": "noun",
+    "exampleEn": "They found a niche in the healthy snack market.",
+    "exampleTr": "Sağlıklı atıştırmalık pazarında bir niş buldular."
+  },
+  {
+    "id": 1940,
+    "topic": "Pazarlama ve Reklam (A2)",
+    "en": "persona",
+    "tr": "hedef müşteri profili",
+    "type": "noun",
+    "exampleEn": "Create a buyer persona to understand your customers.",
+    "exampleTr": "Müşterilerinizi anlamak için hedef müşteri profili oluşturun."
+  },
+  {
+    "id": 1941,
+    "topic": "Pazarlama ve Reklam (A2)",
+    "en": "outreach",
+    "tr": "dış erişim",
+    "type": "noun",
+    "exampleEn": "Email outreach is used to build new partnerships.",
+    "exampleTr": "E-posta dış erişimi yeni ortaklıklar kurmak için kullanılır."
+  },
+  {
+    "id": 1942,
+    "topic": "Pazarlama ve Reklam (A2)",
+    "en": "prospecting",
+    "tr": "potansiyel müşteri arama",
+    "type": "noun",
+    "exampleEn": "Sales prospecting finds potential new customers.",
+    "exampleTr": "Satış amaçlı potansiyel müşteri araması yeni alıcılar bulmayı sağlar."
+  },
+  {
+    "id": 1943,
+    "topic": "Pazarlama ve Reklam (A2)",
+    "en": "referral",
+    "tr": "tavsiye",
+    "type": "noun",
+    "exampleEn": "Many customers come to us through referral.",
+    "exampleTr": "Birçok müşteri tavsiye yoluyla bize geliyor."
+  },
+  {
+    "id": 1944,
+    "topic": "Pazarlama ve Reklam (A2)",
+    "en": "retention",
+    "tr": "müşteri tutma",
+    "type": "noun",
+    "exampleEn": "Customer retention is cheaper than finding new ones.",
+    "exampleTr": "Müşteri tutmak yeni müşteri bulmaktan daha ucuzdur."
+  },
+  {
+    "id": 1945,
+    "topic": "Pazarlama ve Reklam (A2)",
+    "en": "targeting",
+    "tr": "hedefleme",
+    "type": "noun",
+    "exampleEn": "Precise targeting reduces wasted advertising spend.",
+    "exampleTr": "Hassas hedefleme boşa harcanan reklam bütçesini azaltır."
+  },
+  {
+    "id": 1946,
+    "topic": "İnsan Kaynakları (A2)",
+    "en": "appraisal",
+    "tr": "performans değerlendirmesi",
+    "type": "noun",
+    "exampleEn": "Her annual appraisal was very positive.",
+    "exampleTr": "Yıllık performans değerlendirmesi çok olumlu geçti."
+  },
+  {
+    "id": 1947,
+    "topic": "İnsan Kaynakları (A2)",
+    "en": "absenteeism",
+    "tr": "devamsızlık sorunu",
+    "type": "noun",
+    "exampleEn": "High absenteeism reduces team productivity.",
+    "exampleTr": "Yüksek devamsızlık ekip verimliliğini düşürür."
+  },
+  {
+    "id": 1948,
+    "topic": "İnsan Kaynakları (A2)",
+    "en": "burnout",
+    "tr": "tükenmişlik",
+    "type": "noun",
+    "exampleEn": "Long working hours can lead to burnout.",
+    "exampleTr": "Uzun çalışma saatleri tükenmişliğe yol açabilir."
+  },
+  {
+    "id": 1949,
+    "topic": "İnsan Kaynakları (A2)",
+    "en": "wellbeing",
+    "tr": "refah",
+    "type": "noun",
+    "exampleEn": "The company invests in employee wellbeing.",
+    "exampleTr": "Şirket çalışan refahına yatırım yapıyor."
+  },
+  {
+    "id": 1950,
+    "topic": "İnsan Kaynakları (A2)",
+    "en": "onboarding",
+    "tr": "işe alım süreci",
+    "type": "noun",
+    "exampleEn": "A smooth onboarding helps new hires settle in fast.",
+    "exampleTr": "Sorunsuz bir işe alım süreci yeni çalışanların hızlı uyum sağlamasını kolaylaştırır."
+  },
+  {
+    "id": 1951,
+    "topic": "İnsan Kaynakları (A2)",
+    "en": "seniority",
+    "tr": "kıdem",
+    "type": "noun",
+    "exampleEn": "Pay often increases with seniority.",
+    "exampleTr": "Maaş genellikle kıdemle birlikte artar."
+  },
+  {
+    "id": 1952,
+    "topic": "İnsan Kaynakları (A2)",
+    "en": "demotion",
+    "tr": "rütbe düşürme",
+    "type": "noun",
+    "exampleEn": "He faced demotion after the poor results.",
+    "exampleTr": "Kötü sonuçların ardından rütbe düşürmeyle karşılaştı."
+  },
+  {
+    "id": 1953,
+    "topic": "İnsan Kaynakları (A2)",
+    "en": "reinstatement",
+    "tr": "göreve iade",
+    "type": "noun",
+    "exampleEn": "The court ordered his reinstatement to the post.",
+    "exampleTr": "Mahkeme görevine iadesine hükmetti."
+  },
+  {
+    "id": 1954,
+    "topic": "İnsan Kaynakları (A2)",
+    "en": "whistleblower",
+    "tr": "ihbarcı",
+    "type": "noun",
+    "exampleEn": "The whistleblower reported the fraud anonymously.",
+    "exampleTr": "İhbarcı dolandırıcılığı anonim olarak bildirdi."
+  },
+  {
+    "id": 1955,
+    "topic": "İnsan Kaynakları (A2)",
+    "en": "remuneration",
+    "tr": "ücretlendirme",
+    "type": "noun",
+    "exampleEn": "Remuneration includes salary, bonus and benefits.",
+    "exampleTr": "Ücretlendirme maaş, ikramiye ve yan hakları kapsar."
+  },
+  {
+    "id": 1956,
+    "topic": "İnsan Kaynakları (A2)",
+    "en": "outplacement",
+    "tr": "iş bulma desteği",
+    "type": "noun",
+    "exampleEn": "The company offered outplacement to laid-off staff.",
+    "exampleTr": "Şirket işten çıkarılan personele iş bulma desteği sağladı."
+  },
+  {
+    "id": 1957,
+    "topic": "İnsan Kaynakları (A2)",
+    "en": "competency",
+    "tr": "yetkinlik",
+    "type": "noun",
+    "exampleEn": "Leadership is a key competency for managers.",
+    "exampleTr": "Liderlik, yöneticiler için temel bir yetkinliktir."
+  },
+  {
+    "id": 1958,
+    "topic": "İnsan Kaynakları (A2)",
+    "en": "induction",
+    "tr": "göreve başlatma",
+    "type": "noun",
+    "exampleEn": "The induction programme lasts two weeks.",
+    "exampleTr": "Göreve başlatma programı iki hafta sürer."
+  },
+  {
+    "id": 1959,
+    "topic": "İnsan Kaynakları (A2)",
+    "en": "secondment",
+    "tr": "geçici görevlendirme",
+    "type": "noun",
+    "exampleEn": "She went on a secondment to the Paris office.",
+    "exampleTr": "Paris ofisine geçici görevlendirme ile gitti."
+  },
+  {
+    "id": 1960,
+    "topic": "İnsan Kaynakları (A2)",
+    "en": "headcount",
+    "tr": "toplam çalışan sayısı",
+    "type": "noun",
+    "exampleEn": "The headcount increased by fifty this quarter.",
+    "exampleTr": "Bu çeyrekte toplam çalışan sayısı elliye arttı."
+  },
+  {
+    "id": 1961,
+    "topic": "İnsan Kaynakları (A2)",
+    "en": "collective",
+    "tr": "toplu",
+    "type": "adj",
+    "exampleEn": "A collective agreement sets wages for all workers.",
+    "exampleTr": "Toplu sözleşme tüm işçilerin ücretlerini belirler."
+  },
+  {
+    "id": 1962,
+    "topic": "İnsan Kaynakları (A2)",
+    "en": "labor",
+    "tr": "emek",
+    "type": "noun",
+    "exampleEn": "Labor costs have risen significantly this year.",
+    "exampleTr": "Emek maliyetleri bu yıl önemli ölçüde arttı."
+  },
+  {
+    "id": 1963,
+    "topic": "İnsan Kaynakları (A2)",
+    "en": "morale",
+    "tr": "moral",
+    "type": "noun",
+    "exampleEn": "Good leadership keeps employee morale high.",
+    "exampleTr": "İyi liderlik çalışan moralini yüksek tutar."
+  },
+  {
+    "id": 1964,
+    "topic": "İnsan Kaynakları (A2)",
+    "en": "motivation",
+    "tr": "motivasyon",
+    "type": "noun",
+    "exampleEn": "Clear goals increase motivation at work.",
+    "exampleTr": "Net hedefler işteki motivasyonu artırır."
+  },
+  {
+    "id": 1965,
+    "topic": "İnsan Kaynakları (A2)",
+    "en": "parental",
+    "tr": "ebeveynlik",
+    "type": "adj",
+    "exampleEn": "Parental leave can be taken by mothers or fathers.",
+    "exampleTr": "Ebeveynlik izni anneler veya babalar tarafından kullanılabilir."
+  },
+  {
+    "id": 1966,
+    "topic": "İş ve Kariyer (B1)",
+    "en": "restructuring",
+    "tr": "yeniden yapılandırma",
+    "type": "noun",
+    "exampleEn": "The company went through a major restructuring.",
+    "exampleTr": "Şirket büyük bir yeniden yapılandırma sürecinden geçti."
+  },
+  {
+    "id": 1967,
+    "topic": "İş ve Kariyer (B1)",
+    "en": "acquisition",
+    "tr": "satın alma",
+    "type": "noun",
+    "exampleEn": "The acquisition of the rival firm was completed.",
+    "exampleTr": "Rakip firmanın satın alınması tamamlandı."
+  },
+  {
+    "id": 1968,
+    "topic": "İş ve Kariyer (B1)",
+    "en": "merger",
+    "tr": "birleşme",
+    "type": "noun",
+    "exampleEn": "The merger created the largest bank in the region.",
+    "exampleTr": "Birleşme bölgenin en büyük bankasını oluşturdu."
+  },
+  {
+    "id": 1969,
+    "topic": "İş ve Kariyer (B1)",
+    "en": "stakeholder",
+    "tr": "paydaş",
+    "type": "noun",
+    "exampleEn": "All stakeholders must approve the new strategy.",
+    "exampleTr": "Tüm paydaşların yeni stratejiyi onaylaması gerekir."
+  },
+  {
+    "id": 1970,
+    "topic": "İş ve Kariyer (B1)",
+    "en": "subsidiary",
+    "tr": "bağlı kuruluş",
+    "type": "noun",
+    "exampleEn": "The subsidiary operates independently in Europe.",
+    "exampleTr": "Bağlı kuruluş Avrupa'da bağımsız olarak faaliyet gösteriyor."
+  },
+  {
+    "id": 1971,
+    "topic": "İş ve Kariyer (B1)",
+    "en": "franchising",
+    "tr": "bayilik sistemi",
+    "type": "noun",
+    "exampleEn": "Franchising lets entrepreneurs use an existing brand.",
+    "exampleTr": "Bayilik sistemi girişimcilerin mevcut bir markayı kullanmasını sağlar."
+  },
+  {
+    "id": 1972,
+    "topic": "İş ve Kariyer (B1)",
+    "en": "governance",
+    "tr": "yönetişim",
+    "type": "noun",
+    "exampleEn": "Good governance ensures accountability at all levels.",
+    "exampleTr": "İyi yönetişim tüm kademelerde hesap verebilirliği sağlar."
+  },
+  {
+    "id": 1973,
+    "topic": "İş ve Kariyer (B1)",
+    "en": "audit",
+    "tr": "denetim",
+    "type": "noun",
+    "exampleEn": "An external audit is conducted every year.",
+    "exampleTr": "Her yıl harici bir denetim yapılır."
+  },
+  {
+    "id": 1974,
+    "topic": "İş ve Kariyer (B1)",
+    "en": "compliance",
+    "tr": "uyum",
+    "type": "noun",
+    "exampleEn": "Compliance with data laws is mandatory.",
+    "exampleTr": "Veri yasalarına uyum zorunludur."
+  },
+  {
+    "id": 1975,
+    "topic": "İş ve Kariyer (B1)",
+    "en": "logistics",
+    "tr": "lojistik",
+    "type": "noun",
+    "exampleEn": "The logistics team manages all shipments.",
+    "exampleTr": "Lojistik ekibi tüm sevkiyatları yönetir."
+  },
+  {
+    "id": 1976,
+    "topic": "İş ve Kariyer (B1)",
+    "en": "corporate",
+    "tr": "kurumsal",
+    "type": "adj",
+    "exampleEn": "Corporate culture affects how employees behave.",
+    "exampleTr": "Kurumsal kültür çalışanların davranışlarını etkiler."
+  },
+  {
+    "id": 1977,
+    "topic": "İş ve Kariyer (B1)",
+    "en": "outsourcing",
+    "tr": "dış kaynak kullanımı",
+    "type": "noun",
+    "exampleEn": "Outsourcing IT reduces internal costs.",
+    "exampleTr": "IT dış kaynak kullanımı dahili maliyetleri düşürür."
+  },
+  {
+    "id": 1978,
+    "topic": "İş ve Kariyer (B1)",
+    "en": "liability",
+    "tr": "yükümlülük",
+    "type": "noun",
+    "exampleEn": "Directors have personal liability for company debts.",
+    "exampleTr": "Yöneticilerin şirket borçları için kişisel yükümlülüğü vardır."
+  },
+  {
+    "id": 1979,
+    "topic": "İş ve Kariyer (B1)",
+    "en": "transparency",
+    "tr": "şeffaflık",
+    "type": "noun",
+    "exampleEn": "Transparency builds trust with shareholders.",
+    "exampleTr": "Şeffaflık hissedarlarla güven inşa eder."
+  },
+  {
+    "id": 1980,
+    "topic": "İş ve Kariyer (B1)",
+    "en": "succession",
+    "tr": "ardıllık",
+    "type": "noun",
+    "exampleEn": "A succession plan ensures business continuity.",
+    "exampleTr": "Ardıllık planı iş sürekliliğini güvence altına alır."
+  },
+  {
+    "id": 1981,
+    "topic": "İş ve Kariyer (B1)",
+    "en": "accountability",
+    "tr": "hesap verebilirlik",
+    "type": "noun",
+    "exampleEn": "Accountability means owning the results of your work.",
+    "exampleTr": "Hesap verebilirlik çalışmanızın sonuçlarına sahip çıkmak demektir."
+  },
+  {
+    "id": 1982,
+    "topic": "İş ve Kariyer (B1)",
+    "en": "workflow",
+    "tr": "iş akışı",
+    "type": "noun",
+    "exampleEn": "Automating the workflow saves hours each week.",
+    "exampleTr": "İş akışını otomatikleştirmek her hafta saatler kazandırır."
+  },
+  {
+    "id": 1983,
+    "topic": "İş ve Kariyer (B1)",
+    "en": "mandate",
+    "tr": "yetki",
+    "type": "noun",
+    "exampleEn": "The committee has a clear mandate to reform policy.",
+    "exampleTr": "Komitenin politikayı yenilemek için açık bir yetkisi var."
+  },
+  {
+    "id": 1984,
+    "topic": "İş ve Kariyer (B1)",
+    "en": "hierarchy",
+    "tr": "hiyerarşi",
+    "type": "noun",
+    "exampleEn": "A flat hierarchy encourages open communication.",
+    "exampleTr": "Düz hiyerarşi açık iletişimi teşvik eder."
+  },
+  {
+    "id": 1985,
+    "topic": "İş ve Kariyer (B1)",
+    "en": "probationary",
+    "tr": "deneme süresindeki",
+    "type": "adj",
+    "exampleEn": "He is still in his probationary period.",
+    "exampleTr": "Hâlâ deneme süresindedir."
+  },
+  {
+    "id": 1986,
+    "topic": "Finans ve Ekonomi (B1)",
+    "en": "liquidity",
+    "tr": "likidite",
+    "type": "noun",
+    "exampleEn": "Banks must maintain a minimum level of liquidity.",
+    "exampleTr": "Bankalar asgari bir likidite düzeyini sürdürmelidir."
+  },
+  {
+    "id": 1987,
+    "topic": "Finans ve Ekonomi (B1)",
+    "en": "volatility",
+    "tr": "oynaklık",
+    "type": "noun",
+    "exampleEn": "Market volatility rose sharply during the crisis.",
+    "exampleTr": "Kriz döneminde piyasa oynaklığı keskin biçimde arttı."
+  },
+  {
+    "id": 1988,
+    "topic": "Finans ve Ekonomi (B1)",
+    "en": "hedge",
+    "tr": "riskten korunma",
+    "type": "noun",
+    "exampleEn": "Buying gold is often used as a hedge against inflation.",
+    "exampleTr": "Altın almak genellikle enflasyona karşı riskten korunma aracı olarak kullanılır."
+  },
+  {
+    "id": 1989,
+    "topic": "Finans ve Ekonomi (B1)",
+    "en": "commodity",
+    "tr": "emtia",
+    "type": "noun",
+    "exampleEn": "Oil is the most traded commodity in the world.",
+    "exampleTr": "Petrol dünyada en çok işlem gören emtiadır."
+  },
+  {
+    "id": 1990,
+    "topic": "Finans ve Ekonomi (B1)",
+    "en": "derivative",
+    "tr": "türev ürün",
+    "type": "noun",
+    "exampleEn": "A derivative derives its value from an underlying asset.",
+    "exampleTr": "Türev ürün değerini dayanak varlıktan alır."
+  },
+  {
+    "id": 1991,
+    "topic": "Finans ve Ekonomi (B1)",
+    "en": "austerity",
+    "tr": "kemer sıkma",
+    "type": "noun",
+    "exampleEn": "The government introduced austerity measures.",
+    "exampleTr": "Hükümet kemer sıkma önlemleri tanıttı."
+  },
+  {
+    "id": 1992,
+    "topic": "Finans ve Ekonomi (B1)",
+    "en": "devaluation",
+    "tr": "devalüasyon",
+    "type": "noun",
+    "exampleEn": "Devaluation makes exports cheaper and imports costlier.",
+    "exampleTr": "Devalüasyon ihracatı ucuz, ithalatı pahalı hale getirir."
+  },
+  {
+    "id": 1993,
+    "topic": "Finans ve Ekonomi (B1)",
+    "en": "appreciation",
+    "tr": "değer kazanma",
+    "type": "noun",
+    "exampleEn": "Currency appreciation hurts export competitiveness.",
+    "exampleTr": "Para birimi değer kazanması ihracat rekabetçiliğini zedeler."
+  },
+  {
+    "id": 1994,
+    "topic": "Finans ve Ekonomi (B1)",
+    "en": "speculation",
+    "tr": "spekülasyon",
+    "type": "noun",
+    "exampleEn": "Speculation in property markets can cause price bubbles.",
+    "exampleTr": "Emlak piyasasındaki spekülasyon fiyat balonlarına neden olabilir."
+  },
+  {
+    "id": 1995,
+    "topic": "Finans ve Ekonomi (B1)",
+    "en": "collateral",
+    "tr": "teminat",
+    "type": "noun",
+    "exampleEn": "The house was used as collateral for the loan.",
+    "exampleTr": "Ev kredi için teminat olarak kullanıldı."
+  },
+  {
+    "id": 1996,
+    "topic": "Finans ve Ekonomi (B1)",
+    "en": "amortization",
+    "tr": "amortisman",
+    "type": "noun",
+    "exampleEn": "Amortization spreads the cost of an asset over time.",
+    "exampleTr": "Amortisman bir varlığın maliyetini zamana yayar."
+  },
+  {
+    "id": 1997,
+    "topic": "Finans ve Ekonomi (B1)",
+    "en": "capitalization",
+    "tr": "sermayeye dönüştürme",
+    "type": "noun",
+    "exampleEn": "Market capitalization reflects a company's total value.",
+    "exampleTr": "Piyasa değeri bir şirketin toplam değerini yansıtır."
+  },
+  {
+    "id": 1998,
+    "topic": "Finans ve Ekonomi (B1)",
+    "en": "securitization",
+    "tr": "menkul kıymetleştirme",
+    "type": "noun",
+    "exampleEn": "Securitization converts loans into tradeable securities.",
+    "exampleTr": "Menkul kıymetleştirme kredileri işlem görebilir menkul kıymetlere dönüştürür."
+  },
+  {
+    "id": 1999,
+    "topic": "Finans ve Ekonomi (B1)",
+    "en": "bankruptcy",
+    "tr": "iflas",
+    "type": "noun",
+    "exampleEn": "The airline filed for bankruptcy after the pandemic.",
+    "exampleTr": "Havayolu salgının ardından iflas başvurusunda bulundu."
+  },
+  {
+    "id": 2000,
+    "topic": "Finans ve Ekonomi (B1)",
+    "en": "microeconomics",
+    "tr": "mikro ekonomi",
+    "type": "noun",
+    "exampleEn": "Microeconomics studies the behaviour of individual firms.",
+    "exampleTr": "Mikro ekonomi bireysel firmaların davranışını inceler."
+  },
+  {
+    "id": 2001,
+    "topic": "Finans ve Ekonomi (B1)",
+    "en": "macroeconomics",
+    "tr": "makro ekonomi",
+    "type": "noun",
+    "exampleEn": "Macroeconomics looks at the economy as a whole.",
+    "exampleTr": "Makro ekonomi ekonomiye bütün olarak bakar."
+  },
+  {
+    "id": 2002,
+    "topic": "Finans ve Ekonomi (B1)",
+    "en": "payable",
+    "tr": "ödenecek",
+    "type": "adj",
+    "exampleEn": "The invoice is payable within thirty days.",
+    "exampleTr": "Fatura otuz gün içinde ödenecektir."
+  },
+  {
+    "id": 2003,
+    "topic": "Finans ve Ekonomi (B1)",
+    "en": "receivable",
+    "tr": "alacak",
+    "type": "noun",
+    "exampleEn": "Accounts receivable shows money owed to the company.",
+    "exampleTr": "Alacaklar şirkete borçlu olunan parayı gösterir."
+  },
+  {
+    "id": 2004,
+    "topic": "Finans ve Ekonomi (B1)",
+    "en": "monetary",
+    "tr": "parasal",
+    "type": "adj",
+    "exampleEn": "The central bank sets monetary policy for the country.",
+    "exampleTr": "Merkez bankası ülke için parasal politikayı belirler."
+  },
+  {
+    "id": 2005,
+    "topic": "Finans ve Ekonomi (B1)",
+    "en": "quantitative",
+    "tr": "niceliksel",
+    "type": "adj",
+    "exampleEn": "Quantitative easing injects money into the economy.",
+    "exampleTr": "Niceliksel genişleme ekonomiye para enjekte eder."
+  },
+  {
+    "id": 2006,
+    "topic": "Hukuk ve Yargı (B1)",
+    "en": "litigation",
+    "tr": "dava süreci",
+    "type": "noun",
+    "exampleEn": "Both sides prefer to avoid costly litigation.",
+    "exampleTr": "Her iki taraf da maliyetli dava sürecinden kaçınmayı tercih eder."
+  },
+  {
+    "id": 2007,
+    "topic": "Hukuk ve Yargı (B1)",
+    "en": "arbitration",
+    "tr": "tahkim",
+    "type": "noun",
+    "exampleEn": "The dispute was settled through arbitration.",
+    "exampleTr": "Anlaşmazlık tahkim yoluyla çözüldü."
+  },
+  {
+    "id": 2008,
+    "topic": "Hukuk ve Yargı (B1)",
+    "en": "mediation",
+    "tr": "arabuluculuk",
+    "type": "noun",
+    "exampleEn": "Mediation is faster and cheaper than going to court.",
+    "exampleTr": "Arabuluculuk mahkemeye gitmekten daha hızlı ve ucuzdur."
+  },
+  {
+    "id": 2009,
+    "topic": "Hukuk ve Yargı (B1)",
+    "en": "precedent",
+    "tr": "emsal",
+    "type": "noun",
+    "exampleEn": "This ruling sets a precedent for future cases.",
+    "exampleTr": "Bu karar gelecekteki davalar için emsal oluşturuyor."
+  },
+  {
+    "id": 2010,
+    "topic": "Hukuk ve Yargı (B1)",
+    "en": "constitution",
+    "tr": "anayasa",
+    "type": "noun",
+    "exampleEn": "The constitution guarantees freedom of speech.",
+    "exampleTr": "Anayasa ifade özgürlüğünü güvence altına alır."
+  },
+  {
+    "id": 2011,
+    "topic": "Hukuk ve Yargı (B1)",
+    "en": "amendment",
+    "tr": "değişiklik",
+    "type": "noun",
+    "exampleEn": "A constitutional amendment requires a two-thirds vote.",
+    "exampleTr": "Anayasa değişikliği üçte iki çoğunluk oyunu gerektirir."
+  },
+  {
+    "id": 2012,
+    "topic": "Hukuk ve Yargı (B1)",
+    "en": "sovereignty",
+    "tr": "egemenlik",
+    "type": "noun",
+    "exampleEn": "National sovereignty must be respected by all states.",
+    "exampleTr": "Ulusal egemenlik tüm devletler tarafından saygı görmelidir."
+  },
+  {
+    "id": 2013,
+    "topic": "Hukuk ve Yargı (B1)",
+    "en": "tribunal",
+    "tr": "özel mahkeme",
+    "type": "noun",
+    "exampleEn": "The employment tribunal ruled in her favour.",
+    "exampleTr": "İstihdam özel mahkemesi onun lehine karar verdi."
+  },
+  {
+    "id": 2014,
+    "topic": "Hukuk ve Yargı (B1)",
+    "en": "indictment",
+    "tr": "iddianame",
+    "type": "noun",
+    "exampleEn": "The grand jury returned a formal indictment.",
+    "exampleTr": "Büyük jüri resmi bir iddianame hazırladı."
+  },
+  {
+    "id": 2015,
+    "topic": "Hukuk ve Yargı (B1)",
+    "en": "extradition",
+    "tr": "iade",
+    "type": "noun",
+    "exampleEn": "The country refused the extradition request.",
+    "exampleTr": "Ülke iade talebini reddetti."
+  },
+  {
+    "id": 2016,
+    "topic": "Hukuk ve Yargı (B1)",
+    "en": "subpoena",
+    "tr": "tanıklık celbi",
+    "type": "noun",
+    "exampleEn": "She received a subpoena to testify in court.",
+    "exampleTr": "Mahkemede tanıklık etmesi için celp aldı."
+  },
+  {
+    "id": 2017,
+    "topic": "Hukuk ve Yargı (B1)",
+    "en": "perjury",
+    "tr": "yalan yere yemin",
+    "type": "noun",
+    "exampleEn": "Perjury is a serious criminal offence.",
+    "exampleTr": "Yalan yere yemin ciddi bir suçtur."
+  },
+  {
+    "id": 2018,
+    "topic": "Hukuk ve Yargı (B1)",
+    "en": "injunction",
+    "tr": "ihtiyati tedbir",
+    "type": "noun",
+    "exampleEn": "The court issued an injunction to stop the sale.",
+    "exampleTr": "Mahkeme satışı durdurmak için ihtiyati tedbir kararı verdi."
+  },
+  {
+    "id": 2019,
+    "topic": "Hukuk ve Yargı (B1)",
+    "en": "affidavit",
+    "tr": "yemin altında ifade",
+    "type": "noun",
+    "exampleEn": "The witness submitted a written affidavit.",
+    "exampleTr": "Tanık yazılı yemin altında ifade sundu."
+  },
+  {
+    "id": 2020,
+    "topic": "Hukuk ve Yargı (B1)",
+    "en": "deposition",
+    "tr": "tanıklık",
+    "type": "noun",
+    "exampleEn": "The lawyer took the witness's deposition.",
+    "exampleTr": "Avukat tanığın ifadesini aldı."
+  },
+  {
+    "id": 2021,
+    "topic": "Hukuk ve Yargı (B1)",
+    "en": "negligence",
+    "tr": "ihmal",
+    "type": "noun",
+    "exampleEn": "The hospital was sued for medical negligence.",
+    "exampleTr": "Hastane tıbbi ihmalden dava edildi."
+  },
+  {
+    "id": 2022,
+    "topic": "Hukuk ve Yargı (B1)",
+    "en": "malpractice",
+    "tr": "mesleki ihmal",
+    "type": "noun",
+    "exampleEn": "The doctor was accused of malpractice.",
+    "exampleTr": "Doktor mesleki ihmalle suçlandı."
+  },
+  {
+    "id": 2023,
+    "topic": "Hukuk ve Yargı (B1)",
+    "en": "antitrust",
+    "tr": "tekel karşıtı",
+    "type": "adj",
+    "exampleEn": "Antitrust laws prevent monopolies from forming.",
+    "exampleTr": "Tekel karşıtı yasalar tekellerin oluşmasını engeller."
+  },
+  {
+    "id": 2024,
+    "topic": "Hukuk ve Yargı (B1)",
+    "en": "infringement",
+    "tr": "hak ihlali",
+    "type": "noun",
+    "exampleEn": "Patent infringement can result in heavy fines.",
+    "exampleTr": "Patent hak ihlali ağır para cezalarına yol açabilir."
+  },
+  {
+    "id": 2025,
+    "topic": "Hukuk ve Yargı (B1)",
+    "en": "contempt",
+    "tr": "mahkemeye saygısızlık",
+    "type": "noun",
+    "exampleEn": "He was jailed for contempt of court.",
+    "exampleTr": "Mahkemeye saygısızlık nedeniyle tutuklandı."
+  },
+  {
+    "id": 2026,
+    "topic": "Pazarlama ve Reklam (B1)",
+    "en": "omnichannel",
+    "tr": "çok kanallı",
+    "type": "adj",
+    "exampleEn": "An omnichannel strategy links online and offline sales.",
+    "exampleTr": "Çok kanallı strateji çevrimiçi ve çevrimdışı satışları birbirine bağlar."
+  },
+  {
+    "id": 2027,
+    "topic": "Pazarlama ve Reklam (B1)",
+    "en": "programmatic",
+    "tr": "programatik",
+    "type": "adj",
+    "exampleEn": "Programmatic advertising targets users automatically.",
+    "exampleTr": "Programatik reklamcılık kullanıcıları otomatik olarak hedefler."
+  },
+  {
+    "id": 2028,
+    "topic": "Pazarlama ve Reklam (B1)",
+    "en": "remarketing",
+    "tr": "yeniden hedefleme",
+    "type": "noun",
+    "exampleEn": "Remarketing shows ads to people who visited your site.",
+    "exampleTr": "Yeniden hedefleme sitenizi ziyaret edenlere reklam gösterir."
+  },
+  {
+    "id": 2029,
+    "topic": "Pazarlama ve Reklam (B1)",
+    "en": "attribution",
+    "tr": "atıf",
+    "type": "noun",
+    "exampleEn": "Attribution models show which channel drove the sale.",
+    "exampleTr": "Atıf modelleri hangi kanalın satışı sağladığını gösterir."
+  },
+  {
+    "id": 2030,
+    "topic": "Pazarlama ve Reklam (B1)",
+    "en": "pipeline",
+    "tr": "satış hattı",
+    "type": "noun",
+    "exampleEn": "The sales pipeline shows every deal in progress.",
+    "exampleTr": "Satış hattı süreçteki her anlaşmayı gösterir."
+  },
+  {
+    "id": 2031,
+    "topic": "Pazarlama ve Reklam (B1)",
+    "en": "automation",
+    "tr": "otomasyon",
+    "type": "noun",
+    "exampleEn": "Email automation sends messages at the right time.",
+    "exampleTr": "E-posta otomasyonu mesajları doğru zamanda gönderir."
+  },
+  {
+    "id": 2032,
+    "topic": "Pazarlama ve Reklam (B1)",
+    "en": "disruption",
+    "tr": "piyasa sarsıcılığı",
+    "type": "noun",
+    "exampleEn": "Digital disruption changed the retail industry forever.",
+    "exampleTr": "Dijital piyasa sarsıcılığı perakende sektörünü sonsuza dek değiştirdi."
+  },
+  {
+    "id": 2033,
+    "topic": "Pazarlama ve Reklam (B1)",
+    "en": "inbound",
+    "tr": "gelen pazarlama",
+    "type": "adj",
+    "exampleEn": "Inbound marketing attracts customers through content.",
+    "exampleTr": "Gelen pazarlama içerik aracılığıyla müşteri çeker."
+  },
+  {
+    "id": 2034,
+    "topic": "Pazarlama ve Reklam (B1)",
+    "en": "outbound",
+    "tr": "giden pazarlama",
+    "type": "adj",
+    "exampleEn": "Outbound marketing reaches customers via cold calls.",
+    "exampleTr": "Giden pazarlama soğuk aramalar aracılığıyla müşterilere ulaşır."
+  },
+  {
+    "id": 2035,
+    "topic": "Pazarlama ve Reklam (B1)",
+    "en": "copywriting",
+    "tr": "metin yazarlığı",
+    "type": "noun",
+    "exampleEn": "Good copywriting persuades readers to take action.",
+    "exampleTr": "İyi metin yazarlığı okuyucuları harekete geçmeye ikna eder."
+  },
+  {
+    "id": 2036,
+    "topic": "Pazarlama ve Reklam (B1)",
+    "en": "multimedia",
+    "tr": "çoklu ortam",
+    "type": "noun",
+    "exampleEn": "Multimedia campaigns combine video, audio and text.",
+    "exampleTr": "Çoklu ortam kampanyaları video, ses ve metni birleştirir."
+  },
+  {
+    "id": 2037,
+    "topic": "Pazarlama ve Reklam (B1)",
+    "en": "interactive",
+    "tr": "etkileşimli",
+    "type": "adj",
+    "exampleEn": "Interactive content keeps users engaged for longer.",
+    "exampleTr": "Etkileşimli içerik kullanıcıların daha uzun süre ilgisini çeker."
+  },
+  {
+    "id": 2038,
+    "topic": "Pazarlama ve Reklam (B1)",
+    "en": "immersive",
+    "tr": "sürükleyici",
+    "type": "adj",
+    "exampleEn": "Immersive experiences create emotional brand connections.",
+    "exampleTr": "Sürükleyici deneyimler duygusal marka bağları oluşturur."
+  },
+  {
+    "id": 2039,
+    "topic": "Pazarlama ve Reklam (B1)",
+    "en": "personalization",
+    "tr": "kişiselleştirme",
+    "type": "noun",
+    "exampleEn": "Personalization improves the customer experience.",
+    "exampleTr": "Kişiselleştirme müşteri deneyimini iyileştirir."
+  },
+  {
+    "id": 2040,
+    "topic": "Pazarlama ve Reklam (B1)",
+    "en": "localization",
+    "tr": "yerelleştirme",
+    "type": "noun",
+    "exampleEn": "Localization adapts content for different markets.",
+    "exampleTr": "Yerelleştirme içeriği farklı pazarlara uyarlar."
+  },
+  {
+    "id": 2041,
+    "topic": "Pazarlama ve Reklam (B1)",
+    "en": "monetize",
+    "tr": "gelire dönüştürmek",
+    "type": "verb",
+    "exampleEn": "She found a way to monetize her online following.",
+    "exampleTr": "Çevrimiçi takipçi kitlesini gelire dönüştürmenin yolunu buldu."
+  },
+  {
+    "id": 2042,
+    "topic": "Pazarlama ve Reklam (B1)",
+    "en": "rebranding",
+    "tr": "yeniden markalama",
+    "type": "noun",
+    "exampleEn": "The company's rebranding refreshed its public image.",
+    "exampleTr": "Şirketin yeniden markalama çalışması kamuoyu imajını tazeledi."
+  },
+  {
+    "id": 2043,
+    "topic": "Pazarlama ve Reklam (B1)",
+    "en": "sponsorship",
+    "tr": "sponsorluk",
+    "type": "noun",
+    "exampleEn": "The sponsorship of the festival increased brand visibility.",
+    "exampleTr": "Festivale verilen sponsorluk marka görünürlüğünü artırdı."
+  },
+  {
+    "id": 2044,
+    "topic": "Pazarlama ve Reklam (B1)",
+    "en": "ambassador",
+    "tr": "marka elçisi",
+    "type": "noun",
+    "exampleEn": "The athlete became an ambassador for the sports brand.",
+    "exampleTr": "Sporcu, spor markasının marka elçisi oldu."
+  },
+  {
+    "id": 2045,
+    "topic": "Pazarlama ve Reklam (B1)",
+    "en": "funnel",
+    "tr": "satış hunisi",
+    "type": "noun",
+    "exampleEn": "The marketing funnel guides buyers from awareness to purchase.",
+    "exampleTr": "Pazarlama satış hunisi alıcıları farkındalıktan satın almaya yönlendirir."
+  },
+  {
+    "id": 2046,
+    "topic": "İnsan Kaynakları (B1)",
+    "en": "talent",
+    "tr": "yetenek",
+    "type": "noun",
+    "exampleEn": "Attracting talent is a top priority for HR teams.",
+    "exampleTr": "Yetenek çekmek İK ekipleri için birincil önceliktir."
+  },
+  {
+    "id": 2047,
+    "topic": "İnsan Kaynakları (B1)",
+    "en": "staffing",
+    "tr": "kadrolama",
+    "type": "noun",
+    "exampleEn": "Staffing agencies help fill vacancies quickly.",
+    "exampleTr": "Kadrolama ajansları pozisyonların hızla doldurulmasına yardımcı olur."
+  },
+  {
+    "id": 2048,
+    "topic": "İnsan Kaynakları (B1)",
+    "en": "evaluation",
+    "tr": "değerlendirme",
+    "type": "noun",
+    "exampleEn": "Annual evaluation reviews each employee's progress.",
+    "exampleTr": "Yıllık değerlendirme her çalışanın ilerleyişini gözden geçirir."
+  },
+  {
+    "id": 2049,
+    "topic": "İnsan Kaynakları (B1)",
+    "en": "recruitment",
+    "tr": "işe alım",
+    "type": "noun",
+    "exampleEn": "Online platforms have transformed recruitment.",
+    "exampleTr": "Çevrimiçi platformlar işe alımı dönüştürdü."
+  },
+  {
+    "id": 2050,
+    "topic": "İnsan Kaynakları (B1)",
+    "en": "negotiation",
+    "tr": "müzakere",
+    "type": "noun",
+    "exampleEn": "Salary negotiation is a skill every candidate needs.",
+    "exampleTr": "Maaş müzakeresi her adayın ihtiyaç duyduğu bir beceridir."
+  },
+  {
+    "id": 2051,
+    "topic": "İnsan Kaynakları (B1)",
+    "en": "disciplinary",
+    "tr": "disiplin",
+    "type": "adj",
+    "exampleEn": "A disciplinary hearing was held for the misconduct.",
+    "exampleTr": "Uygunsuz davranış için disiplin duruşması yapıldı."
+  },
+  {
+    "id": 2052,
+    "topic": "İnsan Kaynakları (B1)",
+    "en": "severance",
+    "tr": "kıdem tazminatı",
+    "type": "noun",
+    "exampleEn": "She received three months severance pay.",
+    "exampleTr": "Üç aylık kıdem tazminatı aldı."
+  },
+  {
+    "id": 2053,
+    "topic": "İnsan Kaynakları (B1)",
+    "en": "productivity",
+    "tr": "verimlilik",
+    "type": "noun",
+    "exampleEn": "Remote working can boost employee productivity.",
+    "exampleTr": "Uzaktan çalışma çalışan verimliliğini artırabilir."
+  },
+  {
+    "id": 2054,
+    "topic": "İnsan Kaynakları (B1)",
+    "en": "delegation",
+    "tr": "yetki devri",
+    "type": "noun",
+    "exampleEn": "Effective delegation frees managers for strategic tasks.",
+    "exampleTr": "Etkili yetki devri yöneticileri stratejik görevler için serbest bırakır."
+  },
+  {
+    "id": 2055,
+    "topic": "İnsan Kaynakları (B1)",
+    "en": "collaborative",
+    "tr": "işbirlikçi",
+    "type": "adj",
+    "exampleEn": "A collaborative workplace improves team outcomes.",
+    "exampleTr": "İşbirlikçi bir işyeri ekip sonuçlarını iyileştirir."
+  },
+  {
+    "id": 2056,
+    "topic": "İnsan Kaynakları (B1)",
+    "en": "certification",
+    "tr": "sertifikasyon",
+    "type": "noun",
+    "exampleEn": "HR certification proves professional competence.",
+    "exampleTr": "İK sertifikasyonu mesleki yetkinliği kanıtlar."
+  },
+  {
+    "id": 2057,
+    "topic": "İnsan Kaynakları (B1)",
+    "en": "proficiency",
+    "tr": "yeterlilik",
+    "type": "noun",
+    "exampleEn": "Language proficiency is required for the role.",
+    "exampleTr": "Rol için dil yeterliliği gerekmektedir."
+  },
+  {
+    "id": 2058,
+    "topic": "İnsan Kaynakları (B1)",
+    "en": "entitlement",
+    "tr": "hak kazanma",
+    "type": "noun",
+    "exampleEn": "Annual leave entitlement is twenty-five days.",
+    "exampleTr": "Yıllık izin hak kazanımı yirmi beş gündür."
+  },
+  {
+    "id": 2059,
+    "topic": "İnsan Kaynakları (B1)",
+    "en": "inclusivity",
+    "tr": "kapsayıcılık anlayışı",
+    "type": "noun",
+    "exampleEn": "Inclusivity policies ensure fair treatment for all.",
+    "exampleTr": "Kapsayıcılık anlayışı politikaları herkese adil muameleyi güvence altına alır."
+  },
+  {
+    "id": 2060,
+    "topic": "İnsan Kaynakları (B1)",
+    "en": "empower",
+    "tr": "güçlendirmek",
+    "type": "verb",
+    "exampleEn": "Good managers empower their teams to make decisions.",
+    "exampleTr": "İyi yöneticiler ekiplerini karar almak için güçlendirir."
+  },
+  {
+    "id": 2061,
+    "topic": "İnsan Kaynakları (B1)",
+    "en": "formalize",
+    "tr": "resmileştirmek",
+    "type": "verb",
+    "exampleEn": "HR must formalize all employment agreements in writing.",
+    "exampleTr": "İK tüm istihdam sözleşmelerini yazılı olarak resmileştirmelidir."
+  },
+  {
+    "id": 2062,
+    "topic": "İnsan Kaynakları (B1)",
+    "en": "harassment",
+    "tr": "taciz",
+    "type": "noun",
+    "exampleEn": "Harassment in the workplace is strictly prohibited.",
+    "exampleTr": "İşyerinde taciz kesinlikle yasaktır."
+  },
+  {
+    "id": 2063,
+    "topic": "İnsan Kaynakları (B1)",
+    "en": "paternity",
+    "tr": "babalık izni",
+    "type": "noun",
+    "exampleEn": "Paternity leave allows new fathers to bond with their child.",
+    "exampleTr": "Babalık izni yeni babaların bebekleriyle bağ kurmasına olanak tanır."
+  },
+  {
+    "id": 2064,
+    "topic": "İnsan Kaynakları (B1)",
+    "en": "successor",
+    "tr": "halef",
+    "type": "noun",
+    "exampleEn": "The CEO named her successor before retiring.",
+    "exampleTr": "Genel müdür emekli olmadan önce halefi belirledi."
+  },
+  {
+    "id": 2065,
+    "topic": "İnsan Kaynakları (B1)",
+    "en": "continuity",
+    "tr": "süreklilik",
+    "type": "noun",
+    "exampleEn": "Business continuity planning prevents disruptions.",
+    "exampleTr": "İş sürekliliği planlaması aksaklıkları önler."
+  },
+  {
+    "id": 2066,
+    "topic": "İş ve Kariyer (B2)",
+    "en": "fiduciary",
+    "tr": "güvene dayalı",
+    "type": "adj",
+    "exampleEn": "Directors have a fiduciary duty to act in the firm's interest.",
+    "exampleTr": "Yöneticilerin firmanın çıkarı doğrultusunda hareket etme konusunda güvene dayalı görevi vardır."
+  },
+  {
+    "id": 2067,
+    "topic": "İş ve Kariyer (B2)",
+    "en": "insolvency",
+    "tr": "ödeme acizliği",
+    "type": "noun",
+    "exampleEn": "The company declared insolvency after losing its main client.",
+    "exampleTr": "Şirket ana müşterisini kaybettikten sonra ödeme acizliği ilan etti."
+  },
+  {
+    "id": 2068,
+    "topic": "İş ve Kariyer (B2)",
+    "en": "divestiture",
+    "tr": "varlık satışı",
+    "type": "noun",
+    "exampleEn": "The divestiture of non-core assets raised fresh capital.",
+    "exampleTr": "Temel olmayan varlıkların satışı taze sermaye sağladı."
+  },
+  {
+    "id": 2069,
+    "topic": "İş ve Kariyer (B2)",
+    "en": "synergy",
+    "tr": "sinerji",
+    "type": "noun",
+    "exampleEn": "The merger created synergy between the two research teams.",
+    "exampleTr": "Birleşme iki araştırma ekibi arasında sinerji yarattı."
+  },
+  {
+    "id": 2070,
+    "topic": "İş ve Kariyer (B2)",
+    "en": "paradigm",
+    "tr": "paradigma",
+    "type": "noun",
+    "exampleEn": "Remote work represents a paradigm shift in office culture.",
+    "exampleTr": "Uzaktan çalışma, ofis kültüründe bir paradigma dönüşümünü temsil eder."
+  },
+  {
+    "id": 2071,
+    "topic": "İş ve Kariyer (B2)",
+    "en": "retrenchment",
+    "tr": "bütçe kısıtması",
+    "type": "noun",
+    "exampleEn": "The recession forced widespread retrenchment across sectors.",
+    "exampleTr": "Durgunluk sektörler genelinde yaygın bütçe kısıtmasını zorunlu kıldı."
+  },
+  {
+    "id": 2072,
+    "topic": "İş ve Kariyer (B2)",
+    "en": "downsizing",
+    "tr": "küçülme",
+    "type": "noun",
+    "exampleEn": "Downsizing reduced the workforce by thirty percent.",
+    "exampleTr": "Küçülme iş gücünü yüzde otuz azalttı."
+  },
+  {
+    "id": 2073,
+    "topic": "İş ve Kariyer (B2)",
+    "en": "offshoring",
+    "tr": "yurt dışına taşıma",
+    "type": "noun",
+    "exampleEn": "Offshoring production to lower-cost countries is controversial.",
+    "exampleTr": "Üretimi daha düşük maliyetli ülkelere taşımak tartışmalıdır."
+  },
+  {
+    "id": 2074,
+    "topic": "İş ve Kariyer (B2)",
+    "en": "monetization",
+    "tr": "gelire çevirme",
+    "type": "noun",
+    "exampleEn": "Monetization of data is a growing business model.",
+    "exampleTr": "Veriyi gelire çevirme büyüyen bir iş modelidir."
+  },
+  {
+    "id": 2075,
+    "topic": "İş ve Kariyer (B2)",
+    "en": "intrapreneurship",
+    "tr": "kurumsal girişimcilik",
+    "type": "noun",
+    "exampleEn": "Intrapreneurship encourages innovation within large companies.",
+    "exampleTr": "Kurumsal girişimcilik büyük şirketlerde inovasyonu teşvik eder."
+  },
+  {
+    "id": 2076,
+    "topic": "İş ve Kariyer (B2)",
+    "en": "crowdsourcing",
+    "tr": "kitle kaynak kullanımı",
+    "type": "noun",
+    "exampleEn": "Crowdsourcing gathers ideas from a large online community.",
+    "exampleTr": "Kitle kaynak kullanımı büyük bir çevrimiçi topluluktan fikirler toplar."
+  },
+  {
+    "id": 2077,
+    "topic": "İş ve Kariyer (B2)",
+    "en": "headhunting",
+    "tr": "nitelikli eleman avcılığı",
+    "type": "noun",
+    "exampleEn": "Headhunting firms find senior executives for top companies.",
+    "exampleTr": "Nitelikli eleman avcılığı firmaları büyük şirketler için üst düzey yöneticiler bulur."
+  },
+  {
+    "id": 2078,
+    "topic": "İş ve Kariyer (B2)",
+    "en": "micromanagement",
+    "tr": "aşırı denetim",
+    "type": "noun",
+    "exampleEn": "Micromanagement lowers morale and reduces autonomy.",
+    "exampleTr": "Aşırı denetim morali düşürür ve özerkliği azaltır."
+  },
+  {
+    "id": 2079,
+    "topic": "İş ve Kariyer (B2)",
+    "en": "entrepreneurial",
+    "tr": "girişimci ruhlu",
+    "type": "adj",
+    "exampleEn": "An entrepreneurial mindset is valued in start-up culture.",
+    "exampleTr": "Girişimci ruhlu bir zihniyet girişim kültüründe değer görür."
+  },
+  {
+    "id": 2080,
+    "topic": "İş ve Kariyer (B2)",
+    "en": "empowerment",
+    "tr": "güçlendirme",
+    "type": "noun",
+    "exampleEn": "Employee empowerment leads to higher engagement.",
+    "exampleTr": "Çalışan güçlendirmesi daha yüksek bağlılığa yol açar."
+  },
+  {
+    "id": 2081,
+    "topic": "İş ve Kariyer (B2)",
+    "en": "visionary",
+    "tr": "vizyoner",
+    "type": "adj",
+    "exampleEn": "The visionary CEO transformed the entire industry.",
+    "exampleTr": "Vizyoner genel müdür tüm sektörü dönüştürdü."
+  },
+  {
+    "id": 2082,
+    "topic": "İş ve Kariyer (B2)",
+    "en": "meritocracy",
+    "tr": "liyakat sistemi",
+    "type": "noun",
+    "exampleEn": "A meritocracy rewards talent and hard work above all.",
+    "exampleTr": "Liyakat sistemi her şeyden önce yeteneği ve çok çalışmayı ödüllendirir."
+  },
+  {
+    "id": 2083,
+    "topic": "İş ve Kariyer (B2)",
+    "en": "bureaucracy",
+    "tr": "bürokrasi",
+    "type": "noun",
+    "exampleEn": "Excessive bureaucracy slows down decision-making.",
+    "exampleTr": "Aşırı bürokrasi karar almayı yavaşlatır."
+  },
+  {
+    "id": 2084,
+    "topic": "İş ve Kariyer (B2)",
+    "en": "attrition",
+    "tr": "doğal eleman kaybı",
+    "type": "noun",
+    "exampleEn": "Attrition reduced headcount without any redundancies.",
+    "exampleTr": "Doğal eleman kaybı işten çıkarma olmaksızın çalışan sayısını azalttı."
+  },
+  {
+    "id": 2085,
+    "topic": "İş ve Kariyer (B2)",
+    "en": "decentralization",
+    "tr": "ademi merkeziyetçilik",
+    "type": "noun",
+    "exampleEn": "Decentralization gives regional offices more autonomy.",
+    "exampleTr": "Ademi merkeziyetçilik bölge ofislerine daha fazla özerklik tanır."
+  },
+  {
+    "id": 2086,
+    "topic": "Finans ve Ekonomi (B2)",
+    "en": "stagflation",
+    "tr": "stagflasyon",
+    "type": "noun",
+    "exampleEn": "Stagflation combines stagnant growth with high inflation.",
+    "exampleTr": "Stagflasyon durgun büyümeyi yüksek enflasyonla birleştirir."
+  },
+  {
+    "id": 2087,
+    "topic": "Finans ve Ekonomi (B2)",
+    "en": "neoliberal",
+    "tr": "neoliberal",
+    "type": "adj",
+    "exampleEn": "Neoliberal policies promote free markets and privatization.",
+    "exampleTr": "Neoliberal politikalar serbest piyasaları ve özelleştirmeyi teşvik eder."
+  },
+  {
+    "id": 2088,
+    "topic": "Finans ve Ekonomi (B2)",
+    "en": "financialization",
+    "tr": "finansallaşma",
+    "type": "noun",
+    "exampleEn": "Financialization shifted focus from production to profit.",
+    "exampleTr": "Finansallaşma odağı üretimden kara kaydırdı."
+  },
+  {
+    "id": 2089,
+    "topic": "Finans ve Ekonomi (B2)",
+    "en": "cryptocurrency",
+    "tr": "kripto para",
+    "type": "noun",
+    "exampleEn": "Cryptocurrency operates outside of central bank control.",
+    "exampleTr": "Kripto para merkez bankası denetimi dışında işlem görür."
+  },
+  {
+    "id": 2090,
+    "topic": "Finans ve Ekonomi (B2)",
+    "en": "disinflation",
+    "tr": "dezenflasyon",
+    "type": "noun",
+    "exampleEn": "Disinflation is a slowing of the rate of price increases.",
+    "exampleTr": "Dezenflasyon fiyat artış hızının yavaşlamasıdır."
+  },
+  {
+    "id": 2091,
+    "topic": "Finans ve Ekonomi (B2)",
+    "en": "hyperinflation",
+    "tr": "hiperenflasyon",
+    "type": "noun",
+    "exampleEn": "Hyperinflation can destroy a country's entire savings.",
+    "exampleTr": "Hiperenflasyon bir ülkenin tüm birikimlerini yok edebilir."
+  },
+  {
+    "id": 2092,
+    "topic": "Finans ve Ekonomi (B2)",
+    "en": "contagion",
+    "tr": "bulaşma etkisi",
+    "type": "noun",
+    "exampleEn": "Financial contagion spread from one market to another.",
+    "exampleTr": "Finansal bulaşma bir piyasadan diğerine yayıldı."
+  },
+  {
+    "id": 2093,
+    "topic": "Finans ve Ekonomi (B2)",
+    "en": "bailout",
+    "tr": "kurtarma paketi",
+    "type": "noun",
+    "exampleEn": "The government provided a bailout to save the failing bank.",
+    "exampleTr": "Hükümet batmakta olan bankayı kurtarmak için bir kurtarma paketi sağladı."
+  },
+  {
+    "id": 2094,
+    "topic": "Finans ve Ekonomi (B2)",
+    "en": "regulatory",
+    "tr": "düzenleyici",
+    "type": "adj",
+    "exampleEn": "New regulatory frameworks aim to prevent financial crises.",
+    "exampleTr": "Yeni düzenleyici çerçeveler finansal krizleri önlemeyi amaçlar."
+  },
+  {
+    "id": 2095,
+    "topic": "Finans ve Ekonomi (B2)",
+    "en": "sovereign",
+    "tr": "egemen",
+    "type": "adj",
+    "exampleEn": "Sovereign debt refers to money borrowed by a government.",
+    "exampleTr": "Egemen borç, bir hükümetin borç aldığı parayı ifade eder."
+  },
+  {
+    "id": 2096,
+    "topic": "Finans ve Ekonomi (B2)",
+    "en": "actuarial",
+    "tr": "aktüeryal",
+    "type": "adj",
+    "exampleEn": "Actuarial calculations determine insurance premiums.",
+    "exampleTr": "Aktüeryal hesaplamalar sigorta primlerini belirler."
+  },
+  {
+    "id": 2097,
+    "topic": "Finans ve Ekonomi (B2)",
+    "en": "monetarism",
+    "tr": "monetarizm",
+    "type": "noun",
+    "exampleEn": "Monetarism argues that controlling money supply is key.",
+    "exampleTr": "Monetarizm para arzının kontrolünün anahtar olduğunu savunur."
+  },
+  {
+    "id": 2098,
+    "topic": "Finans ve Ekonomi (B2)",
+    "en": "mercantilism",
+    "tr": "merkantilizm",
+    "type": "noun",
+    "exampleEn": "Mercantilism favoured exports over imports to build wealth.",
+    "exampleTr": "Merkantilizm servet biriktirmek için ihracatı ithalata tercih etti."
+  },
+  {
+    "id": 2099,
+    "topic": "Finans ve Ekonomi (B2)",
+    "en": "protectionism",
+    "tr": "korumacılık",
+    "type": "noun",
+    "exampleEn": "Protectionism shields domestic industries from foreign rivals.",
+    "exampleTr": "Korumacılık yerli sektörleri yabancı rakiplerden korur."
+  },
+  {
+    "id": 2100,
+    "topic": "Finans ve Ekonomi (B2)",
+    "en": "deflation",
+    "tr": "deflasyon",
+    "type": "noun",
+    "exampleEn": "Deflation can cause consumers to delay purchases.",
+    "exampleTr": "Deflasyon tüketicilerin satın almalarını ertelemesine neden olabilir."
+  },
+  {
+    "id": 2101,
+    "topic": "Finans ve Ekonomi (B2)",
+    "en": "deregulation",
+    "tr": "kuralsızlaştırma",
+    "type": "noun",
+    "exampleEn": "Deregulation of the energy sector increased competition.",
+    "exampleTr": "Enerji sektörünün kuralsızlaştırılması rekabeti artırdı."
+  },
+  {
+    "id": 2102,
+    "topic": "Finans ve Ekonomi (B2)",
+    "en": "liberalization",
+    "tr": "liberalizasyon",
+    "type": "noun",
+    "exampleEn": "Trade liberalization opened new export markets.",
+    "exampleTr": "Ticaret liberalizasyonu yeni ihracat pazarları açtı."
+  },
+  {
+    "id": 2103,
+    "topic": "Finans ve Ekonomi (B2)",
+    "en": "globalization",
+    "tr": "küreselleşme",
+    "type": "noun",
+    "exampleEn": "Globalization has connected economies around the world.",
+    "exampleTr": "Küreselleşme dünya genelindeki ekonomileri birbirine bağlamıştır."
+  },
+  {
+    "id": 2104,
+    "topic": "Finans ve Ekonomi (B2)",
+    "en": "crowdfunding",
+    "tr": "kitle fonlaması",
+    "type": "noun",
+    "exampleEn": "Crowdfunding raised half a million for the new product.",
+    "exampleTr": "Kitle fonlaması yeni ürün için yarım milyon topladı."
+  },
+  {
+    "id": 2105,
+    "topic": "Finans ve Ekonomi (B2)",
+    "en": "foreclosure",
+    "tr": "haciz",
+    "type": "noun",
+    "exampleEn": "The bank started foreclosure proceedings on the property.",
+    "exampleTr": "Banka mülk üzerinde haciz işlemlerini başlattı."
+  },
+  {
+    "id": 2106,
+    "topic": "Hukuk ve Yargı (B2)",
+    "en": "jurisprudence",
+    "tr": "hukuk bilimi",
+    "type": "noun",
+    "exampleEn": "Jurisprudence examines the theory and philosophy of law.",
+    "exampleTr": "Hukuk bilimi hukukun teorisini ve felsefesini inceler."
+  },
+  {
+    "id": 2107,
+    "topic": "Hukuk ve Yargı (B2)",
+    "en": "promulgation",
+    "tr": "resmi ilan",
+    "type": "noun",
+    "exampleEn": "Promulgation of the new law was delayed by the senate.",
+    "exampleTr": "Yeni yasanın resmi ilanı senato tarafından ertelendi."
+  },
+  {
+    "id": 2108,
+    "topic": "Hukuk ve Yargı (B2)",
+    "en": "adjudication",
+    "tr": "yargısal karara bağlama",
+    "type": "noun",
+    "exampleEn": "Adjudication of the dispute took over two years.",
+    "exampleTr": "Anlaşmazlığın yargısal karara bağlanması iki yıldan fazla sürdü."
+  },
+  {
+    "id": 2109,
+    "topic": "Hukuk ve Yargı (B2)",
+    "en": "culpability",
+    "tr": "suçluluk derecesi",
+    "type": "noun",
+    "exampleEn": "The court assessed the culpability of each defendant.",
+    "exampleTr": "Mahkeme her davalının suçluluk derecesini değerlendirdi."
+  },
+  {
+    "id": 2110,
+    "topic": "Hukuk ve Yargı (B2)",
+    "en": "recidivism",
+    "tr": "suç tekrarı",
+    "type": "noun",
+    "exampleEn": "High recidivism rates indicate a failing justice system.",
+    "exampleTr": "Yüksek suç tekrarı oranları başarısız bir adalet sistemine işaret eder."
+  },
+  {
+    "id": 2111,
+    "topic": "Hukuk ve Yargı (B2)",
+    "en": "felony",
+    "tr": "ağır suç",
+    "type": "noun",
+    "exampleEn": "Armed robbery is classified as a felony.",
+    "exampleTr": "Silahlı soygun ağır suç olarak sınıflandırılır."
+  },
+  {
+    "id": 2112,
+    "topic": "Hukuk ve Yargı (B2)",
+    "en": "misdemeanor",
+    "tr": "hafif suç",
+    "type": "noun",
+    "exampleEn": "Petty theft is usually treated as a misdemeanor.",
+    "exampleTr": "Küçük hırsızlık genellikle hafif suç olarak değerlendirilir."
+  },
+  {
+    "id": 2113,
+    "topic": "Hukuk ve Yargı (B2)",
+    "en": "restitution",
+    "tr": "tazminat",
+    "type": "noun",
+    "exampleEn": "The court ordered full restitution to the victims.",
+    "exampleTr": "Mahkeme mağdurlara tam tazminat ödenmesine hükmetti."
+  },
+  {
+    "id": 2114,
+    "topic": "Hukuk ve Yargı (B2)",
+    "en": "expropriation",
+    "tr": "kamulaştırma",
+    "type": "noun",
+    "exampleEn": "Expropriation of private land requires fair compensation.",
+    "exampleTr": "Özel arazinin kamulaştırılması adil tazminat gerektirir."
+  },
+  {
+    "id": 2115,
+    "topic": "Hukuk ve Yargı (B2)",
+    "en": "codification",
+    "tr": "kanunlaştırma",
+    "type": "noun",
+    "exampleEn": "Codification of common law made it easier to apply.",
+    "exampleTr": "Teamül hukukunun kanunlaştırılması uygulamayı kolaylaştırdı."
+  },
+  {
+    "id": 2116,
+    "topic": "Hukuk ve Yargı (B2)",
+    "en": "ratification",
+    "tr": "onaylama",
+    "type": "noun",
+    "exampleEn": "Ratification of the treaty required a two-thirds majority.",
+    "exampleTr": "Antlaşmanın onaylanması üçte iki çoğunluğu gerektirdi."
+  },
+  {
+    "id": 2117,
+    "topic": "Hukuk ve Yargı (B2)",
+    "en": "abrogation",
+    "tr": "yürürlükten kaldırma",
+    "type": "noun",
+    "exampleEn": "Abrogation of the old treaty opened new negotiations.",
+    "exampleTr": "Eski antlaşmanın yürürlükten kaldırılması yeni müzakereleri başlattı."
+  },
+  {
+    "id": 2118,
+    "topic": "Hukuk ve Yargı (B2)",
+    "en": "interlocutory",
+    "tr": "geçici karar",
+    "type": "adj",
+    "exampleEn": "The interlocutory injunction paused the construction work.",
+    "exampleTr": "Geçici karar niteliğindeki ihtiyati tedbir inşaat çalışmalarını durdurdu."
+  },
+  {
+    "id": 2119,
+    "topic": "Hukuk ve Yargı (B2)",
+    "en": "exculpatory",
+    "tr": "suçsuzluğu kanıtlayan",
+    "type": "adj",
+    "exampleEn": "Exculpatory evidence must be shared with the defence.",
+    "exampleTr": "Suçsuzluğu kanıtlayan delil savunmayla paylaşılmalıdır."
+  },
+  {
+    "id": 2120,
+    "topic": "Hukuk ve Yargı (B2)",
+    "en": "subrogation",
+    "tr": "haleflik",
+    "type": "noun",
+    "exampleEn": "Subrogation allows insurers to claim costs from third parties.",
+    "exampleTr": "Haleflik sigortacıların üçüncü taraflardan masraf talep etmesine olanak tanır."
+  },
+  {
+    "id": 2121,
+    "topic": "Hukuk ve Yargı (B2)",
+    "en": "lien",
+    "tr": "haciz hakkı",
+    "type": "noun",
+    "exampleEn": "The bank placed a lien on the property as security.",
+    "exampleTr": "Banka mülk üzerine teminat olarak haciz hakkı koydu."
+  },
+  {
+    "id": 2122,
+    "topic": "Hukuk ve Yargı (B2)",
+    "en": "derogation",
+    "tr": "yetki devri",
+    "type": "noun",
+    "exampleEn": "A derogation permits a state to opt out of certain rules.",
+    "exampleTr": "Yetki devri bir devletin belirli kurallardan muaf tutulmasına izin verir."
+  },
+  {
+    "id": 2123,
+    "topic": "Hukuk ve Yargı (B2)",
+    "en": "acquittal",
+    "tr": "beraat",
+    "type": "noun",
+    "exampleEn": "The acquittal was celebrated by his family.",
+    "exampleTr": "Beraat ailesi tarafından kutlandı."
+  },
+  {
+    "id": 2124,
+    "topic": "Hukuk ve Yargı (B2)",
+    "en": "habeas",
+    "tr": "kişi güvencesi",
+    "type": "noun",
+    "exampleEn": "Habeas corpus protects individuals from unlawful detention.",
+    "exampleTr": "Kişi güvencesi hukuku bireyleri hukuka aykırı tutukluluğa karşı korur."
+  },
+  {
+    "id": 2125,
+    "topic": "Hukuk ve Yargı (B2)",
+    "en": "writ",
+    "tr": "mahkeme emri",
+    "type": "noun",
+    "exampleEn": "A writ was issued to compel the testimony.",
+    "exampleTr": "Tanıklığı zorlamak için mahkeme emri çıkarıldı."
+  },
+  {
+    "id": 2126,
+    "topic": "Pazarlama ve Reklam (B2)",
+    "en": "neuromarketing",
+    "tr": "nöropazarlama",
+    "type": "noun",
+    "exampleEn": "Neuromarketing studies how the brain responds to adverts.",
+    "exampleTr": "Nöropazarlama beynin reklamlara nasıl tepki verdiğini inceler."
+  },
+  {
+    "id": 2127,
+    "topic": "Pazarlama ve Reklam (B2)",
+    "en": "psychographic",
+    "tr": "psikografik",
+    "type": "adj",
+    "exampleEn": "Psychographic profiling goes beyond age and income data.",
+    "exampleTr": "Psikografik profilleme yaş ve gelir verilerinin ötesine geçer."
+  },
+  {
+    "id": 2128,
+    "topic": "Pazarlama ve Reklam (B2)",
+    "en": "gamification",
+    "tr": "oyunlaştırma",
+    "type": "noun",
+    "exampleEn": "Gamification adds game elements to boost customer loyalty.",
+    "exampleTr": "Oyunlaştırma müşteri sadakatini artırmak için oyun unsurları ekler."
+  },
+  {
+    "id": 2129,
+    "topic": "Pazarlama ve Reklam (B2)",
+    "en": "microtargeting",
+    "tr": "mikro hedefleme",
+    "type": "noun",
+    "exampleEn": "Microtargeting delivers ads to very specific audience groups.",
+    "exampleTr": "Mikro hedefleme reklamları çok spesifik kitle gruplarına iletir."
+  },
+  {
+    "id": 2130,
+    "topic": "Pazarlama ve Reklam (B2)",
+    "en": "disintermediation",
+    "tr": "aracısız satış",
+    "type": "noun",
+    "exampleEn": "Disintermediation lets brands sell directly to consumers.",
+    "exampleTr": "Aracısız satış markaların tüketicilere doğrudan satış yapmasını sağlar."
+  },
+  {
+    "id": 2131,
+    "topic": "Pazarlama ve Reklam (B2)",
+    "en": "virality",
+    "tr": "viral yayılım",
+    "type": "noun",
+    "exampleEn": "The virality of the campaign exceeded all expectations.",
+    "exampleTr": "Kampanyanın viral yayılımı tüm beklentileri aştı."
+  },
+  {
+    "id": 2132,
+    "topic": "Pazarlama ve Reklam (B2)",
+    "en": "parasocial",
+    "tr": "tek taraflı ilişki",
+    "type": "adj",
+    "exampleEn": "Parasocial bonds with influencers drive purchasing decisions.",
+    "exampleTr": "Etki sahipleriyle tek taraflı ilişkiler satın alma kararlarını etkiler."
+  },
+  {
+    "id": 2133,
+    "topic": "Pazarlama ve Reklam (B2)",
+    "en": "astroturfing",
+    "tr": "sahte kamuoyu oluşturma",
+    "type": "noun",
+    "exampleEn": "Astroturfing creates a false impression of public support.",
+    "exampleTr": "Sahte kamuoyu oluşturma, halk desteğine dair yanlış bir izlenim yaratır."
+  },
+  {
+    "id": 2134,
+    "topic": "Pazarlama ve Reklam (B2)",
+    "en": "greenwashing",
+    "tr": "yeşil yıkama",
+    "type": "noun",
+    "exampleEn": "Greenwashing misleads consumers with false eco-claims.",
+    "exampleTr": "Yeşil yıkama tüketicileri sahte çevre iddiaları ile yanıltır."
+  },
+  {
+    "id": 2135,
+    "topic": "Pazarlama ve Reklam (B2)",
+    "en": "syndication",
+    "tr": "içerik sendikasyonu",
+    "type": "noun",
+    "exampleEn": "Content syndication publishes articles on multiple platforms.",
+    "exampleTr": "İçerik sendikasyonu makaleleri birden fazla platformda yayımlar."
+  },
+  {
+    "id": 2136,
+    "topic": "Pazarlama ve Reklam (B2)",
+    "en": "curation",
+    "tr": "içerik derleme",
+    "type": "noun",
+    "exampleEn": "Content curation selects the best material for your audience.",
+    "exampleTr": "İçerik derleme kitleniz için en iyi materyali seçer."
+  },
+  {
+    "id": 2137,
+    "topic": "Pazarlama ve Reklam (B2)",
+    "en": "aggregation",
+    "tr": "içerik toplama",
+    "type": "noun",
+    "exampleEn": "News aggregation gathers stories from hundreds of sources.",
+    "exampleTr": "Haber içerik toplama yüzlerce kaynaktan haberleri bir araya getirir."
+  },
+  {
+    "id": 2138,
+    "topic": "Pazarlama ve Reklam (B2)",
+    "en": "cobranding",
+    "tr": "ortak markalama",
+    "type": "noun",
+    "exampleEn": "Cobranding merges two brands to attract a wider market.",
+    "exampleTr": "Ortak markalama iki markayı daha geniş bir pazara ulaşmak için birleştirir."
+  },
+  {
+    "id": 2139,
+    "topic": "Pazarlama ve Reklam (B2)",
+    "en": "clickbait",
+    "tr": "tıklama yemi",
+    "type": "noun",
+    "exampleEn": "Clickbait headlines attract clicks but damage brand trust.",
+    "exampleTr": "Tıklama yemi başlıkları tıklamaları artırır ancak marka güvenine zarar verir."
+  },
+  {
+    "id": 2140,
+    "topic": "Pazarlama ve Reklam (B2)",
+    "en": "storyboard",
+    "tr": "taslak çizim planı",
+    "type": "noun",
+    "exampleEn": "The creative team prepared a storyboard for the ad.",
+    "exampleTr": "Yaratıcı ekip reklam için taslak çizim planı hazırladı."
+  },
+  {
+    "id": 2141,
+    "topic": "Pazarlama ve Reklam (B2)",
+    "en": "hyperlocal",
+    "tr": "hiper yerel",
+    "type": "adj",
+    "exampleEn": "Hyperlocal marketing targets specific neighbourhoods.",
+    "exampleTr": "Hiper yerel pazarlama belirli mahalleleri hedefler."
+  },
+  {
+    "id": 2142,
+    "topic": "Pazarlama ve Reklam (B2)",
+    "en": "transmedia",
+    "tr": "çoklu ortam anlatımı",
+    "type": "noun",
+    "exampleEn": "Transmedia storytelling spreads a narrative across platforms.",
+    "exampleTr": "Çoklu ortam anlatımı bir hikayeyi platformlara yayar."
+  },
+  {
+    "id": 2143,
+    "topic": "Pazarlama ve Reklam (B2)",
+    "en": "subliminal",
+    "tr": "bilinçaltı",
+    "type": "adj",
+    "exampleEn": "Subliminal messaging is banned in many countries.",
+    "exampleTr": "Bilinçaltı mesajlaşma pek çok ülkede yasaktır."
+  },
+  {
+    "id": 2144,
+    "topic": "Pazarlama ve Reklam (B2)",
+    "en": "framing",
+    "tr": "çerçeveleme",
+    "type": "noun",
+    "exampleEn": "Framing effects how people interpret a message.",
+    "exampleTr": "Çerçeveleme insanların bir mesajı nasıl yorumladığını etkiler."
+  },
+  {
+    "id": 2145,
+    "topic": "Pazarlama ve Reklam (B2)",
+    "en": "amplification",
+    "tr": "yayılım güçlendirme",
+    "type": "noun",
+    "exampleEn": "Paid amplification boosts organic content to new audiences.",
+    "exampleTr": "Ücretli yayılım güçlendirme organik içeriği yeni kitlelere ulaştırır."
+  },
+  {
+    "id": 2146,
+    "topic": "İnsan Kaynakları (B2)",
+    "en": "psychometric",
+    "tr": "psikometrik",
+    "type": "adj",
+    "exampleEn": "Psychometric tests assess personality and cognitive skills.",
+    "exampleTr": "Psikometrik testler kişilik ve bilişsel becerileri değerlendirir."
+  },
+  {
+    "id": 2147,
+    "topic": "İnsan Kaynakları (B2)",
+    "en": "organizational",
+    "tr": "örgütsel",
+    "type": "adj",
+    "exampleEn": "Organizational culture defines how a company operates.",
+    "exampleTr": "Örgütsel kültür bir şirketin nasıl işlediğini tanımlar."
+  },
+  {
+    "id": 2148,
+    "topic": "İnsan Kaynakları (B2)",
+    "en": "benchmarking",
+    "tr": "kıyaslama",
+    "type": "noun",
+    "exampleEn": "Benchmarking compares practices against industry leaders.",
+    "exampleTr": "Kıyaslama uygulamaları sektör liderleriyle karşılaştırır."
+  },
+  {
+    "id": 2149,
+    "topic": "İnsan Kaynakları (B2)",
+    "en": "whistleblowing",
+    "tr": "usulsüzlük bildirimi",
+    "type": "noun",
+    "exampleEn": "Whistleblowing policies protect employees who report wrongdoing.",
+    "exampleTr": "Usulsüzlük bildirimi politikaları haksızlıkları bildiren çalışanları korur."
+  },
+  {
+    "id": 2150,
+    "topic": "İnsan Kaynakları (B2)",
+    "en": "unionization",
+    "tr": "sendikalaşma",
+    "type": "noun",
+    "exampleEn": "Unionization gives workers collective bargaining power.",
+    "exampleTr": "Sendikalaşma işçilere toplu pazarlık gücü verir."
+  },
+  {
+    "id": 2151,
+    "topic": "İnsan Kaynakları (B2)",
+    "en": "egalitarianism",
+    "tr": "eşitlikçilik",
+    "type": "noun",
+    "exampleEn": "Egalitarianism demands equal treatment regardless of background.",
+    "exampleTr": "Eşitlikçilik geçmişten bağımsız olarak eşit muamele talep eder."
+  },
+  {
+    "id": 2152,
+    "topic": "İnsan Kaynakları (B2)",
+    "en": "ethnicity",
+    "tr": "etnik köken",
+    "type": "noun",
+    "exampleEn": "HR must not discriminate based on ethnicity.",
+    "exampleTr": "İK etnik kökene dayalı ayrımcılık yapmamalıdır."
+  },
+  {
+    "id": 2153,
+    "topic": "İnsan Kaynakları (B2)",
+    "en": "intersectionality",
+    "tr": "kesişimsellik",
+    "type": "noun",
+    "exampleEn": "Intersectionality considers how identities overlap at work.",
+    "exampleTr": "Kesişimsellik işteki kimliklerin nasıl örtüştüğünü ele alır."
+  },
+  {
+    "id": 2154,
+    "topic": "İnsan Kaynakları (B2)",
+    "en": "neurodiversity",
+    "tr": "nöroçeşitlilik",
+    "type": "noun",
+    "exampleEn": "Neurodiversity embraces different ways of thinking.",
+    "exampleTr": "Nöroçeşitlilik farklı düşünme biçimlerini kucaklar."
+  },
+  {
+    "id": 2155,
+    "topic": "İnsan Kaynakları (B2)",
+    "en": "cohesion",
+    "tr": "uyum",
+    "type": "noun",
+    "exampleEn": "Team cohesion improves performance and reduces conflict.",
+    "exampleTr": "Ekip uyumu performansı artırır ve çatışmayı azaltır."
+  },
+  {
+    "id": 2156,
+    "topic": "İnsan Kaynakları (B2)",
+    "en": "autonomy",
+    "tr": "özerklik",
+    "type": "noun",
+    "exampleEn": "Giving employees autonomy boosts creativity and ownership.",
+    "exampleTr": "Çalışanlara özerklik vermek yaratıcılığı ve sahiplik duygusunu artırır."
+  },
+  {
+    "id": 2157,
+    "topic": "İnsan Kaynakları (B2)",
+    "en": "reintegration",
+    "tr": "yeniden entegrasyon",
+    "type": "noun",
+    "exampleEn": "Reintegration programmes support staff returning from leave.",
+    "exampleTr": "Yeniden entegrasyon programları izinden dönen personeli destekler."
+  },
+  {
+    "id": 2158,
+    "topic": "İnsan Kaynakları (B2)",
+    "en": "conscientious",
+    "tr": "vicdanlı",
+    "type": "adj",
+    "exampleEn": "Conscientious employees consistently deliver high quality.",
+    "exampleTr": "Vicdanlı çalışanlar sürekli olarak yüksek kalite sunar."
+  },
+  {
+    "id": 2159,
+    "topic": "İnsan Kaynakları (B2)",
+    "en": "remunerate",
+    "tr": "ücret ödemek",
+    "type": "verb",
+    "exampleEn": "The firm remunerates its top talent competitively.",
+    "exampleTr": "Firma en iyi yeteneklerini rekabetçi biçimde ücretlendirir."
+  },
+  {
+    "id": 2160,
+    "topic": "İnsan Kaynakları (B2)",
+    "en": "calibrate",
+    "tr": "kalibre etmek",
+    "type": "verb",
+    "exampleEn": "Managers calibrate performance ratings across departments.",
+    "exampleTr": "Yöneticiler departmanlar arasında performans notlarını kalibre eder."
+  },
+  {
+    "id": 2161,
+    "topic": "İnsan Kaynakları (B2)",
+    "en": "segregation",
+    "tr": "ayrımcılık",
+    "type": "noun",
+    "exampleEn": "Workplace segregation by gender is illegal in most countries.",
+    "exampleTr": "Cinsiyete dayalı işyeri ayrımcılığı çoğu ülkede yasadışıdır."
+  },
+  {
+    "id": 2162,
+    "topic": "İnsan Kaynakları (B2)",
+    "en": "pluralism",
+    "tr": "çoğulculuk",
+    "type": "noun",
+    "exampleEn": "Cultural pluralism enriches the workplace environment.",
+    "exampleTr": "Kültürel çoğulculuk işyeri ortamını zenginleştirir."
+  },
+  {
+    "id": 2163,
+    "topic": "İnsan Kaynakları (B2)",
+    "en": "nepotism",
+    "tr": "kayırmacılık",
+    "type": "noun",
+    "exampleEn": "Nepotism undermines trust and fairness in hiring.",
+    "exampleTr": "Kayırmacılık işe alımda güveni ve adaleti zedeler."
+  },
+  {
+    "id": 2164,
+    "topic": "İnsan Kaynakları (B2)",
+    "en": "favoritism",
+    "tr": "adam kayırma",
+    "type": "noun",
+    "exampleEn": "Favoritism creates resentment among other employees.",
+    "exampleTr": "Adam kayırma diğer çalışanlar arasında kırgınlık yaratır."
+  },
+  {
+    "id": 2165,
+    "topic": "İnsan Kaynakları (B2)",
+    "en": "ageism",
+    "tr": "yaşa dayalı ayrımcılık",
+    "type": "noun",
+    "exampleEn": "Ageism affects both younger and older workers unfairly.",
+    "exampleTr": "Yaşa dayalı ayrımcılık hem genç hem de yaşlı çalışanları haksız biçimde etkiler."
   }
 ]

@@ -100,6 +100,34 @@ export const TOPIC_META = {
   'Spor (A2)':         { icon: '⚽',   bg: 'bg-green-700',   color: 'bg-green-600/20 text-green-400',     bar: 'bg-green-500'    },
   'Duygular (A2)':     { icon: '😊',   bg: 'bg-yellow-600',  color: 'bg-yellow-500/20 text-yellow-400',   bar: 'bg-yellow-400'   },
   'Teknoloji (A2)':    { icon: '💻',   bg: 'bg-blue-700',    color: 'bg-blue-600/20 text-blue-400',       bar: 'bg-blue-500'     },
+
+  // ── İş & Kariyer Dünyası — A1 ─────────────────────────────────────────────
+  'İş ve Kariyer':          { icon: '💼', bg: 'bg-amber-500',   color: 'bg-amber-500/20 text-amber-400',     bar: 'bg-amber-400'    },
+  'Finans ve Ekonomi':      { icon: '📈', bg: 'bg-emerald-500', color: 'bg-emerald-500/20 text-emerald-400', bar: 'bg-emerald-400'  },
+  'Hukuk ve Yargı':         { icon: '⚖️', bg: 'bg-red-500',     color: 'bg-red-500/20 text-red-400',         bar: 'bg-red-400'      },
+  'Pazarlama ve Reklam':    { icon: '📣', bg: 'bg-fuchsia-600', color: 'bg-fuchsia-500/20 text-fuchsia-400', bar: 'bg-fuchsia-400'  },
+  'İnsan Kaynakları':       { icon: '🤝', bg: 'bg-teal-600',    color: 'bg-teal-500/20 text-teal-400',       bar: 'bg-teal-400'     },
+
+  // ── İş & Kariyer Dünyası — A2 ─────────────────────────────────────────────
+  'İş ve Kariyer (A2)':     { icon: '💼', bg: 'bg-amber-600',   color: 'bg-amber-500/20 text-amber-400',     bar: 'bg-amber-400'    },
+  'Finans ve Ekonomi (A2)': { icon: '📈', bg: 'bg-emerald-600', color: 'bg-emerald-500/20 text-emerald-400', bar: 'bg-emerald-400'  },
+  'Hukuk ve Yargı (A2)':    { icon: '⚖️', bg: 'bg-red-600',     color: 'bg-red-500/20 text-red-400',         bar: 'bg-red-400'      },
+  'Pazarlama ve Reklam (A2)':{ icon: '📣', bg: 'bg-fuchsia-700', color: 'bg-fuchsia-500/20 text-fuchsia-400', bar: 'bg-fuchsia-400' },
+  'İnsan Kaynakları (A2)':  { icon: '🤝', bg: 'bg-teal-700',    color: 'bg-teal-500/20 text-teal-400',       bar: 'bg-teal-400'     },
+
+  // ── İş & Kariyer Dünyası — B1 ─────────────────────────────────────────────
+  'İş ve Kariyer (B1)':     { icon: '💼', bg: 'bg-amber-700',   color: 'bg-amber-500/20 text-amber-400',     bar: 'bg-amber-400'    },
+  'Finans ve Ekonomi (B1)': { icon: '📈', bg: 'bg-emerald-700', color: 'bg-emerald-500/20 text-emerald-400', bar: 'bg-emerald-400'  },
+  'Hukuk ve Yargı (B1)':    { icon: '⚖️', bg: 'bg-red-700',     color: 'bg-red-500/20 text-red-400',         bar: 'bg-red-400'      },
+  'Pazarlama ve Reklam (B1)':{ icon: '📣', bg: 'bg-fuchsia-800', color: 'bg-fuchsia-500/20 text-fuchsia-400', bar: 'bg-fuchsia-400' },
+  'İnsan Kaynakları (B1)':  { icon: '🤝', bg: 'bg-teal-800',    color: 'bg-teal-500/20 text-teal-400',       bar: 'bg-teal-400'     },
+
+  // ── İş & Kariyer Dünyası — B2 ─────────────────────────────────────────────
+  'İş ve Kariyer (B2)':     { icon: '💼', bg: 'bg-amber-800',   color: 'bg-amber-500/20 text-amber-400',     bar: 'bg-amber-400'    },
+  'Finans ve Ekonomi (B2)': { icon: '📈', bg: 'bg-emerald-800', color: 'bg-emerald-500/20 text-emerald-400', bar: 'bg-emerald-400'  },
+  'Hukuk ve Yargı (B2)':    { icon: '⚖️', bg: 'bg-red-800',     color: 'bg-red-500/20 text-red-400',         bar: 'bg-red-400'      },
+  'Pazarlama ve Reklam (B2)':{ icon: '📣', bg: 'bg-fuchsia-900', color: 'bg-fuchsia-500/20 text-fuchsia-400', bar: 'bg-fuchsia-400' },
+  'İnsan Kaynakları (B2)':  { icon: '🤝', bg: 'bg-teal-900',    color: 'bg-teal-500/20 text-teal-400',       bar: 'bg-teal-400'     },
 };
 
 export const DEFAULT_META = {
