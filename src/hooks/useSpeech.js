@@ -1,13 +1,26 @@
 import { useCallback, useRef } from 'react';
+import { TextToSpeech } from '@capacitor-community/text-to-speech';
+import { Capacitor } from '@capacitor/core';
 
 export function useSpeech() {
   const synthRef = useRef(window.speechSynthesis);
+  const isNative = Capacitor.isNativePlatform();
 
   const speak = useCallback((text, rate = 0.9) => {
+    if (isNative) {
+      TextToSpeech.speak({
+        text,
+        lang: 'en-US',
+        rate,
+        pitch: 1.0,
+        volume: 1.0,
+      }).catch(() => {});
+      return;
+    }
+
     const synth = synthRef.current;
     if (!synth) return;
 
-    // Cancel any ongoing speech
     synth.cancel();
 
     const utterance = new SpeechSynthesisUtterance(text);
@@ -16,7 +29,6 @@ export function useSpeech() {
     utterance.pitch = 1;
     utterance.volume = 1;
 
-    // On some mobile browsers, voices load asynchronously
     const voices = synth.getVoices();
     if (voices.length > 0) {
       const enVoice =
@@ -26,13 +38,17 @@ export function useSpeech() {
     }
 
     synth.speak(utterance);
-  }, []);
+  }, [isNative]);
 
   const stop = useCallback(() => {
-    synthRef.current?.cancel();
-  }, []);
+    if (isNative) {
+      TextToSpeech.stop().catch(() => {});
+    } else {
+      synthRef.current?.cancel();
+    }
+  }, [isNative]);
 
-  const isSupported = typeof window !== 'undefined' && 'speechSynthesis' in window;
+  const isSupported = true;
 
   return { speak, stop, isSupported };
 }
