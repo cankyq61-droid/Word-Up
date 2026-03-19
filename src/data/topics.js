@@ -128,6 +128,36 @@ export const TOPIC_META = {
   'Hukuk ve Yargı (B2)':    { icon: '⚖️', bg: 'bg-red-800',     color: 'bg-red-500/20 text-red-400',         bar: 'bg-red-400'      },
   'Pazarlama ve Reklam (B2)':{ icon: '📣', bg: 'bg-fuchsia-900', color: 'bg-fuchsia-500/20 text-fuchsia-400', bar: 'bg-fuchsia-400' },
   'İnsan Kaynakları (B2)':  { icon: '🤝', bg: 'bg-teal-900',    color: 'bg-teal-500/20 text-teal-400',       bar: 'bg-teal-400'     },
+
+  // ── Modern Yaşam — Medya ve Habercilik ───────────────────────────────────
+  'Medya ve Habercilik':         { icon: '📰', bg: 'bg-sky-500',     color: 'bg-sky-500/20 text-sky-400',         bar: 'bg-sky-400'      },
+  'Medya ve Habercilik (A2)':    { icon: '📰', bg: 'bg-sky-600',     color: 'bg-sky-500/20 text-sky-400',         bar: 'bg-sky-400'      },
+  'Medya ve Habercilik (B1)':    { icon: '📰', bg: 'bg-sky-700',     color: 'bg-sky-500/20 text-sky-400',         bar: 'bg-sky-400'      },
+  'Medya ve Habercilik (B2)':    { icon: '📰', bg: 'bg-sky-800',     color: 'bg-sky-500/20 text-sky-400',         bar: 'bg-sky-400'      },
+
+  // ── Modern Yaşam — Çevre ve Sürdürülebilirlik ─────────────────────────────
+  'Çevre ve Sürdürülebilirlik':        { icon: '♻️', bg: 'bg-green-500',  color: 'bg-green-500/20 text-green-400',     bar: 'bg-green-400'    },
+  'Çevre ve Sürdürülebilirlik (A2)':   { icon: '♻️', bg: 'bg-green-600',  color: 'bg-green-500/20 text-green-400',     bar: 'bg-green-400'    },
+  'Çevre ve Sürdürülebilirlik (B1)':   { icon: '♻️', bg: 'bg-green-700',  color: 'bg-green-500/20 text-green-400',     bar: 'bg-green-400'    },
+  'Çevre ve Sürdürülebilirlik (B2)':   { icon: '♻️', bg: 'bg-green-800',  color: 'bg-green-500/20 text-green-400',     bar: 'bg-green-400'    },
+
+  // ── Modern Yaşam — Yemek Kültürü ve Mutfak Sanatı ────────────────────────
+  'Yemek Kültürü ve Mutfak Sanatı':        { icon: '👨‍🍳', bg: 'bg-orange-500', color: 'bg-orange-500/20 text-orange-400',   bar: 'bg-orange-400'   },
+  'Yemek Kültürü ve Mutfak Sanatı (A2)':   { icon: '👨‍🍳', bg: 'bg-orange-600', color: 'bg-orange-500/20 text-orange-400',   bar: 'bg-orange-400'   },
+  'Yemek Kültürü ve Mutfak Sanatı (B1)':   { icon: '👨‍🍳', bg: 'bg-orange-700', color: 'bg-orange-500/20 text-orange-400',   bar: 'bg-orange-400'   },
+  'Yemek Kültürü ve Mutfak Sanatı (B2)':   { icon: '👨‍🍳', bg: 'bg-orange-800', color: 'bg-orange-500/20 text-orange-400',   bar: 'bg-orange-400'   },
+
+  // ── Modern Yaşam — Seyahat ve Turizm ─────────────────────────────────────
+  'Seyahat ve Turizm':        { icon: '✈️', bg: 'bg-cyan-500',    color: 'bg-cyan-500/20 text-cyan-400',       bar: 'bg-cyan-400'     },
+  'Seyahat ve Turizm (A2)':   { icon: '✈️', bg: 'bg-cyan-600',    color: 'bg-cyan-500/20 text-cyan-400',       bar: 'bg-cyan-400'     },
+  'Seyahat ve Turizm (B1)':   { icon: '✈️', bg: 'bg-cyan-700',    color: 'bg-cyan-500/20 text-cyan-400',       bar: 'bg-cyan-400'     },
+  'Seyahat ve Turizm (B2)':   { icon: '✈️', bg: 'bg-cyan-800',    color: 'bg-cyan-500/20 text-cyan-400',       bar: 'bg-cyan-400'     },
+
+  // ── Modern Yaşam — Hobiler ve Boş Zaman ──────────────────────────────────
+  'Hobiler ve Boş Zaman':        { icon: '🎮', bg: 'bg-violet-500', color: 'bg-violet-500/20 text-violet-400',   bar: 'bg-violet-400'   },
+  'Hobiler ve Boş Zaman (A2)':   { icon: '🎮', bg: 'bg-violet-600', color: 'bg-violet-500/20 text-violet-400',   bar: 'bg-violet-400'   },
+  'Hobiler ve Boş Zaman (B1)':   { icon: '🎮', bg: 'bg-violet-700', color: 'bg-violet-500/20 text-violet-400',   bar: 'bg-violet-400'   },
+  'Hobiler ve Boş Zaman (B2)':   { icon: '🎮', bg: 'bg-violet-800', color: 'bg-violet-500/20 text-violet-400',   bar: 'bg-violet-400'   },
 };
 
 export const DEFAULT_META = {
