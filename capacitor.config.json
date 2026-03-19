@@ -1,6 +1,6 @@
 {
   "appId": "com.en.kelime",
-  "appName": "English Learning",
+  "appName": "Word Up",
   "webDir": "dist",
   "android": {
     "backgroundColor": "#080812"

@@ -4,7 +4,14 @@ import words from '../data/words.json';
 import { useProgress } from '../hooks/useProgress';
 import { TOPIC_META, DEFAULT_META } from '../data/topics';
 
-const allTopics = [...new Set(words.map((w) => w.topic))];
+function levelOrder(topic) {
+  if (topic.endsWith('(B2)')) return 3;
+  if (topic.endsWith('(B1)')) return 2;
+  if (topic.endsWith('(A2)')) return 1;
+  return 0; // A1
+}
+
+const allTopics = [...new Set(words.map((w) => w.topic))].sort((a, b) => levelOrder(a) - levelOrder(b));
 const TOPICS_PER_PAGE = 7;
 
 const topicPages = [];
