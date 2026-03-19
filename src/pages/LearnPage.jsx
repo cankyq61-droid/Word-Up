@@ -3,12 +3,36 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import words from '../data/words.json';
 import { useProgress } from '../hooks/useProgress';
 import { useSpeech } from '../hooks/useSpeech';
+import { WORD_EMOJI, NUMBER_TEXT } from '../data/wordEmoji';
+import { WORD_ICON } from '../data/wordIcon';
+import { WORD_PHONETIC } from '../data/wordPhonetic';
 
 const topics = [...new Set(words.map((w) => w.topic))];
 
 import { TOPIC_META, DEFAULT_META } from '../data/topics';
 
 const TYPE_LABELS = { isim: 'isim', fiil: 'fiil', sıfat: 'sıfat', zarf: 'zarf' };
+
+// ─────────────────────────────────────────────
+// Kelime görseli: rakam metni → Lucide ikon → emoji → konu emojisi
+// ─────────────────────────────────────────────
+function WordVisual({ word, topicIcon }) {
+  const key = word.toLowerCase();
+  const numText = NUMBER_TEXT[key];
+  const IconComponent = WORD_ICON[key];
+  const emoji = WORD_EMOJI[key] ?? topicIcon;
+
+  return (
+    <div className="w-full h-36 rounded-2xl mb-4 flex items-center justify-center bg-white/[0.04] border border-white/[0.06]">
+      {numText
+        ? <span className="text-6xl font-black text-white/80 tabular-nums tracking-tight select-none">{numText}</span>
+        : IconComponent
+          ? <IconComponent size={72} strokeWidth={1} className="text-white/70" />
+          : <span className="text-8xl select-none">{emoji}</span>
+      }
+    </div>
+  );
+}
 
 // ─────────────────────────────────────────────
 // Topic selection screen
@@ -130,6 +154,7 @@ export default function LearnPage() {
   const topicWords = selectedTopic ? words.filter((w) => w.topic === selectedTopic) : [];
   const isFinished = currentIndex >= topicWords.length;
   const current = topicWords[currentIndex];
+  const meta = TOPIC_META[selectedTopic] || DEFAULT_META;
 
   function handleAction(didLearn) {
     if (cardState !== 'idle') return;
@@ -212,7 +237,7 @@ export default function LearnPage() {
           className={`bg-[#0e0e1a] border border-white/[0.07] rounded-3xl p-6 mb-5 transition-all duration-300 ease-in-out ${cardOpacity}`}
         >
           {/* Top row: speaker + type badge */}
-          <div className="flex items-center justify-between mb-6">
+          <div className="flex items-center justify-between mb-4">
             <button
               onClick={() => speak(current.en)}
               disabled={!isSupported}
@@ -227,11 +252,19 @@ export default function LearnPage() {
             </span>
           </div>
 
+          {/* Görsel: resim veya emoji */}
+          <WordVisual word={current.en} topicIcon={meta.icon} />
+
           {/* Word */}
           <div className="text-center mb-8 px-2">
-            <h2 className="text-5xl font-extrabold text-white mb-3 leading-tight break-words">
+            <h2 className="text-5xl font-extrabold text-white mb-1 leading-tight break-words">
               {current.en}
             </h2>
+            {WORD_PHONETIC[current.en.toLowerCase()] && (
+              <p className="text-sm text-gray-500 mb-2 tracking-wide">
+                /{WORD_PHONETIC[current.en.toLowerCase()]}/
+              </p>
+            )}
             <p className="text-xl font-semibold text-cyan-400">{current.tr}</p>
           </div>
 

@@ -46,7 +46,15 @@ export default function TopicsPage() {
   const navigate = useNavigate();
   const { getLearnedCount } = useProgress();
 
-  const [page, setPage] = useState(0);
+  const [page, setPage] = useState(() => {
+    const saved = sessionStorage.getItem('topicsPage');
+    return saved ? parseInt(saved, 10) : 0;
+  });
+
+  function goToPage(p) {
+    sessionStorage.setItem('topicsPage', p);
+    setPage(p);
+  }
   const touchStartX = useRef(null);
 
   function onTouchStart(e) {
@@ -56,8 +64,8 @@ export default function TopicsPage() {
     if (touchStartX.current === null) return;
     const diff = touchStartX.current - e.changedTouches[0].clientX;
     if (Math.abs(diff) > 40) {
-      if (diff > 0 && page < topicPages.length - 1) setPage((p) => p + 1);
-      if (diff < 0 && page > 0)                     setPage((p) => p - 1);
+      if (diff > 0 && page < topicPages.length - 1) goToPage(page + 1);
+      if (diff < 0 && page > 0)                     goToPage(page - 1);
     }
     touchStartX.current = null;
   }
@@ -100,7 +108,7 @@ export default function TopicsPage() {
           {/* Sağ: sayfa navigasyonu */}
           <div className="flex items-center gap-1.5">
             <button
-              onClick={() => setPage((p) => Math.max(0, p - 1))}
+              onClick={() => goToPage(Math.max(0, page - 1))}
               disabled={page === 0}
               className="w-7 h-7 flex items-center justify-center rounded-full bg-white/10 text-gray-400
                          disabled:opacity-25 hover:bg-white/20 transition-all text-base leading-none"
@@ -111,7 +119,7 @@ export default function TopicsPage() {
               {page + 1}/{topicPages.length}
             </span>
             <button
-              onClick={() => setPage((p) => Math.min(topicPages.length - 1, p + 1))}
+              onClick={() => goToPage(Math.min(topicPages.length - 1, page + 1))}
               disabled={page === topicPages.length - 1}
               className="w-7 h-7 flex items-center justify-center rounded-full bg-white/10 text-gray-400
                          disabled:opacity-25 hover:bg-white/20 transition-all text-base leading-none"
