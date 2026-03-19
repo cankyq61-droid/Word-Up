@@ -26,3 +26,51 @@
     padding-top: env(safe-area-inset-top, 0px);
   }
 }
+
+/* ── Splash & entrance animations ── */
+@keyframes splash-logo {
+  0%   { opacity: 0; transform: scale(0.5); }
+  65%  { opacity: 1; transform: scale(1.07); }
+  100% { opacity: 1; transform: scale(1); }
+}
+@keyframes splash-ring {
+  0%   { opacity: 0.5; transform: scale(0.85); }
+  100% { opacity: 0;   transform: scale(1.7); }
+}
+@keyframes splash-text {
+  0%   { opacity: 0; transform: translateY(12px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes logo-fly-up {
+  0%   { opacity: 1; transform: scale(1)    translateY(0); }
+  100% { opacity: 0; transform: scale(0.75) translateY(-130px); }
+}
+@keyframes text-fade-out {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes screen-fade-out {
+  0%   { opacity: 1; }
+  100% { opacity: 0; pointer-events: none; }
+}
+@keyframes dash-fade-in {
+  0%   { opacity: 0; transform: translateY(22px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.anim-splash-logo   { animation: splash-logo   0.7s cubic-bezier(.22,1,.36,1) forwards; }
+.anim-splash-ring   { animation: splash-ring   1.2s ease-out 0.25s infinite; }
+.anim-splash-text   { animation: splash-text   0.5s ease-out 0.75s both; }
+
+.anim-text-fade-out { animation: text-fade-out    0.35s ease-in forwards; }
+.anim-screen-out    { animation: screen-fade-out  0.6s ease-in 0.25s forwards; }
+
+/* logo oturma: sadece fade (translateY yok — logo zaten yerinde) */
+@keyframes logo-settle { from { opacity:0; } to { opacity:1; } }
+.anim-logo-settle { animation: logo-settle 0.25s ease-out forwards; }
+
+.anim-in-1 { animation: dash-fade-in 0.7s cubic-bezier(.22,1,.36,1) 0.05s both; }
+.anim-in-2 { animation: dash-fade-in 0.7s cubic-bezier(.22,1,.36,1) 0.18s both; }
+.anim-in-3 { animation: dash-fade-in 0.7s cubic-bezier(.22,1,.36,1) 0.31s both; }
+.anim-in-4 { animation: dash-fade-in 0.7s cubic-bezier(.22,1,.36,1) 0.44s both; }
+.anim-in-5 { animation: dash-fade-in 0.7s cubic-bezier(.22,1,.36,1) 0.57s both; }
