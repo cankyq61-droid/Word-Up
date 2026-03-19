@@ -122,5 +122,5 @@ npm run build    # dist/ klasörüne üret
 | Sürüm | Değişiklikler |
 |-------|---------------|
 | v1.3.0 | Word Up yeniden adlandırma, A1→B2 konu sıralaması, konu bitişi eşleştirme butonu, Aa Android ikonu |
-| v1.2.0 | Modern Yaşam grubu, Türkçe okunuş, emoji tam kapsamı |
-| v1.0.0 | İlk sürüm: flashcard, quiz, eşleştirme, TTS |
+| v1.2.0 | Modern Yaşam grubu, Türkçe okunuş, emoji tam kapsamı, sayfa hafızası |
+| v1.0.0 | İlk sürüm: 22 konu, 445 A1 kelime, flashcard, quiz, eşleştirme, koyu tema |
