@@ -5,6 +5,8 @@ import { TOPIC_META, DEFAULT_META } from '../data/topics';
 import { useProgress } from '../hooks/useProgress';
 import { useSpeech } from '../hooks/useSpeech';
 import { useStreak } from '../hooks/useStreak';
+import { WORD_PHONETIC } from '../data/wordPhonetic';
+import StreakCelebration from '../components/StreakCelebration';
 
 const allTopics = [...new Set(words.map((w) => w.topic))];
 const OPTIONS_COUNT = 8;
@@ -162,11 +164,12 @@ export default function QuizPage() {
   const location = useLocation();
   const { speak, isSupported } = useSpeech();
   const { markLearned, markUnlearned } = useProgress();
-  const { markDone } = useStreak();
+  const { streak, justStreaked, markDone, clearStreak } = useStreak();
 
   const initWordIds = location.state?.wordIds ?? null;
   const initSel     = location.state?.topics ?? location.state?.topic ?? (initWordIds ? '__practice__' : null);
   const initLabel   = location.state?.pageLabel ?? location.state?.topic ?? null;
+  const flow        = location.state?.flow ?? null;
 
   const [sel,      setSel]      = useState(initSel);
   const [label,    setLabel]    = useState(initLabel);
@@ -179,6 +182,14 @@ export default function QuizPage() {
   const [isAnswered,   setIsAnswered]   = useState(false);
   const [score,        setScore]        = useState(0);
   const [results,      setResults]      = useState([]);
+  const [timeLeft,      setTimeLeft]      = useState(60);
+  const [timedOut,      setTimedOut]      = useState(false);
+  const [flowSuccess,   setFlowSuccess]   = useState(null);
+  const [flowCountdown, setFlowCountdown] = useState(5);
+  const [lives,          setLives]          = useState(flow === 'learn-to-match' ? 3 : null);
+  const [gameOver,       setGameOver]       = useState(false);
+  const [showIntro,      setShowIntro]      = useState(flow === 'learn-to-match');
+  const [correctWordIds, setCorrectWordIds] = useState(new Set());
 
   useEffect(() => {
     const w = quizWords[currentIndex];
@@ -188,6 +199,33 @@ export default function QuizPage() {
     setSelectedId(null);
     setIsAnswered(false);
   }, [currentIndex, quizWords, wordIds]);
+
+  useEffect(() => {
+    if (showIntro || timedOut || gameOver || currentIndex >= quizWords.length || quizWords.length === 0) return;
+    if (timeLeft === 0) { setTimedOut(true); return; }
+    const id = setTimeout(() => setTimeLeft((t) => t - 1), 1000);
+    return () => clearTimeout(id);
+  }, [timeLeft, timedOut, gameOver, showIntro, currentIndex, quizWords.length]);
+
+  useEffect(() => {
+    if (!flowSuccess) return;
+    if (flowCountdown === 0) {
+      navigate('/match', {
+        state: {
+          wordIds,
+          topics: location.state?.topic,
+          pageLabel: label,
+          flow: 'quiz-to-done',
+          quizScore: flowSuccess.score,
+          quizTotal: flowSuccess.total,
+          correctWordIds: [...correctWordIds],
+        },
+      });
+      return;
+    }
+    const id = setTimeout(() => setFlowCountdown((c) => c - 1), 1000);
+    return () => clearTimeout(id);
+  }, [flowSuccess, flowCountdown]);
 
   function startQuiz(newSel, newLabel, newWordIds = null) {
     const { quizWords: qw, options: opts } = buildQuiz(newSel, newWordIds);
@@ -201,6 +239,14 @@ export default function QuizPage() {
     setResults([]);
     setSelectedId(null);
     setIsAnswered(false);
+    setTimeLeft(60);
+    setTimedOut(false);
+    setFlowSuccess(null);
+    setFlowCountdown(5);
+    setLives(flow === 'learn-to-match' ? 3 : null);
+    setGameOver(false);
+    setShowIntro(flow === 'learn-to-match');
+    setCorrectWordIds(new Set());
   }
 
   function handleAnswer(optionWord) {
@@ -212,18 +258,31 @@ export default function QuizPage() {
     setIsAnswered(true);
     setResults((r) => [...r, correct]);
 
-    if (correct) { setScore((s) => s + 1); markLearned(current.id); }
-    else          { markUnlearned(current.id); }
+    if (correct) {
+      setScore((s) => s + 1);
+      markLearned(current.id);
+      setCorrectWordIds((prev) => { const n = new Set(prev); n.add(current.id); return n; });
+    }
+    else {
+      markUnlearned(current.id);
+      if (lives !== null) {
+        const newLives = lives - 1;
+        setLives(newLives);
+        if (newLives === 0) { setTimeout(() => setGameOver(true), 1500); return; }
+      }
+    }
 
-    setTimeout(() => setCurrentIndex((i) => i + 1), correct ? 900 : 1500);
+    setTimeout(() => setCurrentIndex((i) => i + 1), correct ? 800 : 3500);
   }
 
   if (!sel) return <TopicSelect onSelect={startQuiz} />;
 
-  if (currentIndex >= quizWords.length && quizWords.length > 0) {
+  if (currentIndex >= quizWords.length && quizWords.length > 0 && flow !== 'learn-to-match') {
     markDone();
     return (
-      <FinishScreen
+      <>
+        {justStreaked && <StreakCelebration streak={streak} onDone={clearStreak} />}
+        <FinishScreen
         label={label}
         score={score}
         total={quizWords.length}
@@ -232,6 +291,148 @@ export default function QuizPage() {
         onBack={() => navigate('/topics')}
         onHome={() => navigate('/topics')}
       />
+      </>
+    );
+  }
+
+  if (currentIndex >= quizWords.length && quizWords.length > 0 && flow === 'learn-to-match' && !flowSuccess) {
+    setFlowSuccess({ score, total: quizWords.length, timeLeft });
+  }
+
+  if (flowSuccess) {
+    const pct = Math.round((flowSuccess.score / flowSuccess.total) * 100);
+    const timeTaken = 60 - flowSuccess.timeLeft;
+    return (
+      <div className="min-h-screen bg-[#080812] flex items-center justify-center px-4">
+        <div className="w-full max-w-sm bg-[#0e0e1a] border border-white/[0.07] rounded-3xl p-8 shadow-xl text-center animate-pop-in">
+          <div className="text-6xl mb-3">🎯</div>
+          <h2 className="text-2xl font-bold text-white mb-1">Test Tamamlandı!</h2>
+          <p className="text-gray-500 text-sm mb-6">{timeTaken} saniyede bitirdin</p>
+          <div className="grid grid-cols-2 gap-3 mb-8">
+            <div className="bg-emerald-500/10 border border-emerald-500/20 rounded-2xl p-4">
+              <p className="text-3xl font-extrabold text-emerald-400">{flowSuccess.score}</p>
+              <p className="text-xs text-emerald-500 mt-1">Doğru / {flowSuccess.total}</p>
+            </div>
+            <div className="bg-blue-500/10 border border-blue-500/20 rounded-2xl p-4">
+              <p className="text-3xl font-extrabold text-blue-400">%{pct}</p>
+              <p className="text-xs text-blue-500 mt-1">Başarı</p>
+            </div>
+          </div>
+          <p className="text-gray-500 text-sm">
+            Eşleştirme oyunu başlıyor
+            <span className="text-white font-bold"> {flowCountdown}</span>
+          </p>
+          <div className="w-full bg-white/10 rounded-full h-1 mt-3 overflow-hidden">
+            <div
+              className="bg-blue-500 h-1 rounded-full transition-all duration-1000 ease-linear"
+              style={{ width: `${(flowCountdown / 5) * 100}%` }}
+            />
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (showIntro) {
+    return (
+      <div className="min-h-screen bg-[#080812] flex items-center justify-center px-4">
+        <div className="w-full max-w-sm bg-[#0e0e1a] border border-white/[0.07] rounded-3xl p-8 shadow-xl text-center animate-pop-in">
+          <div className="text-6xl mb-4">🎯</div>
+          <h2 className="text-2xl font-bold text-white mb-3">Test Başlıyor!</h2>
+
+          <div className="bg-orange-500/10 border border-orange-500/20 rounded-2xl p-4 mb-5 text-left space-y-2">
+            <p className="text-sm text-orange-300 font-semibold">⚠️ Dikkat!</p>
+            <p className="text-sm text-gray-300">
+              Bu konuyu tamamlamak için <span className="text-white font-bold">test</span> ve{' '}
+              <span className="text-white font-bold">eşleştirmeyi</span> doğru ve eksiksiz yapmalısın.
+              Aksi takdirde ilerleme kaydedilmez!
+            </p>
+          </div>
+
+          <div className="flex items-center justify-center gap-2 mb-6">
+            <span className="text-2xl">❤️</span>
+            <span className="text-2xl">❤️</span>
+            <span className="text-2xl">❤️</span>
+            <span className="text-sm text-gray-400 ml-2">3 canın var</span>
+          </div>
+
+          <button
+            onClick={() => setShowIntro(false)}
+            className="w-full py-4 rounded-2xl font-bold text-base text-white
+                       bg-gradient-to-r from-blue-600 to-indigo-500
+                       hover:from-blue-500 hover:to-indigo-400
+                       active:scale-[0.97] transition-all shadow-[0_0_32px_#3b82f630]"
+          >
+            Başla →
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  if (gameOver) {
+    return (
+      <div className="min-h-screen bg-[#080812] flex items-center justify-center px-4">
+        <div className="w-full max-w-sm bg-[#0e0e1a] border border-white/[0.07] rounded-3xl p-8 shadow-xl text-center animate-pop-in">
+          <div className="text-6xl mb-4">💔</div>
+          <h2 className="text-2xl font-bold text-white mb-2">Canların Bitti!</h2>
+          <p className="text-gray-400 mb-8">Testi baştan alman gerekiyor.</p>
+          <div className="space-y-3">
+            <button
+              onClick={() => startQuiz(sel, label, wordIds)}
+              className="w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-4 rounded-2xl transition-colors"
+            >
+              🔄 Tekrar Dene
+            </button>
+            <button
+              onClick={() => navigate('/topics')}
+              className="w-full bg-white/10 hover:bg-white/15 text-gray-300 font-semibold py-4 rounded-2xl transition-colors"
+            >
+              Konulara Dön
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (timedOut) {
+    return (
+      <div className="min-h-screen bg-[#080812] flex items-center justify-center px-4">
+        <div className="w-full max-w-sm bg-[#0e0e1a] border border-white/[0.07] rounded-3xl p-8 shadow-xl text-center animate-pop-in">
+          <div className="text-6xl mb-4">⏰</div>
+          <h2 className="text-2xl font-bold text-white mb-1">Süre Doldu!</h2>
+          <p className="text-gray-400 mb-6">{label}</p>
+          <div className="bg-[#080812] rounded-2xl p-4 mb-8 flex justify-center gap-8">
+            <div className="text-center">
+              <p className="text-3xl font-extrabold text-emerald-400">{score}</p>
+              <p className="text-xs text-gray-500 mt-1">Doğru</p>
+            </div>
+            <div className="text-center">
+              <p className="text-3xl font-extrabold text-pink-400">{currentIndex - score}</p>
+              <p className="text-xs text-gray-500 mt-1">Yanlış</p>
+            </div>
+            <div className="text-center">
+              <p className="text-3xl font-extrabold text-gray-500">{quizWords.length - currentIndex}</p>
+              <p className="text-xs text-gray-500 mt-1">Kalan</p>
+            </div>
+          </div>
+          <div className="space-y-3">
+            <button
+              onClick={() => startQuiz(sel, label, wordIds)}
+              className="w-full bg-emerald-500 hover:bg-emerald-400 text-white font-bold py-4 rounded-2xl transition-colors"
+            >
+              🔄 Tekrar Dene
+            </button>
+            <button
+              onClick={() => navigate('/topics')}
+              className="w-full bg-white/10 hover:bg-white/15 text-gray-300 font-semibold py-4 rounded-2xl transition-colors"
+            >
+              Menüye Dön
+            </button>
+          </div>
+        </div>
+      </div>
     );
   }
 
@@ -270,12 +471,27 @@ export default function QuizPage() {
           ))}
         </div>
 
-        {/* Score badge */}
-        <div className="flex justify-end mb-4">
+        {/* Canlar (flow modu) */}
+        {lives !== null && (
+          <div className="flex justify-center gap-1.5 mb-3">
+            {[...Array(3)].map((_, i) => (
+              <span key={i} className="text-xl">{i < lives ? '❤️' : '🤍'}</span>
+            ))}
+          </div>
+        )}
+
+        {/* Score badge + timer */}
+        <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-2 bg-[#0e0e1a] border border-white/[0.07] rounded-xl px-3 py-1.5 text-xs font-bold">
             <span className="text-emerald-400">{score} ✓</span>
             <span className="text-gray-600">|</span>
             <span className="text-pink-400">{currentIndex - score} ✗</span>
+          </div>
+          <div className={`flex items-center gap-1.5 rounded-xl px-3 py-1.5 text-xs font-bold tabular-nums border
+            ${timeLeft > 30 ? 'bg-white/5 border-white/10 text-gray-400'
+            : timeLeft > 10 ? 'bg-yellow-500/10 border-yellow-500/20 text-yellow-400'
+            : 'bg-red-500/10 border-red-500/20 text-red-400'}`}>
+            ⏱ {Math.floor(timeLeft / 60)}:{String(timeLeft % 60).padStart(2, '0')}
           </div>
         </div>
 
@@ -284,7 +500,7 @@ export default function QuizPage() {
           <p className="text-[11px] text-gray-500 uppercase tracking-widest text-center mb-5 font-semibold">
             Türkçe karşılığı nedir?
           </p>
-          <div className="flex items-center justify-center gap-3 mb-3">
+          <div className="flex items-center justify-center gap-3 mb-1">
             <h2 className="text-4xl font-extrabold text-white break-words text-center">
               {current.en}
             </h2>
@@ -298,6 +514,11 @@ export default function QuizPage() {
               🔊
             </button>
           </div>
+          {WORD_PHONETIC[current.en.toLowerCase()] && (
+            <p className="text-sm text-gray-500 text-center mb-2 tracking-wide">
+              /{WORD_PHONETIC[current.en.toLowerCase()]}/
+            </p>
+          )}
           <p className="text-center text-xs text-gray-500 font-semibold uppercase tracking-widest">
             {current.type}
           </p>

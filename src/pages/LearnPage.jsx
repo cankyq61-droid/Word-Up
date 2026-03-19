@@ -3,7 +3,6 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import words from '../data/words.json';
 import { useProgress } from '../hooks/useProgress';
 import { useSpeech } from '../hooks/useSpeech';
-import { useStreak } from '../hooks/useStreak';
 import { WORD_EMOJI, NUMBER_TEXT } from '../data/wordEmoji';
 import { WORD_ICON } from '../data/wordIcon';
 import { WORD_PHONETIC } from '../data/wordPhonetic';
@@ -155,8 +154,6 @@ export default function LearnPage() {
   const { speak, isSupported } = useSpeech();
   const { isLearned, markLearned, markUnlearned } = useProgress();
 
-  const { markDone } = useStreak();
-
   const [selectedTopic, setSelectedTopic] = useState(location.state?.topic ?? null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [cardState, setCardState] = useState('idle');
@@ -164,7 +161,15 @@ export default function LearnPage() {
   const topicWords = selectedTopic ? words.filter((w) => w.topic === selectedTopic) : [];
   const isFinished = currentIndex >= topicWords.length;
 
-  useEffect(() => { if (isFinished && topicWords.length > 0) markDone(); }, [isFinished]);
+  useEffect(() => {
+    if (!isFinished || topicWords.length === 0) return;
+    const learnedIds = topicWords.filter((w) => isLearned(w.id)).map((w) => w.id);
+    if (learnedIds.length > 0) {
+      navigate('/quiz', {
+        state: { wordIds: learnedIds, pageLabel: selectedTopic, topic: selectedTopic, flow: 'learn-to-match' },
+      });
+    }
+  }, [isFinished]); // eslint-disable-line react-hooks/exhaustive-deps
   const current = topicWords[currentIndex];
   const meta = TOPIC_META[selectedTopic] || DEFAULT_META;
 
@@ -182,22 +187,37 @@ export default function LearnPage() {
   }
 
   if (!selectedTopic) {
-    navigate('/topics');
+    navigate('/topic-hub');
     return null;
   }
 
   if (isFinished) {
+    const learnedIds = topicWords.filter((w) => isLearned(w.id)).map((w) => w.id);
+    if (learnedIds.length > 0) return null; // useEffect quiz'e yönlendiriyor
+
+    // 0 kelime öğrenildi
     return (
-      <FinishScreen
-        topic={selectedTopic}
-        topicWords={topicWords}
-        isLearned={isLearned}
-        onRetry={() => setCurrentIndex(0)}
-        onBack={() => navigate('/topics')}
-        onHome={() => navigate('/topics')}
-        onQuiz={() => navigate('/quiz', { state: { topic: selectedTopic } })}
-        onMatch={() => navigate('/match', { state: { topics: selectedTopic, pageLabel: selectedTopic } })}
-      />
+      <div className="min-h-screen bg-[#080812] flex items-center justify-center px-4">
+        <div className="w-full max-w-sm bg-[#0e0e1a] border border-white/[0.07] rounded-3xl p-8 text-center">
+          <div className="text-6xl mb-4">😅</div>
+          <h2 className="text-2xl font-bold text-white mb-2">Hiç kelime öğrenilmedi</h2>
+          <p className="text-gray-400 mb-8">Kartları tekrar gözden geçir ve "Öğrendim" butonuna bas.</p>
+          <div className="space-y-3">
+            <button
+              onClick={() => setCurrentIndex(0)}
+              className="w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-4 rounded-2xl transition-colors"
+            >
+              🔄 Tekrar Dene
+            </button>
+            <button
+              onClick={() => navigate('/topics')}
+              className="w-full bg-white/10 hover:bg-white/15 text-gray-300 font-semibold py-4 rounded-2xl transition-colors"
+            >
+              Konulara Dön
+            </button>
+          </div>
+        </div>
+      </div>
     );
   }
 

@@ -1,12 +1,14 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import words from '../data/words.json';
 import { TOPIC_META, DEFAULT_META } from '../data/topics';
 import { useStreak } from '../hooks/useStreak';
+import { useProgress } from '../hooks/useProgress';
+import StreakCelebration from '../components/StreakCelebration';
 
 const topics = [...new Set(words.map((w) => w.topic))];
 
-const PAIRS_PER_GAME = 8;
+const PAIRS_PER_GAME = 15;
 
 function shuffle(arr) {
   const a = [...arr];
@@ -68,6 +70,66 @@ function TopicSelect({ onSelect }) {
 }
 
 // ─────────────────────────────────────────────
+// Konu tamamlandı ekranı (flow modu)
+// ─────────────────────────────────────────────
+function TopicDoneScreen({ topic, learned, total, quizScore, quizTotal, matchMoves, matchPairs, onHome }) {
+  const pct      = total > 0 ? Math.round((learned / total) * 100) : 0;
+  const quizPct  = quizTotal > 0 ? Math.round((quizScore / quizTotal) * 100) : 0;
+  const matchRating = matchMoves <= matchPairs ? '🥇' : matchMoves <= matchPairs * 1.5 ? '🥈' : '🥉';
+
+  return (
+    <div className="min-h-screen bg-[#080812] flex items-center justify-center px-4 py-8">
+      <div className="w-full max-w-sm bg-[#0e0e1a] border border-white/[0.07] rounded-3xl p-6 shadow-xl text-center animate-pop-in">
+        <div className="text-6xl mb-3">🏆</div>
+        <h2 className="text-2xl font-bold text-white mb-1">Konu Tamamlandı!</h2>
+        <p className="text-gray-400 text-sm mb-5">{topic}</p>
+
+        {/* Test sonucu */}
+        <div className="bg-emerald-500/10 border border-emerald-500/20 rounded-2xl p-4 mb-3 text-left">
+          <p className="text-[11px] text-emerald-400 font-bold uppercase tracking-widest mb-2">🧠 Test Sonucu</p>
+          <div className="flex items-center justify-between">
+            <span className="text-sm text-gray-300">{quizScore} / {quizTotal} doğru</span>
+            <span className="text-xl font-extrabold text-emerald-400">%{quizPct}</span>
+          </div>
+          <div className="w-full bg-white/10 rounded-full h-1.5 mt-2 overflow-hidden">
+            <div className="bg-emerald-500 h-1.5 rounded-full" style={{ width: `${quizPct}%` }} />
+          </div>
+        </div>
+
+        {/* Eşleştirme sonucu */}
+        <div className="bg-violet-500/10 border border-violet-500/20 rounded-2xl p-4 mb-3 text-left">
+          <p className="text-[11px] text-violet-400 font-bold uppercase tracking-widest mb-2">🎮 Eşleştirme Sonucu</p>
+          <div className="flex items-center justify-between">
+            <span className="text-sm text-gray-300">{matchMoves} hamlede {matchPairs} çift</span>
+            <span className="text-2xl">{matchRating}</span>
+          </div>
+        </div>
+
+        {/* Genel tamamlanma */}
+        <div className="bg-blue-500/10 border border-blue-500/20 rounded-2xl p-4 mb-5 text-left">
+          <p className="text-[11px] text-blue-400 font-bold uppercase tracking-widest mb-2">📊 Konu Tamamlanması</p>
+          <div className="flex items-center justify-between mb-2">
+            <span className="text-sm text-gray-300">{learned} / {total} kelime</span>
+            <span className="text-xl font-extrabold text-blue-400">%{pct}</span>
+          </div>
+          <div className="w-full bg-white/10 rounded-full h-1.5 overflow-hidden">
+            <div className="bg-gradient-to-r from-blue-600 to-indigo-500 h-1.5 rounded-full" style={{ width: `${pct}%` }} />
+          </div>
+        </div>
+
+        <button
+          onClick={onHome}
+          className="w-full bg-gradient-to-r from-blue-600 to-indigo-500 hover:from-blue-500 hover:to-indigo-400
+                     text-white font-bold py-4 rounded-2xl transition-all shadow-[0_0_20px_#3b82f630]"
+        >
+          Konulara Dön
+        </button>
+      </div>
+    </div>
+  );
+}
+
+// ─────────────────────────────────────────────
 // Finish screen
 // ─────────────────────────────────────────────
 function FinishScreen({ topic, moves, pairs, onRetry, onBack, onHome }) {
@@ -111,7 +173,7 @@ function FinishScreen({ topic, moves, pairs, onRetry, onBack, onHome }) {
 // ─────────────────────────────────────────────
 // Game board
 // ─────────────────────────────────────────────
-function GameBoard({ topic, cards, selected, matched, shaking, moves, onCardClick, onExit }) {
+function GameBoard({ topic, cards, selected, matched, shaking, moves, timeLeft, lives, onCardClick, onExit }) {
   const totalPairs = cards.length / 2;
   const matchedPairs = matched.size / 2;
 
@@ -135,11 +197,28 @@ function GameBoard({ topic, cards, selected, matched, shaking, moves, onCardClic
               </p>
             </div>
           </div>
-          <div className="flex items-center gap-2 bg-violet-500/10 border border-violet-500/20 text-violet-400 rounded-xl px-4 py-2">
-            <span className="text-sm font-bold tabular-nums">{moves}</span>
-            <span className="text-xs font-medium">hamle</span>
+          <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 bg-violet-500/10 border border-violet-500/20 text-violet-400 rounded-xl px-3 py-2">
+              <span className="text-sm font-bold tabular-nums">{moves}</span>
+              <span className="text-xs font-medium">hamle</span>
+            </div>
+            <div className={`flex items-center gap-1 rounded-xl px-3 py-2 text-sm font-bold tabular-nums border
+              ${timeLeft > 30 ? 'bg-white/5 border-white/10 text-gray-400'
+              : timeLeft > 10 ? 'bg-yellow-500/10 border-yellow-500/20 text-yellow-400'
+              : 'bg-red-500/10 border-red-500/20 text-red-400'}`}>
+              ⏱ {Math.floor(timeLeft / 60)}:{String(timeLeft % 60).padStart(2, '0')}
+            </div>
           </div>
         </div>
+
+        {/* Canlar (flow modu) */}
+        {lives !== null && (
+          <div className="flex justify-center gap-2 mb-3">
+            {[...Array(3)].map((_, i) => (
+              <span key={i} className="text-xl">{i < lives ? '❤️' : '🤍'}</span>
+            ))}
+          </div>
+        )}
 
         {/* Progress bar */}
         <div className="w-full bg-white/10 rounded-full h-1.5 mb-5 overflow-hidden">
@@ -150,7 +229,7 @@ function GameBoard({ topic, cards, selected, matched, shaking, moves, onCardClic
         </div>
 
         {/* Cards grid */}
-        <div className="grid grid-cols-4 gap-2">
+        <div className="grid grid-cols-5 gap-2">
           {cards.map((card) => {
             const isMatched = matched.has(card.id);
             const isSelected = Boolean(selected.find((s) => s.id === card.id));
@@ -211,11 +290,16 @@ function GameBoard({ topic, cards, selected, matched, shaking, moves, onCardClic
 export default function MatchPage() {
   const navigate = useNavigate();
   const location = useLocation();
-  const { markDone } = useStreak();
+  const { streak, justStreaked, markDone, clearStreak } = useStreak();
+  const { markUnlearned } = useProgress();
 
   const initTopics  = location.state?.topics ?? null;
   const initLabel   = location.state?.pageLabel ?? null;
   const initWordIds = location.state?.wordIds ?? null;
+  const flow        = location.state?.flow ?? null;
+  const quizScore   = location.state?.quizScore ?? null;
+  const quizTotal   = location.state?.quizTotal ?? null;
+  const initCorrectWordIds = location.state?.correctWordIds ?? [];
 
   const [selectedTopic, setSelectedTopic] = useState(initTopics ?? (initWordIds ? '__practice__' : null));
   const [label,    setLabel]    = useState(initLabel ?? null);
@@ -227,6 +311,13 @@ export default function MatchPage() {
   const [moves, setMoves] = useState(0);
   const [isChecking, setIsChecking] = useState(false);
   const [finished, setFinished] = useState(false);
+  const [timeLeft,  setTimeLeft]  = useState(60);
+  const [timedOut,  setTimedOut]  = useState(false);
+  const [lives,     setLives]     = useState(flow === 'quiz-to-done' ? 3 : null);
+  const [gameOver,  setGameOver]  = useState(false);
+
+  const failedMatchIdsRef     = useRef(new Set());
+  const markUnlearnedDoneRef  = useRef(false);
 
   const buildGame = useCallback((sel, ids = null) => {
     const pool = ids && ids.length > 0
@@ -245,6 +336,12 @@ export default function MatchPage() {
     setMoves(0);
     setFinished(false);
     setIsChecking(false);
+    setTimeLeft(60);
+    setTimedOut(false);
+    setLives(flow === 'quiz-to-done' ? 3 : null);
+    setGameOver(false);
+    failedMatchIdsRef.current = new Set();
+    markUnlearnedDoneRef.current = false;
   }, []);
 
   useEffect(() => {
@@ -287,6 +384,13 @@ export default function MatchPage() {
           }, 400);
         } else {
           setShaking(new Set([a.id, b.id]));
+          failedMatchIdsRef.current.add(a.wordId);
+          failedMatchIdsRef.current.add(b.wordId);
+          if (lives !== null) {
+            const newLives = lives - 1;
+            setLives(newLives);
+            if (newLives === 0) { setTimeout(() => setGameOver(true), 800); }
+          }
           setTimeout(() => {
             setSelected([]);
             setShaking(new Set());
@@ -299,6 +403,13 @@ export default function MatchPage() {
   );
 
   useEffect(() => {
+    if (timedOut || gameOver || finished || cards.length === 0) return;
+    if (timeLeft === 0) { setTimedOut(true); return; }
+    const id = setTimeout(() => setTimeLeft((t) => t - 1), 1000);
+    return () => clearTimeout(id);
+  }, [timeLeft, timedOut, finished, cards.length]);
+
+  useEffect(() => {
     if (cards.length > 0 && matched.size === cards.length) {
       markDone();
       const t = setTimeout(() => setFinished(true), 500);
@@ -306,13 +417,106 @@ export default function MatchPage() {
     }
   }, [matched, cards]);
 
+  useEffect(() => {
+    if (!finished || flow !== 'quiz-to-done' || markUnlearnedDoneRef.current) return;
+    markUnlearnedDoneRef.current = true;
+    initCorrectWordIds
+      .filter((id) => failedMatchIdsRef.current.has(id))
+      .forEach((id) => markUnlearned(id));
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [finished]);
+
   if (!selectedTopic) {
     return <TopicSelect onSelect={startGame} />;
   }
 
-  if (finished) {
+  if (gameOver) {
     return (
-      <FinishScreen
+      <div className="min-h-screen bg-[#080812] flex items-center justify-center px-4">
+        <div className="w-full max-w-sm bg-[#0e0e1a] border border-white/[0.07] rounded-3xl p-8 shadow-xl text-center animate-pop-in">
+          <div className="text-6xl mb-4">💔</div>
+          <h2 className="text-2xl font-bold text-white mb-2">Canların Bitti!</h2>
+          <p className="text-gray-400 mb-8">Eşleştirmeyi baştan alman gerekiyor.</p>
+          <div className="space-y-3">
+            <button
+              onClick={() => buildGame(selectedTopic, wordIds)}
+              className="w-full bg-violet-600 hover:bg-violet-500 text-white font-bold py-4 rounded-2xl transition-colors"
+            >
+              🔄 Tekrar Dene
+            </button>
+            <button
+              onClick={() => navigate('/topics')}
+              className="w-full bg-white/10 hover:bg-white/15 text-gray-300 font-semibold py-4 rounded-2xl transition-colors"
+            >
+              Konulara Dön
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (timedOut) {
+    return (
+      <div className="min-h-screen bg-[#080812] flex items-center justify-center px-4">
+        <div className="w-full max-w-sm bg-[#0e0e1a] border border-white/[0.07] rounded-3xl p-8 shadow-xl text-center animate-pop-in">
+          <div className="text-6xl mb-4">⏰</div>
+          <h2 className="text-2xl font-bold text-white mb-1">Süre Doldu!</h2>
+          <p className="text-gray-400 mb-6">{label ?? selectedTopic}</p>
+          <div className="bg-[#080812] rounded-2xl p-4 mb-8 flex justify-center gap-8">
+            <div className="text-center">
+              <p className="text-3xl font-extrabold text-violet-400">{matched.size / 2}</p>
+              <p className="text-xs text-gray-500 mt-1">Eşleşti</p>
+            </div>
+            <div className="text-center">
+              <p className="text-3xl font-extrabold text-gray-500">{cards.length / 2 - matched.size / 2}</p>
+              <p className="text-xs text-gray-500 mt-1">Kalan</p>
+            </div>
+          </div>
+          <div className="space-y-3">
+            <button
+              onClick={() => buildGame(selectedTopic, wordIds)}
+              className="w-full bg-violet-600 hover:bg-violet-500 text-white font-bold py-4 rounded-2xl transition-colors"
+            >
+              🔄 Tekrar Dene
+            </button>
+            <button
+              onClick={() => navigate('/topics')}
+              className="w-full bg-white/10 hover:bg-white/15 text-gray-300 font-semibold py-4 rounded-2xl transition-colors"
+            >
+              Menüye Dön
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (finished) {
+    if (flow === 'quiz-to-done') {
+      const topicName = typeof selectedTopic === 'string' ? selectedTopic : label;
+      const topicTotal = words.filter((w) => w.topic === topicName).length;
+      const finalLearnedCount = initCorrectWordIds.filter((id) => !failedMatchIdsRef.current.has(id)).length;
+      return (
+        <>
+          {justStreaked && <StreakCelebration streak={streak} onDone={clearStreak} />}
+          <TopicDoneScreen
+            topic={label ?? selectedTopic}
+            learned={finalLearnedCount}
+            total={topicTotal}
+            quizScore={quizScore}
+            quizTotal={quizTotal}
+            matchMoves={moves}
+            matchPairs={cards.length / 2}
+            onHome={() => navigate('/topics')}
+          />
+        </>
+      );
+    }
+    return (
+      <>
+        {justStreaked && <StreakCelebration streak={streak} onDone={clearStreak} />}
+        <FinishScreen
         topic={label ?? selectedTopic}
         moves={moves}
         pairs={cards.length / 2}
@@ -320,6 +524,7 @@ export default function MatchPage() {
         onBack={() => navigate('/topics')}
         onHome={() => navigate('/topics')}
       />
+      </>
     );
   }
 
@@ -331,6 +536,8 @@ export default function MatchPage() {
       matched={matched}
       shaking={shaking}
       moves={moves}
+      timeLeft={timeLeft}
+      lives={lives}
       onCardClick={handleCardClick}
       onExit={() => navigate('/topics')}
     />
