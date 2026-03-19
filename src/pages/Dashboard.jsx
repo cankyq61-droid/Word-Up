@@ -124,9 +124,9 @@ export default function Dashboard() {
               </span>
             </div>
 
-            <h1 className={`text-2xl font-extrabold text-white tracking-tight
+            <h1 className={`text-2xl font-extrabold tracking-tight
                             ${phase === 'done' ? 'anim-in-1' : 'opacity-0'}`}>
-              WordUp
+              <span className="text-white">Word</span><span className="text-cyan-400"> Up</span>
             </h1>
             <p className={`text-gray-500 mt-1 text-sm
                            ${phase === 'done' ? 'anim-in-2' : 'opacity-0'}`}>
