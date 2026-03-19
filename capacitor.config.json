@@ -1,5 +1,8 @@
 {
   "appId": "com.en.kelime",
-  "appName": "EN Ingilizce Ogren",
-  "webDir": "dist"
+  "appName": "English Learning",
+  "webDir": "dist",
+  "android": {
+    "backgroundColor": "#080812"
+  }
 }

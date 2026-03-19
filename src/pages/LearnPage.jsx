@@ -173,8 +173,8 @@ export default function LearnPage() {
       : 'opacity-100 translate-x-0';
 
   return (
-    <div className="min-h-screen bg-[#080812]">
-      <div className="max-w-lg mx-auto px-4 pt-6 pb-10">
+    <div className="min-h-screen bg-[#080812] flex items-center justify-center px-4">
+      <div className="w-full max-w-lg">
 
         {/* ── Nav bar ── */}
         <div className="flex items-center justify-between mb-5">

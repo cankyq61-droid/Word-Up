@@ -81,50 +81,39 @@ export default function TopicsPage() {
             </button>
             <button
               onClick={() => navigate('/quiz', { state: { topics: allTopics, pageLabel: 'Tüm Konular' } })}
-              className="flex items-center gap-1 bg-emerald-500/15 hover:bg-emerald-500/25
-                         text-emerald-400 text-[11px] font-bold px-2.5 py-1.5 rounded-lg
+              className="flex items-center justify-center gap-1 bg-emerald-500/15 hover:bg-emerald-500/25
+                         text-emerald-400 text-[11px] font-bold w-24 py-1.5 rounded-lg
                          transition-colors border border-emerald-500/25"
             >
-              🧠 Genel Quiz
+              🧠 Quiz
             </button>
             <button
               onClick={() => navigate('/match', { state: { topics: allTopics, pageLabel: 'Tüm Konular' } })}
-              className="flex items-center gap-1 bg-violet-500/15 hover:bg-violet-500/25
-                         text-violet-400 text-[11px] font-bold px-2.5 py-1.5 rounded-lg
+              className="flex items-center justify-center gap-1 bg-violet-500/15 hover:bg-violet-500/25
+                         text-violet-400 text-[11px] font-bold w-24 py-1.5 rounded-lg
                          transition-colors border border-violet-500/25"
             >
-              🎮 Genel
+              🎮 Eşleştir
             </button>
           </div>
 
           {/* Sağ: sayfa navigasyonu */}
-          <div className="flex items-center gap-2">
-            <span className="text-[11px] font-bold text-gray-500 uppercase tracking-widest">
-              {page + 1}/{topicPages.length}
-            </span>
+          <div className="flex items-center gap-1.5">
             <button
               onClick={() => setPage((p) => Math.max(0, p - 1))}
               disabled={page === 0}
-              className="w-6 h-6 flex items-center justify-center rounded-full bg-white/10 text-gray-400
+              className="w-7 h-7 flex items-center justify-center rounded-full bg-white/10 text-gray-400
                          disabled:opacity-25 hover:bg-white/20 transition-all text-base leading-none"
             >
               ‹
             </button>
-            <div className="flex gap-1 items-center">
-              {topicPages.map((_, i) => (
-                <button
-                  key={i}
-                  onClick={() => setPage(i)}
-                  className={`rounded-full transition-all duration-300 ${
-                    i === page ? 'w-4 h-2 bg-cyan-500' : 'w-2 h-2 bg-white/20 hover:bg-white/40'
-                  }`}
-                />
-              ))}
-            </div>
+            <span className="text-[11px] font-bold text-gray-500 tabular-nums min-w-[2.5rem] text-center">
+              {page + 1}/{topicPages.length}
+            </span>
             <button
               onClick={() => setPage((p) => Math.min(topicPages.length - 1, p + 1))}
               disabled={page === topicPages.length - 1}
-              className="w-6 h-6 flex items-center justify-center rounded-full bg-white/10 text-gray-400
+              className="w-7 h-7 flex items-center justify-center rounded-full bg-white/10 text-gray-400
                          disabled:opacity-25 hover:bg-white/20 transition-all text-base leading-none"
             >
               ›
