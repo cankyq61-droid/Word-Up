@@ -90,7 +90,7 @@ function TopicSelect({ onSelect }) {
 // ─────────────────────────────────────────────
 // Completion screen
 // ─────────────────────────────────────────────
-function FinishScreen({ topic, topicWords, isLearned, onRetry, onBack, onHome, onQuiz }) {
+function FinishScreen({ topic, topicWords, isLearned, onRetry, onBack, onHome, onQuiz, onMatch }) {
   const learnedCount = topicWords.filter((w) => isLearned(w.id)).length;
   const pct = Math.round((learnedCount / topicWords.length) * 100);
 
@@ -115,6 +115,13 @@ function FinishScreen({ topic, topicWords, isLearned, onRetry, onBack, onHome, o
                        transition-colors shadow-[0_0_20px_#10b98130]"
           >
             🧠 Şimdi Test Et
+          </button>
+          <button
+            onClick={onMatch}
+            className="w-full bg-violet-600 hover:bg-violet-500 text-white font-bold py-4 rounded-2xl
+                       transition-colors shadow-[0_0_20px_#7c3aed30]"
+          >
+            🎮 Eşleştirme Yap
           </button>
           <button
             onClick={onRetry}
@@ -184,6 +191,7 @@ export default function LearnPage() {
         onBack={() => navigate('/topics')}
         onHome={() => navigate('/topics')}
         onQuiz={() => navigate('/quiz', { state: { topic: selectedTopic } })}
+        onMatch={() => navigate('/match', { state: { topics: selectedTopic, pageLabel: selectedTopic } })}
       />
     );
   }
