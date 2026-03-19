@@ -21283,5 +21283,1805 @@
     "type": "isim",
     "exampleEn": "The catering for the wedding was excellent.",
     "exampleTr": "Düğündeki yemek servisi mükemmeldi."
+  },
+  {
+    "id": 2366,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B1)",
+    "en": "vegan",
+    "tr": "vegan",
+    "type": "sıfat",
+    "exampleEn": "The vegan menu was creative and delicious.",
+    "exampleTr": "Vegan menü yaratıcı ve lezzetliydi."
+  },
+  {
+    "id": 2367,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B1)",
+    "en": "dietary",
+    "tr": "beslenme ile ilgili",
+    "type": "sıfat",
+    "exampleEn": "She has strict dietary requirements due to allergies.",
+    "exampleTr": "Alerjileri nedeniyle katı beslenme gereksinimleri var."
+  },
+  {
+    "id": 2368,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B1)",
+    "en": "calorie",
+    "tr": "kalori",
+    "type": "isim",
+    "exampleEn": "This dessert contains over five hundred calories.",
+    "exampleTr": "Bu tatlı beş yüzden fazla kalori içeriyor."
+  },
+  {
+    "id": 2369,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B1)",
+    "en": "buffet",
+    "tr": "büfe",
+    "type": "isim",
+    "exampleEn": "The hotel offers a generous buffet breakfast.",
+    "exampleTr": "Otel geniş bir büfe kahvaltı sunuyor."
+  },
+  {
+    "id": 2370,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B1)",
+    "en": "condiment",
+    "tr": "çeşni",
+    "type": "isim",
+    "exampleEn": "Ketchup and mustard are popular condiments.",
+    "exampleTr": "Ketçap ve hardal popüler çeşnilerdir."
+  },
+  {
+    "id": 2371,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B1)",
+    "en": "herb",
+    "tr": "ot",
+    "type": "isim",
+    "exampleEn": "Fresh herbs like basil and thyme add great flavour.",
+    "exampleTr": "Fesleğen ve kekik gibi taze otlar harika lezzet katar."
+  },
+  {
+    "id": 2372,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B1)",
+    "en": "plating",
+    "tr": "tabak sunumu",
+    "type": "isim",
+    "exampleEn": "Beautiful plating is part of fine dining.",
+    "exampleTr": "Güzel tabak sunumu lüks restoranların bir parçasıdır."
+  },
+  {
+    "id": 2373,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B1)",
+    "en": "pairing",
+    "tr": "eşleştirme",
+    "type": "isim",
+    "exampleEn": "The wine pairing with the fish was perfect.",
+    "exampleTr": "Balıkla yapılan şarap eşleştirmesi mükemmeldi."
+  },
+  {
+    "id": 2374,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B1)",
+    "en": "sourdough",
+    "tr": "ekşi maya ekmeği",
+    "type": "isim",
+    "exampleEn": "Sourdough bread has a tangy, chewy texture.",
+    "exampleTr": "Ekşi maya ekmeğinin ekşimsi, çiğnenen bir dokusu var."
+  },
+  {
+    "id": 2375,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B1)",
+    "en": "tasting",
+    "tr": "tadım",
+    "type": "isim",
+    "exampleEn": "The tasting menu had eight small courses.",
+    "exampleTr": "Tadım menüsünün sekiz küçük tabağı vardı."
+  },
+  {
+    "id": 2376,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B1)",
+    "en": "seasonal",
+    "tr": "mevsimlik",
+    "type": "sıfat",
+    "exampleEn": "The chef uses only seasonal, locally sourced produce.",
+    "exampleTr": "Şef yalnızca mevsimlik, yerel kaynaklı ürünler kullanıyor."
+  },
+  {
+    "id": 2377,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B1)",
+    "en": "artisan",
+    "tr": "zanaatkâr",
+    "type": "isim",
+    "exampleEn": "Artisan bread is made slowly with natural ingredients.",
+    "exampleTr": "Zanaatkâr ekmeği doğal malzemelerle yavaşça yapılır."
+  },
+  {
+    "id": 2378,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B1)",
+    "en": "fusion",
+    "tr": "füzyon",
+    "type": "isim",
+    "exampleEn": "Fusion cuisine combines elements from different cultures.",
+    "exampleTr": "Füzyon mutfağı farklı kültürlerden unsurları bir araya getirir."
+  },
+  {
+    "id": 2379,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B1)",
+    "en": "gourmet",
+    "tr": "gurme",
+    "type": "sıfat",
+    "exampleEn": "The gourmet restaurant had a three-month waiting list.",
+    "exampleTr": "Gurme restoranının üç aylık bekleme listesi vardı."
+  },
+  {
+    "id": 2380,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B1)",
+    "en": "aged",
+    "tr": "olgunlaştırılmış",
+    "type": "sıfat",
+    "exampleEn": "Aged cheese develops a stronger, richer flavour.",
+    "exampleTr": "Olgunlaştırılmış peynir daha güçlü, zengin bir lezzet kazanır."
+  },
+  {
+    "id": 2381,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B1)",
+    "en": "glaze",
+    "tr": "sırlama",
+    "type": "isim",
+    "exampleEn": "The honey glaze gave the duck a golden finish.",
+    "exampleTr": "Bal sırlaması ördeğe altın bir görünüm verdi."
+  },
+  {
+    "id": 2382,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B1)",
+    "en": "braise",
+    "tr": "kavurma ile pişirmek",
+    "type": "fiil",
+    "exampleEn": "Braise the meat slowly in wine and vegetables.",
+    "exampleTr": "Eti şarap ve sebzelerle yavaşça kavurma ile pişirin."
+  },
+  {
+    "id": 2383,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B1)",
+    "en": "deglaze",
+    "tr": "tencere dibini kazımak",
+    "type": "fiil",
+    "exampleEn": "Deglaze the pan with white wine after searing the meat.",
+    "exampleTr": "Eti kavurduktan sonra tencereyi beyaz şarapla kazıyın."
+  },
+  {
+    "id": 2384,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B1)",
+    "en": "poach",
+    "tr": "suda pişirmek",
+    "type": "fiil",
+    "exampleEn": "Poach the eggs in simmering water for three minutes.",
+    "exampleTr": "Yumurtaları kaynayan suda üç dakika suda pişirin."
+  },
+  {
+    "id": 2385,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B1)",
+    "en": "wok",
+    "tr": "wok tavası",
+    "type": "isim",
+    "exampleEn": "Stir-fry the vegetables quickly in a hot wok.",
+    "exampleTr": "Sebzeleri sıcak bir wok tavada hızlıca kavurun."
+  },
+  {
+    "id": 2386,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B2)",
+    "en": "michelin",
+    "tr": "michelin",
+    "type": "sıfat",
+    "exampleEn": "The Michelin-starred restaurant was fully booked.",
+    "exampleTr": "Michelin yıldızlı restoran tamamen doluydu."
+  },
+  {
+    "id": 2387,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B2)",
+    "en": "saute",
+    "tr": "sote etmek",
+    "type": "fiil",
+    "exampleEn": "Saute the mushrooms in butter until golden brown.",
+    "exampleTr": "Mantarları tereyağında altın rengi olana kadar sote edin."
+  },
+  {
+    "id": 2388,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B2)",
+    "en": "broil",
+    "tr": "üstten ızgara yapmak",
+    "type": "fiil",
+    "exampleEn": "Broil the steak under the grill for four minutes.",
+    "exampleTr": "Bifteği ızgara altında dört dakika üstten pişirin."
+  },
+  {
+    "id": 2389,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B2)",
+    "en": "desiccate",
+    "tr": "kurutmak",
+    "type": "fiil",
+    "exampleEn": "Desiccate the herbs to preserve their aroma.",
+    "exampleTr": "Aromalarını korumak için otları kurutun."
+  },
+  {
+    "id": 2390,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B2)",
+    "en": "render",
+    "tr": "yağ eritip kavurmak",
+    "type": "fiil",
+    "exampleEn": "Render the fat from the duck skin before roasting.",
+    "exampleTr": "Kavurmadan önce ördek derisindeki yağı eritip kavurun."
+  },
+  {
+    "id": 2391,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B2)",
+    "en": "flambe",
+    "tr": "alev vererek pişirmek",
+    "type": "fiil",
+    "exampleEn": "He flambed the crepes at the table with brandy.",
+    "exampleTr": "Masada krepları konjak ile alev vererek pişirdi."
+  },
+  {
+    "id": 2392,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B2)",
+    "en": "julienne",
+    "tr": "ince şerit kesmek",
+    "type": "fiil",
+    "exampleEn": "Julienne the carrots into thin matchstick strips.",
+    "exampleTr": "Havuçları ince kibrit çöpü şeritler halinde kesin."
+  },
+  {
+    "id": 2393,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B2)",
+    "en": "confit",
+    "tr": "yağda pişirme",
+    "type": "isim",
+    "exampleEn": "Duck confit is cooked slowly in its own fat.",
+    "exampleTr": "Ördek konfisi kendi yağında yavaşça pişirilir."
+  },
+  {
+    "id": 2394,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B2)",
+    "en": "terroir",
+    "tr": "toprak karakteri",
+    "type": "isim",
+    "exampleEn": "The wine reflects the terroir of its region perfectly.",
+    "exampleTr": "Şarap bölgesinin toprak karakterini mükemmel yansıtıyor."
+  },
+  {
+    "id": 2395,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B2)",
+    "en": "provenance",
+    "tr": "köken",
+    "type": "isim",
+    "exampleEn": "The provenance of ingredients matters in fine dining.",
+    "exampleTr": "Lüks restoranlar için malzemelerin kökeni önemlidir."
+  },
+  {
+    "id": 2396,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B2)",
+    "en": "traceability",
+    "tr": "izlenebilirlik",
+    "type": "isim",
+    "exampleEn": "Food traceability ensures consumers know the origin.",
+    "exampleTr": "Gıda izlenebilirliği tüketicilerin kökeni bilmesini sağlar."
+  },
+  {
+    "id": 2397,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B2)",
+    "en": "signature",
+    "tr": "imza tabağı",
+    "type": "isim",
+    "exampleEn": "The chef's signature dish is a truffle risotto.",
+    "exampleTr": "Şefin imza tabağı trüflü risottodur."
+  },
+  {
+    "id": 2398,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B2)",
+    "en": "deconstruct",
+    "tr": "parçalarına ayırmak",
+    "type": "fiil",
+    "exampleEn": "The chef loves to deconstruct classic dishes.",
+    "exampleTr": "Şef klasik yemekleri parçalarına ayırmayı seviyor."
+  },
+  {
+    "id": 2399,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B2)",
+    "en": "texturize",
+    "tr": "doku kazandırmak",
+    "type": "fiil",
+    "exampleEn": "Chefs texturize food to add interest to the plate.",
+    "exampleTr": "Şefler tabağa ilgi katmak için yemeğe doku kazandırır."
+  },
+  {
+    "id": 2400,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B2)",
+    "en": "mouthfeel",
+    "tr": "ağızda his",
+    "type": "isim",
+    "exampleEn": "A good chocolate has a smooth, rich mouthfeel.",
+    "exampleTr": "İyi bir çikolata pürüzsüz, zengin bir ağızda his bırakır."
+  },
+  {
+    "id": 2401,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B2)",
+    "en": "sear",
+    "tr": "yüzeyi mühürlemek",
+    "type": "fiil",
+    "exampleEn": "Sear the steak on high heat to lock in the juices.",
+    "exampleTr": "Sularını hapsetmek için bifteği yüksek ateşte mühürleyin."
+  },
+  {
+    "id": 2402,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B2)",
+    "en": "baste",
+    "tr": "yağlamak",
+    "type": "fiil",
+    "exampleEn": "Baste the turkey every thirty minutes as it roasts.",
+    "exampleTr": "Hindi pişerken her otuz dakikada bir yağlayın."
+  },
+  {
+    "id": 2403,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B2)",
+    "en": "roux",
+    "tr": "roo sosu tabanı",
+    "type": "isim",
+    "exampleEn": "A roux of butter and flour thickens the sauce.",
+    "exampleTr": "Tereyağı ve undan yapılan roo sosu tabanı sosu koyulaştırır."
+  },
+  {
+    "id": 2404,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B2)",
+    "en": "tempering",
+    "tr": "tempereleme",
+    "type": "isim",
+    "exampleEn": "Tempering chocolate gives it a glossy, firm finish.",
+    "exampleTr": "Çikolatayı tempereleme parlak, sert bir yüzey kazandırır."
+  },
+  {
+    "id": 2405,
+    "topic": "Yemek Kültürü ve Mutfak Sanatı (B2)",
+    "en": "zest",
+    "tr": "meyve kabuğu rendesi",
+    "type": "isim",
+    "exampleEn": "Add the zest of one lemon to brighten the dish.",
+    "exampleTr": "Yemeği canlandırmak için bir limonun kabuğunu rendeleyin."
+  },
+  {
+    "id": 2406,
+    "topic": "Seyahat ve Turizm",
+    "en": "hostel",
+    "tr": "hostel",
+    "type": "isim",
+    "exampleEn": "Backpackers usually stay in a hostel to save money.",
+    "exampleTr": "Sırt çantalı gezginler genellikle para biriktirmek için hostelde kalır."
+  },
+  {
+    "id": 2407,
+    "topic": "Seyahat ve Turizm",
+    "en": "accommodation",
+    "tr": "konaklama",
+    "type": "isim",
+    "exampleEn": "We booked accommodation near the city centre.",
+    "exampleTr": "Şehir merkezine yakın konaklama yeri ayırttık."
+  },
+  {
+    "id": 2408,
+    "topic": "Seyahat ve Turizm",
+    "en": "sightseeing",
+    "tr": "gezi",
+    "type": "isim",
+    "exampleEn": "We spent the day sightseeing in the old quarter.",
+    "exampleTr": "Günü eski çeyreği gezerek geçirdik."
+  },
+  {
+    "id": 2409,
+    "topic": "Seyahat ve Turizm",
+    "en": "souvenir",
+    "tr": "hediyelik eşya",
+    "type": "isim",
+    "exampleEn": "She bought a souvenir magnet for her fridge.",
+    "exampleTr": "Buzdolabı için hediyelik mıknatıs aldı."
+  },
+  {
+    "id": 2410,
+    "topic": "Seyahat ve Turizm",
+    "en": "tourism",
+    "tr": "turizm",
+    "type": "isim",
+    "exampleEn": "Tourism is the main income for this small island.",
+    "exampleTr": "Turizm bu küçük adanın ana geliridir."
+  },
+  {
+    "id": 2411,
+    "topic": "Seyahat ve Turizm",
+    "en": "visa",
+    "tr": "vize",
+    "type": "isim",
+    "exampleEn": "You need a visa to enter that country.",
+    "exampleTr": "O ülkeye girmek için vizeye ihtiyacınız var."
+  },
+  {
+    "id": 2412,
+    "topic": "Seyahat ve Turizm",
+    "en": "reservation",
+    "tr": "rezervasyon",
+    "type": "isim",
+    "exampleEn": "I made a reservation at the hotel last week.",
+    "exampleTr": "Geçen hafta otelde rezervasyon yaptırdım."
+  },
+  {
+    "id": 2413,
+    "topic": "Seyahat ve Turizm",
+    "en": "guide",
+    "tr": "rehber",
+    "type": "isim",
+    "exampleEn": "Our guide knew every corner of the ancient city.",
+    "exampleTr": "Rehberimiz antik şehrin her köşesini biliyordu."
+  },
+  {
+    "id": 2414,
+    "topic": "Seyahat ve Turizm",
+    "en": "traveller",
+    "tr": "gezgin",
+    "type": "isim",
+    "exampleEn": "The experienced traveller packed light for the trip.",
+    "exampleTr": "Deneyimli gezgin gezi için hafif bavul yaptı."
+  },
+  {
+    "id": 2415,
+    "topic": "Seyahat ve Turizm",
+    "en": "customs",
+    "tr": "gümrük",
+    "type": "isim",
+    "exampleEn": "You must declare items at customs on arrival.",
+    "exampleTr": "Varışta gümrükte eşyaları beyan etmelisiniz."
+  },
+  {
+    "id": 2416,
+    "topic": "Seyahat ve Turizm",
+    "en": "boarding",
+    "tr": "biniş",
+    "type": "isim",
+    "exampleEn": "Boarding begins thirty minutes before departure.",
+    "exampleTr": "Kalkıştan otuz dakika önce biniş başlar."
+  },
+  {
+    "id": 2417,
+    "topic": "Seyahat ve Turizm",
+    "en": "airline",
+    "tr": "havayolu şirketi",
+    "type": "isim",
+    "exampleEn": "Which airline offers the cheapest flights to Rome?",
+    "exampleTr": "Hangi havayolu şirketi Roma'ya en ucuz uçuşları sunuyor?"
+  },
+  {
+    "id": 2418,
+    "topic": "Seyahat ve Turizm",
+    "en": "flight",
+    "tr": "uçuş",
+    "type": "isim",
+    "exampleEn": "Our flight was delayed by two hours.",
+    "exampleTr": "Uçuşumuz iki saat gecikti."
+  },
+  {
+    "id": 2419,
+    "topic": "Seyahat ve Turizm",
+    "en": "arrival",
+    "tr": "varış",
+    "type": "isim",
+    "exampleEn": "The arrival hall was full of families waiting.",
+    "exampleTr": "Varış holü bekleyen ailelerle doluydu."
+  },
+  {
+    "id": 2420,
+    "topic": "Seyahat ve Turizm",
+    "en": "excursion",
+    "tr": "gezi turu",
+    "type": "isim",
+    "exampleEn": "We booked a day excursion to the nearby ruins.",
+    "exampleTr": "Yakındaki harabelere günübirlik gezi turu ayırttık."
+  },
+  {
+    "id": 2421,
+    "topic": "Seyahat ve Turizm",
+    "en": "cruise",
+    "tr": "gemi seyahati",
+    "type": "isim",
+    "exampleEn": "They celebrated their anniversary on a cruise.",
+    "exampleTr": "Yıl dönümlerini gemi seyahatinde kutladılar."
+  },
+  {
+    "id": 2422,
+    "topic": "Seyahat ve Turizm",
+    "en": "resort",
+    "tr": "tatil köyü",
+    "type": "isim",
+    "exampleEn": "The beach resort had a pool, spa and three restaurants.",
+    "exampleTr": "Sahil tatil köyünde havuz, spa ve üç restoran vardı."
+  },
+  {
+    "id": 2423,
+    "topic": "Seyahat ve Turizm",
+    "en": "campsite",
+    "tr": "kamp alanı",
+    "type": "isim",
+    "exampleEn": "We set up our tent at the campsite by the river.",
+    "exampleTr": "Nehir kenarındaki kamp alanında çadırımızı kurduk."
+  },
+  {
+    "id": 2424,
+    "topic": "Seyahat ve Turizm",
+    "en": "navigator",
+    "tr": "navigatör",
+    "type": "isim",
+    "exampleEn": "The navigator guided the ship through the fog.",
+    "exampleTr": "Navigatör gemiyi sis içinden yönlendirdi."
+  },
+  {
+    "id": 2425,
+    "topic": "Seyahat ve Turizm",
+    "en": "voucher",
+    "tr": "kupon",
+    "type": "isim",
+    "exampleEn": "She redeemed a travel voucher for the hotel stay.",
+    "exampleTr": "Otel konaklaması için bir seyahat kuponu kullandı."
+  },
+  {
+    "id": 2426,
+    "topic": "Seyahat ve Turizm (A2)",
+    "en": "backpacker",
+    "tr": "sırt çantalı gezgin",
+    "type": "isim",
+    "exampleEn": "The backpacker travelled across Europe on a budget.",
+    "exampleTr": "Sırt çantalı gezgin düşük bütçeyle Avrupa'yı gezdi."
+  },
+  {
+    "id": 2427,
+    "topic": "Seyahat ve Turizm (A2)",
+    "en": "immigration",
+    "tr": "göç idaresi",
+    "type": "isim",
+    "exampleEn": "We queued for an hour at immigration control.",
+    "exampleTr": "Göç idaresi kontrolünde bir saat sıra bekledik."
+  },
+  {
+    "id": 2428,
+    "topic": "Seyahat ve Turizm (A2)",
+    "en": "quarantine",
+    "tr": "karantina",
+    "type": "isim",
+    "exampleEn": "Travellers had to spend seven days in quarantine.",
+    "exampleTr": "Yolcuların yedi gün karantinada geçirmesi gerekiyordu."
+  },
+  {
+    "id": 2429,
+    "topic": "Seyahat ve Turizm (A2)",
+    "en": "charter",
+    "tr": "charter uçuş",
+    "type": "isim",
+    "exampleEn": "The tour company arranged a charter flight for the group.",
+    "exampleTr": "Tur şirketi grup için charter uçuş düzenledi."
+  },
+  {
+    "id": 2430,
+    "topic": "Seyahat ve Turizm (A2)",
+    "en": "trekking",
+    "tr": "yürüyüş",
+    "type": "isim",
+    "exampleEn": "We went trekking in the Himalayas for ten days.",
+    "exampleTr": "On gün boyunca Himalayalar'da yürüyüş yaptık."
+  },
+  {
+    "id": 2431,
+    "topic": "Seyahat ve Turizm (A2)",
+    "en": "expedition",
+    "tr": "keşif gezisi",
+    "type": "isim",
+    "exampleEn": "The expedition team reached the summit at dawn.",
+    "exampleTr": "Keşif gezisi ekibi şafakta zirveye ulaştı."
+  },
+  {
+    "id": 2432,
+    "topic": "Seyahat ve Turizm (A2)",
+    "en": "folklore",
+    "tr": "folklor",
+    "type": "isim",
+    "exampleEn": "Local folklore tells stories of ancient legends.",
+    "exampleTr": "Yerel folklor antik efsanelerin hikâyelerini anlatır."
+  },
+  {
+    "id": 2433,
+    "topic": "Seyahat ve Turizm (A2)",
+    "en": "carnival",
+    "tr": "karnaval",
+    "type": "isim",
+    "exampleEn": "The Venice carnival attracts tourists every February.",
+    "exampleTr": "Venedik karnavalı her Şubat turistleri çeker."
+  },
+  {
+    "id": 2434,
+    "topic": "Seyahat ve Turizm (A2)",
+    "en": "festival",
+    "tr": "festival",
+    "type": "isim",
+    "exampleEn": "The music festival drew a crowd of fifty thousand.",
+    "exampleTr": "Müzik festivali elli bin kişilik kalabalık çekti."
+  },
+  {
+    "id": 2435,
+    "topic": "Seyahat ve Turizm (A2)",
+    "en": "pilgrimage",
+    "tr": "hac yolculuğu",
+    "type": "isim",
+    "exampleEn": "Millions make the pilgrimage to Mecca each year.",
+    "exampleTr": "Her yıl milyonlar Mekke'ye hac yolculuğu yapar."
+  },
+  {
+    "id": 2436,
+    "topic": "Seyahat ve Turizm (A2)",
+    "en": "shrine",
+    "tr": "türbe",
+    "type": "isim",
+    "exampleEn": "Visitors leave flowers at the ancient shrine.",
+    "exampleTr": "Ziyaretçiler antik türbeye çiçek bırakır."
+  },
+  {
+    "id": 2437,
+    "topic": "Seyahat ve Turizm (A2)",
+    "en": "cathedral",
+    "tr": "katedral",
+    "type": "isim",
+    "exampleEn": "Notre-Dame cathedral is one of Paris's finest sights.",
+    "exampleTr": "Notre-Dame katedrali Paris'in en güzel manzaralarından biridir."
+  },
+  {
+    "id": 2438,
+    "topic": "Seyahat ve Turizm (A2)",
+    "en": "mosque",
+    "tr": "cami",
+    "type": "isim",
+    "exampleEn": "The Blue Mosque is one of Istanbul's iconic landmarks.",
+    "exampleTr": "Sultanahmet Camii İstanbul'un simge yapılarından biridir."
+  },
+  {
+    "id": 2439,
+    "topic": "Seyahat ve Turizm (A2)",
+    "en": "consulate",
+    "tr": "konsolosluk",
+    "type": "isim",
+    "exampleEn": "Apply for your visa at the local consulate.",
+    "exampleTr": "Vizeni yerel konsolosluğa başvurarak alabilirsin."
+  },
+  {
+    "id": 2440,
+    "topic": "Seyahat ve Turizm (A2)",
+    "en": "courier",
+    "tr": "kurye",
+    "type": "isim",
+    "exampleEn": "A courier delivered the travel documents to the hotel.",
+    "exampleTr": "Kurye seyahat belgelerini otele teslim etti."
+  },
+  {
+    "id": 2441,
+    "topic": "Seyahat ve Turizm (A2)",
+    "en": "interpreter",
+    "tr": "tercüman",
+    "type": "isim",
+    "exampleEn": "The interpreter translated for the diplomat.",
+    "exampleTr": "Tercüman diplomat için çeviri yaptı."
+  },
+  {
+    "id": 2442,
+    "topic": "Seyahat ve Turizm (A2)",
+    "en": "safari",
+    "tr": "safari",
+    "type": "isim",
+    "exampleEn": "A safari in Kenya is a once-in-a-lifetime experience.",
+    "exampleTr": "Kenya'da safari ömür boyu yaşanacak bir deneyimdir."
+  },
+  {
+    "id": 2443,
+    "topic": "Seyahat ve Turizm (A2)",
+    "en": "fjord",
+    "tr": "fiyort",
+    "type": "isim",
+    "exampleEn": "Norway's fjords are breathtaking in summer.",
+    "exampleTr": "Norveç'in fiyortları yazın nefes kesicidir."
+  },
+  {
+    "id": 2444,
+    "topic": "Seyahat ve Turizm (A2)",
+    "en": "archipelago",
+    "tr": "takımada",
+    "type": "isim",
+    "exampleEn": "The Greek archipelago has thousands of islands.",
+    "exampleTr": "Yunan takımadası binlerce adadan oluşur."
+  },
+  {
+    "id": 2445,
+    "topic": "Seyahat ve Turizm (A2)",
+    "en": "waterfall",
+    "tr": "şelale",
+    "type": "isim",
+    "exampleEn": "The waterfall was visible from several miles away.",
+    "exampleTr": "Şelale birkaç mil uzaktan görülebiliyordu."
+  },
+  {
+    "id": 2446,
+    "topic": "Seyahat ve Turizm (B1)",
+    "en": "nomad",
+    "tr": "göçebe",
+    "type": "isim",
+    "exampleEn": "The digital nomad worked from cafes around the world.",
+    "exampleTr": "Dijital göçebe dünyanın dört bir yanındaki kafelerden çalıştı."
+  },
+  {
+    "id": 2447,
+    "topic": "Seyahat ve Turizm (B1)",
+    "en": "wanderlust",
+    "tr": "seyahat tutkusu",
+    "type": "isim",
+    "exampleEn": "Her wanderlust pushed her to visit forty countries.",
+    "exampleTr": "Seyahat tutkusu onu kırk ülke gezmeye itti."
+  },
+  {
+    "id": 2448,
+    "topic": "Seyahat ve Turizm (B1)",
+    "en": "cosmopolitan",
+    "tr": "kozmopolit",
+    "type": "sıfat",
+    "exampleEn": "London is one of the world's most cosmopolitan cities.",
+    "exampleTr": "Londra dünyanın en kozmopolit şehirlerinden biridir."
+  },
+  {
+    "id": 2449,
+    "topic": "Seyahat ve Turizm (B1)",
+    "en": "expatriate",
+    "tr": "yurtdışında yaşayan",
+    "type": "isim",
+    "exampleEn": "Many expatriates enjoy living in Southeast Asia.",
+    "exampleTr": "Pek çok yurtdışında yaşayan kişi Güneydoğu Asya'da yaşamaktan keyif alıyor."
+  },
+  {
+    "id": 2450,
+    "topic": "Seyahat ve Turizm (B1)",
+    "en": "voluntourism",
+    "tr": "gönüllü turizm",
+    "type": "isim",
+    "exampleEn": "Voluntourism lets travellers help local communities.",
+    "exampleTr": "Gönüllü turizm gezginlerin yerel topluluklara yardım etmesini sağlar."
+  },
+  {
+    "id": 2451,
+    "topic": "Seyahat ve Turizm (B1)",
+    "en": "ecotourism",
+    "tr": "ekoturizm",
+    "type": "isim",
+    "exampleEn": "Ecotourism protects nature while bringing in revenue.",
+    "exampleTr": "Ekoturizm doğayı korurken gelir sağlar."
+  },
+  {
+    "id": 2452,
+    "topic": "Seyahat ve Turizm (B1)",
+    "en": "timezone",
+    "tr": "saat dilimi",
+    "type": "isim",
+    "exampleEn": "Flying west means crossing many time zones.",
+    "exampleTr": "Batıya uçmak birçok saat dilimi geçmek demektir."
+  },
+  {
+    "id": 2453,
+    "topic": "Seyahat ve Turizm (B1)",
+    "en": "jetlag",
+    "tr": "seyahat yorgunluğu",
+    "type": "isim",
+    "exampleEn": "He suffered from jetlag for three days after landing.",
+    "exampleTr": "İnişten sonra üç gün boyunca seyahat yorgunluğu çekti."
+  },
+  {
+    "id": 2454,
+    "topic": "Seyahat ve Turizm (B1)",
+    "en": "airfare",
+    "tr": "uçak bileti ücreti",
+    "type": "isim",
+    "exampleEn": "Airfare prices rise sharply in the summer months.",
+    "exampleTr": "Yaz aylarında uçak bileti ücretleri keskin biçimde artar."
+  },
+  {
+    "id": 2455,
+    "topic": "Seyahat ve Turizm (B1)",
+    "en": "roundtrip",
+    "tr": "gidiş-dönüş",
+    "type": "isim",
+    "exampleEn": "A roundtrip ticket is usually cheaper than two singles.",
+    "exampleTr": "Gidiş-dönüş bileti genellikle iki tek yönlüden ucuzdur."
+  },
+  {
+    "id": 2456,
+    "topic": "Seyahat ve Turizm (B1)",
+    "en": "stopover",
+    "tr": "aktarma molası",
+    "type": "isim",
+    "exampleEn": "We had a six-hour stopover in Dubai.",
+    "exampleTr": "Dubai'de altı saatlik aktarma molası verdik."
+  },
+  {
+    "id": 2457,
+    "topic": "Seyahat ve Turizm (B1)",
+    "en": "concierge",
+    "tr": "resepsiyon görevlisi",
+    "type": "isim",
+    "exampleEn": "The concierge recommended the best local restaurants.",
+    "exampleTr": "Resepsiyon görevlisi en iyi yerel restoranları önerdi."
+  },
+  {
+    "id": 2458,
+    "topic": "Seyahat ve Turizm (B1)",
+    "en": "hospitality",
+    "tr": "misafirperverlik",
+    "type": "isim",
+    "exampleEn": "The local hospitality made the trip unforgettable.",
+    "exampleTr": "Yerel misafirperverlik seyahati unutulmaz kıldı."
+  },
+  {
+    "id": 2459,
+    "topic": "Seyahat ve Turizm (B1)",
+    "en": "amenity",
+    "tr": "olanak",
+    "type": "isim",
+    "exampleEn": "The hotel offered amenities like a gym and pool.",
+    "exampleTr": "Otel spor salonu ve havuz gibi olanaklar sunuyordu."
+  },
+  {
+    "id": 2460,
+    "topic": "Seyahat ve Turizm (B1)",
+    "en": "overbooked",
+    "tr": "aşırı rezervasyon yapılmış",
+    "type": "sıfat",
+    "exampleEn": "The flight was overbooked and we had to wait.",
+    "exampleTr": "Uçuşa fazla rezervasyon yapılmıştı ve beklemek zorunda kaldık."
+  },
+  {
+    "id": 2461,
+    "topic": "Seyahat ve Turizm (B1)",
+    "en": "offseason",
+    "tr": "sezon dışı",
+    "type": "isim",
+    "exampleEn": "Travelling offseason means fewer crowds and lower prices.",
+    "exampleTr": "Sezon dışı seyahat daha az kalabalık ve düşük fiyat demektir."
+  },
+  {
+    "id": 2462,
+    "topic": "Seyahat ve Turizm (B1)",
+    "en": "peak",
+    "tr": "zirve sezon",
+    "type": "isim",
+    "exampleEn": "July and August are the peak season for this island.",
+    "exampleTr": "Temmuz ve Ağustos bu ada için zirve sezondur."
+  },
+  {
+    "id": 2463,
+    "topic": "Seyahat ve Turizm (B1)",
+    "en": "backpacking",
+    "tr": "sırt çantasıyla gezi",
+    "type": "isim",
+    "exampleEn": "Backpacking through Asia was the adventure of his life.",
+    "exampleTr": "Asya'yı sırt çantasıyla gezmek hayatının macerasıydı."
+  },
+  {
+    "id": 2464,
+    "topic": "Seyahat ve Turizm (B1)",
+    "en": "embark",
+    "tr": "yola çıkmak",
+    "type": "fiil",
+    "exampleEn": "They embarked on a three-month journey around the world.",
+    "exampleTr": "Dünya turu için üç aylık bir yolculuğa çıktılar."
+  },
+  {
+    "id": 2465,
+    "topic": "Seyahat ve Turizm (B1)",
+    "en": "complimentary",
+    "tr": "ücretsiz",
+    "type": "sıfat",
+    "exampleEn": "Breakfast is complimentary for all hotel guests.",
+    "exampleTr": "Kahvaltı tüm otel misafirleri için ücretsizdir."
+  },
+  {
+    "id": 2466,
+    "topic": "Seyahat ve Turizm (B2)",
+    "en": "diaspora",
+    "tr": "diaspora",
+    "type": "isim",
+    "exampleEn": "The diaspora returns to their homeland every summer.",
+    "exampleTr": "Diaspora her yaz anavatanına geri döner."
+  },
+  {
+    "id": 2467,
+    "topic": "Seyahat ve Turizm (B2)",
+    "en": "xenophilia",
+    "tr": "yabancı kültür sevgisi",
+    "type": "isim",
+    "exampleEn": "His xenophilia led him to embrace every new culture.",
+    "exampleTr": "Yabancı kültür sevgisi her yeni kültürü benimsemesine yol açtı."
+  },
+  {
+    "id": 2468,
+    "topic": "Seyahat ve Turizm (B2)",
+    "en": "geotourism",
+    "tr": "jeolojik turizm",
+    "type": "isim",
+    "exampleEn": "Geotourism focuses on the geological features of a place.",
+    "exampleTr": "Jeolojik turizm bir yerin jeolojik özelliklerine odaklanır."
+  },
+  {
+    "id": 2469,
+    "topic": "Seyahat ve Turizm (B2)",
+    "en": "gastrotourism",
+    "tr": "gastronomi turizmi",
+    "type": "isim",
+    "exampleEn": "Gastrotourism draws visitors eager to taste local food.",
+    "exampleTr": "Gastronomi turizmi yerel yemekleri tatmak isteyen ziyaretçiler çeker."
+  },
+  {
+    "id": 2470,
+    "topic": "Seyahat ve Turizm (B2)",
+    "en": "intrepid",
+    "tr": "cesur",
+    "type": "sıfat",
+    "exampleEn": "The intrepid explorer ventured into uncharted territory.",
+    "exampleTr": "Cesur kaşif haritalanmamış bölgelere ilerledi."
+  },
+  {
+    "id": 2471,
+    "topic": "Seyahat ve Turizm (B2)",
+    "en": "reconnaissance",
+    "tr": "keşif",
+    "type": "isim",
+    "exampleEn": "She did reconnaissance of the city before the trip.",
+    "exampleTr": "Seyahatten önce şehrin keşfini yaptı."
+  },
+  {
+    "id": 2472,
+    "topic": "Seyahat ve Turizm (B2)",
+    "en": "traverse",
+    "tr": "geçmek",
+    "type": "fiil",
+    "exampleEn": "They traversed the entire country by bicycle.",
+    "exampleTr": "Ülkenin tamamını bisikletle geçtiler."
+  },
+  {
+    "id": 2473,
+    "topic": "Seyahat ve Turizm (B2)",
+    "en": "circumnavigate",
+    "tr": "etrafını dolaşmak",
+    "type": "fiil",
+    "exampleEn": "She became the first woman to circumnavigate the globe.",
+    "exampleTr": "Dünyayı dolaşan ilk kadın oldu."
+  },
+  {
+    "id": 2474,
+    "topic": "Seyahat ve Turizm (B2)",
+    "en": "sojourn",
+    "tr": "kısa konaklama",
+    "type": "isim",
+    "exampleEn": "His sojourn in Tokyo lasted only a few weeks.",
+    "exampleTr": "Tokyo'daki kısa konaklaması yalnızca birkaç hafta sürdü."
+  },
+  {
+    "id": 2475,
+    "topic": "Seyahat ve Turizm (B2)",
+    "en": "odyssey",
+    "tr": "uzun serüven",
+    "type": "isim",
+    "exampleEn": "Their two-year odyssey took them across six continents.",
+    "exampleTr": "İki yıllık uzun serüvenleri altı kıtaya uzandı."
+  },
+  {
+    "id": 2476,
+    "topic": "Seyahat ve Turizm (B2)",
+    "en": "voyage",
+    "tr": "deniz yolculuğu",
+    "type": "isim",
+    "exampleEn": "The voyage across the Atlantic took three weeks.",
+    "exampleTr": "Atlantik'i geçen deniz yolculuğu üç hafta sürdü."
+  },
+  {
+    "id": 2477,
+    "topic": "Seyahat ve Turizm (B2)",
+    "en": "ramble",
+    "tr": "doğa yürüyüşü",
+    "type": "isim",
+    "exampleEn": "We went for a long ramble through the countryside.",
+    "exampleTr": "Kırsal kesimde uzun bir doğa yürüyüşüne çıktık."
+  },
+  {
+    "id": 2478,
+    "topic": "Seyahat ve Turizm (B2)",
+    "en": "meander",
+    "tr": "dolaşmak",
+    "type": "fiil",
+    "exampleEn": "We meandered through the back streets of the old city.",
+    "exampleTr": "Eski şehrin arka sokaklarında dolaştık."
+  },
+  {
+    "id": 2479,
+    "topic": "Seyahat ve Turizm (B2)",
+    "en": "detour",
+    "tr": "sapma",
+    "type": "isim",
+    "exampleEn": "We took a detour to visit the waterfall.",
+    "exampleTr": "Şelaleyi görmek için güzergahtan saptık."
+  },
+  {
+    "id": 2480,
+    "topic": "Seyahat ve Turizm (B2)",
+    "en": "itinerant",
+    "tr": "gezici",
+    "type": "sıfat",
+    "exampleEn": "The itinerant musician performed in a different city each night.",
+    "exampleTr": "Gezici müzisyen her gece farklı bir şehirde sahne aldı."
+  },
+  {
+    "id": 2481,
+    "topic": "Seyahat ve Turizm (B2)",
+    "en": "gallivant",
+    "tr": "gezinti yapmak",
+    "type": "fiil",
+    "exampleEn": "He spent the summer gallivanting around Europe.",
+    "exampleTr": "Yazı Avrupa'da gezinti yaparak geçirdi."
+  },
+  {
+    "id": 2482,
+    "topic": "Seyahat ve Turizm (B2)",
+    "en": "travelogue",
+    "tr": "gezi yazısı",
+    "type": "isim",
+    "exampleEn": "She published a popular travelogue about her year in Asia.",
+    "exampleTr": "Asya'daki bir yılına dair popüler bir gezi yazısı yayımladı."
+  },
+  {
+    "id": 2483,
+    "topic": "Seyahat ve Turizm (B2)",
+    "en": "documentation",
+    "tr": "belgeleme",
+    "type": "isim",
+    "exampleEn": "Proper documentation is required for some border crossings.",
+    "exampleTr": "Bazı sınır geçişleri için gerekli belgeleme şarttır."
+  },
+  {
+    "id": 2484,
+    "topic": "Seyahat ve Turizm (B2)",
+    "en": "acclimatisation",
+    "tr": "iklime alışma",
+    "type": "isim",
+    "exampleEn": "Acclimatisation is vital before climbing high mountains.",
+    "exampleTr": "Yüksek dağlara tırmanmadan önce iklime alışma hayati önem taşır."
+  },
+  {
+    "id": 2485,
+    "topic": "Seyahat ve Turizm (B2)",
+    "en": "vignette",
+    "tr": "kısa anı",
+    "type": "isim",
+    "exampleEn": "Her travel blog was full of vivid vignettes.",
+    "exampleTr": "Seyahat blogu canlı kısa anılarla doluydu."
+  },
+  {
+    "id": 2486,
+    "topic": "Hobiler ve Boş Zaman",
+    "en": "hobby",
+    "tr": "hobi",
+    "type": "isim",
+    "exampleEn": "Her favourite hobby is painting watercolours.",
+    "exampleTr": "En sevdiği hobi suluboya resim yapmak."
+  },
+  {
+    "id": 2487,
+    "topic": "Hobiler ve Boş Zaman",
+    "en": "knit",
+    "tr": "örgü örmek",
+    "type": "fiil",
+    "exampleEn": "She loves to knit scarves and hats in winter.",
+    "exampleTr": "Kışın atkı ve şapka örmeyi seviyor."
+  },
+  {
+    "id": 2488,
+    "topic": "Hobiler ve Boş Zaman",
+    "en": "sew",
+    "tr": "dikmek",
+    "type": "fiil",
+    "exampleEn": "He learned to sew his own clothes as a teenager.",
+    "exampleTr": "Ergenliğinde kendi kıyafetlerini dikmeyi öğrendi."
+  },
+  {
+    "id": 2489,
+    "topic": "Hobiler ve Boş Zaman",
+    "en": "sketch",
+    "tr": "eskiz yapmak",
+    "type": "fiil",
+    "exampleEn": "She sketches portraits of people on the street.",
+    "exampleTr": "Sokaktaki insanların eskizini yapıyor."
+  },
+  {
+    "id": 2490,
+    "topic": "Hobiler ve Boş Zaman",
+    "en": "dance",
+    "tr": "dans etmek",
+    "type": "fiil",
+    "exampleEn": "He dances salsa every Friday evening.",
+    "exampleTr": "Her Cuma akşamı salsa dansı yapıyor."
+  },
+  {
+    "id": 2491,
+    "topic": "Hobiler ve Boş Zaman",
+    "en": "yoga",
+    "tr": "yoga",
+    "type": "isim",
+    "exampleEn": "She does yoga every morning to start the day calmly.",
+    "exampleTr": "Güne sakin başlamak için her sabah yoga yapıyor."
+  },
+  {
+    "id": 2492,
+    "topic": "Hobiler ve Boş Zaman",
+    "en": "chess",
+    "tr": "satranç",
+    "type": "isim",
+    "exampleEn": "He plays chess online against players worldwide.",
+    "exampleTr": "Dünya genelindeki oyuncularla çevrimiçi satranç oynuyor."
+  },
+  {
+    "id": 2493,
+    "topic": "Hobiler ve Boş Zaman",
+    "en": "painting",
+    "tr": "resim yapma",
+    "type": "isim",
+    "exampleEn": "Oil painting requires patience and skill.",
+    "exampleTr": "Yağlı boya resim yapma sabır ve beceri gerektirir."
+  },
+  {
+    "id": 2494,
+    "topic": "Hobiler ve Boş Zaman",
+    "en": "photography",
+    "tr": "fotoğrafçılık",
+    "type": "isim",
+    "exampleEn": "Photography is her way of capturing special moments.",
+    "exampleTr": "Fotoğrafçılık özel anları yakalama yoludur."
+  },
+  {
+    "id": 2495,
+    "topic": "Hobiler ve Boş Zaman",
+    "en": "gardening",
+    "tr": "bahçecilik",
+    "type": "isim",
+    "exampleEn": "Gardening is a relaxing way to spend the weekend.",
+    "exampleTr": "Bahçecilik haftasonunu geçirmenin rahatlatıcı bir yoludur."
+  },
+  {
+    "id": 2496,
+    "topic": "Hobiler ve Boş Zaman",
+    "en": "collect",
+    "tr": "koleksiyon yapmak",
+    "type": "fiil",
+    "exampleEn": "He collects vintage vinyl records from the 1970s.",
+    "exampleTr": "1970'lerden eski vinil plakları koleksiyon yapıyor."
+  },
+  {
+    "id": 2497,
+    "topic": "Hobiler ve Boş Zaman",
+    "en": "reading",
+    "tr": "okuma",
+    "type": "isim",
+    "exampleEn": "Reading novels helps her unwind after work.",
+    "exampleTr": "Roman okumak iş sonrası rahatlamasına yardımcı olur."
+  },
+  {
+    "id": 2498,
+    "topic": "Hobiler ve Boş Zaman",
+    "en": "running",
+    "tr": "koşu",
+    "type": "isim",
+    "exampleEn": "Running three times a week keeps him fit.",
+    "exampleTr": "Haftada üç kez koşmak onu formda tutuyor."
+  },
+  {
+    "id": 2499,
+    "topic": "Hobiler ve Boş Zaman",
+    "en": "crafts",
+    "tr": "el işi",
+    "type": "isim",
+    "exampleEn": "She sells her crafts at the local market every Sunday.",
+    "exampleTr": "Her Pazar yerel pazarda el işlerini satıyor."
+  },
+  {
+    "id": 2500,
+    "topic": "Hobiler ve Boş Zaman",
+    "en": "puzzle",
+    "tr": "bulmaca",
+    "type": "isim",
+    "exampleEn": "He finished the thousand-piece puzzle in one evening.",
+    "exampleTr": "Bin parçalı bulmacayı bir akşamda tamamladı."
+  },
+  {
+    "id": 2501,
+    "topic": "Hobiler ve Boş Zaman",
+    "en": "stamp",
+    "tr": "pul",
+    "type": "isim",
+    "exampleEn": "He has been collecting rare stamps since childhood.",
+    "exampleTr": "Çocukluğundan beri nadir pullar koleksiyonu yapıyor."
+  },
+  {
+    "id": 2502,
+    "topic": "Hobiler ve Boş Zaman",
+    "en": "coin",
+    "tr": "madeni para",
+    "type": "isim",
+    "exampleEn": "Her coin collection includes pieces from fifty countries.",
+    "exampleTr": "Madeni para koleksiyonu elli ülkeye ait parçalar içeriyor."
+  },
+  {
+    "id": 2503,
+    "topic": "Hobiler ve Boş Zaman",
+    "en": "model",
+    "tr": "maket",
+    "type": "isim",
+    "exampleEn": "He builds scale model aircraft as a weekend hobby.",
+    "exampleTr": "Hafta sonu hobisi olarak ölçekli uçak maketi yapıyor."
+  },
+  {
+    "id": 2504,
+    "topic": "Hobiler ve Boş Zaman",
+    "en": "fishing",
+    "tr": "balık tutma",
+    "type": "isim",
+    "exampleEn": "Fishing by the lake is his way to relax.",
+    "exampleTr": "Göl kenarında balık tutmak onun rahatlama yoludur."
+  },
+  {
+    "id": 2505,
+    "topic": "Hobiler ve Boş Zaman",
+    "en": "boardgame",
+    "tr": "kutu oyunu",
+    "type": "isim",
+    "exampleEn": "The family plays a boardgame every Friday night.",
+    "exampleTr": "Aile her Cuma akşamı kutu oyunu oynuyor."
+  },
+  {
+    "id": 2506,
+    "topic": "Hobiler ve Boş Zaman (A2)",
+    "en": "pottery",
+    "tr": "çömlek yapımı",
+    "type": "isim",
+    "exampleEn": "She makes bowls and vases in her pottery class.",
+    "exampleTr": "Çömlek dersinde kaseler ve vazolar yapıyor."
+  },
+  {
+    "id": 2507,
+    "topic": "Hobiler ve Boş Zaman (A2)",
+    "en": "origami",
+    "tr": "origami",
+    "type": "isim",
+    "exampleEn": "Origami is the Japanese art of paper folding.",
+    "exampleTr": "Origami, kağıt katlama Japon sanatıdır."
+  },
+  {
+    "id": 2508,
+    "topic": "Hobiler ve Boş Zaman (A2)",
+    "en": "calligraphy",
+    "tr": "kaligrafi",
+    "type": "isim",
+    "exampleEn": "He practises calligraphy to improve his handwriting.",
+    "exampleTr": "El yazısını geliştirmek için kaligrafi pratik yapıyor."
+  },
+  {
+    "id": 2509,
+    "topic": "Hobiler ve Boş Zaman (A2)",
+    "en": "birdwatching",
+    "tr": "kuş gözlemciliği",
+    "type": "isim",
+    "exampleEn": "Birdwatching requires patience and good binoculars.",
+    "exampleTr": "Kuş gözlemciliği sabır ve iyi dürbün gerektirir."
+  },
+  {
+    "id": 2510,
+    "topic": "Hobiler ve Boş Zaman (A2)",
+    "en": "hiking",
+    "tr": "dağ yürüyüşü",
+    "type": "isim",
+    "exampleEn": "They go hiking in the mountains every summer.",
+    "exampleTr": "Her yaz dağlarda yürüyüşe gidiyorlar."
+  },
+  {
+    "id": 2511,
+    "topic": "Hobiler ve Boş Zaman (A2)",
+    "en": "archery",
+    "tr": "okçuluk",
+    "type": "isim",
+    "exampleEn": "Archery improves focus and hand-eye coordination.",
+    "exampleTr": "Okçuluk odaklanmayı ve el-göz koordinasyonunu geliştirir."
+  },
+  {
+    "id": 2512,
+    "topic": "Hobiler ve Boş Zaman (A2)",
+    "en": "sailing",
+    "tr": "yelkencilik",
+    "type": "isim",
+    "exampleEn": "He learned sailing on a lake before tackling the sea.",
+    "exampleTr": "Denize çıkmadan önce bir gölde yelkencilik öğrendi."
+  },
+  {
+    "id": 2513,
+    "topic": "Hobiler ve Boş Zaman (A2)",
+    "en": "surfing",
+    "tr": "sörf",
+    "type": "isim",
+    "exampleEn": "Surfing is popular on the west coast in summer.",
+    "exampleTr": "Sörf yazın batı kıyısında çok popülerdir."
+  },
+  {
+    "id": 2514,
+    "topic": "Hobiler ve Boş Zaman (A2)",
+    "en": "woodwork",
+    "tr": "ahşap işçiliği",
+    "type": "isim",
+    "exampleEn": "He makes furniture as a woodwork hobby.",
+    "exampleTr": "Hobi olarak ahşap işçiliğiyle mobilya yapıyor."
+  },
+  {
+    "id": 2515,
+    "topic": "Hobiler ve Boş Zaman (A2)",
+    "en": "weave",
+    "tr": "dokumak",
+    "type": "fiil",
+    "exampleEn": "She weaves colourful baskets from local grasses.",
+    "exampleTr": "Yerel otlardan renkli sepetler dokuyor."
+  },
+  {
+    "id": 2516,
+    "topic": "Hobiler ve Boş Zaman (A2)",
+    "en": "embroider",
+    "tr": "nakış işlemek",
+    "type": "fiil",
+    "exampleEn": "She embroiders floral patterns on linen cloth.",
+    "exampleTr": "Keten kumaş üzerine çiçek desenleri işliyor."
+  },
+  {
+    "id": 2517,
+    "topic": "Hobiler ve Boş Zaman (A2)",
+    "en": "quilt",
+    "tr": "yorgan dikmek",
+    "type": "fiil",
+    "exampleEn": "She quilts patchwork blankets using fabric scraps.",
+    "exampleTr": "Kumaş artıklarını kullanarak parçalı battaniyeler dikiyor."
+  },
+  {
+    "id": 2518,
+    "topic": "Hobiler ve Boş Zaman (A2)",
+    "en": "cosplay",
+    "tr": "cosplay",
+    "type": "isim",
+    "exampleEn": "He spent weeks making a cosplay costume for the event.",
+    "exampleTr": "Etkinlik için cosplay kostümü yapmaya haftalar harcadı."
+  },
+  {
+    "id": 2519,
+    "topic": "Hobiler ve Boş Zaman (A2)",
+    "en": "gaming",
+    "tr": "oyun oynama",
+    "type": "isim",
+    "exampleEn": "Online gaming connects players from around the world.",
+    "exampleTr": "Çevrimiçi oyun oynama dünyanın dört yanından oyuncuları bir araya getirir."
+  },
+  {
+    "id": 2520,
+    "topic": "Hobiler ve Boş Zaman (A2)",
+    "en": "tabletop",
+    "tr": "masa üstü oyun",
+    "type": "isim",
+    "exampleEn": "Tabletop games require strategy and teamwork.",
+    "exampleTr": "Masa üstü oyunlar strateji ve takım çalışması gerektirir."
+  },
+  {
+    "id": 2521,
+    "topic": "Hobiler ve Boş Zaman (A2)",
+    "en": "jigsaw",
+    "tr": "yapboz",
+    "type": "isim",
+    "exampleEn": "She completed a five-hundred-piece jigsaw in two days.",
+    "exampleTr": "Beş yüz parçalı yapbozu iki günde tamamladı."
+  },
+  {
+    "id": 2522,
+    "topic": "Hobiler ve Boş Zaman (A2)",
+    "en": "crossword",
+    "tr": "bulmaca",
+    "type": "isim",
+    "exampleEn": "He does the crossword in the newspaper every morning.",
+    "exampleTr": "Her sabah gazetedeki bulmacayı çözüyor."
+  },
+  {
+    "id": 2523,
+    "topic": "Hobiler ve Boş Zaman (A2)",
+    "en": "sudoku",
+    "tr": "sudoku",
+    "type": "isim",
+    "exampleEn": "Sudoku is a great way to train your logical thinking.",
+    "exampleTr": "Sudoku mantıksal düşünceyi eğitmenin harika bir yoludur."
+  },
+  {
+    "id": 2524,
+    "topic": "Hobiler ve Boş Zaman (A2)",
+    "en": "bookclub",
+    "tr": "kitap kulübü",
+    "type": "isim",
+    "exampleEn": "Her bookclub meets every month to discuss a new novel.",
+    "exampleTr": "Kitap kulübü her ay yeni bir romanı tartışmak için buluşuyor."
+  },
+  {
+    "id": 2525,
+    "topic": "Hobiler ve Boş Zaman (A2)",
+    "en": "volunteering",
+    "tr": "gönüllülük",
+    "type": "isim",
+    "exampleEn": "Volunteering at the shelter fills her weekends.",
+    "exampleTr": "Barınakta gönüllü çalışmak haftasonlarını dolduruyor."
+  },
+  {
+    "id": 2526,
+    "topic": "Hobiler ve Boş Zaman (B1)",
+    "en": "sculpt",
+    "tr": "heykel yapmak",
+    "type": "fiil",
+    "exampleEn": "He sculpts figures from clay in his spare time.",
+    "exampleTr": "Boş zamanlarında kilden figürler yontarak heykel yapıyor."
+  },
+  {
+    "id": 2527,
+    "topic": "Hobiler ve Boş Zaman (B1)",
+    "en": "carve",
+    "tr": "oyma yapmak",
+    "type": "fiil",
+    "exampleEn": "She carves intricate patterns into wood.",
+    "exampleTr": "Ahşaba karmaşık desenler oyuyor."
+  },
+  {
+    "id": 2528,
+    "topic": "Hobiler ve Boş Zaman (B1)",
+    "en": "beekeeping",
+    "tr": "arıcılık",
+    "type": "isim",
+    "exampleEn": "Beekeeping helps him connect with nature.",
+    "exampleTr": "Arıcılık onun doğayla bağ kurmasına yardımcı oluyor."
+  },
+  {
+    "id": 2529,
+    "topic": "Hobiler ve Boş Zaman (B1)",
+    "en": "astronomy",
+    "tr": "astronomi",
+    "type": "isim",
+    "exampleEn": "He uses a telescope for his amateur astronomy hobby.",
+    "exampleTr": "Amatör astronomi hobisi için teleskop kullanıyor."
+  },
+  {
+    "id": 2530,
+    "topic": "Hobiler ve Boş Zaman (B1)",
+    "en": "esport",
+    "tr": "e-spor",
+    "type": "isim",
+    "exampleEn": "Esport tournaments now fill large arenas worldwide.",
+    "exampleTr": "E-spor turnuvaları artık dünya genelinde büyük arenalar dolduruyor."
+  },
+  {
+    "id": 2531,
+    "topic": "Hobiler ve Boş Zaman (B1)",
+    "en": "geocaching",
+    "tr": "jeokesif",
+    "type": "isim",
+    "exampleEn": "Geocaching is a real-world outdoor treasure hunt.",
+    "exampleTr": "Jeokesif gerçek dünyada açık hava hazine avıdır."
+  },
+  {
+    "id": 2532,
+    "topic": "Hobiler ve Boş Zaman (B1)",
+    "en": "journaling",
+    "tr": "günlük tutma",
+    "type": "isim",
+    "exampleEn": "Journaling helps her process her thoughts each evening.",
+    "exampleTr": "Günlük tutmak her akşam düşüncelerini işlemesine yardımcı olur."
+  },
+  {
+    "id": 2533,
+    "topic": "Hobiler ve Boş Zaman (B1)",
+    "en": "scrapbooking",
+    "tr": "scrapbook yapma",
+    "type": "isim",
+    "exampleEn": "Scrapbooking lets her preserve family memories creatively.",
+    "exampleTr": "Scrapbook yapma aile anılarını yaratıcı bir şekilde korumasını sağlıyor."
+  },
+  {
+    "id": 2534,
+    "topic": "Hobiler ve Boş Zaman (B1)",
+    "en": "taxidermy",
+    "tr": "hayvan doldurma sanatı",
+    "type": "isim",
+    "exampleEn": "Taxidermy preserves animals in a lifelike state.",
+    "exampleTr": "Hayvan doldurma sanatı hayvanları gerçekçi bir biçimde korur."
+  },
+  {
+    "id": 2535,
+    "topic": "Hobiler ve Boş Zaman (B1)",
+    "en": "leatherwork",
+    "tr": "deri işçiliği",
+    "type": "isim",
+    "exampleEn": "He creates wallets and belts through leatherwork.",
+    "exampleTr": "Deri işçiliğiyle cüzdan ve kemer yapıyor."
+  },
+  {
+    "id": 2536,
+    "topic": "Hobiler ve Boş Zaman (B1)",
+    "en": "metalwork",
+    "tr": "metal işçiliği",
+    "type": "isim",
+    "exampleEn": "Her metalwork hobby led to opening her own jewellery shop.",
+    "exampleTr": "Metal işçiliği hobisi kendi kuyumcu dükkanını açmasına yol açtı."
+  },
+  {
+    "id": 2537,
+    "topic": "Hobiler ve Boş Zaman (B1)",
+    "en": "kite",
+    "tr": "uçurtma",
+    "type": "isim",
+    "exampleEn": "They flew a kite on the hill on a windy afternoon.",
+    "exampleTr": "Rüzgarlı bir öğleden sonra tepede uçurtma uçurdular."
+  },
+  {
+    "id": 2538,
+    "topic": "Hobiler ve Boş Zaman (B1)",
+    "en": "terrarium",
+    "tr": "teraryum",
+    "type": "isim",
+    "exampleEn": "She keeps exotic plants in a glass terrarium.",
+    "exampleTr": "Cam teraryumda egzotik bitkiler yetiştiriyor."
+  },
+  {
+    "id": 2539,
+    "topic": "Hobiler ve Boş Zaman (B1)",
+    "en": "aquarium",
+    "tr": "akvaryum",
+    "type": "isim",
+    "exampleEn": "His aquarium is home to fifteen tropical fish species.",
+    "exampleTr": "Akvaryumu on beş tropikal balık türüne ev sahipliği yapıyor."
+  },
+  {
+    "id": 2540,
+    "topic": "Hobiler ve Boş Zaman (B1)",
+    "en": "meditation",
+    "tr": "meditasyon",
+    "type": "isim",
+    "exampleEn": "Daily meditation helps him manage stress effectively.",
+    "exampleTr": "Günlük meditasyon stresi etkin biçimde yönetmesine yardımcı olur."
+  },
+  {
+    "id": 2541,
+    "topic": "Hobiler ve Boş Zaman (B1)",
+    "en": "parkour",
+    "tr": "parkur",
+    "type": "isim",
+    "exampleEn": "Parkour involves moving through urban environments freely.",
+    "exampleTr": "Parkur kentsel ortamlarda serbestçe hareket etmeyi içerir."
+  },
+  {
+    "id": 2542,
+    "topic": "Hobiler ve Boş Zaman (B1)",
+    "en": "freerunning",
+    "tr": "serbest koşu",
+    "type": "isim",
+    "exampleEn": "Freerunning combines parkour with acrobatic movements.",
+    "exampleTr": "Serbest koşu parkuru akrobatik hareketlerle birleştirir."
+  },
+  {
+    "id": 2543,
+    "topic": "Hobiler ve Boş Zaman (B1)",
+    "en": "droning",
+    "tr": "drone uçurma",
+    "type": "isim",
+    "exampleEn": "Droning as a hobby has grown massively in recent years.",
+    "exampleTr": "Drone uçurma hobisi son yıllarda büyük ölçüde yaygınlaştı."
+  },
+  {
+    "id": 2544,
+    "topic": "Hobiler ve Boş Zaman (B1)",
+    "en": "vlogging",
+    "tr": "video blog yapma",
+    "type": "isim",
+    "exampleEn": "Vlogging her travels helped her build a large audience.",
+    "exampleTr": "Seyahatlerini video blog olarak paylaşmak geniş bir kitle oluşturmasını sağladı."
+  },
+  {
+    "id": 2545,
+    "topic": "Hobiler ve Boş Zaman (B1)",
+    "en": "upcycling",
+    "tr": "geri dönüştürüp yeniden kullanma",
+    "type": "isim",
+    "exampleEn": "Upcycling old furniture gives it a fresh new life.",
+    "exampleTr": "Eski mobilyaları geri dönüştürüp yeniden kullanmak onlara yeni bir hayat verir."
+  },
+  {
+    "id": 2546,
+    "topic": "Hobiler ve Boş Zaman (B2)",
+    "en": "numismatics",
+    "tr": "nümizmatik",
+    "type": "isim",
+    "exampleEn": "Numismatics is the study and collection of coins.",
+    "exampleTr": "Nümizmatik, madeni paraların incelenmesi ve koleksiyonculuğudur."
+  },
+  {
+    "id": 2547,
+    "topic": "Hobiler ve Boş Zaman (B2)",
+    "en": "philately",
+    "tr": "filatelik",
+    "type": "isim",
+    "exampleEn": "Philately involves collecting and studying postage stamps.",
+    "exampleTr": "Filatelik, posta pullarını koleksiyonlamak ve incelemektir."
+  },
+  {
+    "id": 2548,
+    "topic": "Hobiler ve Boş Zaman (B2)",
+    "en": "viticulture",
+    "tr": "bağcılık",
+    "type": "isim",
+    "exampleEn": "Viticulture is the science of growing grapes for wine.",
+    "exampleTr": "Bağcılık, şarap için üzüm yetiştirme bilimidir."
+  },
+  {
+    "id": 2549,
+    "topic": "Hobiler ve Boş Zaman (B2)",
+    "en": "horticulture",
+    "tr": "bahçe bitkileri yetiştiriciliği",
+    "type": "isim",
+    "exampleEn": "Horticulture blends science with a love of plants.",
+    "exampleTr": "Bahçe bitkileri yetiştiriciliği bilimi bitki sevgisiyle birleştirir."
+  },
+  {
+    "id": 2550,
+    "topic": "Hobiler ve Boş Zaman (B2)",
+    "en": "entomology",
+    "tr": "böcek bilimi",
+    "type": "isim",
+    "exampleEn": "His entomology hobby led him to discover a new beetle.",
+    "exampleTr": "Böcek bilimi hobisi yeni bir böcek keşfetmesine yol açtı."
+  },
+  {
+    "id": 2551,
+    "topic": "Hobiler ve Boş Zaman (B2)",
+    "en": "ornithology",
+    "tr": "kuş bilimi",
+    "type": "isim",
+    "exampleEn": "Ornithology is the scientific study of birds.",
+    "exampleTr": "Kuş bilimi, kuşların bilimsel incelenmesidir."
+  },
+  {
+    "id": 2552,
+    "topic": "Hobiler ve Boş Zaman (B2)",
+    "en": "spelunking",
+    "tr": "mağara keşfi",
+    "type": "isim",
+    "exampleEn": "Spelunking requires special equipment and training.",
+    "exampleTr": "Mağara keşfi özel ekipman ve eğitim gerektirir."
+  },
+  {
+    "id": 2553,
+    "topic": "Hobiler ve Boş Zaman (B2)",
+    "en": "falconry",
+    "tr": "şahincilik",
+    "type": "isim",
+    "exampleEn": "Falconry is one of the world's oldest hunting arts.",
+    "exampleTr": "Şahincilik dünyanın en eski avcılık sanatlarından biridir."
+  },
+  {
+    "id": 2554,
+    "topic": "Hobiler ve Boş Zaman (B2)",
+    "en": "glassblowing",
+    "tr": "cam üfleme",
+    "type": "isim",
+    "exampleEn": "Glassblowing requires intense heat and great precision.",
+    "exampleTr": "Cam üfleme yoğun ısı ve büyük hassasiyet gerektirir."
+  },
+  {
+    "id": 2555,
+    "topic": "Hobiler ve Boş Zaman (B2)",
+    "en": "engraving",
+    "tr": "oyma",
+    "type": "isim",
+    "exampleEn": "She does fine engraving on silver jewellery.",
+    "exampleTr": "Gümüş takılara ince oyma yapıyor."
+  },
+  {
+    "id": 2556,
+    "topic": "Hobiler ve Boş Zaman (B2)",
+    "en": "luthiery",
+    "tr": "çalgı yapımcılığı",
+    "type": "isim",
+    "exampleEn": "Luthiery is the craft of building stringed instruments.",
+    "exampleTr": "Çalgı yapımcılığı telli çalgı inşa etme zanaatıdır."
+  },
+  {
+    "id": 2557,
+    "topic": "Hobiler ve Boş Zaman (B2)",
+    "en": "blacksmithing",
+    "tr": "demircilik",
+    "type": "isim",
+    "exampleEn": "Blacksmithing turns raw iron into tools and art.",
+    "exampleTr": "Demircilik ham demiri araç ve sanata dönüştürür."
+  },
+  {
+    "id": 2558,
+    "topic": "Hobiler ve Boş Zaman (B2)",
+    "en": "lapidary",
+    "tr": "taş yontma sanatı",
+    "type": "isim",
+    "exampleEn": "Lapidary involves cutting and polishing gemstones.",
+    "exampleTr": "Taş yontma sanatı değerli taşları kesmeyi ve parlatmayı içerir."
+  },
+  {
+    "id": 2559,
+    "topic": "Hobiler ve Boş Zaman (B2)",
+    "en": "whittling",
+    "tr": "bıçakla oyma",
+    "type": "isim",
+    "exampleEn": "Whittling small figures from wood is a meditative hobby.",
+    "exampleTr": "Ahşaptan küçük figürler bıçakla oymak meditatif bir hobidir."
+  },
+  {
+    "id": 2560,
+    "topic": "Hobiler ve Boş Zaman (B2)",
+    "en": "marquetry",
+    "tr": "kakma ahşap sanatı",
+    "type": "isim",
+    "exampleEn": "Marquetry uses veneers of wood to create decorative patterns.",
+    "exampleTr": "Kakma ahşap sanatı dekoratif desenler oluşturmak için kaplama kullanır."
+  },
+  {
+    "id": 2561,
+    "topic": "Hobiler ve Boş Zaman (B2)",
+    "en": "macrame",
+    "tr": "makrame",
+    "type": "isim",
+    "exampleEn": "Macrame wall hangings are very popular in home decor.",
+    "exampleTr": "Makrame duvar süslemeleri ev dekorasyonunda çok popüler."
+  },
+  {
+    "id": 2562,
+    "topic": "Hobiler ve Boş Zaman (B2)",
+    "en": "decoupage",
+    "tr": "dekupaj",
+    "type": "isim",
+    "exampleEn": "Decoupage involves decorating surfaces with cut-out paper.",
+    "exampleTr": "Dekupaj, yüzeyleri kesilmiş kağıtlarla süslemeyi içerir."
+  },
+  {
+    "id": 2563,
+    "topic": "Hobiler ve Boş Zaman (B2)",
+    "en": "bookbinding",
+    "tr": "ciltçilik",
+    "type": "isim",
+    "exampleEn": "Bookbinding turns loose pages into a beautiful bound book.",
+    "exampleTr": "Ciltçilik gevşek sayfaları güzel bir ciltli kitaba dönüştürür."
+  },
+  {
+    "id": 2564,
+    "topic": "Hobiler ve Boş Zaman (B2)",
+    "en": "antiquing",
+    "tr": "antika avcılığı",
+    "type": "isim",
+    "exampleEn": "She spends weekends antiquing in flea markets.",
+    "exampleTr": "Haftasonlarını bit pazarlarında antika avcılığı yaparak geçiriyor."
+  },
+  {
+    "id": 2565,
+    "topic": "Hobiler ve Boş Zaman (B2)",
+    "en": "mycology",
+    "tr": "mantar bilimi",
+    "type": "isim",
+    "exampleEn": "Mycology is the scientific study of fungi and mushrooms.",
+    "exampleTr": "Mantar bilimi, mantar ve küflerin bilimsel incelenmesidir."
   }
 ]
