@@ -27,7 +27,7 @@ function TopicRow({ topic, total, learned, onClick }) {
     <button
       onClick={onClick}
       className="w-full flex items-center gap-3 bg-[#0e0e1a] rounded-xl px-3 py-2.5 border border-white/[0.07]
-                 hover:border-cyan-500/30 active:scale-[0.98] transition-all duration-150"
+                 hover:border-blue-600/30 active:scale-[0.98] transition-all duration-150"
     >
       <span className={`w-9 h-9 flex-shrink-0 flex items-center justify-center rounded-lg text-lg ${meta.color}`}>
         {meta.icon}

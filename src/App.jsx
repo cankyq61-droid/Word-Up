@@ -1,20 +1,24 @@
+import { lazy, Suspense } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Dashboard from './pages/Dashboard';
-import TopicsPage from './pages/TopicsPage';
-import LearnPage from './pages/LearnPage';
-import MatchPage from './pages/MatchPage';
-import QuizPage from './pages/QuizPage';
+
+const Dashboard  = lazy(() => import('./pages/Dashboard'));
+const TopicsPage = lazy(() => import('./pages/TopicsPage'));
+const LearnPage  = lazy(() => import('./pages/LearnPage'));
+const MatchPage  = lazy(() => import('./pages/MatchPage'));
+const QuizPage   = lazy(() => import('./pages/QuizPage'));
 
 export default function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Dashboard />} />
-        <Route path="/topics" element={<TopicsPage />} />
-        <Route path="/learn" element={<LearnPage />} />
-        <Route path="/match" element={<MatchPage />} />
-        <Route path="/quiz" element={<QuizPage />} />
-      </Routes>
+      <Suspense fallback={<div className="min-h-screen bg-[#080812]" />}>
+        <Routes>
+          <Route path="/"       element={<Dashboard />} />
+          <Route path="/topics" element={<TopicsPage />} />
+          <Route path="/learn"  element={<LearnPage />} />
+          <Route path="/match"  element={<MatchPage />} />
+          <Route path="/quiz"   element={<QuizPage />} />
+        </Routes>
+      </Suspense>
     </BrowserRouter>
   );
 }

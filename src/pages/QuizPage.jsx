@@ -4,6 +4,7 @@ import words from '../data/words.json';
 import { TOPIC_META, DEFAULT_META } from '../data/topics';
 import { useProgress } from '../hooks/useProgress';
 import { useSpeech } from '../hooks/useSpeech';
+import { useStreak } from '../hooks/useStreak';
 
 const allTopics = [...new Set(words.map((w) => w.topic))];
 const OPTIONS_COUNT = 8;
@@ -161,6 +162,7 @@ export default function QuizPage() {
   const location = useLocation();
   const { speak, isSupported } = useSpeech();
   const { markLearned, markUnlearned } = useProgress();
+  const { markDone } = useStreak();
 
   const initWordIds = location.state?.wordIds ?? null;
   const initSel     = location.state?.topics ?? location.state?.topic ?? (initWordIds ? '__practice__' : null);
@@ -219,6 +221,7 @@ export default function QuizPage() {
   if (!sel) return <TopicSelect onSelect={startQuiz} />;
 
   if (currentIndex >= quizWords.length && quizWords.length > 0) {
+    markDone();
     return (
       <FinishScreen
         label={label}
@@ -243,7 +246,7 @@ export default function QuizPage() {
         {/* Nav */}
         <div className="flex items-center justify-between mb-5">
           <button
-            onClick={() => wordIds ? navigate('/topics') : setSel(null)}
+            onClick={() => navigate('/topics')}
             className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-200 transition-colors"
           >
             ← {label}
@@ -261,7 +264,7 @@ export default function QuizPage() {
               className={`h-1.5 flex-1 rounded-full transition-all duration-500 ${
                 i < results.length
                   ? results[i] ? 'bg-emerald-500' : 'bg-pink-500'
-                  : i === currentIndex ? 'bg-cyan-500' : 'bg-white/10'
+                  : i === currentIndex ? 'bg-blue-600' : 'bg-white/10'
               }`}
             />
           ))}
@@ -290,7 +293,7 @@ export default function QuizPage() {
               disabled={!isSupported}
               title="Kelimeyi dinle"
               className="flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-xl
-                         bg-cyan-500/10 text-cyan-400 hover:bg-cyan-500/20 active:scale-95 transition-all disabled:opacity-40"
+                         bg-blue-600/10 text-blue-500 hover:bg-blue-600/20 active:scale-95 transition-all disabled:opacity-40"
             >
               🔊
             </button>
@@ -308,7 +311,7 @@ export default function QuizPage() {
 
             let cls = 'w-full min-h-[60px] py-3 px-4 rounded-xl font-semibold text-sm transition-all duration-200 text-left leading-tight break-words ';
             if (!isAnswered)
-              cls += 'bg-[#0e0e1a] border-2 border-white/10 text-gray-200 hover:border-cyan-500/50 hover:bg-cyan-500/10 active:scale-[0.97]';
+              cls += 'bg-[#0e0e1a] border-2 border-white/10 text-gray-200 hover:border-blue-600/50 hover:bg-blue-600/10 active:scale-[0.97]';
             else if (isCorrectOption)
               cls += 'bg-emerald-500 border-2 border-emerald-400 text-white shadow-[0_0_16px_#10b98140]';
             else if (isSelectedOption)

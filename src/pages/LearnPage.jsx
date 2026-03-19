@@ -1,8 +1,9 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import words from '../data/words.json';
 import { useProgress } from '../hooks/useProgress';
 import { useSpeech } from '../hooks/useSpeech';
+import { useStreak } from '../hooks/useStreak';
 import { WORD_EMOJI, NUMBER_TEXT } from '../data/wordEmoji';
 import { WORD_ICON } from '../data/wordIcon';
 import { WORD_PHONETIC } from '../data/wordPhonetic';
@@ -66,7 +67,7 @@ function TopicSelect({ onSelect }) {
                 key={topic}
                 onClick={() => onSelect(topic)}
                 className="w-full text-left bg-[#0e0e1a] rounded-2xl p-5 border border-white/[0.07]
-                           hover:border-cyan-500/30 active:scale-[0.98] transition-all flex items-center gap-4"
+                           hover:border-blue-600/30 active:scale-[0.98] transition-all flex items-center gap-4"
               >
                 <span className={`w-12 h-12 flex items-center justify-center rounded-xl text-2xl ${meta.bg} text-white shadow-sm`}>
                   {meta.icon}
@@ -102,7 +103,7 @@ function FinishScreen({ topic, topicWords, isLearned, onRetry, onBack, onHome, o
           {pct === 100 ? 'Mükemmel!' : 'Konu Tamamlandı!'}
         </h2>
         <p className="text-gray-400 mb-2">{topic}</p>
-        <p className="text-4xl font-extrabold text-cyan-400 tabular-nums mb-1">
+        <p className="text-4xl font-extrabold text-blue-500 tabular-nums mb-1">
           {learnedCount}
           <span className="text-xl text-gray-500 font-normal"> / {topicWords.length}</span>
         </p>
@@ -125,8 +126,8 @@ function FinishScreen({ topic, topicWords, isLearned, onRetry, onBack, onHome, o
           </button>
           <button
             onClick={onRetry}
-            className="w-full bg-cyan-500 hover:bg-cyan-400 text-white font-bold py-4 rounded-2xl
-                       transition-colors shadow-[0_0_20px_#22d3ee20]"
+            className="w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-4 rounded-2xl
+                       transition-colors shadow-[0_0_20px_#3b82f620]"
           >
             🔄 Tekrar Çalış
           </button>
@@ -154,12 +155,16 @@ export default function LearnPage() {
   const { speak, isSupported } = useSpeech();
   const { isLearned, markLearned, markUnlearned } = useProgress();
 
+  const { markDone } = useStreak();
+
   const [selectedTopic, setSelectedTopic] = useState(location.state?.topic ?? null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [cardState, setCardState] = useState('idle');
 
   const topicWords = selectedTopic ? words.filter((w) => w.topic === selectedTopic) : [];
   const isFinished = currentIndex >= topicWords.length;
+
+  useEffect(() => { if (isFinished && topicWords.length > 0) markDone(); }, [isFinished]);
   const current = topicWords[currentIndex];
   const meta = TOPIC_META[selectedTopic] || DEFAULT_META;
 
@@ -233,7 +238,7 @@ export default function LearnPage() {
                     ? 'bg-emerald-500'
                     : 'bg-pink-500'
                   : i === currentIndex
-                  ? 'bg-cyan-500'
+                  ? 'bg-blue-600'
                   : 'bg-white/10'
               }`}
             />
@@ -250,8 +255,8 @@ export default function LearnPage() {
               onClick={() => speak(current.en)}
               disabled={!isSupported}
               title="Kelimeyi dinle"
-              className="w-12 h-12 flex items-center justify-center rounded-2xl bg-cyan-500/10 text-cyan-400 text-xl
-                         hover:bg-cyan-500/20 active:scale-95 transition-all disabled:opacity-40"
+              className="w-12 h-12 flex items-center justify-center rounded-2xl bg-blue-600/10 text-blue-500 text-xl
+                         hover:bg-blue-600/20 active:scale-95 transition-all disabled:opacity-40"
             >
               🔊
             </button>
@@ -273,7 +278,7 @@ export default function LearnPage() {
                 /{WORD_PHONETIC[current.en.toLowerCase()]}/
               </p>
             )}
-            <p className="text-xl font-semibold text-cyan-400">{current.tr}</p>
+            <p className="text-xl font-semibold text-blue-500">{current.tr}</p>
           </div>
 
           {/* Divider + example */}

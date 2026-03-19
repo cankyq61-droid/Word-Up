@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import words from '../data/words.json';
 import { useProgress } from '../hooks/useProgress';
+import { useStreak } from '../hooks/useStreak';
 
 const TOTAL    = words.length;
 const HOLD_MS  = 2400;
@@ -16,6 +17,8 @@ export default function Dashboard() {
   const [overlayPos, setOverlayPos] = useState(null);
   const dashLogoRef = useRef(null);
 
+  const { streak, doneToday } = useStreak();
+
   const totalLearned = getLearnedCount(words);
   const pct          = Math.round((totalLearned / TOTAL) * 100);
   const learnedWords = words.filter((w) => isLearned(w.id));
@@ -28,6 +31,30 @@ export default function Dashboard() {
     : pct < 75  ? 'Yarıyı geçtin, süpersin! ⚡'
     : pct < 100 ? 'Neredeyse bitti, son atılım! 🏆'
     :             'Tüm kelimeleri öğrendin! 🎉';
+
+  // Sayı animasyonu: 0'dan hedefe
+  const [counts, setCounts] = useState({ pct: 0, learned: 0, remaining: 0, streak: 0, total: 0 });
+
+  useEffect(() => {
+    if (phase !== 'done') return;
+    const targets = { pct, learned: totalLearned, remaining: TOTAL - totalLearned, streak, total: TOTAL };
+    const duration = 4000;
+    const start = Date.now();
+    const frame = () => {
+      const elapsed = Date.now() - start;
+      const t = Math.min(elapsed / duration, 1);
+      const ease = 1 - Math.pow(1 - t, 3);
+      setCounts({
+        pct:       Math.round(ease * targets.pct),
+        learned:   Math.round(ease * targets.learned),
+        remaining: Math.round(ease * targets.remaining),
+        streak:    Math.round(ease * targets.streak),
+        total:     Math.round(ease * targets.total),
+      });
+      if (t < 1) requestAnimationFrame(frame);
+    };
+    requestAnimationFrame(frame);
+  }, [phase]);
 
   useEffect(() => {
     // Place overlay logo at screen center immediately
@@ -61,8 +88,8 @@ export default function Dashboard() {
       {phase !== 'done' && overlayPos && (
         <div
           className={`fixed z-50 flex items-center justify-center
-                      bg-gradient-to-br from-cyan-500 to-indigo-600
-                      shadow-[0_0_60px_#22d3ee55]
+                      bg-gradient-to-br from-blue-600 to-indigo-600
+                      shadow-[0_0_60px_#3b82f655]
                       ${phase === 'splash' ? 'anim-splash-logo' : ''}`}
           style={{
             top:          overlayPos.top,
@@ -114,8 +141,8 @@ export default function Dashboard() {
             <div
               ref={dashLogoRef}
               className={`w-20 h-20 mx-auto mb-4 rounded-[1.4rem] flex items-center justify-center
-                          bg-gradient-to-br from-cyan-500 to-indigo-600
-                          shadow-[0_0_36px_#22d3ee35]
+                          bg-gradient-to-br from-blue-600 to-indigo-600
+                          shadow-[0_0_36px_#3b82f635]
                           ${phase === 'done' ? 'anim-logo-settle' : 'opacity-0'}`}
             >
               <span className="text-4xl font-black text-white select-none"
@@ -126,7 +153,7 @@ export default function Dashboard() {
 
             <h1 className={`text-2xl font-extrabold tracking-tight
                             ${phase === 'done' ? 'anim-in-1' : 'opacity-0'}`}>
-              <span className="text-white">Word</span><span className="text-cyan-400"> Up</span>
+              <span className="text-white">Word</span><span className="text-blue-500"> Up</span>
             </h1>
             <p className={`text-gray-500 mt-1 text-sm
                            ${phase === 'done' ? 'anim-in-2' : 'opacity-0'}`}>
@@ -148,23 +175,23 @@ export default function Dashboard() {
                 </p>
                 <p className="text-sm text-gray-400">{greeting}</p>
               </div>
-              <span className="text-3xl font-extrabold text-cyan-400 tabular-nums leading-none">
-                {pct}<span className="text-lg text-gray-600">%</span>
+              <span className="text-3xl font-extrabold text-blue-500 tabular-nums leading-none">
+                {counts.pct}<span className="text-lg text-gray-600">%</span>
               </span>
             </div>
 
             <div className="w-full bg-white/[0.06] rounded-full h-2 overflow-hidden mb-4">
               <div
-                className="h-2 rounded-full bg-gradient-to-r from-cyan-500 to-indigo-500 transition-all duration-700"
-                style={{ width: `${pct}%` }}
+                className="h-2 rounded-full bg-gradient-to-r from-blue-600 to-indigo-500 transition-all duration-700"
+                style={{ width: `${counts.pct}%` }}
               />
             </div>
 
             <div className="grid grid-cols-3 gap-2">
               {[
-                { label: 'Toplam',    value: TOTAL,                color: 'text-gray-300'   },
-                { label: 'Öğrenilen', value: totalLearned,         color: 'text-emerald-400' },
-                { label: 'Kalan',     value: TOTAL - totalLearned, color: 'text-orange-400'  },
+                { label: 'Toplam',    value: counts.total,     color: 'text-gray-300'   },
+                { label: 'Öğrenilen', value: counts.learned,   color: 'text-emerald-400' },
+                { label: 'Kalan',     value: counts.remaining, color: 'text-orange-400'  },
               ].map(({ label, value, color }) => (
                 <div key={label} className="text-center">
                   <p className={`text-xl font-extrabold tabular-nums ${color}`}>{value}</p>
@@ -172,16 +199,36 @@ export default function Dashboard() {
                 </div>
               ))}
             </div>
+
+            {/* Streak */}
+            <div className="mt-3 pt-3 border-t border-white/[0.07] flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <span className="text-xl">{doneToday ? '🔥' : '🩶'}</span>
+                <div>
+                  <p className="text-sm font-bold text-orange-400 leading-tight">
+                    {counts.streak} günlük seri
+                  </p>
+                  <p className="text-[10px] text-gray-600">
+                    {doneToday ? 'Bugün tamamlandı' : 'Bugün henüz pratik yapmadın'}
+                  </p>
+                </div>
+              </div>
+              {streak >= 3 && (
+                <span className="text-xs font-bold text-orange-400 bg-orange-500/10 border border-orange-500/20 px-2 py-1 rounded-lg">
+                  {counts.streak} 🔥
+                </span>
+              )}
+            </div>
           </div>
 
           {/* Ana buton */}
           <button
             onClick={() => navigate('/topics')}
             className={`w-full py-4 rounded-2xl font-bold text-base text-white
-                       bg-gradient-to-r from-cyan-500 to-indigo-500
-                       hover:from-cyan-400 hover:to-indigo-400
+                       bg-gradient-to-r from-blue-600 to-indigo-500
+                       hover:from-blue-500 hover:to-indigo-400
                        active:scale-[0.97] transition-all
-                       shadow-[0_0_32px_#22d3ee30]
+                       shadow-[0_0_32px_#3b82f630]
                        ${phase === 'done' ? 'anim-in-3' : 'opacity-0'}`}
           >
             Öğrenmeye Başla →

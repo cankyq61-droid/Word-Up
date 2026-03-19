@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import words from '../data/words.json';
 import { TOPIC_META, DEFAULT_META } from '../data/topics';
+import { useStreak } from '../hooks/useStreak';
 
 const topics = [...new Set(words.map((w) => w.topic))];
 
@@ -165,11 +166,11 @@ function GameBoard({ topic, cards, selected, matched, shaking, moves, onCardClic
               cardClass += 'opacity-0 scale-75 pointer-events-none ';
             } else if (isSelected) {
               cardClass += isEN
-                ? 'bg-cyan-500 text-black shadow-[0_0_16px_#22d3ee40] scale-105 '
+                ? 'bg-blue-600 text-black shadow-[0_0_16px_#3b82f640] scale-105 '
                 : 'bg-violet-500 text-white shadow-[0_0_16px_#8b5cf640] scale-105 ';
             } else {
               cardClass += isEN
-                ? 'bg-cyan-500/15 text-cyan-300 border border-cyan-500/20 hover:bg-cyan-500/25 active:scale-95 '
+                ? 'bg-blue-600/15 text-blue-400 border border-blue-600/20 hover:bg-blue-600/25 active:scale-95 '
                 : 'bg-violet-500/15 text-violet-300 border border-violet-500/20 hover:bg-violet-500/25 active:scale-95 ';
             }
 
@@ -191,7 +192,7 @@ function GameBoard({ topic, cards, selected, matched, shaking, moves, onCardClic
         {/* Legend */}
         <div className="flex gap-4 justify-center mt-6">
           <div className="flex items-center gap-1.5">
-            <div className="w-3 h-3 rounded bg-cyan-500/30 border border-cyan-500/40" />
+            <div className="w-3 h-3 rounded bg-blue-600/30 border border-blue-600/40" />
             <span className="text-xs text-gray-500">İngilizce</span>
           </div>
           <div className="flex items-center gap-1.5">
@@ -210,6 +211,7 @@ function GameBoard({ topic, cards, selected, matched, shaking, moves, onCardClic
 export default function MatchPage() {
   const navigate = useNavigate();
   const location = useLocation();
+  const { markDone } = useStreak();
 
   const initTopics  = location.state?.topics ?? null;
   const initLabel   = location.state?.pageLabel ?? null;
@@ -298,6 +300,7 @@ export default function MatchPage() {
 
   useEffect(() => {
     if (cards.length > 0 && matched.size === cards.length) {
+      markDone();
       const t = setTimeout(() => setFinished(true), 500);
       return () => clearTimeout(t);
     }
