@@ -301,7 +301,7 @@ export default function MatchPage() {
   const quizTotal   = location.state?.quizTotal ?? null;
   const initCorrectWordIds = location.state?.correctWordIds ?? [];
   const totalQuizWords  = location.state?.totalQuizWords ?? 0;
-  const timeLimit   = location.state?.timeLimit ?? 60;
+  const timeLimit   = location.state?.timeLimit ?? 90;
   const pairLimit   = location.state?.pairLimit ?? PAIRS_PER_GAME;
   const sourceTopic = location.state?.from === 'topic-hub'
     ? (location.state?.topic ?? (typeof location.state?.topics === 'string' ? location.state?.topics : null))

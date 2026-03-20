@@ -241,6 +241,7 @@ export default function QuizPage() {
           topics: location.state?.topic,
           pageLabel: label,
           flow: 'quiz-to-done',
+          timeLimit: 90,
           quizScore: flowSuccess.score,
           quizTotal: flowSuccess.total,
           correctWordIds: [...correctWordIds],
