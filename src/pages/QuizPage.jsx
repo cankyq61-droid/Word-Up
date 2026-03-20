@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import words from '../data/words.json';
 import { TOPIC_META, DEFAULT_META } from '../data/topics';
@@ -55,8 +55,8 @@ function TopicSelect({ onSelect }) {
   const { getLearnedCount } = useProgress();
 
   return (
-    <div className="min-h-screen bg-[#080812]">
-      <div className="max-w-lg mx-auto px-4 pt-8 pb-16">
+    <div className="min-h-screen bg-[#080e1c]">
+      <div className="max-w-lg mx-auto px-4 pt-safe-area pb-safe-area">
         <div className="flex items-center gap-3 mb-8">
           <button
             onClick={() => navigate('/topics')}
@@ -79,7 +79,7 @@ function TopicSelect({ onSelect }) {
               <button
                 key={topic}
                 onClick={() => onSelect(topic, topic)}
-                className="w-full text-left bg-[#0e0e1a] rounded-2xl p-5 border border-white/[0.07]
+                className="w-full text-left bg-[#0d1428] rounded-2xl p-5 border border-white/[0.07]
                            hover:border-emerald-500/30 active:scale-[0.98] transition-all flex items-center gap-4"
               >
                 <span className={`w-12 h-12 flex items-center justify-center rounded-xl text-2xl ${meta.bg} text-white shadow-sm`}>
@@ -111,8 +111,8 @@ function FinishScreen({ label, score, total, results, onRetry, onBack, onHome })
     : 'Flashcard\'larla tekrar çalış!';
 
   return (
-    <div className="min-h-screen bg-[#080812] flex items-center justify-center px-4">
-      <div className="w-full max-w-sm bg-[#0e0e1a] border border-white/[0.07] rounded-3xl p-8 shadow-xl text-center animate-pop-in">
+    <div className="min-h-screen bg-[#080e1c] flex items-center justify-center px-4">
+      <div className="w-full max-w-sm bg-[#0d1428] border border-white/[0.07] rounded-3xl p-8 shadow-xl text-center animate-pop-in">
         <div className="text-6xl mb-4">{emoji}</div>
         <h2 className="text-2xl font-bold text-white mb-1">Test Tamamlandı!</h2>
         <p className="text-gray-400 text-sm mb-5">{label} · {message}</p>
@@ -163,7 +163,7 @@ export default function QuizPage() {
   const navigate = useNavigate();
   const location = useLocation();
   const { speak, isSupported } = useSpeech();
-  const { markLearned, markUnlearned } = useProgress();
+  const { markQuizDone, markLearned, markUnlearned } = useProgress();
   const { streak, justStreaked, markDone, clearStreak } = useStreak();
 
   const initWordIds = location.state?.wordIds ?? null;
@@ -193,6 +193,28 @@ export default function QuizPage() {
   const [gameOver,       setGameOver]       = useState(false);
   const [showIntro,      setShowIntro]      = useState(flow === 'learn-to-match');
   const [correctWordIds, setCorrectWordIds] = useState(new Set());
+  const wrongIdsRef               = useRef(new Set());
+  const standaloneProgressDoneRef = useRef(false);
+
+  // Bağımsız quiz tamamlandığında (süre dolmadan) ilerlemeyi kaydet
+  useEffect(() => {
+    if (flow === 'learn-to-match') return;
+    if (quizWords.length === 0 || currentIndex < quizWords.length) return;
+    if (timedOut || gameOver) return;
+    if (standaloneProgressDoneRef.current) return;
+    standaloneProgressDoneRef.current = true;
+    [...correctWordIds].forEach((id) => markLearned(id));
+    wrongIdsRef.current.forEach((id) => markUnlearned(id));
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentIndex, timedOut, gameOver]);
+
+  // Konu akışı: quiz bitince level 1 (kısmi) olarak kaydet — eşleştirme tamamlanınca level 2 olur
+  useEffect(() => {
+    if (!flowSuccess || flow !== 'learn-to-match') return;
+    [...correctWordIds].forEach((id) => markQuizDone(id));
+    wrongIdsRef.current.forEach((id) => markUnlearned(id));
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [flowSuccess]);
 
   useEffect(() => {
     const w = quizWords[currentIndex];
@@ -222,6 +244,7 @@ export default function QuizPage() {
           quizScore: flowSuccess.score,
           quizTotal: flowSuccess.total,
           correctWordIds: [...correctWordIds],
+          totalQuizWords: quizWords.length,
         },
       });
       return;
@@ -250,6 +273,8 @@ export default function QuizPage() {
     setGameOver(false);
     setShowIntro(flow === 'learn-to-match');
     setCorrectWordIds(new Set());
+    wrongIdsRef.current = new Set();
+    standaloneProgressDoneRef.current = false;
   }
 
   function handleAnswer(optionWord) {
@@ -263,11 +288,10 @@ export default function QuizPage() {
 
     if (correct) {
       setScore((s) => s + 1);
-      markLearned(current.id);
       setCorrectWordIds((prev) => { const n = new Set(prev); n.add(current.id); return n; });
     }
     else {
-      markUnlearned(current.id);
+      wrongIdsRef.current.add(current.id);
       if (lives !== null) {
         const newLives = lives - 1;
         setLives(newLives);
@@ -306,8 +330,8 @@ export default function QuizPage() {
     const pct = Math.round((flowSuccess.score / flowSuccess.total) * 100);
     const timeTaken = timeLimit - flowSuccess.timeLeft;
     return (
-      <div className="min-h-screen bg-[#080812] flex items-center justify-center px-4">
-        <div className="w-full max-w-sm bg-[#0e0e1a] border border-white/[0.07] rounded-3xl p-8 shadow-xl text-center animate-pop-in">
+      <div className="min-h-screen bg-[#080e1c] flex items-center justify-center px-4">
+        <div className="w-full max-w-sm bg-[#0d1428] border border-white/[0.07] rounded-3xl p-8 shadow-xl text-center animate-pop-in">
           <div className="text-6xl mb-3">🎯</div>
           <h2 className="text-2xl font-bold text-white mb-1">Test Tamamlandı!</h2>
           <p className="text-gray-500 text-sm mb-6">{timeTaken} saniyede bitirdin</p>
@@ -338,8 +362,8 @@ export default function QuizPage() {
 
   if (showIntro) {
     return (
-      <div className="min-h-screen bg-[#080812] flex items-center justify-center px-4">
-        <div className="w-full max-w-sm bg-[#0e0e1a] border border-white/[0.07] rounded-3xl p-8 shadow-xl text-center animate-pop-in">
+      <div className="min-h-screen bg-[#080e1c] flex items-center justify-center px-4">
+        <div className="w-full max-w-sm bg-[#0d1428] border border-white/[0.07] rounded-3xl p-8 shadow-xl text-center animate-pop-in">
           <div className="text-6xl mb-4">🎯</div>
           <h2 className="text-2xl font-bold text-white mb-3">Test Başlıyor!</h2>
 
@@ -375,8 +399,8 @@ export default function QuizPage() {
 
   if (gameOver) {
     return (
-      <div className="min-h-screen bg-[#080812] flex items-center justify-center px-4">
-        <div className="w-full max-w-sm bg-[#0e0e1a] border border-white/[0.07] rounded-3xl p-8 shadow-xl text-center animate-pop-in">
+      <div className="min-h-screen bg-[#080e1c] flex items-center justify-center px-4">
+        <div className="w-full max-w-sm bg-[#0d1428] border border-white/[0.07] rounded-3xl p-8 shadow-xl text-center animate-pop-in">
           <div className="text-6xl mb-4">💔</div>
           <h2 className="text-2xl font-bold text-white mb-2">Canların Bitti!</h2>
           <p className="text-gray-400 mb-8">Testi baştan alman gerekiyor.</p>
@@ -401,12 +425,12 @@ export default function QuizPage() {
 
   if (timedOut) {
     return (
-      <div className="min-h-screen bg-[#080812] flex items-center justify-center px-4">
-        <div className="w-full max-w-sm bg-[#0e0e1a] border border-white/[0.07] rounded-3xl p-8 shadow-xl text-center animate-pop-in">
+      <div className="min-h-screen bg-[#080e1c] flex items-center justify-center px-4">
+        <div className="w-full max-w-sm bg-[#0d1428] border border-white/[0.07] rounded-3xl p-8 shadow-xl text-center animate-pop-in">
           <div className="text-6xl mb-4">⏰</div>
           <h2 className="text-2xl font-bold text-white mb-1">Süre Doldu!</h2>
           <p className="text-gray-400 mb-6">{label}</p>
-          <div className="bg-[#080812] rounded-2xl p-4 mb-8 flex justify-center gap-8">
+          <div className="bg-[#080e1c] rounded-2xl p-4 mb-8 flex justify-center gap-8">
             <div className="text-center">
               <p className="text-3xl font-extrabold text-emerald-400">{score}</p>
               <p className="text-xs text-gray-500 mt-1">Doğru</p>
@@ -444,8 +468,8 @@ export default function QuizPage() {
   const current = quizWords[currentIndex];
 
   return (
-    <div className="min-h-screen bg-[#080812]">
-      <div className="max-w-lg mx-auto px-4 pt-6 pb-10">
+    <div className="min-h-screen bg-[#080e1c]">
+      <div className="max-w-lg mx-auto px-4 pt-safe-area pb-safe-area">
 
         {/* Nav */}
         <div className="flex items-center justify-between mb-5">
@@ -485,7 +509,7 @@ export default function QuizPage() {
 
         {/* Score badge + timer */}
         <div className="flex items-center justify-between mb-4">
-          <div className="flex items-center gap-2 bg-[#0e0e1a] border border-white/[0.07] rounded-xl px-3 py-1.5 text-xs font-bold">
+          <div className="flex items-center gap-2 bg-[#0d1428] border border-white/[0.07] rounded-xl px-3 py-1.5 text-xs font-bold">
             <span className="text-emerald-400">{score} ✓</span>
             <span className="text-gray-600">|</span>
             <span className="text-pink-400">{currentIndex - score} ✗</span>
@@ -499,7 +523,7 @@ export default function QuizPage() {
         </div>
 
         {/* Question card */}
-        <div className="bg-[#0e0e1a] border border-white/[0.07] rounded-3xl p-6 mb-5">
+        <div className="bg-[#0d1428] border border-white/[0.07] rounded-3xl p-6 mb-5">
           <p className="text-[11px] text-gray-500 uppercase tracking-widest text-center mb-5 font-semibold">
             Türkçe karşılığı nedir?
           </p>
@@ -535,7 +559,7 @@ export default function QuizPage() {
 
             let cls = 'w-full min-h-[60px] py-3 px-4 rounded-xl font-semibold text-sm transition-all duration-200 text-left leading-tight break-words ';
             if (!isAnswered)
-              cls += 'bg-[#0e0e1a] border-2 border-white/10 text-gray-200 hover:border-blue-600/50 hover:bg-blue-600/10 active:scale-[0.97]';
+              cls += 'bg-[#0d1428] border-2 border-white/10 text-gray-200 hover:border-blue-600/50 hover:bg-blue-600/10 active:scale-[0.97]';
             else if (isCorrectOption)
               cls += 'bg-emerald-500 border-2 border-emerald-400 text-white shadow-[0_0_16px_#10b98140]';
             else if (isSelectedOption)

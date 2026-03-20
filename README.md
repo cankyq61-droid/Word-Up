@@ -11,10 +11,16 @@ Türkçe konuşanlar için İngilizce kelime öğrenme uygulaması. React + Vite
 - **Türkçe okunuş** — her kelime için fonetik rehber (meat → /mit/)
 - **Çoktan Seçmeli Test** — 8 seçenekli quiz, yanlışta ipucu gösterimi
 - **Eşleştirme Oyunu** — İngilizce–Türkçe kart eşleştirme
-- **Konu bazlı test & eşleştirme** — konu bitince o konuya özel pratik
-- **İlerleme takibi** — konu bazında yüzde gösterimi
+- **Konu akışı** — flashcard → test → eşleştirme, hepsi doğruysa ilerleme kaydedilir
+- **İki seviyeli ilerleme** — quiz tamamlama (seviye 1) + eşleştirme tamamlama (seviye 2, tam öğrenildi)
+- **Seri sistemi** — günlük çalışma serisi takibi ve kutlama animasyonu
+- **Puan sistemi** — öğrenilen kelime başına 10 puan
+- **Konu sayfalama** — konular 7'li sayfalar halinde, kaydırma ile geçiş
+- **Sayaç seçici** — quiz ve eşleştirmede soru/çift sayısı + süre seçimi
+- **İlerlemeyi sıfırla** — dashboard'dan tek tıkla sıfırlama
 - **Sesli okuma** — kelime ve örnek cümle dinleme
 - **PWA** — offline çalışır, cihaza kurulabilir
+- **Tam mobil uyum** — safe area, touch-action, zoom engeli, tüm ekran boyutları
 
 ---
 
@@ -101,8 +107,11 @@ src/
 │   ├── QuizPage.jsx        # Çoktan seçmeli test
 │   └── MatchPage.jsx       # Eşleştirme oyunu
 ├── hooks/
-│   ├── useProgress.js      # localStorage ilerleme takibi
+│   ├── useProgress.js      # İki seviyeli ilerleme takibi (localStorage)
+│   ├── useStreak.js        # Günlük seri takibi
 │   └── useSpeech.js        # TTS (Web + Capacitor)
+├── components/
+│   └── StreakCelebration.jsx  # Seri kutlama animasyonu
 ```
 
 ---
@@ -121,6 +130,8 @@ npm run build    # dist/ klasörüne üret
 
 | Sürüm | Değişiklikler |
 |-------|---------------|
+| v2.0.1 | Tam mobil uyum (safe area, touch-action, zoom engeli), arayüz düzeni iyileştirmeleri |
+| v2.0.0 | İki seviyeli ilerleme sistemi, konu akışı (flashcard→quiz→eşleştirme), seri sistemi, puan sistemi, sayaç seçici, ilerleme sıfırlama, konu sayfalama |
 | v1.3.0 | Word Up yeniden adlandırma, A1→B2 konu sıralaması, konu bitişi eşleştirme butonu, Aa Android ikonu |
 | v1.2.0 | Modern Yaşam grubu, Türkçe okunuş, emoji tam kapsamı, sayfa hafızası |
 | v1.0.0 | İlk sürüm: 22 konu, 445 A1 kelime, flashcard, quiz, eşleştirme, koyu tema |

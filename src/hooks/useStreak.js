@@ -11,22 +11,22 @@ function loadState() {
   const lastDate = localStorage.getItem('streak_last_date') || '';
   const today    = todayStr();
 
-  if (!lastDate) return { streak: 0, doneToday: false };
+  if (!lastDate) return { streak: 0, doneToday: false, justStreaked: false };
 
   const diff = daysBetween(lastDate, today);
 
-  if (diff === 0) return { streak: count, doneToday: true };
-  if (diff === 1) return { streak: count, doneToday: false };
+  if (diff === 0) return { streak: count, doneToday: true,  justStreaked: false };
+  if (diff === 1) return { streak: count, doneToday: false, justStreaked: false };
 
   // Seri bozuldu
   localStorage.setItem('streak_count', '0');
-  return { streak: 0, doneToday: false };
+  return { streak: 0, doneToday: false, justStreaked: false };
 }
 
 import { useState, useCallback } from 'react';
 
 export function useStreak() {
-  const [{ streak, doneToday }, setState] = useState(loadState);
+  const [{ streak, doneToday, justStreaked }, setState] = useState(loadState);
 
   const markDone = useCallback(() => {
     const today    = todayStr();
@@ -37,10 +37,14 @@ export function useStreak() {
     const diff = lastDate ? daysBetween(lastDate, today) : 999;
     const newCount = diff === 1 ? prev + 1 : 1;
 
-    localStorage.setItem('streak_count', newCount);
+    localStorage.setItem('streak_count', String(newCount));
     localStorage.setItem('streak_last_date', today);
-    setState({ streak: newCount, doneToday: true });
+    setState({ streak: newCount, doneToday: true, justStreaked: true });
   }, []);
 
-  return { streak, doneToday, markDone };
+  const clearStreak = useCallback(() => {
+    setState((s) => ({ ...s, justStreaked: false }));
+  }, []);
+
+  return { streak, doneToday, justStreaked, markDone, clearStreak };
 }

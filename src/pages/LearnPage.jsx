@@ -42,8 +42,8 @@ function TopicSelect({ onSelect }) {
   const { getLearnedCount } = useProgress();
 
   return (
-    <div className="min-h-screen bg-[#080812]">
-      <div className="max-w-lg mx-auto px-4 pt-8 pb-16">
+    <div className="min-h-screen bg-[#080e1c]">
+      <div className="max-w-lg mx-auto px-4 pt-safe-area pb-safe-area">
         <div className="flex items-center gap-3 mb-8">
           <button
             onClick={() => navigate('/topics')}
@@ -65,7 +65,7 @@ function TopicSelect({ onSelect }) {
               <button
                 key={topic}
                 onClick={() => onSelect(topic)}
-                className="w-full text-left bg-[#0e0e1a] rounded-2xl p-5 border border-white/[0.07]
+                className="w-full text-left bg-[#0d1428] rounded-2xl p-5 border border-white/[0.07]
                            hover:border-blue-600/30 active:scale-[0.98] transition-all flex items-center gap-4"
               >
                 <span className={`w-12 h-12 flex items-center justify-center rounded-xl text-2xl ${meta.bg} text-white shadow-sm`}>
@@ -95,8 +95,8 @@ function FinishScreen({ topic, topicWords, isLearned, onRetry, onBack, onHome, o
   const pct = Math.round((learnedCount / topicWords.length) * 100);
 
   return (
-    <div className="min-h-screen bg-[#080812] flex items-center justify-center px-4">
-      <div className="w-full max-w-sm bg-[#0e0e1a] border border-white/[0.07] rounded-3xl p-8 shadow-xl text-center animate-pop-in">
+    <div className="min-h-screen bg-[#080e1c] flex items-center justify-center px-4">
+      <div className="w-full max-w-sm bg-[#0d1428] border border-white/[0.07] rounded-3xl p-8 shadow-xl text-center animate-pop-in">
         <div className="text-6xl mb-4">{pct === 100 ? '🎉' : '👏'}</div>
         <h2 className="text-2xl font-bold text-white mb-1">
           {pct === 100 ? 'Mükemmel!' : 'Konu Tamamlandı!'}
@@ -152,7 +152,7 @@ export default function LearnPage() {
   const navigate = useNavigate();
   const location = useLocation();
   const { speak, isSupported } = useSpeech();
-  const { isLearned, markLearned, markUnlearned } = useProgress();
+  const { isLearned, markQuizDone, markUnlearned } = useProgress();
 
   const [selectedTopic, setSelectedTopic] = useState(location.state?.topic ?? null);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -177,7 +177,7 @@ export default function LearnPage() {
     if (cardState !== 'idle') return;
     setCardState(didLearn ? 'leaving-learned' : 'leaving-not');
 
-    if (didLearn) markLearned(current.id);
+    if (didLearn) markQuizDone(current.id);
     else markUnlearned(current.id);
 
     setTimeout(() => {
@@ -197,8 +197,8 @@ export default function LearnPage() {
 
     // 0 kelime öğrenildi
     return (
-      <div className="min-h-screen bg-[#080812] flex items-center justify-center px-4">
-        <div className="w-full max-w-sm bg-[#0e0e1a] border border-white/[0.07] rounded-3xl p-8 text-center">
+      <div className="min-h-screen bg-[#080e1c] flex items-center justify-center px-4">
+        <div className="w-full max-w-sm bg-[#0d1428] border border-white/[0.07] rounded-3xl p-8 text-center">
           <div className="text-6xl mb-4">😅</div>
           <h2 className="text-2xl font-bold text-white mb-2">Hiç kelime öğrenilmedi</h2>
           <p className="text-gray-400 mb-8">Kartları tekrar gözden geçir ve "Öğrendim" butonuna bas.</p>
@@ -231,7 +231,7 @@ export default function LearnPage() {
       : 'opacity-100 translate-x-0';
 
   return (
-    <div className="min-h-screen bg-[#080812] flex items-center justify-center px-4">
+    <div className="min-h-screen bg-[#080e1c] flex items-center justify-center px-4 pt-safe pb-safe">
       <div className="w-full max-w-lg">
 
         {/* ── Nav bar ── */}
@@ -267,7 +267,7 @@ export default function LearnPage() {
 
         {/* ── Card ── */}
         <div
-          className={`bg-[#0e0e1a] border border-white/[0.07] rounded-3xl p-6 mb-5 transition-all duration-300 ease-in-out ${cardOpacity}`}
+          className={`bg-[#0d1428] border border-white/[0.07] rounded-3xl p-6 mb-5 transition-all duration-300 ease-in-out ${cardOpacity}`}
         >
           {/* Top row: speaker + type badge */}
           <div className="flex items-center justify-between mb-4">

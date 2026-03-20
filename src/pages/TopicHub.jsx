@@ -29,7 +29,7 @@ export default function TopicHub() {
   const pct         = Math.round((learnedCount / topicWords.length) * 100);
 
   return (
-    <div className="min-h-screen bg-[#080812] flex items-center justify-center px-4 anim-page-in">
+    <div className="min-h-screen bg-[#080e1c] flex items-center justify-center px-4 pt-safe pb-safe anim-page-in">
       <div className="w-full max-w-sm flex flex-col gap-4">
 
         {/* Geri */}
@@ -41,7 +41,7 @@ export default function TopicHub() {
         </button>
 
         {/* Konu kartı */}
-        <div className="bg-[#0e0e1a] border border-white/[0.07] rounded-3xl p-6 text-center">
+        <div className="bg-[#0d1428] border border-white/[0.07] rounded-3xl p-6 text-center">
           <span className={`inline-flex w-16 h-16 items-center justify-center rounded-2xl text-3xl ${meta.bg} mb-4`}>
             {meta.icon}
           </span>

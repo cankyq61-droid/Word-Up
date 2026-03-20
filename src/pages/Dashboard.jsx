@@ -11,11 +11,12 @@ const INIT_SIZE = 112;   // w-28 = 112px
 
 export default function Dashboard() {
   const navigate = useNavigate();
-  const { getLearnedCount, isLearned } = useProgress();
+  const { getLearnedCount, isLearned, resetAll } = useProgress();
   const [phase, setPhase]           = useState('splash');   // splash | settling | done
   const [showPratik, setShowPratik] = useState(false);
   const [showQuizCount,  setShowQuizCount]  = useState(false);
   const [showMatchCount, setShowMatchCount] = useState(false);
+  const [showResetConfirm, setShowResetConfirm] = useState(false);
   const [overlayPos, setOverlayPos] = useState(null);
 
   const QUIZ_OPTIONS = [
@@ -99,7 +100,7 @@ export default function Dashboard() {
   const logoFont   = bigLogo ? '3rem' : '2.25rem';
 
   return (
-    <div className="min-h-screen bg-[#080812] relative overflow-hidden">
+    <div className={`min-h-screen bg-[#080e1c] relative ${phase !== 'done' ? 'overflow-hidden' : ''}`}>
 
       {/* ── Fixed overlay logo — transitions from center to dashboard position ── */}
       {phase !== 'done' && overlayPos && (
@@ -148,7 +149,7 @@ export default function Dashboard() {
       )}
 
       {/* ── Dashboard (invisible during splash so getBoundingClientRect works) ── */}
-      <div className={`min-h-screen flex flex-col items-center justify-center px-5 py-10
+      <div className={`min-h-screen flex flex-col items-center justify-center px-5 pt-safe-area pb-safe-area
                        ${phase === 'done' ? '' : 'invisible'}`}>
         <div className="w-full max-w-sm flex flex-col gap-6">
 
@@ -183,7 +184,7 @@ export default function Dashboard() {
           </div>
 
           {/* İlerleme kartı */}
-          <div className={`bg-[#0e0e1a] border border-white/[0.07] rounded-2xl p-5
+          <div className={`bg-[#0d1428] border border-white/[0.07] rounded-2xl p-5
                            ${phase === 'done' ? 'anim-in-2' : 'opacity-0'}`}>
             <div className="flex items-end justify-between mb-3">
               <div>
@@ -339,6 +340,38 @@ export default function Dashboard() {
                   </button>
                 </div>
               )
+            )}
+          </div>
+
+          {/* İlerlemeyi Sıfırla */}
+          <div className={`${phase === 'done' ? 'anim-in-4' : 'opacity-0'}`}>
+            {!showResetConfirm ? (
+              <button
+                onClick={() => setShowResetConfirm(true)}
+                className="w-full py-2 rounded-xl text-xs text-gray-600
+                           hover:text-red-400 active:scale-[0.97] transition-all"
+              >
+                İlerlemeyi Sıfırla
+              </button>
+            ) : (
+              <div className="flex gap-2">
+                <button
+                  onClick={() => { resetAll(); setCounts({ pct: 0, learned: 0, remaining: 0, streak: 0, total: 0, score: 0 }); setShowResetConfirm(false); }}
+                  className="flex-1 py-2.5 rounded-xl text-xs font-bold text-red-400
+                             bg-red-500/10 border border-red-500/20
+                             hover:bg-red-500/20 active:scale-[0.97] transition-all"
+                >
+                  Evet, Sıfırla
+                </button>
+                <button
+                  onClick={() => setShowResetConfirm(false)}
+                  className="flex-1 py-2.5 rounded-xl text-xs font-bold text-gray-400
+                             bg-white/[0.06] border border-white/[0.08]
+                             hover:bg-white/10 active:scale-[0.97] transition-all"
+                >
+                  Vazgeç
+                </button>
+              </div>
             )}
           </div>
 

@@ -82,7 +82,7 @@ function TopicRow({ topic, total, learned, onClick, animate }) {
   return (
     <button
       onClick={onClick}
-      className="w-full flex items-center gap-3 bg-[#0e0e1a] rounded-xl px-3 py-2.5 border border-white/[0.07]
+      className="w-full flex items-center gap-3 bg-[#0d1428] rounded-xl px-3 py-2.5 border border-white/[0.07]
                  hover:border-blue-600/30 active:scale-[0.98] transition-all duration-150"
     >
       <span className={`w-9 h-9 flex-shrink-0 flex items-center justify-center rounded-lg text-lg ${meta.color}`}>
@@ -157,9 +157,12 @@ export default function TopicsPage() {
   }
 
   return (
-    <div className="h-[100dvh] bg-[#080812] overflow-hidden flex items-center justify-center anim-page-in">
+    <div className="h-[100dvh] bg-[#080e1c] overflow-hidden flex items-center justify-center anim-page-in">
       <div className="w-full max-w-lg mx-auto px-4 pt-safe flex flex-col gap-3
-                      h-[min(100dvh,720px)] pt-5 pb-0">
+                      h-[min(100dvh,720px)] pb-0">
+
+        {/* ── Spacer: tüm içeriği aşağı kaydırır ── */}
+        <div className="flex-shrink-0 h-10" />
 
         {/* ── Top bar ── */}
         <div className="flex items-center justify-between flex-shrink-0">
@@ -333,7 +336,7 @@ export default function TopicsPage() {
         </div>
 
         {/* ── Alt butonlar ── */}
-        <div className="flex flex-col gap-2 flex-shrink-0">
+        <div className="flex flex-col gap-2 flex-shrink-0 pb-safe-area">
           {showAllQuizCount ? (
             <div className="flex flex-col gap-1.5">
               <p className="text-[11px] text-gray-500 text-center">Tüm Konular · Kaç soru?</p>

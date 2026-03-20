@@ -1,21 +1,18 @@
 import { useState, useCallback } from 'react';
 
-/**
- * Manages the user's word learning progress.
- *
- * Storage is currently backed by localStorage. The interface is deliberately
- * kept generic so that swapping the backend (e.g. Supabase) only requires
- * changing the two private helpers below — the hook's public API stays the same.
- */
-
 const STORAGE_KEY = 'kelime_progress_v1';
-
-// ─── Private storage helpers (swap these for Supabase later) ─────────────────
 
 function loadFromStorage() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
-    return raw ? JSON.parse(raw) : {};
+    if (!raw) return {};
+    const data = JSON.parse(raw);
+    // Eski boolean (true) değerleri level 2'ye çevir (geriye uyumluluk)
+    const converted = {};
+    for (const [k, v] of Object.entries(data)) {
+      converted[k] = v === true ? 2 : v;
+    }
+    return converted;
   } catch {
     return {};
   }
@@ -24,24 +21,33 @@ function loadFromStorage() {
 function saveToStorage(data) {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
-  } catch {
-    // Quota exceeded or private browsing — fail silently
-  }
+  } catch {}
 }
-
-// ─── Hook ────────────────────────────────────────────────────────────────────
 
 export function useProgress() {
   const [learned, setLearned] = useState(loadFromStorage);
 
-  const markLearned = useCallback((wordId) => {
+  /** Level 1: Quiz tamamlandı (kısmi, "devam ediyor") */
+  const markQuizDone = useCallback((wordId) => {
     setLearned((prev) => {
-      const next = { ...prev, [wordId]: true };
+      if ((prev[wordId] ?? 0) >= 1) return prev; // Zaten daha yüksek seviyedeyse düşürme
+      const next = { ...prev, [wordId]: 1 };
       saveToStorage(next);
       return next;
     });
   }, []);
 
+  /** Level 2: Quiz + Eşleştirme tamamlandı (tam öğrenildi) */
+  const markLearned = useCallback((wordId) => {
+    setLearned((prev) => {
+      if (prev[wordId] === 2) return prev;
+      const next = { ...prev, [wordId]: 2 };
+      saveToStorage(next);
+      return next;
+    });
+  }, []);
+
+  /** Level 0: Öğrenilmedi / Sıfırlandı */
   const markUnlearned = useCallback((wordId) => {
     setLearned((prev) => {
       const next = { ...prev };
@@ -51,20 +57,20 @@ export function useProgress() {
     });
   }, []);
 
-  /** Returns true if the word with the given id has been marked as learned */
+  /** Herhangi bir seviyede çalışıldı mı? (level >= 1) */
   const isLearned = useCallback((wordId) => Boolean(learned[wordId]), [learned]);
 
-  /** Returns the count of learned words within the given array */
+  /** Tam öğrenilen (level 2) kelime sayısı — istatistikler için */
   const getLearnedCount = useCallback(
-    (words) => words.filter((w) => learned[w.id]).length,
+    (words) => words.filter((w) => learned[w.id] === 2).length,
     [learned]
   );
 
-  /** Wipes all progress */
+  /** Tüm ilerlemeyi sıfırla */
   const resetAll = useCallback(() => {
     setLearned({});
     saveToStorage({});
   }, []);
 
-  return { learned, markLearned, markUnlearned, isLearned, getLearnedCount, resetAll };
+  return { learned, markQuizDone, markLearned, markUnlearned, isLearned, getLearnedCount, resetAll };
 }

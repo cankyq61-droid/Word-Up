@@ -4,13 +4,21 @@
 
 @layer base {
   html {
+    height: 100%;
     overscroll-behavior: none;
     -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
   }
 
   body {
-    @apply bg-[#080812] text-white antialiased;
+    height: 100%;
+    @apply bg-[#080e1c] text-white antialiased;
     overscroll-behavior: none;
+    -webkit-touch-callout: none;
+  }
+
+  button {
+    touch-action: manipulation;
   }
 
   * {
@@ -24,6 +32,13 @@
   }
   .pt-safe {
     padding-top: env(safe-area-inset-top, 0px);
+  }
+  /* Safe area + minimum padding guarantee */
+  .pt-safe-area {
+    padding-top: max(1.5rem, env(safe-area-inset-top));
+  }
+  .pb-safe-area {
+    padding-bottom: max(1rem, env(safe-area-inset-bottom));
   }
 }
 
@@ -68,6 +83,18 @@
 /* logo oturma: sadece fade (translateY yok — logo zaten yerinde) */
 @keyframes logo-settle { from { opacity:0; } to { opacity:1; } }
 .anim-logo-settle { animation: logo-settle 0.25s ease-out forwards; }
+
+/* sayfa fade: sadece opacity, hareket yok */
+@keyframes page-fade-in { from { opacity:0; } to { opacity:1; } }
+.anim-page-in { animation: page-fade-in 1.5s ease-out both; }
+
+/* seri kutlaması */
+@keyframes streak-pop {
+  0%   { transform: scale(0.4); opacity: 0; }
+  60%  { transform: scale(1.15); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+.anim-streak-pop { animation: streak-pop 0.7s cubic-bezier(.22,1,.36,1) 0.3s both; }
 
 .anim-in-1 { animation: dash-fade-in 0.7s cubic-bezier(.22,1,.36,1) 0.05s both; }
 .anim-in-2 { animation: dash-fade-in 0.7s cubic-bezier(.22,1,.36,1) 0.18s both; }
