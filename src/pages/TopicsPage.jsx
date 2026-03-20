@@ -315,7 +315,7 @@ export default function TopicsPage() {
             {topicPages.map((pageTopics, pageIdx) => (
               <div
                 key={pageIdx}
-                className="w-full flex-shrink-0 flex flex-col gap-2"
+                className="w-full flex-shrink-0 h-full overflow-y-auto flex flex-col gap-2 scrollbar-subtle"
               >
                 {pageTopics.map((topic) => {
                   const tw = words.filter((w) => w.topic === topic);
