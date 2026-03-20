@@ -170,6 +170,9 @@ export default function QuizPage() {
   const initSel     = location.state?.topics ?? location.state?.topic ?? (initWordIds ? '__practice__' : null);
   const initLabel   = location.state?.pageLabel ?? location.state?.topic ?? null;
   const flow        = location.state?.flow ?? null;
+  const timeLimit   = location.state?.timeLimit ?? 60;
+  const sourceTopic = location.state?.from === 'topic-hub' ? (location.state?.topic ?? null) : null;
+  const goBack = () => sourceTopic ? navigate('/topic-hub', { state: { topic: sourceTopic } }) : navigate('/topics');
 
   const [sel,      setSel]      = useState(initSel);
   const [label,    setLabel]    = useState(initLabel);
@@ -182,7 +185,7 @@ export default function QuizPage() {
   const [isAnswered,   setIsAnswered]   = useState(false);
   const [score,        setScore]        = useState(0);
   const [results,      setResults]      = useState([]);
-  const [timeLeft,      setTimeLeft]      = useState(60);
+  const [timeLeft,      setTimeLeft]      = useState(timeLimit);
   const [timedOut,      setTimedOut]      = useState(false);
   const [flowSuccess,   setFlowSuccess]   = useState(null);
   const [flowCountdown, setFlowCountdown] = useState(5);
@@ -239,7 +242,7 @@ export default function QuizPage() {
     setResults([]);
     setSelectedId(null);
     setIsAnswered(false);
-    setTimeLeft(60);
+    setTimeLeft(timeLimit);
     setTimedOut(false);
     setFlowSuccess(null);
     setFlowCountdown(5);
@@ -289,7 +292,7 @@ export default function QuizPage() {
         results={results}
         onRetry={() => startQuiz(sel, label, wordIds)}
         onBack={() => navigate('/topics')}
-        onHome={() => navigate('/topics')}
+        onHome={goBack}
       />
       </>
     );
@@ -301,7 +304,7 @@ export default function QuizPage() {
 
   if (flowSuccess) {
     const pct = Math.round((flowSuccess.score / flowSuccess.total) * 100);
-    const timeTaken = 60 - flowSuccess.timeLeft;
+    const timeTaken = timeLimit - flowSuccess.timeLeft;
     return (
       <div className="min-h-screen bg-[#080812] flex items-center justify-center px-4">
         <div className="w-full max-w-sm bg-[#0e0e1a] border border-white/[0.07] rounded-3xl p-8 shadow-xl text-center animate-pop-in">
@@ -385,7 +388,7 @@ export default function QuizPage() {
               🔄 Tekrar Dene
             </button>
             <button
-              onClick={() => navigate('/topics')}
+              onClick={goBack}
               className="w-full bg-white/10 hover:bg-white/15 text-gray-300 font-semibold py-4 rounded-2xl transition-colors"
             >
               Konulara Dön
@@ -425,7 +428,7 @@ export default function QuizPage() {
               🔄 Tekrar Dene
             </button>
             <button
-              onClick={() => navigate('/topics')}
+              onClick={goBack}
               className="w-full bg-white/10 hover:bg-white/15 text-gray-300 font-semibold py-4 rounded-2xl transition-colors"
             >
               Menüye Dön
@@ -447,7 +450,7 @@ export default function QuizPage() {
         {/* Nav */}
         <div className="flex items-center justify-between mb-5">
           <button
-            onClick={() => navigate('/topics')}
+            onClick={goBack}
             className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-200 transition-colors"
           >
             ← {label}
@@ -488,8 +491,8 @@ export default function QuizPage() {
             <span className="text-pink-400">{currentIndex - score} ✗</span>
           </div>
           <div className={`flex items-center gap-1.5 rounded-xl px-3 py-1.5 text-xs font-bold tabular-nums border
-            ${timeLeft > 30 ? 'bg-white/5 border-white/10 text-gray-400'
-            : timeLeft > 10 ? 'bg-yellow-500/10 border-yellow-500/20 text-yellow-400'
+            ${timeLeft > timeLimit * 0.5 ? 'bg-white/5 border-white/10 text-gray-400'
+            : timeLeft > timeLimit * 0.17 ? 'bg-yellow-500/10 border-yellow-500/20 text-yellow-400'
             : 'bg-red-500/10 border-red-500/20 text-red-400'}`}>
             ⏱ {Math.floor(timeLeft / 60)}:{String(timeLeft % 60).padStart(2, '0')}
           </div>

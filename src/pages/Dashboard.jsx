@@ -14,7 +14,23 @@ export default function Dashboard() {
   const { getLearnedCount, isLearned } = useProgress();
   const [phase, setPhase]           = useState('splash');   // splash | settling | done
   const [showPratik, setShowPratik] = useState(false);
+  const [showQuizCount,  setShowQuizCount]  = useState(false);
+  const [showMatchCount, setShowMatchCount] = useState(false);
   const [overlayPos, setOverlayPos] = useState(null);
+
+  const QUIZ_OPTIONS = [
+    { count: 20, time: 60,  label: '1:00' },
+    { count: 30, time: 80,  label: '1:20' },
+    { count: 40, time: 90,  label: '1:30' },
+    { count: 50, time: 120, label: '2:00' },
+  ];
+
+  const MATCH_OPTIONS = [
+    { count: 20, time: 90,  label: '1:30' },
+    { count: 30, time: 120, label: '2:00' },
+    { count: 40, time: 150, label: '2:30' },
+    { count: 50, time: 180, label: '3:00' },
+  ];
   const dashLogoRef = useRef(null);
 
   const { streak, doneToday } = useStreak();
@@ -33,12 +49,12 @@ export default function Dashboard() {
     :             'Tüm kelimeleri öğrendin! 🎉';
 
   // Sayı animasyonu: 0'dan hedefe
-  const [counts, setCounts] = useState({ pct: 0, learned: 0, remaining: 0, streak: 0, total: 0 });
+  const [counts, setCounts] = useState({ pct: 0, learned: 0, remaining: 0, streak: 0, total: 0, score: 0 });
 
   useEffect(() => {
     if (phase !== 'done') return;
-    const targets = { pct, learned: totalLearned, remaining: TOTAL - totalLearned, streak, total: TOTAL };
-    const duration = 4000;
+    const targets = { pct, learned: totalLearned, remaining: TOTAL - totalLearned, streak, total: TOTAL, score: totalLearned * 10 };
+    const duration = 3000;
     const start = Date.now();
     const frame = () => {
       const elapsed = Date.now() - start;
@@ -50,6 +66,7 @@ export default function Dashboard() {
         remaining: Math.round(ease * targets.remaining),
         streak:    Math.round(ease * targets.streak),
         total:     Math.round(ease * targets.total),
+        score:     Math.round(ease * targets.score),
       });
       if (t < 1) requestAnimationFrame(frame);
     };
@@ -175,9 +192,14 @@ export default function Dashboard() {
                 </p>
                 <p className="text-sm text-gray-400">{greeting}</p>
               </div>
-              <span className="text-3xl font-extrabold text-blue-500 tabular-nums leading-none">
-                {counts.pct}<span className="text-lg text-gray-600">%</span>
-              </span>
+              <div className="flex flex-col items-end gap-1">
+                <span className="text-3xl font-extrabold text-blue-500 tabular-nums leading-none">
+                  {counts.pct}<span className="text-lg text-gray-600">%</span>
+                </span>
+                <span className="text-xs font-bold text-yellow-400 tabular-nums">
+                  ⭐ {counts.score.toLocaleString()} puan
+                </span>
+              </div>
             </div>
 
             <div className="w-full bg-white/[0.06] rounded-full h-2 overflow-hidden mb-4">
@@ -201,23 +223,14 @@ export default function Dashboard() {
             </div>
 
             {/* Streak */}
-            <div className="mt-3 pt-3 border-t border-white/[0.07] flex items-center justify-between">
-              <div className="flex items-center gap-2">
-                <span className="text-xl">{doneToday ? '🔥' : '🩶'}</span>
-                <div>
-                  <p className="text-sm font-bold text-orange-400 leading-tight">
-                    {counts.streak} günlük seri
-                  </p>
-                  <p className="text-[10px] text-gray-600">
-                    {doneToday ? 'Bugün tamamlandı' : 'Bugün henüz pratik yapmadın'}
-                  </p>
-                </div>
-              </div>
-              {streak >= 3 && (
-                <span className="text-xs font-bold text-orange-400 bg-orange-500/10 border border-orange-500/20 px-2 py-1 rounded-lg">
-                  {counts.streak} 🔥
-                </span>
-              )}
+            <div className="mt-3 pt-3 border-t border-white/[0.07] text-center">
+              <span className="text-xl">{doneToday ? '🔥' : '🩶'}</span>
+              <p className="text-sm font-bold text-orange-400 leading-tight mt-0.5">
+                {counts.streak} günlük seri
+              </p>
+              <p className="text-[10px] text-gray-600 mt-0.5">
+                {doneToday ? 'Bugün tamamlandı' : 'Bugün henüz pratik yapmadın'}
+              </p>
             </div>
           </div>
 
@@ -237,7 +250,7 @@ export default function Dashboard() {
           {/* Pratik */}
           <div className={`flex flex-col gap-2 ${phase === 'done' ? 'anim-in-4' : 'opacity-0'}`}>
             <button
-              onClick={() => setShowPratik((p) => !p)}
+              onClick={() => { setShowPratik((p) => !p); setShowQuizCount(false); setShowMatchCount(false); }}
               className="w-full py-3.5 rounded-2xl font-bold text-sm text-gray-300
                          bg-white/[0.06] border border-white/[0.08]
                          hover:bg-white/[0.10] active:scale-[0.97] transition-all"
@@ -250,10 +263,66 @@ export default function Dashboard() {
                 <p className="text-center text-xs text-gray-600 py-1">
                   Pratik için en az 4 kelime öğrenmen gerekiyor ({learnedWords.length}/4)
                 </p>
+              ) : showQuizCount ? (
+                <div className="flex flex-col gap-2">
+                  <p className="text-center text-[11px] text-gray-500">Kaç soru çözmek istersin?</p>
+                  <div className="grid grid-cols-2 gap-2">
+                    {QUIZ_OPTIONS.map(({ count, time, label }) => {
+                      const actual = Math.min(count, learnedIds.length);
+                      const shuffled = [...learnedIds].sort(() => Math.random() - 0.5).slice(0, actual);
+                      return (
+                        <button
+                          key={count}
+                          onClick={() => navigate('/quiz', { state: { wordIds: shuffled, pageLabel: 'Pratik', timeLimit: time } })}
+                          className="py-3 rounded-2xl font-bold text-sm text-emerald-400
+                                     bg-emerald-500/10 border border-emerald-500/20
+                                     hover:bg-emerald-500/20 active:scale-[0.97] transition-all flex flex-col items-center gap-0.5"
+                        >
+                          <span>{actual} soru</span>
+                          <span className="text-[10px] text-emerald-600 font-medium">⏱ {label}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                  <button
+                    onClick={() => setShowQuizCount(false)}
+                    className="text-xs text-gray-600 hover:text-gray-400 py-1 transition-colors"
+                  >
+                    ← Geri
+                  </button>
+                </div>
+              ) : showMatchCount ? (
+                <div className="flex flex-col gap-2">
+                  <p className="text-center text-[11px] text-gray-500">Kaç eşleştirme yapmak istersin?</p>
+                  <div className="grid grid-cols-2 gap-2">
+                    {MATCH_OPTIONS.map(({ count, time, label }) => {
+                      const actual = Math.min(count, learnedIds.length);
+                      const shuffled = [...learnedIds].sort(() => Math.random() - 0.5).slice(0, actual);
+                      return (
+                        <button
+                          key={count}
+                          onClick={() => navigate('/match', { state: { wordIds: shuffled, pageLabel: 'Pratik', timeLimit: time, pairLimit: actual } })}
+                          className="py-3 rounded-2xl font-bold text-sm text-violet-400
+                                     bg-violet-500/10 border border-violet-500/20
+                                     hover:bg-violet-500/20 active:scale-[0.97] transition-all flex flex-col items-center gap-0.5"
+                        >
+                          <span>{actual} çift</span>
+                          <span className="text-[10px] text-violet-600 font-medium">⏱ {label}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                  <button
+                    onClick={() => setShowMatchCount(false)}
+                    className="text-xs text-gray-600 hover:text-gray-400 py-1 transition-colors"
+                  >
+                    ← Geri
+                  </button>
+                </div>
               ) : (
                 <div className="grid grid-cols-2 gap-2">
                   <button
-                    onClick={() => navigate('/quiz', { state: { wordIds: learnedIds, pageLabel: 'Pratik' } })}
+                    onClick={() => setShowQuizCount(true)}
                     className="py-3.5 rounded-2xl font-bold text-sm text-emerald-400
                                bg-emerald-500/10 border border-emerald-500/20
                                hover:bg-emerald-500/20 active:scale-[0.97] transition-all"
@@ -261,7 +330,7 @@ export default function Dashboard() {
                     🧠 Test
                   </button>
                   <button
-                    onClick={() => navigate('/match', { state: { wordIds: learnedIds, pageLabel: 'Pratik' } })}
+                    onClick={() => setShowMatchCount(true)}
                     className="py-3.5 rounded-2xl font-bold text-sm text-violet-400
                                bg-violet-500/10 border border-violet-500/20
                                hover:bg-violet-500/20 active:scale-[0.97] transition-all"

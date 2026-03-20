@@ -173,7 +173,7 @@ function FinishScreen({ topic, moves, pairs, onRetry, onBack, onHome }) {
 // ─────────────────────────────────────────────
 // Game board
 // ─────────────────────────────────────────────
-function GameBoard({ topic, cards, selected, matched, shaking, moves, timeLeft, lives, onCardClick, onExit }) {
+function GameBoard({ topic, cards, selected, matched, shaking, moves, timeLeft, timeLimit, lives, onCardClick, onExit }) {
   const totalPairs = cards.length / 2;
   const matchedPairs = matched.size / 2;
 
@@ -203,8 +203,8 @@ function GameBoard({ topic, cards, selected, matched, shaking, moves, timeLeft, 
               <span className="text-xs font-medium">hamle</span>
             </div>
             <div className={`flex items-center gap-1 rounded-xl px-3 py-2 text-sm font-bold tabular-nums border
-              ${timeLeft > 30 ? 'bg-white/5 border-white/10 text-gray-400'
-              : timeLeft > 10 ? 'bg-yellow-500/10 border-yellow-500/20 text-yellow-400'
+              ${timeLeft > timeLimit * 0.5 ? 'bg-white/5 border-white/10 text-gray-400'
+              : timeLeft > timeLimit * 0.17 ? 'bg-yellow-500/10 border-yellow-500/20 text-yellow-400'
               : 'bg-red-500/10 border-red-500/20 text-red-400'}`}>
               ⏱ {Math.floor(timeLeft / 60)}:{String(timeLeft % 60).padStart(2, '0')}
             </div>
@@ -300,6 +300,12 @@ export default function MatchPage() {
   const quizScore   = location.state?.quizScore ?? null;
   const quizTotal   = location.state?.quizTotal ?? null;
   const initCorrectWordIds = location.state?.correctWordIds ?? [];
+  const timeLimit   = location.state?.timeLimit ?? 60;
+  const pairLimit   = location.state?.pairLimit ?? PAIRS_PER_GAME;
+  const sourceTopic = location.state?.from === 'topic-hub'
+    ? (location.state?.topic ?? (typeof location.state?.topics === 'string' ? location.state?.topics : null))
+    : null;
+  const goBack = () => sourceTopic ? navigate('/topic-hub', { state: { topic: sourceTopic } }) : navigate('/topics');
 
   const [selectedTopic, setSelectedTopic] = useState(initTopics ?? (initWordIds ? '__practice__' : null));
   const [label,    setLabel]    = useState(initLabel ?? null);
@@ -311,7 +317,7 @@ export default function MatchPage() {
   const [moves, setMoves] = useState(0);
   const [isChecking, setIsChecking] = useState(false);
   const [finished, setFinished] = useState(false);
-  const [timeLeft,  setTimeLeft]  = useState(60);
+  const [timeLeft,  setTimeLeft]  = useState(timeLimit);
   const [timedOut,  setTimedOut]  = useState(false);
   const [lives,     setLives]     = useState(flow === 'quiz-to-done' ? 3 : null);
   const [gameOver,  setGameOver]  = useState(false);
@@ -321,10 +327,10 @@ export default function MatchPage() {
 
   const buildGame = useCallback((sel, ids = null) => {
     const pool = ids && ids.length > 0
-      ? shuffle(words.filter((w) => ids.includes(w.id))).slice(0, PAIRS_PER_GAME)
+      ? shuffle(words.filter((w) => ids.includes(w.id)))
       : Array.isArray(sel)
-      ? shuffle(words.filter((w) => sel.includes(w.topic))).slice(0, PAIRS_PER_GAME)
-      : shuffle(words.filter((w) => w.topic === sel)).slice(0, PAIRS_PER_GAME);
+      ? shuffle(words.filter((w) => sel.includes(w.topic))).slice(0, pairLimit)
+      : shuffle(words.filter((w) => w.topic === sel)).slice(0, pairLimit);
     const gameCards = shuffle([
       ...pool.map((w) => ({ id: `en-${w.id}`, wordId: w.id, type: 'en', text: w.en })),
       ...pool.map((w) => ({ id: `tr-${w.id}`, wordId: w.id, type: 'tr', text: w.tr })),
@@ -336,7 +342,7 @@ export default function MatchPage() {
     setMoves(0);
     setFinished(false);
     setIsChecking(false);
-    setTimeLeft(60);
+    setTimeLeft(timeLimit);
     setTimedOut(false);
     setLives(flow === 'quiz-to-done' ? 3 : null);
     setGameOver(false);
@@ -445,7 +451,7 @@ export default function MatchPage() {
               🔄 Tekrar Dene
             </button>
             <button
-              onClick={() => navigate('/topics')}
+              onClick={goBack}
               className="w-full bg-white/10 hover:bg-white/15 text-gray-300 font-semibold py-4 rounded-2xl transition-colors"
             >
               Konulara Dön
@@ -481,7 +487,7 @@ export default function MatchPage() {
               🔄 Tekrar Dene
             </button>
             <button
-              onClick={() => navigate('/topics')}
+              onClick={goBack}
               className="w-full bg-white/10 hover:bg-white/15 text-gray-300 font-semibold py-4 rounded-2xl transition-colors"
             >
               Menüye Dön
@@ -522,7 +528,7 @@ export default function MatchPage() {
         pairs={cards.length / 2}
         onRetry={() => buildGame(selectedTopic, wordIds)}
         onBack={() => navigate('/topics')}
-        onHome={() => navigate('/topics')}
+        onHome={goBack}
       />
       </>
     );
@@ -537,9 +543,10 @@ export default function MatchPage() {
       shaking={shaking}
       moves={moves}
       timeLeft={timeLeft}
+      timeLimit={timeLimit}
       lives={lives}
       onCardClick={handleCardClick}
-      onExit={() => navigate('/topics')}
+      onExit={goBack}
     />
   );
 }
